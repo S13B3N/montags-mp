@@ -1,0 +1,125 @@
+# Burgund aus Reich
+country_event = {
+	id = 123897
+	title = flavor_boh.2.t
+	desc = flavor_boh.2.d
+	picture = COURT_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = BUR
+		is_year = 1500
+		is_part_of_hre = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = flavor_boh.2.a
+		if = {
+				limit = {
+					any_owned_province = {
+						is_part_of_hre = yes
+					}
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+		
+	}
+
+}
+
+# Florenz aus Reich 
+country_event = {
+	id = 1238971
+	title = flavor_boh.2.t
+	desc = flavor_boh.2.d
+	picture = COURT_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+		tag = LAN
+		tag = TUS
+		}
+		is_year = 1500
+		is_part_of_hre = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = flavor_boh.2.a
+		if = {
+				limit = {
+					any_owned_province = {
+						is_part_of_hre = yes
+					}
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+		
+	}
+
+}
+
+# Venedig aus Reich
+country_event = {
+	id = 1238972
+	title = flavor_boh.2.t
+	desc = flavor_boh.2.d
+	picture = COURT_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = VEN
+		is_year = 1500
+		is_part_of_hre = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = flavor_boh.2.a
+		if = {
+				limit = {
+					any_owned_province = {
+						is_part_of_hre = yes
+					}
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+		
+	}
+
+}
