@@ -1,0 +1,392 @@
+###################################################
+##### Zusatzanpassungen by flogi
+###################################################
+
+
+country_decisions = {
+
+
+##############################################
+###### Denmark Integration
+##############################################	
+
+denmark_integration = {
+
+		major = yes
+		
+		potential = {
+		
+			tag = SWE
+			senior_union_with = DAN
+			
+			is_vassal = no
+			
+			
+		}
+		allow = {
+			
+			tag = SWE
+			senior_union_with = DAN
+			stability = 1 
+			adm_tech = 8
+
+		}
+	
+		effect = {
+		
+		inherit = DAN
+		add_adm_power = -200
+		add_dip_power = -200
+		
+		}
+		
+		ai_will_do = {
+			factor = 100		
+
+		}
+	}
+
+##############################################
+###### Professionalism Decision
+##############################################	
+	
+	
+	proff_dec = {
+		potential = {
+		
+			
+			NOT = { 
+		
+			
+			has_country_modifier = army_prof_taken
+			
+			
+			}
+			
+			
+			
+		}
+		allow = {
+			
+			army_professionalism = 0.3
+			
+			NOT = { 
+			OR = {
+			has_country_modifier = army_prof_taken_1_1
+			has_country_modifier = army_prof_taken_1_2
+			has_country_modifier = army_prof_taken_1_3
+			has_country_modifier = army_prof_taken_1_4
+			}
+			}
+
+		}
+		effect = {
+			add_army_professionalism = -0.3
+			
+		
+		if = {
+			limit = { 
+			current_age = age_of_discovery
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_1_1"
+				duration = 1825
+				}
+		}
+		
+		if = {
+			limit = { 
+			current_age = age_of_reformation
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_1_2"
+				duration = 1825
+				}
+		}
+		
+		if = {
+			limit = { 
+			current_age = age_of_absolutism
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_1_3"
+				duration = 1825
+				}
+		}
+		
+		if = {
+			limit = { 
+			current_age = age_of_revolutions
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_1_4"
+				duration = 1825
+				}
+		}
+			
+			
+		}
+		
+		ai_will_do = {
+			factor = 0
+
+		
+
+		}
+	}	
+	
+	proff_dec_2 = {
+		potential = {
+			
+			OR = {
+			has_country_modifier = army_prof_taken_1_1
+			has_country_modifier = army_prof_taken_1_2
+			has_country_modifier = army_prof_taken_1_3
+			has_country_modifier = army_prof_taken_1_4
+			}
+			
+			
+			
+			
+			
+		}
+		allow = {
+		
+			army_professionalism = 0.3
+			
+			
+			NOT = { 
+			OR = {
+			has_country_modifier = army_prof_taken_2_1
+			has_country_modifier = army_prof_taken_2_2
+			has_country_modifier = army_prof_taken_2_3
+			has_country_modifier = army_prof_taken_2_4
+			}
+			}
+
+		}
+		effect = {
+			add_army_professionalism = -0.3
+			
+			
+		if = {
+			limit = { 
+			current_age = age_of_discovery
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_2_1"
+				duration = 1825
+				}
+		}
+		
+		if = {
+			limit = { 
+			current_age = age_of_reformation
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_2_2"
+				duration = 1825
+				}
+		}
+		
+		if = {
+			limit = { 
+			current_age = age_of_absolutism
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_2_3"
+				duration = 1825
+				}
+		}
+		
+		if = {
+			limit = { 
+			current_age = age_of_revolutions
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_2_4"
+				duration = 1825
+				}
+		}
+			
+			
+		}
+		
+		ai_will_do = {
+			factor = 0
+
+		
+
+		}
+	}
+	
+	proff_dec_3 = {
+		potential = {
+		
+			OR = {
+			has_country_modifier = army_prof_taken_2_1
+			has_country_modifier = army_prof_taken_2_2
+			has_country_modifier = army_prof_taken_2_3
+			has_country_modifier = army_prof_taken_2_4
+			}	
+			
+		}
+		allow = {
+			
+			army_professionalism = 0.3
+			
+			
+			NOT = { 
+			OR = {
+			has_country_modifier = army_prof_taken_3_1
+			has_country_modifier = army_prof_taken_3_2
+			has_country_modifier = army_prof_taken_3_3
+			has_country_modifier = army_prof_taken_3_4
+			}
+			}
+
+		}
+		effect = {
+			add_army_professionalism = -0.3
+			
+			
+		if = {
+			limit = { 
+			current_age = age_of_discovery
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_3_1"
+				duration = 1825
+				}
+		}
+		
+		if = {
+			limit = { 
+			current_age = age_of_reformation
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_3_2"
+				duration = 1825
+				}
+		}
+		
+		if = {
+			limit = { 
+			current_age = age_of_absolutism
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_3_3"
+				duration = 1825
+				}
+		}
+		
+		if = {
+			limit = { 
+			current_age = age_of_revolutions
+			}
+			add_country_modifier = {
+				name = "army_prof_taken_3_4"
+				duration = 1825
+				}
+		}
+			
+			
+		}
+		
+		ai_will_do = {
+			factor = 0
+
+		
+
+		}
+	}
+
+##############################################
+###### Cav to Inf Ratio
+##############################################	
+	
+	
+	cav_to_inf_ausgleich_an = {
+		major = yes
+		potential = {
+		
+			NOT = { 
+		
+			has_idea_group = shock0
+			has_country_modifier = cav_to_inf_ausgleich
+			
+			
+			}
+			
+			
+			
+		}
+		allow = {
+			
+			is_at_war = yes
+			
+			NOT = { 
+		
+			
+			has_country_modifier = cav_to_inf_ausgleich
+			
+			
+			}
+
+		}
+		effect = {
+			
+			
+		add_country_modifier = {
+				name = "cav_to_inf_ausgleich"
+				duration = -1
+				}
+			
+			
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+		
+
+		}
+	}
+	
+	cav_to_inf_ausgleich_aus = {
+		major = yes
+		potential = {
+		
+			ai = no
+			
+			has_country_modifier = cav_to_inf_ausgleich
+			
+			
+			
+			
+		}
+		allow = {
+			
+
+			has_country_modifier = cav_to_inf_ausgleich
+			
+
+		}
+		effect = {
+			
+			
+		remove_country_modifier = cav_to_inf_ausgleich
+			
+			
+		}
+		
+		ai_will_do = {
+			factor = 0
+
+		
+
+		}
+	}
+
+
+}
