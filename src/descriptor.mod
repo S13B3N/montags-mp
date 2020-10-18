@@ -1,7 +1,7 @@
-version="1.0"
+version="1.30"
 tags={
-	"Balance"
+	"Map"
 }
-name="Geografisch links ist Wasteland (Montags MP)"
-supported_version="1.30.*"
-remote_file_id="2225014215"
+name="Mein Mod"
+supported_version="1.30.4"
+remote_file_id="2258626800"

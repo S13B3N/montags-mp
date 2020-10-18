@@ -498,8 +498,8 @@ FRA_ideas = {
 
 TUR_ideas = {
 	start = {
-		discipline = 0.05
 		tolerance_heathen = 3
+		global_ship_cost = -0.1
 	}
 	
 	bonus = {
@@ -527,11 +527,11 @@ TUR_ideas = {
 	lawcode_of_suleiman_01 = {
 		global_tax_modifier = 0.1
 	}
+	imperial_school_of_naval_engineering = {
+		discipline = 0.05
+	}
 	tulip_period = {
 		trade_efficiency = 0.10
-	}
-	imperial_school_of_naval_engineering = {
-		global_ship_cost = -0.1
 	}
 }
 
@@ -1472,8 +1472,8 @@ JAP_ideas = {
 
 MAM_ideas = {
 	start = {
-		trade_steering = 0.25
-		cavalry_power = 0.10
+		movement_speed = 0.15
+		cavalry_power = 0.20
 	}
 	
 	bonus = {

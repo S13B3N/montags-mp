@@ -350,15 +350,15 @@ estate_nobles =
 		estate_nobles_monopoly_of_gems
 		estate_nobles_statutory_rights
 		
-		estate_priv_idea_variation_2_1
+		# estate_priv_idea_variation_2_1 # Mil Punkte raus
 		estate_priv_idea_variation_2_2
 		estate_priv_idea_variation_2_3
 		estate_priv_idea_variation_2_4
 		estate_priv_idea_variation_2_5
-		estate_priv_idea_variation_2_6
+		# estate_priv_idea_variation_2_6 # tax the land
 		estate_priv_idea_variation_2_7
 		estate_priv_idea_variation_2_8
-		estate_priv_idea_variation_2_9
+		# estate_priv_idea_variation_2_9 # colonist
 		estate_priv_idea_variation_2_11
 		estate_priv_idea_variation_2_12
 		

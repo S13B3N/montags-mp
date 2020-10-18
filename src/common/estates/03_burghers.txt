@@ -236,17 +236,17 @@ estate_burghers =
 		estate_burghers_prussian_confederation
 		estate_burghers_statutory_rights
 		
-		estate_priv_idea_variation_4_1
+		# estate_priv_idea_variation_4_1 # DIP POWER
 		estate_priv_idea_variation_4_2
 		estate_priv_idea_variation_4_3
 		estate_priv_idea_variation_4_4
 		estate_priv_idea_variation_4_5
 		estate_priv_idea_variation_4_6
-		estate_priv_idea_variation_4_7
+		# estate_priv_idea_variation_4_7 #recruit reserve
 		estate_priv_idea_variation_4_8
 		estate_priv_idea_variation_4_9
 		estate_priv_idea_variation_4_10
-		estate_priv_idea_variation_4_11
+		# estate_priv_idea_variation_4_11 # explorer
 		estate_priv_idea_variation_4_12
 		estate_priv_idea_variation_4_13
 		estate_priv_idea_variation_4_14

@@ -26,7 +26,7 @@ estate_priv_idea_variation_1_1 = {
 	can_select = {
 		estate_territory = {
 		estate = estate_church
-		territory = 15
+		territory = 55
 		}
 	}
 	benefits = {
@@ -52,6 +52,13 @@ estate_priv_idea_variation_1_1 = {
 estate_priv_idea_variation_1_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_church
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -114,6 +121,13 @@ estate_priv_idea_variation_1_2 = {
 estate_priv_idea_variation_1_3 = {
 	icon = privilege_recruit_inouisitor
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_church
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -181,6 +195,13 @@ estate_priv_idea_variation_1_4 = {
 		has_iv_gov_estate_2 = yes
 	}
 
+	can_select = {
+		estate_territory = {
+		estate = estate_church
+		territory = 10
+		}
+	}
+
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -201,6 +222,12 @@ estate_priv_idea_variation_1_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_territory = {
+		estate = estate_church
+		territory = 10
+		}
+	}
 
 	penalties = {
 		nobles_influence_modifier = -0.05
@@ -248,12 +275,12 @@ estate_priv_idea_variation_1_6 = {
 	can_select = {
 		estate_territory = {
 		estate = estate_church
-		territory = 5
+		territory = 10
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 1.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -353,18 +380,18 @@ estate_priv_idea_variation_1_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_church
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_church
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		manpower_in_true_faith_provinces = 1.0
+		manpower_in_true_faith_provinces = 0.5
 		global_sailors_modifier = 0.5
 	}
 
@@ -471,6 +498,7 @@ estate_priv_idea_variation_1_8 = {
 		estate_influence = {
 		estate = estate_church
 		influence = 50
+		territory = 10
 		}
 	}
 	
@@ -573,6 +601,11 @@ estate_priv_idea_variation_1_9 = {
 
 	can_select = {
 		has_colonist = yes
+
+		estate_influence = {
+		estate = estate_church
+		territory = 10
+		}		
 	}
 		
 	penalties = {
@@ -606,6 +639,12 @@ estate_priv_idea_variation_1_10 = {
 		religion = catholic
 		NOT = { tag = PAP }
 	}
+	can_select = {
+		estate_influence = {
+		estate = estate_church
+		territory = 10
+		}		
+	}	
 	benefits = {
 		papal_influence = 1
 	}
@@ -632,9 +671,11 @@ estate_priv_idea_variation_1_11 = {
 	icon = IV_privileges_icon_2
 	
 	can_select = {
+		has_idea_group = exploration_ideas
 		estate_influence = {
 		estate = estate_church
 		influence = 20
+		territory = 10
 		}
 	}
 		
@@ -734,7 +775,7 @@ estate_priv_idea_variation_1_12 = {
 	can_select = {
 		estate_territory = {
 		estate = estate_church
-		territory = 15
+		territory = 10
 		}
 	}
 	penalties = {
@@ -796,14 +837,15 @@ estate_priv_idea_variation_2_1 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_nobles
-		territory = 5
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_nobles
-		territory = 15
+		territory = 200
 		}
+		
 	}
 	benefits = {
 		country_military_power = 1
@@ -828,6 +870,13 @@ estate_priv_idea_variation_2_1 = {
 estate_priv_idea_variation_2_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_nobles
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -890,6 +939,13 @@ estate_priv_idea_variation_2_2 = {
 estate_priv_idea_variation_2_3 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_nobles
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -957,6 +1013,13 @@ estate_priv_idea_variation_2_4 = {
 		has_iv_gov_estate_1 = yes
 	}
 
+	can_select = {
+		estate_territory = {
+		estate = estate_nobles
+		territory = 10
+		}
+	}
+
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -977,6 +1040,12 @@ estate_priv_idea_variation_2_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_territory = {
+		estate = estate_nobles
+		territory = 10
+		}
+	}
 
 	penalties = {
 		church_influence_modifier = -0.05
@@ -1018,18 +1087,18 @@ estate_priv_idea_variation_2_6 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_nobles
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_nobles
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 1.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -1135,12 +1204,12 @@ estate_priv_idea_variation_2_7 = {
 	can_select = {
 		estate_territory = {
 		estate = estate_nobles
-		territory = 5
+		territory = 10
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 1.0
+		global_manpower_modifier = 0.5
 		global_sailors_modifier = 0.5
 	}
 
@@ -1247,6 +1316,7 @@ estate_priv_idea_variation_2_8 = {
 		estate_influence = {
 		estate = estate_nobles
 		influence = 50
+		territory = 10
 		}
 	}
 	
@@ -1347,7 +1417,18 @@ estate_priv_idea_variation_2_9 = {
 	icon = privilege_grant_new_world_charter
 	influence = 0.15
 
+	is_valid = {
+		estate_territory = {
+		estate = estate_nobles
+		territory = 200
+		}
+	}
+
 	can_select = {
+		estate_territory = {
+		estate = estate_nobles
+		territory = 200
+		}
 	}
 		
 	penalties = {
@@ -1380,6 +1461,7 @@ estate_priv_idea_variation_2_11 = {
 		estate_influence = {
 		estate = estate_nobles
 		influence = 20
+		territory = 10
 		}
 	}
 		
@@ -1541,13 +1623,13 @@ estate_priv_idea_variation_4_1 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_burghers
-		territory = 5
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_burghers
-		territory = 15
+		territory = 200
 		}
 	}
 	benefits = {
@@ -1573,6 +1655,13 @@ estate_priv_idea_variation_4_1 = {
 estate_priv_idea_variation_4_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_burghers
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -1636,6 +1725,13 @@ estate_priv_idea_variation_4_3 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
 
+	can_select = {
+		estate_territory = {
+		estate = estate_burghers
+		territory = 10
+		}
+	}
+
 	on_granted = {
 		if = {
 				limit = {
@@ -1698,6 +1794,14 @@ estate_priv_idea_variation_4_4 = {
 	icon = privilege_grant_autonomy
 	influence = 0.1
 	loyalty = 0.1
+
+	can_select = {
+		estate_territory = {
+		estate = estate_burghers
+		territory = 10
+		}
+	}
+
 	is_valid = {
 		has_iv_gov_estate_3 = yes
 	}
@@ -1722,6 +1826,12 @@ estate_priv_idea_variation_4_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_territory = {
+		estate = estate_burghers
+		territory = 10
+		}
+	}
 
 	penalties = {
 		nobles_influence_modifier = -0.05
@@ -1769,12 +1879,12 @@ estate_priv_idea_variation_4_6 = {
 	can_select = {
 		estate_territory = {
 		estate = estate_burghers
-		territory = 5
+		territory = 10
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 2.0
+		production_efficiency = 0.5
 	}
 	
 
@@ -1874,19 +1984,19 @@ estate_priv_idea_variation_4_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_burghers
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_burghers
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
 		global_manpower_modifier = 0.5
-		global_sailors_modifier = 1.0
+		global_sailors_modifier = 0.5
 	}
 
 	ai_will_do = {
@@ -1992,6 +2102,7 @@ estate_priv_idea_variation_4_8 = {
 		estate_influence = {
 		estate = estate_burghers
 		influence = 50
+		territory = 10
 		}
 	}
 	
@@ -2092,6 +2203,13 @@ estate_priv_idea_variation_4_9 = {
 	icon = privilege_grant_new_world_charter
 	influence = 0.15
 
+	can_select = {
+		estate_influence = {
+		estate = estate_burghers
+		territory = 10
+		}
+	}
+
 	benefits = {
 		global_colonial_growth = 10
 	}
@@ -2119,6 +2237,7 @@ estate_priv_idea_variation_4_10 = {
 		estate_influence = {
 		estate = estate_burghers
 		influence = 20
+		territory = 10
 		}
 	}
 		
@@ -2207,10 +2326,20 @@ estate_priv_idea_variation_4_10 = {
 estate_priv_idea_variation_4_11 = {
 	icon = IV_privileges_icon_2
 	
-	can_select = {
+	is_valid = {
 		estate_influence = {
 		estate = estate_burghers
 		influence = 20
+		territory = 200
+		}
+	}
+
+	can_select = {
+		has_idea_group = exploration_ideas
+		estate_influence = {
+		estate = estate_burghers
+		influence = 20
+		territory = 200
 		}
 	}
 		
@@ -2399,6 +2528,7 @@ estate_priv_idea_variation_4_14 = {
 		estate_influence = {
 		estate = estate_burghers
 		influence = 20
+		territory = 10
 		}
 	}
 
@@ -2442,6 +2572,7 @@ estate_priv_idea_variation_4_15 = {
 		estate_influence = {
 		estate = estate_burghers
 		influence = 20
+		territory = 10
 		}
 	}
 		
@@ -2491,13 +2622,13 @@ estate_priv_idea_variation_3_1 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_maratha
-		territory = 5
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_maratha
-		territory = 15
+		territory = 200
 		}
 	}
 	benefits = {
@@ -2523,6 +2654,13 @@ estate_priv_idea_variation_3_1 = {
 estate_priv_idea_variation_3_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_maratha
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -2584,6 +2722,13 @@ estate_priv_idea_variation_3_2 = {
 estate_priv_idea_variation_3_3 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_maratha
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -2650,6 +2795,13 @@ estate_priv_idea_variation_3_4 = {
 		has_iv_gov_estate_9 = yes
 	}
 
+	can_select = {
+		estate_territory = {
+		estate = estate_maratha
+		territory = 10
+		}
+	}	
+
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -2670,6 +2822,12 @@ estate_priv_idea_variation_3_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_territory = {
+		estate = estate_maratha
+		territory = 10
+		}
+	}
 
 	penalties = {
 		church_influence_modifier = -0.05
@@ -2710,18 +2868,18 @@ estate_priv_idea_variation_3_6 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_maratha
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_maratha
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 1.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -2827,12 +2985,12 @@ estate_priv_idea_variation_3_7 = {
 	can_select = {
 		estate_territory = {
 		estate = estate_maratha
-		territory = 5
+		territory = 10
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 1.0
+		global_manpower_modifier = 0.5
 		global_sailors_modifier = 0.5
 	}
 
@@ -2933,12 +3091,14 @@ estate_priv_idea_variation_3_8 = {
 		estate_influence = {
 		estate = estate_maratha
 		influence = 20
+		territory = 10
 		}
 	}
 	can_select = {
 		estate_influence = {
 		estate = estate_maratha
 		influence = 50
+		territory = 10
 		}
 	}
 	
@@ -3039,6 +3199,20 @@ estate_priv_idea_variation_3_9 = {
 	icon = privilege_grant_new_world_charter
 	influence = 0.15
 
+	is_valid = {
+		estate_influence = {
+		estate = estate_maratha
+		territory = 200
+		}
+	}
+
+	can_select = {
+		estate_influence = {
+		estate = estate_maratha
+		territory = 200
+		}
+	}
+
 	penalties = {
 		native_uprising_chance = 0.33
 	}
@@ -3069,6 +3243,7 @@ estate_priv_idea_variation_3_11 = {
 		estate_influence = {
 		estate = estate_maratha
 		influence = 20
+		territory = 10
 		}
 	}
 		
@@ -3229,13 +3404,13 @@ estate_priv_idea_variation_5_1 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_vaisyas
-		territory = 5
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_vaisyas
-		territory = 15
+		territory = 200
 		}
 	}
 	benefits = {
@@ -3261,6 +3436,13 @@ estate_priv_idea_variation_5_1 = {
 estate_priv_idea_variation_5_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_vaisyas
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -3323,6 +3505,13 @@ estate_priv_idea_variation_5_2 = {
 estate_priv_idea_variation_5_3 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_vaisyas
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -3390,6 +3579,13 @@ estate_priv_idea_variation_5_4 = {
 		has_iv_gov_estate_10 = yes
 	}
 
+	can_select = {
+		estate_territory = {
+		estate = estate_vaisyas
+		territory = 10
+		}
+	}
+
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -3410,6 +3606,12 @@ estate_priv_idea_variation_5_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_territory = {
+		estate = estate_vaisyas
+		territory = 10
+		}
+	}
 
 	penalties = {
 		nobles_influence_modifier = -0.05
@@ -3457,12 +3659,12 @@ estate_priv_idea_variation_5_6 = {
 	can_select = {
 		estate_territory = {
 		estate = estate_vaisyas
-		territory = 5
+		territory = 10
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 2.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -3562,19 +3764,19 @@ estate_priv_idea_variation_5_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_vaisyas
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_vaisyas
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
 		global_manpower_modifier = 0.5
-		global_sailors_modifier = 1.0
+		global_sailors_modifier = 0.5
 	}
 
 	ai_will_do = {
@@ -3680,8 +3882,10 @@ estate_priv_idea_variation_5_8 = {
 		estate_influence = {
 		estate = estate_vaisyas
 		influence = 50
+		territory = 10
 		}
 	}
+
 	
 	modifier_by_land_ownership = {
 		reform_progress_growth = 0.5
@@ -3780,6 +3984,14 @@ estate_priv_idea_variation_5_9 = {
 	icon = privilege_grant_new_world_charter
 	influence = 0.15
 
+	can_select = {
+		estate_influence = {
+		estate = estate_vaisyas
+		territory = 10
+		}
+	}
+
+
 	benefits = {
 		global_colonial_growth = 10
 	}
@@ -3807,8 +4019,10 @@ estate_priv_idea_variation_5_10 = {
 		estate_influence = {
 		estate = estate_vaisyas
 		influence = 20
+		territory = 10
 		}
 	}
+
 		
 	on_granted = {
 		
@@ -3896,9 +4110,11 @@ estate_priv_idea_variation_5_11 = {
 	icon = IV_privileges_icon_2
 	
 	can_select = {
+		has_idea_group = exploration_ideas
 		estate_influence = {
 		estate = estate_vaisyas
 		influence = 20
+		territory = 200
 		}
 	}
 		
@@ -4087,8 +4303,10 @@ estate_priv_idea_variation_5_14 = {
 		estate_influence = {
 		estate = estate_vaisyas
 		influence = 20
+		territory = 10
 		}
 	}
+
 
 		
 	on_granted = {
@@ -4130,8 +4348,11 @@ estate_priv_idea_variation_5_15 = {
 		estate_influence = {
 		estate = estate_vaisyas
 		influence = 20
+		territory = 10
 		}
 	}
+
+
 		
 	on_granted = {
 		custom_tooltip = estate_draft_galleys
@@ -4178,13 +4399,13 @@ estate_priv_idea_variation_6_1 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_brahmins
-		territory = 5
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_brahmins
-		territory = 15
+		territory = 200
 		}
 	}
 	benefits = {
@@ -4210,6 +4431,13 @@ estate_priv_idea_variation_6_1 = {
 estate_priv_idea_variation_6_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -4270,6 +4498,13 @@ estate_priv_idea_variation_6_2 = {
 estate_priv_idea_variation_6_3 = {
 	icon = privilege_recruit_inouisitor
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -4335,6 +4570,13 @@ estate_priv_idea_variation_6_4 = {
 		has_iv_gov_estate_8 = yes
 	}
 
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -4355,6 +4597,12 @@ estate_priv_idea_variation_6_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
 
 	penalties = {
 		nobles_influence_modifier = -0.05
@@ -4400,12 +4648,12 @@ estate_priv_idea_variation_6_6 = {
 	can_select = {
 		estate_territory = {
 		estate = estate_brahmins
-		territory = 5
+		territory = 10
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 1.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -4505,18 +4753,18 @@ estate_priv_idea_variation_6_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_brahmins
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_brahmins
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		manpower_in_true_faith_provinces = 1.0
+		manpower_in_true_faith_provinces = 0.5
 		global_sailors_modifier = 0.5
 	}
 
@@ -4623,8 +4871,10 @@ estate_priv_idea_variation_6_8 = {
 		estate_influence = {
 		estate = estate_brahmins
 		influence = 50
+		territory = 10
 		}
 	}
+
 	
 	modifier_by_land_ownership = {
 		reform_progress_growth = 0.5
@@ -4725,7 +4975,13 @@ estate_priv_idea_variation_6_9 = {
 
 	can_select = {
 		has_colonist = yes
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
 	}
+
+
 		
 	penalties = {
 		native_uprising_chance = 0.33
@@ -4754,12 +5010,16 @@ estate_priv_idea_variation_6_11 = {
 	icon = IV_privileges_icon_2
 	
 	can_select = {
+		has_idea_group = exploration_ideas
 		estate_influence = {
 		estate = estate_brahmins
 		influence = 20
+		territory = 10
 		}
 	}
 		
+
+
 	on_granted = {
 		
 			if = {
@@ -4915,8 +5175,11 @@ estate_priv_idea_variation_7_1 = {
 		estate_influence = {
 		estate = estate_cossacks
 		influence = 20
+		territory = 10
 		}
 	}
+
+
 		
 	on_granted = {
 		
@@ -5011,6 +5274,13 @@ estate_priv_idea_variation_7_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
 
+	can_select = {
+		estate_territory = {
+		estate = estate_cossacks
+		territory = 10
+		}
+	}	
+
 	on_granted = {
 		if = {
 				limit = {
@@ -5072,6 +5342,13 @@ estate_priv_idea_variation_7_2 = {
 estate_priv_idea_variation_7_3 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_cossacks
+		territory = 10
+		}
+	}	
 
 	on_granted = {
 		if = {
@@ -5138,6 +5415,12 @@ estate_priv_idea_variation_7_4 = {
 	is_valid = {
 		has_iv_gov_estate_6 = yes
 	}
+	can_select = {
+		estate_territory = {
+		estate = estate_cossacks
+		territory = 10
+		}
+	}	
 
 	ai_will_do = {
 		factor = 10
@@ -5159,6 +5442,12 @@ estate_priv_idea_variation_7_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_territory = {
+		estate = estate_cossacks
+		territory = 10
+		}
+	}	
 
 	penalties = {
 		nobles_influence_modifier = -0.05
@@ -5197,21 +5486,23 @@ estate_priv_idea_variation_7_6 = {
 	icon = privilege_give_money
 	influence = -0.1
 	loyalty = -0.1
+
+
 	is_valid = {
 		estate_territory = {
 		estate = estate_cossacks
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_cossacks
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 2.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -5311,18 +5602,18 @@ estate_priv_idea_variation_7_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_cossacks
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_cossacks
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 1.0
+		global_manpower_modifier = 0.5
 		global_sailors_modifier = 0.5
 	}
 
@@ -5429,9 +5720,12 @@ estate_priv_idea_variation_7_8 = {
 		estate_influence = {
 		estate = estate_cossacks
 		influence = 50
+		territory = 10
 		}
 	}
 	
+
+
 	modifier_by_land_ownership = {
 		reform_progress_growth = 0.5
 		global_institution_spread = 0.25
@@ -5536,7 +5830,7 @@ estate_cossacks_establish_the_cossack_regiments = {
 		}
 		estate_territory = {
 		estate = estate_cossacks
-		territory = 5
+		territory = 10
 		}
 	}
 
@@ -5756,8 +6050,10 @@ estate_priv_idea_variation_8_1 = {
 		estate_influence = {
 		estate = estate_rajput
 		influence = 20
+		territory = 10
 		}
 	}
+
 		
 	on_granted = {
 		
@@ -5852,6 +6148,14 @@ estate_priv_idea_variation_8_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
 
+	can_select = {
+		estate_influence = {
+		estate = estate_rajput
+		territory = 10
+		}
+	}
+
+
 	on_granted = {
 		if = {
 				limit = {
@@ -5913,6 +6217,13 @@ estate_priv_idea_variation_8_2 = {
 estate_priv_idea_variation_8_3 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_influence = {
+		estate = estate_rajput
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -5979,6 +6290,13 @@ estate_priv_idea_variation_8_4 = {
 	is_valid = {
 		has_iv_gov_estate_12 = yes
 	}
+	can_select = {
+		estate_influence = {
+		estate = estate_rajput
+		territory = 10
+		}
+	}
+
 
 	ai_will_do = {
 		factor = 10
@@ -6000,6 +6318,12 @@ estate_priv_idea_variation_8_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_influence = {
+		estate = estate_rajput
+		territory = 10
+		}
+	}
 
 	penalties = {
 		nobles_influence_modifier = -0.05
@@ -6041,18 +6365,18 @@ estate_priv_idea_variation_8_6 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_rajput
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_rajput
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 2.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -6152,18 +6476,18 @@ estate_priv_idea_variation_8_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_rajput
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_rajput
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 1.0
+		global_manpower_modifier = 0.5
 		global_sailors_modifier = 0.5
 	}
 
@@ -6270,8 +6594,11 @@ estate_priv_idea_variation_8_8 = {
 		estate_influence = {
 		estate = estate_rajput
 		influence = 50
+		territory = 10
 		}
 	}
+
+	
 	
 	modifier_by_land_ownership = {
 		reform_progress_growth = 0.5
@@ -6377,7 +6704,7 @@ estate_priv_idea_variation_8_9 = {
 		}
 		estate_territory = {
 		estate = estate_rajput
-		territory = 5
+		territory = 10
 		}
 	}
 		
@@ -6572,6 +6899,7 @@ estate_priv_idea_variation_9_1 = {
 		estate_influence = {
 		estate = estate_janissary
 		influence = 20
+		territory = 10
 		}
 	}
 		
@@ -6668,6 +6996,13 @@ estate_priv_idea_variation_9_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
 
+	can_select = {
+		estate_influence = {
+		estate = estate_janissary
+		territory = 10
+		}
+	}
+
 	on_granted = {
 		if = {
 				limit = {
@@ -6729,6 +7064,13 @@ estate_priv_idea_variation_9_2 = {
 estate_priv_idea_variation_9_3 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_influence = {
+		estate = estate_janissary
+		territory = 10
+		}
+	}
 
 	on_granted = {
 		if = {
@@ -6795,6 +7137,12 @@ estate_priv_idea_variation_9_4 = {
 	is_valid = {
 		has_iv_gov_estate_5 = yes
 	}
+	can_select = {
+		estate_influence = {
+		estate = estate_janissary
+		territory = 10
+		}
+	}
 
 	ai_will_do = {
 		factor = 10
@@ -6816,6 +7164,12 @@ estate_priv_idea_variation_9_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_influence = {
+		estate = estate_janissary
+		territory = 10
+		}
+	}
 
 	penalties = {
 		nobles_influence_modifier = -0.05
@@ -6857,18 +7211,18 @@ estate_priv_idea_variation_9_6 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_janissary
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_janissary
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 2.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -6968,19 +7322,19 @@ estate_priv_idea_variation_9_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_janissary
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_janissary
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 1.0
-		global_sailors_modifier = 1.0
+		global_manpower_modifier = 0.5
+		global_sailors_modifier = 0.5
 	}
 
 	ai_will_do = {
@@ -7086,8 +7440,10 @@ estate_priv_idea_variation_9_8 = {
 		estate_influence = {
 		estate = estate_janissary
 		influence = 50
+		territory = 10
 		}
 	}
+
 	
 	modifier_by_land_ownership = {
 		reform_progress_growth = 0.5
@@ -7254,6 +7610,13 @@ estate_priv_idea_variation_10_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
 
+	can_select = {
+		estate_territory = {
+		estate = estate_dhimmi
+		territory = 10
+		}
+	}
+
 	on_granted = {
 		if = {
 				limit = {
@@ -7315,6 +7678,14 @@ estate_priv_idea_variation_10_2 = {
 estate_priv_idea_variation_10_3 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_dhimmi
+		territory = 10
+		}
+	}
+
 
 	on_granted = {
 		if = {
@@ -7382,6 +7753,14 @@ estate_priv_idea_variation_10_4 = {
 		has_iv_gov_estate_7 = yes
 	}
 
+	can_select = {
+		estate_territory = {
+		estate = estate_dhimmi
+		territory = 10
+		}
+	}
+
+
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -7402,6 +7781,12 @@ estate_priv_idea_variation_10_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_territory = {
+		estate = estate_dhimmi
+		territory = 10
+		}
+	}
 
 	penalties = {
 		nobles_influence_modifier = -0.05
@@ -7443,18 +7828,18 @@ estate_priv_idea_variation_10_6 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_dhimmi
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_dhimmi
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 2.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -7554,19 +7939,19 @@ estate_priv_idea_variation_10_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_dhimmi
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_dhimmi
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
 		global_manpower_modifier = 0.5
-		global_sailors_modifier = 1.0
+		global_sailors_modifier = 0.5
 	}
 
 	ai_will_do = {
@@ -7672,9 +8057,11 @@ estate_priv_idea_variation_10_8 = {
 		estate_influence = {
 		estate = estate_dhimmi
 		influence = 50
+		territory = 10
 		}
 	}
-	
+
+
 	modifier_by_land_ownership = {
 		reform_progress_growth = 0.5
 		global_institution_spread = 0.25
@@ -7841,6 +8228,14 @@ estate_priv_idea_variation_11_2 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
 
+	can_select = {
+		estate_territory = {
+		estate = estate_jains
+		territory = 10
+		}
+	}	
+
+
 	on_granted = {
 		if = {
 				limit = {
@@ -7902,6 +8297,13 @@ estate_priv_idea_variation_11_2 = {
 estate_priv_idea_variation_11_3 = {
 	icon = privilege_recruit_minister
 	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_jains
+		territory = 10
+		}
+	}	
 
 	on_granted = {
 		if = {
@@ -7969,6 +8371,13 @@ estate_priv_idea_variation_11_4 = {
 		has_iv_gov_estate_11 = yes
 	}
 
+	can_select = {
+		estate_territory = {
+		estate = estate_jains
+		territory = 10
+		}
+	}	
+
 	ai_will_do = {
 		factor = 10
 		modifier = {
@@ -7989,6 +8398,12 @@ estate_priv_idea_variation_11_5 = {
 	icon = privilege_empty_throne
 	influence = 0.2
 
+	can_select = {
+		estate_territory = {
+		estate = estate_jains
+		territory = 10
+		}
+	}	
 
 	penalties = {
 		nobles_influence_modifier = -0.05
@@ -8030,18 +8445,18 @@ estate_priv_idea_variation_11_6 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_jains
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_jains
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 2.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -8141,19 +8556,19 @@ estate_priv_idea_variation_11_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_jains
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_jains
-		territory = 5
+		territory = 200
 		}
 	}
 	
 	modifier_by_land_ownership = {
 		global_manpower_modifier = 0.5
-		global_sailors_modifier = 1.0
+		global_sailors_modifier = 0.5
 	}
 
 	ai_will_do = {
@@ -8259,8 +8674,10 @@ estate_priv_idea_variation_11_8 = {
 		estate_influence = {
 		estate = estate_jains
 		influence = 50
+		territory = 10
 		}
 	}
+
 	
 	modifier_by_land_ownership = {
 		reform_progress_growth = 0.5
@@ -8431,13 +8848,13 @@ estate_priv_idea_variation_12_1 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_nationalist
-		territory = 5
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_nationalist
-		territory = 25
+		territory = 200
 		}
 		NOT = {	
 			estate_influence = {
@@ -8495,6 +8912,8 @@ estate_priv_idea_variation_12_2 = {
 			influence = 75
 			}
 		}
+
+		territory = 10
 	}
 	
 	on_granted = {
@@ -8566,6 +8985,7 @@ estate_priv_idea_variation_12_3 = {
 			influence = 75
 			}
 		}
+		territory = 10
 	}
 	
 	on_granted = {
@@ -8641,6 +9061,8 @@ estate_priv_idea_variation_12_4 = {
 			influence = 75
 			}
 		}
+		territory = 10
+
 	}
 	
 	ai_will_do = {
@@ -8670,6 +9092,7 @@ estate_priv_idea_variation_12_5 = {
 			influence = 75
 			}
 		}
+		territory = 10
 	}
 	
 	penalties = {
@@ -8712,13 +9135,13 @@ estate_priv_idea_variation_12_6 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_nationalist
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_nationalist
-		territory = 5
+		territory = 200
 		}
 		NOT = {	
 			estate_influence = {
@@ -8729,7 +9152,7 @@ estate_priv_idea_variation_12_6 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_tax_modifier = 2.0
+		global_tax_modifier = 0.5
 	}
 	
 
@@ -8829,13 +9252,13 @@ estate_priv_idea_variation_12_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_nationalist
-		territory = 1
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_nationalist
-		territory = 5
+		territory = 200
 		}
 		NOT = {	
 			estate_influence = {
@@ -8846,8 +9269,8 @@ estate_priv_idea_variation_12_7 = {
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 1.0
-		global_sailors_modifier = 1.0
+		global_manpower_modifier = 0.5
+		global_sailors_modifier = 0.5
 	}
 
 	ai_will_do = {

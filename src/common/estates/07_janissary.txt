@@ -112,8 +112,8 @@ estate_janissary = {
 		estate_priv_idea_variation_9_3
 		estate_priv_idea_variation_9_4
 		estate_priv_idea_variation_9_5
-		estate_priv_idea_variation_9_6
-		estate_priv_idea_variation_9_7
+		# estate_priv_idea_variation_9_6 # tax the land
+		# estate_priv_idea_variation_9_7 # recruit reserve
 		estate_priv_idea_variation_9_8
 		estate_priv_idea_variation_9_12
 	}
@@ -147,5 +147,5 @@ estate_janissary = {
 		estate_janissary_fire_advisor
 	}
 	
-	
+	color = { 12 12 12 }
 }
