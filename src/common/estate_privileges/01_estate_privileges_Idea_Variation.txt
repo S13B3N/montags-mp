@@ -20,13 +20,13 @@ estate_priv_idea_variation_1_1 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_church
-		territory = 5
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_church
-		territory = 55
+		territory = 200
 		}
 	}
 	benefits = {
@@ -498,8 +498,12 @@ estate_priv_idea_variation_1_8 = {
 		estate_influence = {
 		estate = estate_church
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_church
 		territory = 10
 		}
+		
 	}
 	
 	modifier_by_land_ownership = {
@@ -602,7 +606,7 @@ estate_priv_idea_variation_1_9 = {
 	can_select = {
 		has_colonist = yes
 
-		estate_influence = {
+		estate_territory = {
 		estate = estate_church
 		territory = 10
 		}		
@@ -639,12 +643,14 @@ estate_priv_idea_variation_1_10 = {
 		religion = catholic
 		NOT = { tag = PAP }
 	}
+
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_church
 		territory = 10
 		}		
 	}	
+
 	benefits = {
 		papal_influence = 1
 	}
@@ -675,8 +681,12 @@ estate_priv_idea_variation_1_11 = {
 		estate_influence = {
 		estate = estate_church
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_church
 		territory = 10
 		}
+		
 	}
 		
 	on_granted = {
@@ -1316,8 +1326,12 @@ estate_priv_idea_variation_2_8 = {
 		estate_influence = {
 		estate = estate_nobles
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_nobles
 		territory = 10
 		}
+		
 	}
 	
 	modifier_by_land_ownership = {
@@ -1461,8 +1475,12 @@ estate_priv_idea_variation_2_11 = {
 		estate_influence = {
 		estate = estate_nobles
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_nobles
 		territory = 10
 		}
+		
 	}
 		
 	on_granted = {
@@ -2102,6 +2120,9 @@ estate_priv_idea_variation_4_8 = {
 		estate_influence = {
 		estate = estate_burghers
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_burghers
 		territory = 10
 		}
 	}
@@ -2204,7 +2225,7 @@ estate_priv_idea_variation_4_9 = {
 	influence = 0.15
 
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_burghers
 		territory = 10
 		}
@@ -2237,8 +2258,12 @@ estate_priv_idea_variation_4_10 = {
 		estate_influence = {
 		estate = estate_burghers
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_burghers
 		territory = 10
 		}
+		
 	}
 		
 	on_granted = {
@@ -2339,8 +2364,12 @@ estate_priv_idea_variation_4_11 = {
 		estate_influence = {
 		estate = estate_burghers
 		influence = 20
-		territory = 200
 		}
+		estate_territory = {
+		estate = estate_burghers
+		territory = 10
+		}
+		
 	}
 		
 	on_granted = {
@@ -2528,8 +2557,12 @@ estate_priv_idea_variation_4_14 = {
 		estate_influence = {
 		estate = estate_burghers
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_burghers
 		territory = 10
 		}
+		
 	}
 
 		
@@ -2572,8 +2605,12 @@ estate_priv_idea_variation_4_15 = {
 		estate_influence = {
 		estate = estate_burghers
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_burghers
 		territory = 10
 		}
+		
 	}
 		
 	on_granted = {
@@ -3091,13 +3128,15 @@ estate_priv_idea_variation_3_8 = {
 		estate_influence = {
 		estate = estate_maratha
 		influence = 20
-		territory = 10
 		}
 	}
 	can_select = {
 		estate_influence = {
 		estate = estate_maratha
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_maratha
 		territory = 10
 		}
 	}
@@ -3200,14 +3239,14 @@ estate_priv_idea_variation_3_9 = {
 	influence = 0.15
 
 	is_valid = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_maratha
 		territory = 200
 		}
 	}
 
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_maratha
 		territory = 200
 		}
@@ -3243,8 +3282,12 @@ estate_priv_idea_variation_3_11 = {
 		estate_influence = {
 		estate = estate_maratha
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_maratha
 		territory = 10
 		}
+		
 	}
 		
 	on_granted = {
@@ -3882,8 +3925,12 @@ estate_priv_idea_variation_5_8 = {
 		estate_influence = {
 		estate = estate_vaisyas
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_vaisyas
 		territory = 10
 		}
+		
 	}
 
 	
@@ -3985,7 +4032,7 @@ estate_priv_idea_variation_5_9 = {
 	influence = 0.15
 
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_vaisyas
 		territory = 10
 		}
@@ -4019,6 +4066,9 @@ estate_priv_idea_variation_5_10 = {
 		estate_influence = {
 		estate = estate_vaisyas
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_vaisyas
 		territory = 10
 		}
 	}
@@ -4114,8 +4164,12 @@ estate_priv_idea_variation_5_11 = {
 		estate_influence = {
 		estate = estate_vaisyas
 		influence = 20
-		territory = 200
 		}
+		estate_territory = {
+		estate = estate_vaisyas
+		territory = 10
+		}
+		
 	}
 		
 	on_granted = {
@@ -4303,8 +4357,12 @@ estate_priv_idea_variation_5_14 = {
 		estate_influence = {
 		estate = estate_vaisyas
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_vaisyas
 		territory = 10
 		}
+		
 	}
 
 
@@ -4348,8 +4406,12 @@ estate_priv_idea_variation_5_15 = {
 		estate_influence = {
 		estate = estate_vaisyas
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_vaisyas
 		territory = 10
 		}
+		
 	}
 
 
@@ -4871,8 +4933,12 @@ estate_priv_idea_variation_6_8 = {
 		estate_influence = {
 		estate = estate_brahmins
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_brahmins
 		territory = 10
 		}
+		
 	}
 
 	
@@ -5014,8 +5080,12 @@ estate_priv_idea_variation_6_11 = {
 		estate_influence = {
 		estate = estate_brahmins
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_brahmins
 		territory = 10
 		}
+		
 	}
 		
 
@@ -5175,6 +5245,9 @@ estate_priv_idea_variation_7_1 = {
 		estate_influence = {
 		estate = estate_cossacks
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_cossacks
 		territory = 10
 		}
 	}
@@ -5720,8 +5793,12 @@ estate_priv_idea_variation_7_8 = {
 		estate_influence = {
 		estate = estate_cossacks
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_cossacks
 		territory = 10
 		}
+		
 	}
 	
 
@@ -6050,8 +6127,12 @@ estate_priv_idea_variation_8_1 = {
 		estate_influence = {
 		estate = estate_rajput
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_rajput
 		territory = 10
 		}
+		
 	}
 
 		
@@ -6149,7 +6230,7 @@ estate_priv_idea_variation_8_2 = {
 	influence = 0.15
 
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_rajput
 		territory = 10
 		}
@@ -6219,7 +6300,7 @@ estate_priv_idea_variation_8_3 = {
 	influence = 0.15
 
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_rajput
 		territory = 10
 		}
@@ -6291,7 +6372,7 @@ estate_priv_idea_variation_8_4 = {
 		has_iv_gov_estate_12 = yes
 	}
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_rajput
 		territory = 10
 		}
@@ -6319,7 +6400,7 @@ estate_priv_idea_variation_8_5 = {
 	influence = 0.2
 
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_rajput
 		territory = 10
 		}
@@ -6594,6 +6675,9 @@ estate_priv_idea_variation_8_8 = {
 		estate_influence = {
 		estate = estate_rajput
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_rajput
 		territory = 10
 		}
 	}
@@ -6899,6 +6983,9 @@ estate_priv_idea_variation_9_1 = {
 		estate_influence = {
 		estate = estate_janissary
 		influence = 20
+		}
+		estate_territory = {
+		estate = estate_janissary
 		territory = 10
 		}
 	}
@@ -6997,7 +7084,7 @@ estate_priv_idea_variation_9_2 = {
 	influence = 0.15
 
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_janissary
 		territory = 10
 		}
@@ -7066,7 +7153,7 @@ estate_priv_idea_variation_9_3 = {
 	influence = 0.15
 
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_janissary
 		territory = 10
 		}
@@ -7138,7 +7225,7 @@ estate_priv_idea_variation_9_4 = {
 		has_iv_gov_estate_5 = yes
 	}
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_janissary
 		territory = 10
 		}
@@ -7165,7 +7252,7 @@ estate_priv_idea_variation_9_5 = {
 	influence = 0.2
 
 	can_select = {
-		estate_influence = {
+		estate_territory = {
 		estate = estate_janissary
 		territory = 10
 		}
@@ -7440,6 +7527,9 @@ estate_priv_idea_variation_9_8 = {
 		estate_influence = {
 		estate = estate_janissary
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_janissary
 		territory = 10
 		}
 	}
@@ -8057,6 +8147,9 @@ estate_priv_idea_variation_10_8 = {
 		estate_influence = {
 		estate = estate_dhimmi
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_dhimmi
 		territory = 10
 		}
 	}
@@ -8674,6 +8767,9 @@ estate_priv_idea_variation_11_8 = {
 		estate_influence = {
 		estate = estate_jains
 		influence = 50
+		}
+		estate_territory = {
+		estate = estate_jains
 		territory = 10
 		}
 	}
@@ -8912,8 +9008,10 @@ estate_priv_idea_variation_12_2 = {
 			influence = 75
 			}
 		}
-
+		estate_territory = {
+		estate = estate_nationalist
 		territory = 10
+		}
 	}
 	
 	on_granted = {
@@ -8985,7 +9083,10 @@ estate_priv_idea_variation_12_3 = {
 			influence = 75
 			}
 		}
+		estate_territory = {
+		estate = estate_nationalist
 		territory = 10
+		}
 	}
 	
 	on_granted = {
@@ -9061,8 +9162,10 @@ estate_priv_idea_variation_12_4 = {
 			influence = 75
 			}
 		}
+		estate_territory = {
+		estate = estate_nationalist
 		territory = 10
-
+		}
 	}
 	
 	ai_will_do = {
@@ -9092,7 +9195,10 @@ estate_priv_idea_variation_12_5 = {
 			influence = 75
 			}
 		}
+		estate_territory = {
+		estate = estate_nationalist
 		territory = 10
+		}
 	}
 	
 	penalties = {
@@ -9373,6 +9479,10 @@ estate_priv_idea_variation_12_8 = {
 		}
 	}
 	can_select = {
+		estate_territory = {
+		estate = estate_nationalist
+		territory = 10
+		}
 		NOT = {	
 			estate_influence = {
 			estate = estate_nationalist

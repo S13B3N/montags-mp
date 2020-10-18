@@ -47,6 +47,46 @@ denmark_integration = {
 	}
 
 ##############################################
+###### Bohemia Integration
+##############################################	
+
+habs_bohemia_integration = {
+
+		major = yes
+		
+		potential = {
+		
+			tag = HAB
+			senior_union_with = BOH
+			
+			is_vassal = no
+			
+			
+		}
+		allow = {
+			
+			tag = HAB
+			senior_union_with = BOH
+			stability = 1 
+			adm_tech = 9
+
+		}
+	
+		effect = {
+		
+		inherit = BOH
+		add_adm_power = -300
+		add_dip_power = -300
+		
+		}
+		
+		ai_will_do = {
+			factor = 100		
+
+		}
+	}	
+
+##############################################
 ###### Professionalism Decision
 ##############################################	
 	

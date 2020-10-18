@@ -177,7 +177,7 @@ estate_vaisyas = {
 		estate_priv_idea_variation_5_8
 		estate_priv_idea_variation_5_9
 		estate_priv_idea_variation_5_10
-		# estate_priv_idea_variation_5_11 # explorer
+		estate_priv_idea_variation_5_11 # explorer
 		estate_priv_idea_variation_5_12
 		estate_priv_idea_variation_5_13
 		estate_priv_idea_variation_5_14
