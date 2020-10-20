@@ -64,12 +64,12 @@ large_colonial_nation = {
 
 march_subject = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.2
+	naval_forcelimit_modifier = 0.002
 }
 
 vassal_subject = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.1
+	naval_forcelimit_modifier = 0.001
 }
 
 subject_nation = {
@@ -232,100 +232,100 @@ large_colonial_nation_9 = {
 
 march_subject_2 = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.02
+	naval_forcelimit_modifier = 0.002
 }
 
 march_subject_3 = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.02
+	naval_forcelimit_modifier = 0.002
 }
 
 march_subject_4 = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.02
+	naval_forcelimit_modifier = 0.002
 }
 
 march_subject_5 = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.02
+	naval_forcelimit_modifier = 0.002
 }
 
 march_subject_6 = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.02
+	naval_forcelimit_modifier = 0.002
 }
 
 march_subject_7 = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.02
+	naval_forcelimit_modifier = 0.002
 }
 
 march_subject_8 = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.02
+	naval_forcelimit_modifier = 0.002
 }
 
 march_subject_9 = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.02
+	naval_forcelimit_modifier = 0.002
 }
 
 march_subject_10 = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.02
+	naval_forcelimit_modifier = 0.002
 }
 
 march_subject_11 = {
 	land_forcelimit_modifier = 0.01
-	naval_forcelimit_modifier = 0.02
+	naval_forcelimit_modifier = 0.002
 }
 
 vassal_subject_2 = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit_modifier = 0.001
 }
 
 vassal_subject_3 = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit_modifier = 0.001
 }
 
 vassal_subject_4 = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit_modifier = 0.001
 }
 
 vassal_subject_5 = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit_modifier = 0.001
 }
 
 vassal_subject_6 = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit_modifier = 0.001
 }
 
 vassal_subject_7 = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit_modifier = 0.001
 }
 
 vassal_subject_8 = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit_modifier = 0.001
 }
 
 vassal_subject_9 = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit_modifier = 0.001
 }
 
 vassal_subject_10 = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit_modifier = 0.001
 }
 
 vassal_subject_11 = {
 	land_forcelimit_modifier = 0.005
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit_modifier = 0.001
 }
