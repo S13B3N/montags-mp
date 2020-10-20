@@ -629,6 +629,7 @@ estate_priv_idea_variation_1_9 = {
 		estate_territory = {
 		estate = estate_church
 		territory = 10
+		}
 	}
 
 	can_select = {
@@ -1054,9 +1055,11 @@ estate_priv_idea_variation_2_4 = {
 
 	is_valid = {
 		has_iv_gov_estate_1 = yes
+		
 		estate_territory = {
 		estate = estate_nobles
 		territory = 10
+		}
 	}
 
 	can_select = {

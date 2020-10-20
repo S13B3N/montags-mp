@@ -903,125 +903,125 @@ country_decisions = {
 ##############################################	
 	
 	
-	iv_trade_center_dec = {
-		major = yes
-		potential = {
-		
-			
-			OR = {
-			has_reform = monarchy_tier_2_wirt_1_3
-			has_reform = monarchy_tier_3_wirt_1_3
-			has_reform = monarchy_tier_4_wirt_1_3
-			has_reform = monarchy_tier_5_wirt_1_3
-			has_reform = monarchy_tier_6_wirt_1_3
-			has_reform = monarchy_tier_7_wirt_1_3
-			has_reform = monarchy_tier_8_wirt_1_3
-			has_reform = monarchy_tier_9_wirt_1_3
-			has_reform = monarchy_tier_10_wirt_1_3
-			has_reform = monarchy_tier_11_wirt_1_3
-			has_reform = monarchy_tier_12_wirt_1_3
-			has_reform = monarchy_tier_13_wirt_1_3
-			has_reform = monarchy_tier_14_wirt_1_3
-			has_reform = monarchy_tier_15_wirt_1_3
-			has_reform = republic_tier_2_wirt_1_3
-			has_reform = republic_tier_3_wirt_1_3
-			has_reform = republic_tier_4_wirt_1_3
-			has_reform = republic_tier_5_wirt_1_3
-			has_reform = republic_tier_6_wirt_1_3
-			has_reform = republic_tier_7_wirt_1_3
-			has_reform = republic_tier_8_wirt_1_3
-			has_reform = republic_tier_9_wirt_1_3
-			has_reform = republic_tier_10_wirt_1_3
-			has_reform = republic_tier_11_wirt_1_3
-			has_reform = republic_tier_12_wirt_1_3
-			has_reform = republic_tier_13_wirt_1_3
-			has_reform = republic_tier_14_wirt_1_3
-			has_reform = republic_tier_15_wirt_1_3
-			has_reform = theocracy_tier_2_wirt_1_3
-			has_reform = theocracy_tier_3_wirt_1_3
-			has_reform = theocracy_tier_4_wirt_1_3
-			has_reform = theocracy_tier_5_wirt_1_3
-			has_reform = theocracy_tier_6_wirt_1_3
-			has_reform = theocracy_tier_7_wirt_1_3
-			has_reform = theocracy_tier_8_wirt_1_3
-			has_reform = theocracy_tier_9_wirt_1_3
-			has_reform = theocracy_tier_10_wirt_1_3
-			has_reform = theocracy_tier_11_wirt_1_3
-			has_reform = theocracy_tier_12_wirt_1_3
-			has_reform = theocracy_tier_13_wirt_1_3
-			has_reform = theocracy_tier_14_wirt_1_3
-			has_reform = theocracy_tier_15_wirt_1_3
-			}
-			
-		}
-		allow = {
-			
-			any_owned_province = {
-				development = 25
-				NOT = { province_has_center_of_trade_of_level = 1 }
-			}
-			custom_trigger_tooltip = {
-				tooltip = IV_reform_has_trade_center
-				OR = {
-					has_reform = monarchy_tier_2_wirt_1_3
-					has_reform = monarchy_tier_3_wirt_1_3
-					has_reform = monarchy_tier_4_wirt_1_3
-					has_reform = monarchy_tier_5_wirt_1_3
-					has_reform = monarchy_tier_6_wirt_1_3
-					has_reform = monarchy_tier_7_wirt_1_3
-					has_reform = monarchy_tier_8_wirt_1_3
-					has_reform = monarchy_tier_9_wirt_1_3
-					has_reform = monarchy_tier_10_wirt_1_3
-					has_reform = monarchy_tier_11_wirt_1_3
-					has_reform = monarchy_tier_12_wirt_1_3
-					has_reform = monarchy_tier_13_wirt_1_3
-					has_reform = monarchy_tier_14_wirt_1_3
-					has_reform = monarchy_tier_15_wirt_1_3
-					has_reform = republic_tier_2_wirt_1_3
-					has_reform = republic_tier_3_wirt_1_3
-					has_reform = republic_tier_4_wirt_1_3
-					has_reform = republic_tier_5_wirt_1_3
-					has_reform = republic_tier_6_wirt_1_3
-					has_reform = republic_tier_7_wirt_1_3
-					has_reform = republic_tier_8_wirt_1_3
-					has_reform = republic_tier_9_wirt_1_3
-					has_reform = republic_tier_10_wirt_1_3
-					has_reform = republic_tier_11_wirt_1_3
-					has_reform = republic_tier_12_wirt_1_3
-					has_reform = republic_tier_13_wirt_1_3
-					has_reform = republic_tier_14_wirt_1_3
-					has_reform = republic_tier_15_wirt_1_3
-					has_reform = theocracy_tier_2_wirt_1_3
-					has_reform = theocracy_tier_3_wirt_1_3
-					has_reform = theocracy_tier_4_wirt_1_3
-					has_reform = theocracy_tier_5_wirt_1_3
-					has_reform = theocracy_tier_6_wirt_1_3
-					has_reform = theocracy_tier_7_wirt_1_3
-					has_reform = theocracy_tier_8_wirt_1_3
-					has_reform = theocracy_tier_9_wirt_1_3
-					has_reform = theocracy_tier_10_wirt_1_3
-					has_reform = theocracy_tier_11_wirt_1_3
-					has_reform = theocracy_tier_12_wirt_1_3
-					has_reform = theocracy_tier_13_wirt_1_3
-					has_reform = theocracy_tier_14_wirt_1_3
-					has_reform = theocracy_tier_15_wirt_1_3
-				}
-			}
-			
-			NOT = { 
-			has_country_modifier = new_trade_center
-			}
-			
-
-		}
-		effect = {				
-		country_event = { id = flogi_ideas.105 days = 0 }
-		}
-		
-		ai_will_do = {
-			factor = 10
-		}
-	}
+#	iv_trade_center_decXXX = {
+#		major = yes
+#		potential = {
+#		
+#			
+#			OR = {
+#			has_reform = monarchy_tier_2_wirt_1_3
+#			has_reform = monarchy_tier_3_wirt_1_3
+#			has_reform = monarchy_tier_4_wirt_1_3
+#			has_reform = monarchy_tier_5_wirt_1_3
+#			has_reform = monarchy_tier_6_wirt_1_3
+#			has_reform = monarchy_tier_7_wirt_1_3
+#			has_reform = monarchy_tier_8_wirt_1_3
+#			has_reform = monarchy_tier_9_wirt_1_3
+#			has_reform = monarchy_tier_10_wirt_1_3
+#			has_reform = monarchy_tier_11_wirt_1_3
+#			has_reform = monarchy_tier_12_wirt_1_3
+#			has_reform = monarchy_tier_13_wirt_1_3
+#			has_reform = monarchy_tier_14_wirt_1_3
+#			has_reform = monarchy_tier_15_wirt_1_3
+#			has_reform = republic_tier_2_wirt_1_3
+#			has_reform = republic_tier_3_wirt_1_3
+#			has_reform = republic_tier_4_wirt_1_3
+#			has_reform = republic_tier_5_wirt_1_3
+#			has_reform = republic_tier_6_wirt_1_3
+#			has_reform = republic_tier_7_wirt_1_3
+#			has_reform = republic_tier_8_wirt_1_3
+#			has_reform = republic_tier_9_wirt_1_3
+#			has_reform = republic_tier_10_wirt_1_3
+#			has_reform = republic_tier_11_wirt_1_3
+#			has_reform = republic_tier_12_wirt_1_3
+#			has_reform = republic_tier_13_wirt_1_3
+#			has_reform = republic_tier_14_wirt_1_3
+#			has_reform = republic_tier_15_wirt_1_3
+#			has_reform = theocracy_tier_2_wirt_1_3
+#			has_reform = theocracy_tier_3_wirt_1_3
+#			has_reform = theocracy_tier_4_wirt_1_3
+#			has_reform = theocracy_tier_5_wirt_1_3
+#			has_reform = theocracy_tier_6_wirt_1_3
+#			has_reform = theocracy_tier_7_wirt_1_3
+#			has_reform = theocracy_tier_8_wirt_1_3
+#			has_reform = theocracy_tier_9_wirt_1_3
+#			has_reform = theocracy_tier_10_wirt_1_3
+#			has_reform = theocracy_tier_11_wirt_1_3
+#			has_reform = theocracy_tier_12_wirt_1_3
+#			has_reform = theocracy_tier_13_wirt_1_3
+#			has_reform = theocracy_tier_14_wirt_1_3
+#			has_reform = theocracy_tier_15_wirt_1_3
+#			}
+#			
+#		}
+#		allow = {
+#			
+#			any_owned_province = {
+#				development = 25
+#				NOT = { province_has_center_of_trade_of_level = 1 }
+#			}
+#			custom_trigger_tooltip = {
+#				tooltip = IV_reform_has_trade_center
+#				OR = {
+#					has_reform = monarchy_tier_2_wirt_1_3
+#					has_reform = monarchy_tier_3_wirt_1_3
+#					has_reform = monarchy_tier_4_wirt_1_3
+#					has_reform = monarchy_tier_5_wirt_1_3
+#					has_reform = monarchy_tier_6_wirt_1_3
+#					has_reform = monarchy_tier_7_wirt_1_3
+#					has_reform = monarchy_tier_8_wirt_1_3
+#					has_reform = monarchy_tier_9_wirt_1_3
+#					has_reform = monarchy_tier_10_wirt_1_3
+#					has_reform = monarchy_tier_11_wirt_1_3
+#					has_reform = monarchy_tier_12_wirt_1_3
+#					has_reform = monarchy_tier_13_wirt_1_3
+#					has_reform = monarchy_tier_14_wirt_1_3
+#					has_reform = monarchy_tier_15_wirt_1_3
+#					has_reform = republic_tier_2_wirt_1_3
+#					has_reform = republic_tier_3_wirt_1_3
+#					has_reform = republic_tier_4_wirt_1_3
+#					has_reform = republic_tier_5_wirt_1_3
+#					has_reform = republic_tier_6_wirt_1_3
+#					has_reform = republic_tier_7_wirt_1_3
+#					has_reform = republic_tier_8_wirt_1_3
+#					has_reform = republic_tier_9_wirt_1_3
+#					has_reform = republic_tier_10_wirt_1_3
+#					has_reform = republic_tier_11_wirt_1_3
+#					has_reform = republic_tier_12_wirt_1_3
+#					has_reform = republic_tier_13_wirt_1_3
+#					has_reform = republic_tier_14_wirt_1_3
+#					has_reform = republic_tier_15_wirt_1_3
+#					has_reform = theocracy_tier_2_wirt_1_3
+#					has_reform = theocracy_tier_3_wirt_1_3
+#					has_reform = theocracy_tier_4_wirt_1_3
+#					has_reform = theocracy_tier_5_wirt_1_3
+#					has_reform = theocracy_tier_6_wirt_1_3
+#					has_reform = theocracy_tier_7_wirt_1_3
+#					has_reform = theocracy_tier_8_wirt_1_3
+#					has_reform = theocracy_tier_9_wirt_1_3
+#					has_reform = theocracy_tier_10_wirt_1_3
+#					has_reform = theocracy_tier_11_wirt_1_3
+#					has_reform = theocracy_tier_12_wirt_1_3
+#					has_reform = theocracy_tier_13_wirt_1_3
+#					has_reform = theocracy_tier_14_wirt_1_3
+#					has_reform = theocracy_tier_15_wirt_1_3
+#				}
+#			}
+#			
+#			NOT = { 
+#			has_country_modifier = new_trade_center
+#			}
+#			
+#
+#		}
+#		effect = {				
+#		country_event = { id = flogi_ideas.105 days = 0 }
+#		}
+#		
+#		ai_will_do = {
+#			factor = 10
+#		}
+#	}
 	
 
 ##############################################

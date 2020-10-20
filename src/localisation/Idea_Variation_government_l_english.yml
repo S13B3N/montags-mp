@@ -4,7 +4,7 @@
  IV_REFORM_COUNTERREVOLUTION:0 "At War with Revolutionary Target: Morale of Armies: §G+10%§W"
  IV_REFORM_MANUFACTORY:0 "§YActivated by Decision:§W \nManufactory Construction Cost §G-50%§W \nManufactory Construction Time §G-50%§W"
  IV_REFORM_AUSBILDUNG:0 "§GDecision§W to improve Innovativeness every 7 years."
- IV_REFORM_TRADECENTER:0 "§GDecision§W to declare regional Trade Centers every 15 years."
+ IV_REFORM_TRADECENTER:0 ""
  IV_REFORM_INTERNALCHECK:0 "§GDecision§W to improve stability or reduce war exhaustion every 10 years."
  IV_REFORM_DEVLANDS:0 "Provinces under 10 Development: §G-10%§W Development Cost \nProvinces under 20 Development: §G-5%§W Development Cost \nProvinces under 30 Development: §G-2.5%§W Development Cost"
  iv_reform_events.1a:0 "Monarchy Second Reform"

@@ -231,7 +231,6 @@ age_of_discovery = {
 			
 			modifier = {
 				global_ship_trade_power = 0.5
-				range = 0.5
 			}
 			ai_will_do = {
 				factor = 100

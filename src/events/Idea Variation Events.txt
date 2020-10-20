@@ -3966,7 +3966,7 @@ country_event = {
 		
 	option = {
 		name = "flogi_ideas.102c"
-		add_mercantilism = 3
+		add_mercantilism = 1
 		add_country_modifier = {
  			name = "improved_mercanti"
  			duration = 3650

@@ -4,7 +4,7 @@
  IV_REFORM_COUNTERREVOLUTION:0 "Im Krieg mit dem Revolutionsziel: Moral der Armeen: §G+10%§W"
  IV_REFORM_MANUFACTORY:0 "§YAktiviert durch Decision:§W \nManufaktur Kosten: §G-50%§W \nManufaktur Bauzeit: §G-50%§W"
  IV_REFORM_AUSBILDUNG:0 "§GDecision§W um Innovativität alle 7 Jahre zu erhöhen."
- IV_REFORM_TRADECENTER:0 "§GDecision§W um regionale Handelszentren alle 15 Jahre auszurufen."
+ IV_REFORM_TRADECENTER:0 ""
  IV_REFORM_INTERNALCHECK:0 "§GDecision§W um alle 10 Jahre Stabilität zu erhöhen oder Kriegsmüdigkeit zu senken."
  IV_REFORM_DEVLANDS:0 "Provinzen unter 10 Development: §G-10%§W Entwicklungskosten \nProvinzen unter 20 Development: §G-5%§W Entwicklungskosten \nProvinzen unter 30 Development: §G-2.5%§W Entwicklungskosten"
  iv_reform_events.1a:0 "Monarchie Zweite Reform"
