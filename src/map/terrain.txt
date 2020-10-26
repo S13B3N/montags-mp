@@ -290,7 +290,7 @@ categories =  {
 		movement_cost = 1.5
 		defence = 1
 		local_defensiveness = 0.25
-		local_development_cost = 0.35
+		local_development_cost = 0.40
 		nation_designer_cost_multiplier = 0.75
 		supply_limit = 4
 		
@@ -523,7 +523,7 @@ categories =  {
 		sound_type = desert
 
 		movement_cost = 1.0
-		local_development_cost = 0.35
+		local_development_cost = 0.25
 		nation_designer_cost_multiplier = 0.9		
 		supply_limit = 4
 
@@ -676,7 +676,7 @@ categories =  {
 
 		supply_limit = 6
 		movement_cost = 1.00
-		local_development_cost = 0.15
+		local_development_cost = 0.20
 		nation_designer_cost_multiplier = 0.95	
 		
 		terrain_override = {

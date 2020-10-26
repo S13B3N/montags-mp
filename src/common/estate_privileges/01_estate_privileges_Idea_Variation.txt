@@ -9673,25 +9673,19 @@ estate_priv_idea_variation_12_7 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_nationalist
-		territory = 200
+		territory = 10
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_nationalist
-		territory = 200
-		}
-		NOT = {	
-			estate_influence = {
-			estate = estate_nationalist
-			influence = 75
-			}
+		territory = 10
 		}
 	}
 	
 	modifier_by_land_ownership = {
-		global_manpower_modifier = 0.5
-		global_sailors_modifier = 0.5
+		manpower_recovery_speed = 0.4
+		sailors_recovery_speed = 0.4
 	}
 
 	ai_will_do = {

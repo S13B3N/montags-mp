@@ -5280,10 +5280,9 @@ zentra0 = {
 	}
 	zentra6 = {
 		state_maintenance_modifier = -0.5
-		governing_capacity = -50
 	}
 	zentra7 = {
-		global_tax_modifier = 0.1
+		trade_efficiency = 0.1
 	}
 	
 	ai_will_do = {
@@ -5338,10 +5337,9 @@ dezentra0 = {
 			
 		}
 	bonus = {
-		development_cost = -0.1
-	}
-		
-	
+		stability_cost_modifier = -0.1
+		}
+
 	dezentra1 = {
 		build_cost = -0.1
 		# <<WIKI>> reduced_dev_malus = yes
@@ -5350,7 +5348,7 @@ dezentra0 = {
 		yearly_corruption = -0.1
 	}
 	dezentra3 = {
-		trade_efficiency = 0.1
+		global_tax_modifier = 0.1
 	}
 
 	dezentra4 = {
@@ -5359,7 +5357,7 @@ dezentra0 = {
 	}
 
 	dezentra5 = {
-		governing_capacity_modifier = 0.33
+		governing_capacity_modifier = 0.10
 	}
 	dezentra6 = {
 		global_manpower_modifier = 0.1

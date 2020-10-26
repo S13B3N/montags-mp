@@ -1,6 +1,6 @@
 scutage_disable = {
 	liberty_desire = {
-		value = 25
+		value = 5
 		yearly_decay = 1
 	}
 }

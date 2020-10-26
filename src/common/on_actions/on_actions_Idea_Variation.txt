@@ -125,59 +125,6 @@ on_startup = {
 
 		}
 		
-		every_province = {
-		
-		limit = { province_group = Endzone }
-		add_province_triggered_modifier = trade_adjustment_COT1
-		add_province_triggered_modifier = trade_adjustment_COT2
-		add_province_triggered_modifier = trade_adjustment_COT3
-		add_province_triggered_modifier = trade_adjustment_marketplace
-		add_province_triggered_modifier = trade_adjustment_trade_lvl_2
-		add_province_triggered_modifier = trade_adjustment_trade_depot
-		add_province_triggered_modifier = trade_adjustment_stock_exchange
-		add_province_triggered_modifier = trade_adjustment_Dev_3
-		add_province_triggered_modifier = trade_adjustment_Dev_4
-		add_province_triggered_modifier = trade_adjustment_Dev_5
-		add_province_triggered_modifier = trade_adjustment_Dev_6
-		add_province_triggered_modifier = trade_adjustment_Dev_7
-		add_province_triggered_modifier = trade_adjustment_Dev_8
-		add_province_triggered_modifier = trade_adjustment_Dev_9
-		add_province_triggered_modifier = trade_adjustment_Dev_10
-		add_province_triggered_modifier = trade_adjustment_Dev_11
-		add_province_triggered_modifier = trade_adjustment_Dev_12
-		add_province_triggered_modifier = trade_adjustment_Dev_13
-		add_province_triggered_modifier = trade_adjustment_Dev_14
-		add_province_triggered_modifier = trade_adjustment_Dev_15
-		add_province_triggered_modifier = trade_adjustment_Dev_16
-		add_province_triggered_modifier = trade_adjustment_Dev_17
-		add_province_triggered_modifier = trade_adjustment_Dev_18
-		add_province_triggered_modifier = trade_adjustment_Dev_19
-		add_province_triggered_modifier = trade_adjustment_Dev_20
-		add_province_triggered_modifier = trade_adjustment_Dev_21
-		add_province_triggered_modifier = trade_adjustment_Dev_22
-		add_province_triggered_modifier = trade_adjustment_Dev_23
-		add_province_triggered_modifier = trade_adjustment_Dev_24
-		add_province_triggered_modifier = trade_adjustment_Dev_25
-		add_province_triggered_modifier = trade_adjustment_Dev_26
-		add_province_triggered_modifier = trade_adjustment_Dev_27
-		add_province_triggered_modifier = trade_adjustment_Dev_28
-		add_province_triggered_modifier = trade_adjustment_Dev_29
-		add_province_triggered_modifier = trade_adjustment_Dev_30
-		add_province_triggered_modifier = trade_adjustment_Dev_31_33
-		add_province_triggered_modifier = trade_adjustment_Dev_34_36
-		add_province_triggered_modifier = trade_adjustment_Dev_37_39
-		add_province_triggered_modifier = trade_adjustment_Dev_40_42
-		add_province_triggered_modifier = trade_adjustment_Dev_43_45
-		add_province_triggered_modifier = trade_adjustment_Dev_46_48
-		add_province_triggered_modifier = trade_adjustment_Dev_49_51
-		add_province_triggered_modifier = trade_adjustment_Dev_52_54
-		add_province_triggered_modifier = trade_adjustment_Dev_55_57
-		add_province_triggered_modifier = trade_adjustment_Dev_58_60
-		add_province_triggered_modifier = trade_adjustment_Dev_61_63
-		add_province_triggered_modifier = trade_adjustment_Dev_64_66
-		add_province_triggered_modifier = trade_adjustment_Dev_67_69
-		add_province_triggered_modifier = trade_adjustment_Dev_70
-		}
 		
 	####################################################
 	#### IV End

@@ -6,15 +6,13 @@ estate_nationalist = {
 	}
 
 	country_modifier_happy = {
-		global_manpower_modifier = 0.15
+		prestige = 2
 	}
 	country_modifier_neutral = {
-		global_manpower_modifier = 0.075
+		prestige = 1
 	}	
 	country_modifier_angry = {
-		global_manpower_modifier = -0.15
-		global_tax_modifier = -0.25
-		global_unrest = 3
+		prestige = -1
 	}
 	
 	land_ownership_modifier = {
@@ -57,7 +55,7 @@ estate_nationalist = {
 		estate_priv_idea_variation_12_4
 		estate_priv_idea_variation_12_5
 		# estate_priv_idea_variation_12_6 # tax the land
-		# estate_priv_idea_variation_12_7 # recruit reserve
+		estate_priv_idea_variation_12_7 # recruit reserve
 		estate_priv_idea_variation_12_8
 		estate_priv_idea_variation_12_12
 	}
