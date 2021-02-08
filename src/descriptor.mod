@@ -1,15 +1,8 @@
-version="0.7"
+version="0.01"
 tags={
 	"Balance"
-	"Military"
-	"Missions And Decisions"
-	"National Ideas"
-	"Events"
 	"Gameplay"
-	"Utilities"
 	"Trade"
-	"Technologies"
 }
-name="Geografisch links ist Wasteland (Montags MP) V2"
+name="Westlich von mir ist nur Nebel"
 supported_version="1.30.4"
-remote_file_id="2261016698"

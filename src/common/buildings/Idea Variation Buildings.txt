@@ -865,7 +865,7 @@ forcelimit_lvl_1 = {
 	
 	modifier = {
 		
-	land_forcelimit = 0.3	
+	land_forcelimit = 0.025	
 	regiment_recruit_speed = -0.1
 		
 	}
@@ -899,7 +899,7 @@ regimental_camp = {
 	
 	modifier = {
 	
-	land_forcelimit = 0.3
+	land_forcelimit = 0.05
 	regiment_recruit_speed = -0.2
 		
 	}
@@ -933,7 +933,7 @@ conscription_center = {
 	
 	modifier = {
 
-	land_forcelimit = 0.3
+	land_forcelimit = 0.075
 	regiment_recruit_speed = -0.3
 	
 	}

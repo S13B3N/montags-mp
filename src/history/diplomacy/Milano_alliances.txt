@@ -1,8 +1,0 @@
-# Milano vassal
-vassal = {
-	first = MLO
-	second = MAN
-	start_date = 1440.6.2
-	end_date = 1768.5.12
-}
-
