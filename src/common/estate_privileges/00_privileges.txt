@@ -1627,7 +1627,6 @@ estate_burghers_indebted_to_burghers = {
 	influence = 0.05
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
-		add_mercantilism = -1
 		tooltip = {
 			add_inflation = 0.5
 		}
@@ -2395,7 +2394,6 @@ estate_jains_indebted_to_jains = {
 	influence = 0.05
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
-		add_mercantilism = -1
 		tooltip = {
 			add_inflation = 0.5
 		}
@@ -3226,7 +3224,6 @@ estate_burghers_monopoly_of_textiles = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -3318,7 +3315,6 @@ estate_burghers_monopoly_of_dyes = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -3405,7 +3401,6 @@ estate_burghers_monopoly_of_glass = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -3492,7 +3487,6 @@ estate_burghers_monopoly_of_paper = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -3582,7 +3576,6 @@ estate_vaisyas_monopoly_of_textiles = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -3675,7 +3668,6 @@ estate_vaisyas_monopoly_of_dyes = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -3762,7 +3754,6 @@ estate_vaisyas_monopoly_of_glass = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -3849,7 +3840,6 @@ estate_vaisyas_monopoly_of_paper = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -3941,7 +3931,6 @@ estate_jains_monopoly_of_textiles = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4036,7 +4025,6 @@ estate_jains_monopoly_of_dyes = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4125,7 +4113,6 @@ estate_jains_monopoly_of_glass = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4214,7 +4201,6 @@ estate_jains_monopoly_of_paper = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4304,7 +4290,6 @@ estate_nobles_monopoly_of_metals = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4397,7 +4382,6 @@ estate_nobles_monopoly_of_livestock = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4483,7 +4467,6 @@ estate_nobles_monopoly_of_gems = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4574,7 +4557,6 @@ estate_rajput_monopoly_of_metals = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4668,7 +4650,6 @@ estate_rajput_monopoly_of_livestock = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4756,7 +4737,6 @@ estate_rajput_monopoly_of_gems = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4847,7 +4827,6 @@ estate_maratha_monopoly_of_metals = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -4940,7 +4919,6 @@ estate_maratha_monopoly_of_livestock = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -5027,7 +5005,6 @@ estate_maratha_monopoly_of_gems = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -5113,7 +5090,6 @@ estate_church_monopoly_of_incense = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -5199,7 +5175,6 @@ estate_church_monopoly_of_wool = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -5286,7 +5261,6 @@ estate_church_monopoly_of_wine = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -5373,7 +5347,6 @@ estate_church_monopoly_of_slaves = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -5460,7 +5433,6 @@ estate_brahmins_monopoly_of_incense = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -5547,7 +5519,6 @@ estate_brahmins_monopoly_of_wool = {
 		}
 	}
 	on_granted = {
-		add_mercantilism = 1
 		add_years_of_owned_provinces_production_income = {
 			years = 8
 			trigger = {
@@ -6028,7 +5999,6 @@ estate_burghers_exclusive_trade_rights = {
 				}
 			}
 		}
-		add_mercantilism = 3
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
@@ -6103,7 +6073,6 @@ estate_vaisyas_exclusive_trade_rights = {
 				}
 			}
 		}
-		add_mercantilism = 3
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip
@@ -6179,7 +6148,6 @@ estate_jains_exclusive_trade_rights = {
 				}
 			}
 		}
-		add_mercantilism = 3
 	}
 	on_revoked = {
 		custom_tooltip = estate_burghers_exclusive_trade_rights_revoke_tooltip

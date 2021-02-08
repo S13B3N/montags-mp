@@ -13,7 +13,7 @@ kiel_canal = {
 
 suez_canal = {
 	ambient_object = suez_canal
-	province = 4316
+	province = 363
 	is_canal = yes
 	time = 120
 	

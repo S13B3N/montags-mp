@@ -36,6 +36,19 @@ fort_15th = {
 	build_trigger = {
 		OR = {
 			is_capital = yes
+			AND = {
+				province_id = root
+				OR = {
+					has_building = fort_15th
+					has_construction = fort_15th
+					has_building = fort_16th
+					has_construction = fort_16th
+					has_building = fort_17th
+					has_construction = fort_17th
+					has_building = fort_18th
+					has_construction = fort_18th
+				}			
+			}
 			NOT = {
 				area_for_scope_province = {
 					owner = {
@@ -107,6 +120,19 @@ fort_16th = {
 	build_trigger = {
 		OR = {
 			is_capital = yes
+			AND = {
+				province_id = root
+				OR = {
+					has_building = fort_15th
+					has_construction = fort_15th
+					has_building = fort_16th
+					has_construction = fort_16th
+					has_building = fort_17th
+					has_construction = fort_17th
+					has_building = fort_18th
+					has_construction = fort_18th
+				}			
+			}
 			NOT = {
 				area_for_scope_province = {
 					owner = {
@@ -181,6 +207,29 @@ fort_17th = {
 	build_trigger = {
 		OR = {
 			is_capital = yes
+			AND = {
+				province_id = root
+				OR = {
+					has_building = fort_15th
+					has_construction = fort_15th
+					has_building = fort_16th
+					has_construction = fort_16th
+					has_building = fort_17th
+					has_construction = fort_17th
+					has_building = fort_18th
+					has_construction = fort_18th
+				}			
+			}
+			OR = {
+				has_building = fort_15th
+				has_construction = fort_15th
+				has_building = fort_16th
+				has_construction = fort_16th
+				has_building = fort_17th
+				has_construction = fort_17th
+				has_building = fort_18th
+				has_construction = fort_18th
+			}			
 			NOT = {
 				area_for_scope_province = {
 					owner = {
@@ -256,6 +305,19 @@ fort_18th = {
 	build_trigger = {
 		OR = {
 			is_capital = yes
+			AND = {
+				province_id = root
+				OR = {
+					has_building = fort_15th
+					has_construction = fort_15th
+					has_building = fort_16th
+					has_construction = fort_16th
+					has_building = fort_17th
+					has_construction = fort_17th
+					has_building = fort_18th
+					has_construction = fort_18th
+				}			
+			}
 			NOT = {
 				area_for_scope_province = {
 					owner = {

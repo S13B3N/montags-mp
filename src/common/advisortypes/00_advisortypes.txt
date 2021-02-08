@@ -415,7 +415,7 @@ army_organiser = {
 	monarch_power = MIL
 	
 	# Bonus
-	land_forcelimit_modifier = 0.20
+	land_forcelimit_modifier = 0.075
 	
 	skill_scaled_modifier = {
 	meritocracy = 0.5
