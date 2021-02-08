@@ -24,6 +24,7 @@ technology = {
 	native_sweat_lodge = yes
 	native_great_trail = yes
 	native_ceremonial_fire_pit = yes
+	governing_capacity = 50
 }
 
 technology = {
@@ -32,6 +33,7 @@ technology = {
 	
 	tribal_democracy_legacy = yes
 	tribal_kingdom_legacy = yes
+	governing_capacity = 50
 }
 
 technology = {
@@ -43,6 +45,7 @@ technology = {
 	despotic_monarchy = yes	
 	feudal_monarchy = yes
 	oligarchic_republic = yes
+	governing_capacity = 50
 }
 
 # The 30 big techs from here on
@@ -55,7 +58,7 @@ technology = {
 	may_support_rebels = yes
 
 	 infrastructure_lvl_1 = yes
-	 
+	governing_capacity = 50
 }
 
 technology = {
@@ -68,7 +71,7 @@ technology = {
 	terrain_woodland = yes
 	terrain_hills = yes
 	allowed_idea_groups = 2
-	
+	governing_capacity = 50
 }
 
 technology = {
@@ -82,6 +85,7 @@ technology = {
 	terrain_jungle = yes	
 	allowed_idea_groups = 3
 	production_efficiency	=	0.02
+	governing_capacity = 50
 }
 
 technology = {
@@ -94,6 +98,7 @@ technology = {
 	#Workshop
 	farm_estate = yes
 	workshop = yes
+	governing_capacity = 50
 }
 
 technology = {
@@ -102,6 +107,7 @@ technology = {
 	university = yes # University
 	#Noble Republic
 	allowed_idea_groups = 4
+	governing_capacity = 50
 }
 
 technology = {
@@ -109,9 +115,8 @@ technology = {
 	infrastructure_lvl_2 = yes
 	year = 1505
 	allowed_idea_groups = 5
-	governing_capacity = 100
 	#courthouse = yes
-
+	governing_capacity = 50
 }
 
 technology = {
@@ -121,7 +126,7 @@ technology = {
 	#The Scythe
 		production_efficiency	=	0.02
 	
-
+	governing_capacity = 50
 }
 
 technology = {
@@ -131,6 +136,7 @@ technology = {
 	town_hall = yes
 	allowed_idea_groups = 6
 	theocratic_government = yes
+	governing_capacity = 50
 }
 
 technology = {
@@ -139,16 +145,16 @@ technology = {
 	taxation_lvl_2 = yes
 	#Textile Manufactory
 	textile = yes  
-
+	governing_capacity = 50
 }
 
 technology = {
 	# Tech 12
 	year = 1557
 	allowed_idea_groups = 7
-	governing_capacity = 100
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
+	governing_capacity = 50
 }
 
 technology = {
@@ -157,6 +163,7 @@ technology = {
 	
 	#Improved Drainage
 		production_efficiency	=	0.02
+	governing_capacity = 50
 }
 
 technology = {
@@ -166,6 +173,7 @@ technology = {
 	cathedral = yes
 	plantations = yes
 	allowed_idea_groups	= 8
+	governing_capacity = 50
 }
 
 technology = {
@@ -173,7 +181,7 @@ technology = {
 	year = 1596
 	infrastructure_lvl_3 = yes
 	may_force_march = yes
-	
+	governing_capacity = 50
 }
 
 technology = {
@@ -183,8 +191,7 @@ technology = {
 	mills = yes
 	allowed_idea_groups = 9
 	production_efficiency	=	0.02
-
-
+	governing_capacity = 50
 }
 
 technology = {
@@ -192,27 +199,25 @@ technology = {
 	year = 1622
 	production_lvl_3 = yes
 	#university = yes
-	governing_capacity = 250
-	
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1
+	governing_capacity = 50
 }
 
 technology = {
 	# Tech 18
 	year = 1635
-	
 	allowed_idea_groups	= 10
+	governing_capacity = 50
 }
 
 technology = {
 	# Tech 19
 	year = 1648	
-	
 	taxation_lvl_4 = yes
 	#Cathedral
 	#cathedral = yes
-	
+	governing_capacity = 50
 }
 
 technology = {
@@ -221,7 +226,7 @@ technology = {
 	government_lvl_4 = yes
 	allowed_idea_groups = 11
 	republican_dictatorship = yes
-	governing_capacity = 250
+	governing_capacity = 50
 }
 
 technology = {
@@ -230,7 +235,7 @@ technology = {
 	furnace = yes
 	#Land Clearance
 	production_efficiency	=	0.02
-		
+	governing_capacity = 50
 }
 
 technology = {
@@ -241,8 +246,8 @@ technology = {
 	allowed_idea_groups = 12
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
-
 	#town_hall = yes
+	governing_capacity = 50
 }
 
 technology = {
@@ -251,6 +256,7 @@ technology = {
 	infrastructure_lvl_4 = yes
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1
+	governing_capacity = 50
 }
 
 technology = {
@@ -258,7 +264,7 @@ technology = {
 	year = 1715
 	allowed_idea_groups = 13
 	#counting_house = yes  
-	governing_capacity = 250
+	governing_capacity = 50
 }
 
 technology = {
@@ -267,6 +273,7 @@ technology = {
 	
 	#Improved Farm Animals
 	production_efficiency	=	0.02
+	governing_capacity = 50
 }
 
 technology = {
@@ -274,6 +281,7 @@ technology = {
 	year = 1745
 	
 	allowed_idea_groups 	= 	14
+	governing_capacity = 50
 }
 
 technology = {
@@ -282,7 +290,7 @@ technology = {
 
 	administrative_efficiency = 0.1
 	development_efficiency = 0.1	
-	governing_capacity = 250
+	governing_capacity = 50
 }
 
 technology = {
@@ -291,6 +299,7 @@ technology = {
 	allowed_idea_groups = 15
 	#Rotherham Plough
 	production_efficiency	=	0.02
+	governing_capacity = 50
 }
 
 technology = {
@@ -300,6 +309,7 @@ technology = {
 	allowed_idea_groups = 16
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
+	governing_capacity = 50
 }
 
 technology = {
@@ -308,6 +318,7 @@ technology = {
 	
 	#Improved Draft Animals
 	production_efficiency	=	0.02
+	governing_capacity = 50
 }
 
 technology = {
@@ -316,7 +327,7 @@ technology = {
 	
 	revolutionary_republic = yes
 	revolutionary_empire = yes
-	governing_capacity = 500
+	governing_capacity = 50
 }
 
 technology = {
@@ -325,4 +336,5 @@ technology = {
 	
 	#Four field rotation
 	production_efficiency	=	0.02
+	governing_capacity = 50
 }

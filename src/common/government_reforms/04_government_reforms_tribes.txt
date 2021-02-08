@@ -255,7 +255,7 @@ retain_tribal_hierarchy_reform = {
 	icon = "retain_tribal_hierarchy"
 	allow_normal_conversion = yes
 	modifiers = {
-		governing_capacity = 150
+		state_maintenance_modifier = -0.5
 		max_absolutism = 10
 	}
 	ai = {

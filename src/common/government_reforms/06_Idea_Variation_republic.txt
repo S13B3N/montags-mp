@@ -749,7 +749,6 @@ republic_tier_2_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -1871,7 +1870,6 @@ republic_tier_3_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -2641,7 +2639,6 @@ republic_tier_3_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -3461,7 +3458,6 @@ republic_tier_4_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -4231,7 +4227,6 @@ republic_tier_4_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -5051,7 +5046,6 @@ republic_tier_5_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -5821,7 +5815,6 @@ republic_tier_5_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -6641,7 +6634,6 @@ republic_tier_6_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -7411,7 +7403,6 @@ republic_tier_6_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -8231,7 +8222,6 @@ republic_tier_7_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -9001,7 +8991,6 @@ republic_tier_7_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -9821,7 +9810,6 @@ republic_tier_8_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -10591,7 +10579,6 @@ republic_tier_8_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -11411,7 +11398,6 @@ republic_tier_9_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -12181,7 +12167,6 @@ republic_tier_9_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -13001,7 +12986,6 @@ republic_tier_10_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -13771,7 +13755,6 @@ republic_tier_10_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -14706,7 +14689,6 @@ republic_tier_11_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -15476,7 +15458,6 @@ republic_tier_11_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -16410,7 +16391,6 @@ republic_tier_12_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -17180,7 +17160,6 @@ republic_tier_12_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -18114,7 +18093,6 @@ republic_tier_13_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -18884,7 +18862,6 @@ republic_tier_13_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -19818,7 +19795,6 @@ republic_tier_14_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -20588,7 +20564,6 @@ republic_tier_14_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }
@@ -21522,7 +21497,6 @@ republic_tier_15_expan_1_3 = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	modifiers = {
-		governing_capacity_modifier = 0.25
 		administrative_efficiency = 0.05
 	}
 
@@ -22292,7 +22266,6 @@ republic_tier_15_grundrechte_1_1 = {
 	nation_designer_cost = 0
 	modifiers = {
 		tolerance_heretic = 2
-		governing_capacity_modifier = 0.15
 		republican_tradition = -0.5
 	}
 }

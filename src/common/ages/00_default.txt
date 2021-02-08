@@ -816,7 +816,7 @@ age_of_revolutions = {
 		}
 		ab_russia_boost = {
 			modifier = {
-				governing_capacity_modifier = 0.33
+				state_maintenance_modifier = -0.5
 			}
 			ai_will_do = {
 				factor = 100

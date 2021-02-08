@@ -38,7 +38,7 @@ HLR_ideas = {
 		discipline = 0.05
 	}
 	hlr_onwards_and_upwards = {
-		governing_capacity_modifier = 0.1
+		state_maintenance_modifier = -0.5
 	}
 }
 
@@ -140,7 +140,7 @@ GBR_ideas = {
 
 	gbr_acts_of_union = {
 		diplomatic_annexation_cost = -0.15
-		governing_capacity_modifier = 0.1
+		state_maintenance_modifier = -0.5
 	}
 	city_upon_a_hill = {
 		global_colonial_growth = 20
@@ -9253,7 +9253,7 @@ YUA_ideas = {
 		cavalry_power = 0.20
 	}
 	bonus = {
-		governing_capacity_modifier = 0.1
+		state_maintenance_modifier = -0.5
 	}
 	trigger = {
 		tag = YUA
@@ -10999,7 +10999,7 @@ BRG_ideas = {
 		legitimacy = 1
 	}
 	BRG_julich_berg = {
-		governing_capacity_modifier = 0.1
+		state_maintenance_modifier = -0.5
 	}
 	BRG_united_duchies = {
 		reduced_liberty_desire = 10
@@ -11240,7 +11240,7 @@ TNT_ideas = {
 		global_prov_trade_power_modifier = 0.1
 	}
 	TNT_trent_brixen_confederacy = {
-		governing_capacity_modifier = 0.1
+		state_maintenance_modifier = -0.5
 	}
 	TNT_mountain_warfare = {
 		shock_damage = 0.1
@@ -13478,7 +13478,7 @@ DLH_ideas = {
 		production_efficiency = 0.1
 	}
 	dlh_reconquest = {
-		governing_capacity_modifier = 0.1
+		state_maintenance_modifier = -0.5
 	}
 	dlh_grand_trunk = {
 		global_own_trade_power = 0.1
@@ -13527,7 +13527,7 @@ BHA_ideas = {
 
 HIN_ideas = {
 	start = {
-		governing_capacity_modifier = 0.1
+		state_maintenance_modifier = -0.5
 		global_manpower_modifier = 0.2
 	}
 	bonus = {
@@ -13949,7 +13949,7 @@ CHR_ideas = {
 	}
 	free = yes
 	chr_legacy_of_the_old_principality = {
-		governing_capacity_modifier = 0.1
+		state_maintenance_modifier = -0.5
 	}
 	chr_cossack_regiments = {
 		cavalry_power = 0.15

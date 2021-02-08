@@ -825,7 +825,7 @@ estate_priv_idea_variation_1_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -1641,7 +1641,7 @@ estate_priv_idea_variation_2_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -2552,7 +2552,7 @@ estate_priv_idea_variation_4_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -3482,7 +3482,7 @@ estate_priv_idea_variation_3_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -4391,7 +4391,7 @@ estate_priv_idea_variation_5_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -5325,7 +5325,7 @@ estate_priv_idea_variation_6_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -6258,7 +6258,7 @@ estate_priv_idea_variation_7_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -7169,7 +7169,7 @@ estate_priv_idea_variation_8_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -7909,7 +7909,7 @@ estate_priv_idea_variation_9_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -8548,7 +8548,7 @@ estate_priv_idea_variation_10_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -9189,7 +9189,7 @@ estate_priv_idea_variation_11_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {
@@ -9924,7 +9924,7 @@ estate_priv_idea_variation_12_12 = {
 		state_maintenance_modifier = 0.1
 	}
 	benefits = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 	
 	ai_will_do = {

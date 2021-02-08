@@ -132,7 +132,7 @@ grand_duchy_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
 	modifiers = {
-		governing_capacity = 100
+		state_maintenance_modifier = -0.5
 	}
 }
 
@@ -275,7 +275,6 @@ indep_daimyo = {
 	modifiers = {
 		land_morale = 0.1
 		infantry_power = 0.1
-		governing_capacity = -150
 	}
 	custom_attributes = {
 		locked_government_type = yes
@@ -334,7 +333,6 @@ celestial_empire = {
 		church_influence_modifier = -0.1
 		nobles_influence_modifier = -0.1
 		burghers_influence_modifier = -0.1
-		governing_capacity = 300
 	}
 	
 	ai = {
@@ -375,7 +373,6 @@ elective_monarchy = {
 		vassal_income = 0.25
 		global_unrest = -1
 		max_absolutism = -30
-		governing_capacity = 100
 	}
 
 	conditional = {
@@ -429,7 +426,6 @@ english_monarchy = {
 	legacy_equivalent = english_monarchy_legacy
 	start_territory_to_estates = 0.3
 	modifiers = {
-		governing_capacity = 50
 		legitimacy = 0.5
 		global_unrest = -1
 		max_absolutism = -30
@@ -477,7 +473,6 @@ ottoman_government = {
 		unjustified_demands = -0.1
 		legitimacy = 0.5
 		max_absolutism = 5
-		governing_capacity = 150
 	}
 
 	custom_attributes = {
@@ -531,7 +526,6 @@ prussian_monarchy = {
 		max_absolutism = 10
 		monarch_military_power = 3
 		nobles_loyalty_modifier = 0.1
-		governing_capacity_modifier = -0.5
 	}
 
 	conditional = {
@@ -591,7 +585,6 @@ principality = {
 	modifiers = {
 		global_unrest = -1
 		global_tax_modifier = 0.05
-		governing_capacity = 100
 	}
 
 	conditional = {
@@ -636,7 +629,6 @@ tsardom = {
 		global_manpower_modifier = 0.20
 		yearly_absolutism = 0.5
 		global_autonomy = -0.05
-		governing_capacity = 250
 	}
 
 	conditional = {
@@ -678,7 +670,6 @@ mamluk_government = {
 		monarch_admin_power = 2
 		same_culture_advisor_cost = -0.25
 		promote_culture_cost = -0.5
-		governing_capacity = 50
 		nobles_influence_modifier = 0.1
 	}
 
@@ -717,7 +708,6 @@ feudal_theocracy = {
 		missionaries = 1
 		global_missionary_strength = 0.01
 		tolerance_own = 2
-		governing_capacity = 50
 		brahmins_hindu_loyalty_modifier = 0.05
 		church_loyalty_modifier = 0.05
 	}
@@ -745,7 +735,6 @@ mughal_government = {
 
 	modifiers = {
 		tolerance_own = 1
-		governing_capacity = 150
 	}
 
 	assimilation_cultures = {
@@ -903,7 +892,6 @@ revolutionary_empire_reform = {
 		global_manpower_modifier = 0.25
 		land_morale = 0.10
 		global_autonomy = -0.2
-		governing_capacity = 150
 		max_revolutionary_zeal = 50
 	}
 
@@ -977,7 +965,6 @@ mandala_reform = {
 	modifiers = {
 		vassal_income = 0.15
 		vassal_forcelimit_bonus = 1
-		governing_capacity = 50
 	}
 }
 
@@ -1359,7 +1346,6 @@ sidhi_recruitment = {
 	}
 	modifiers = {
 		fort_maintenance_modifier = -0.1
-		governing_capacity = 100
 	}
 	ai = {
 		factor = 2
@@ -1376,7 +1362,6 @@ mansabdari_reform = {
 	}
 	modifiers = {
 		army_tradition_decay = -0.003
-		governing_capacity = 150
 	}
 	ai = {
 		factor = 10
@@ -1562,7 +1547,7 @@ zabt_reform = {
 		tag = MUG
 	}
 	modifiers = {
-		governing_capacity = 150
+		state_maintenance_modifier = -0.5
 	}
 	ai = {
 		factor = 5
@@ -1727,7 +1712,7 @@ letat_cest_moi_reform = {
 	icon = "queen"
 	allow_normal_conversion = yes
 	modifiers = {
-		governing_capacity = 250
+		state_maintenance_modifier = -0.5
 	}
 	ai = {
 		factor = 1.5
@@ -1754,7 +1739,6 @@ consulate_reform = {
 	}
 	modifiers = {
 		global_autonomy = -0.05
-		governing_capacity = 150
 	}
 	ai = {
 		factor = 2.5

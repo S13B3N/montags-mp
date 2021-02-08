@@ -872,7 +872,7 @@ priestly_autonomy_reform = {
 	}
 	
 	modifiers = {
-		governing_capacity = 250
+		state_maintenance_modifier = -0.5
 	}
 	ai = {
 		factor = 3
