@@ -5342,7 +5342,7 @@ dezentra0 = {
 
 	dezentra1 = {
 		build_cost = -0.1
-		# <<WIKI>> reduced_dev_malus = yes
+		core_creation = -0.15
 	}
 	dezentra2 = {
 		yearly_corruption = -0.1

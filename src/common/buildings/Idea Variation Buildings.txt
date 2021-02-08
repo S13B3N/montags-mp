@@ -853,21 +853,17 @@ training_fields = {
 forcelimit_lvl_1 = {
 	cost = 200
 	time = 12
-	
-	
+
 	build_trigger = {
-	OR = {
-	has_building = forcelimit_lvl_1
-	is_state = yes
+		OR = {
+			has_building = forcelimit_lvl_1
+			is_state = yes
+		}
 	}
-	}
-	
 	
 	modifier = {
-		
-	land_forcelimit = 0.025	
-	regiment_recruit_speed = -0.1
-		
+		land_forcelimit = 0.025	
+		regiment_recruit_speed = -0.1
 	}
 	
 	ai_will_do = {
@@ -888,20 +884,17 @@ regimental_camp = {
 	time = 12
 	
 	build_trigger = {
-	OR = {
-	has_building = regimental_camp
-	is_state = yes
-	}
-	development = 20
+		OR = {
+			has_building = regimental_camp
+			is_state = yes
+		}
 	}
 	
 	make_obsolete = forcelimit_lvl_1
 	
 	modifier = {
-	
-	land_forcelimit = 0.05
-	regiment_recruit_speed = -0.2
-		
+		land_forcelimit = 0.05
+		regiment_recruit_speed = -0.2
 	}
 	
 	ai_will_do = {
@@ -922,17 +915,15 @@ conscription_center = {
 	time = 12
 	
 	build_trigger = {
-	OR = {
-	has_building = conscription_center
-	is_state = yes
-	}
-	development = 20
+		OR = {
+			has_building = conscription_center
+			is_state = yes
+		}
 	}
 
 	make_obsolete = regimental_camp
 	
 	modifier = {
-
 	land_forcelimit = 0.075
 	regiment_recruit_speed = -0.3
 	

@@ -9,8 +9,6 @@ condo_1 = {
 	}
 	
 	possible_condottieri = 0.25
-	land_forcelimit_modifier = -0.2
-	
 }
 
 condo_2 = {
@@ -24,8 +22,6 @@ condo_2 = {
 	}
 	
 	possible_condottieri = 1.25
-	land_forcelimit_modifier = -0.3
-	
 }
 
 condo_3 = {
@@ -39,7 +35,6 @@ condo_3 = {
 	}
 	
 	possible_condottieri = 2.0
-	land_forcelimit_modifier = -0.4
 }
 
 condo_4 = {
@@ -53,8 +48,6 @@ condo_4 = {
 	}
 	
 	possible_condottieri = 3.0
-	land_forcelimit_modifier = -0.5
-	
 }
 
 

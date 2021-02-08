@@ -9178,91 +9178,17 @@ idea_variation_act_150 = {
 	monarch_power = DIP
 
 	potential = {
-		current_age = age_of_discovery
 		has_idea_group = propaganda0
 		has_idea_group = quantity_ideas
 			
 	}
 	allow = {
-		current_age = age_of_discovery
 		full_idea_group = propaganda0
 		full_idea_group = quantity_ideas
 	}
 	
 	naval_forcelimit = 10
-	land_forcelimit = 5
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_150_1 = {
-
-	monarch_power = DIP
-
-	potential = {
-		current_age = age_of_reformation
-		has_idea_group = propaganda0
-		has_idea_group = quantity_ideas
-			
-	}
-	allow = {
-		current_age = age_of_reformation
-		full_idea_group = propaganda0
-		full_idea_group = quantity_ideas
-	}
-	
-	naval_forcelimit = 20
-	land_forcelimit = 10
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_150_2 = {
-
-	monarch_power = DIP
-
-	potential = {
-		current_age = age_of_absolutism
-		has_idea_group = propaganda0
-		has_idea_group = quantity_ideas
-			
-	}
-	allow = {
-		current_age = age_of_absolutism
-		full_idea_group = propaganda0
-		full_idea_group = quantity_ideas
-	}
-	
-	naval_forcelimit = 30
-	land_forcelimit = 15
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_150_3 = {
-
-	monarch_power = DIP
-
-	potential = {
-		current_age = age_of_revolutions
-		has_idea_group = propaganda0
-		has_idea_group = quantity_ideas
-			
-	}
-	allow = {
-		current_age = age_of_revolutions
-		full_idea_group = propaganda0
-		full_idea_group = quantity_ideas
-	}
-	
-	naval_forcelimit = 40
-	land_forcelimit = 20
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -10331,93 +10257,21 @@ idea_variation_act_182 = {
 	monarch_power = ADM
 
 	potential = {
-		current_age = age_of_discovery
 		has_idea_group = gesellschaft0
 		has_idea_group = quantity_ideas
 			
 	}
 	allow = {
-		current_age = age_of_discovery
 		full_idea_group = gesellschaft0
 		full_idea_group = quantity_ideas
 	}
 	
-	land_forcelimit = 5
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
 	}
 }
-
-idea_variation_act_182_1 = {
-
-	monarch_power = ADM
-
-	potential = {
-		current_age = age_of_reformation
-		has_idea_group = gesellschaft0
-		has_idea_group = quantity_ideas
-			
-	}
-	allow = {
-		current_age = age_of_reformation
-		full_idea_group = gesellschaft0
-		full_idea_group = quantity_ideas
-	}
-	
-	land_forcelimit = 10
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_182_2 = {
-
-	monarch_power = ADM
-
-	potential = {
-		current_age = age_of_absolutism
-		has_idea_group = gesellschaft0
-		has_idea_group = quantity_ideas
-			
-	}
-	allow = {
-		current_age = age_of_absolutism
-		full_idea_group = gesellschaft0
-		full_idea_group = quantity_ideas
-	}
-	
-	land_forcelimit = 15
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_182_3 = {
-
-	monarch_power = ADM
-
-	potential = {
-		current_age = age_of_revolutions
-		has_idea_group = gesellschaft0
-		has_idea_group = quantity_ideas
-			
-	}
-	allow = {
-		current_age = age_of_revolutions
-		full_idea_group = gesellschaft0
-		full_idea_group = quantity_ideas
-	}
-	
-	land_forcelimit = 20
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
 
 idea_variation_act_183 = {
 
@@ -12618,91 +12472,17 @@ idea_variation_act_254 = {
 	monarch_power = DIP
 
 	potential = {
-		current_age = age_of_discovery
 		has_idea_group = influence_ideas 
 		has_idea_group = waffenqualitat0
 		
 	}
 	allow = {
-		current_age = age_of_discovery
 		full_idea_group = influence_ideas 
 		full_idea_group = waffenqualitat0
 	}
 	
-	land_forcelimit = 5
+	land_forcelimit_modifier = 0.10
 	naval_forcelimit = 10
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_254_1 = {
-
-	monarch_power = DIP
-
-	potential = {
-		current_age = age_of_reformation
-		has_idea_group = influence_ideas 
-		has_idea_group = waffenqualitat0
-		
-	}
-	allow = {
-		current_age = age_of_reformation
-		full_idea_group = influence_ideas 
-		full_idea_group = waffenqualitat0
-	}
-	
-	land_forcelimit = 10
-	naval_forcelimit = 20
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_254_2 = {
-
-	monarch_power = DIP
-
-	potential = {
-		current_age = age_of_absolutism
-		has_idea_group = influence_ideas 
-		has_idea_group = waffenqualitat0
-		
-	}
-	allow = {
-		current_age = age_of_absolutism
-		full_idea_group = influence_ideas 
-		full_idea_group = waffenqualitat0
-	}
-	
-	land_forcelimit = 15
-	naval_forcelimit = 30
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_254_3 = {
-
-	monarch_power = DIP
-
-	potential = {
-		current_age = age_of_revolutions
-		has_idea_group = influence_ideas 
-		has_idea_group = waffenqualitat0
-		
-	}
-	allow = {
-		current_age = age_of_revolutions
-		full_idea_group = influence_ideas 
-		full_idea_group = waffenqualitat0
-	}
-	
-	land_forcelimit = 20
-	naval_forcelimit = 40
 	
 	ai_will_do = {
 		factor = 1
@@ -14252,87 +14032,16 @@ idea_variation_act_303 = {
 	monarch_power = ADM
 
 	potential = {
-		current_age = age_of_discovery
 		has_idea_group = stehendesheer0
 		has_idea_group = diktatur0
 		
 	}
 	allow = {
-		current_age = age_of_discovery
 		full_idea_group = stehendesheer0
 		full_idea_group = diktatur0
 	}
 	
-	land_forcelimit = 5
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_303_1 = {
-
-	monarch_power = ADM
-
-	potential = {
-		current_age = age_of_reformation
-		has_idea_group = stehendesheer0
-		has_idea_group = diktatur0
-		
-	}
-	allow = {
-		current_age = age_of_reformation
-		full_idea_group = stehendesheer0
-		full_idea_group = diktatur0
-	}
-	
-	land_forcelimit = 10
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_303_2 = {
-
-	monarch_power = ADM
-
-	potential = {
-		current_age = age_of_absolutism
-		has_idea_group = stehendesheer0
-		has_idea_group = diktatur0
-		
-	}
-	allow = {
-		current_age = age_of_absolutism
-		full_idea_group = stehendesheer0
-		full_idea_group = diktatur0
-	}
-	
-	land_forcelimit = 15
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-idea_variation_act_303_3 = {
-
-	monarch_power = ADM
-
-	potential = {
-		current_age = age_of_revolutions
-		has_idea_group = stehendesheer0
-		has_idea_group = diktatur0
-		
-	}
-	allow = {
-		current_age = age_of_revolutions
-		full_idea_group = stehendesheer0
-		full_idea_group = diktatur0
-	}
-	
-	land_forcelimit = 20
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -17940,79 +17649,7 @@ idea_variation_act_412 = {
 		full_idea_group = republik0
 	}
 	
-	land_forcelimit = 5
-	
-	ai_will_do = {
-		factor = 1
-		
-	}
-}
-
-idea_variation_act_412_1 = {
-
-	monarch_power = ADM
-
-	potential = {
-		current_age = age_of_reformation
-		has_idea_group = formation0
-		has_idea_group = republik0
-			
-	}
-	allow = {
-		current_age = age_of_reformation
-		full_idea_group = formation0
-		full_idea_group = republik0
-	}
-	
-	land_forcelimit = 10
-	
-	ai_will_do = {
-		factor = 1
-		
-	}
-}
-
-idea_variation_act_412_2 = {
-
-	monarch_power = ADM
-
-	potential = {
-		current_age = age_of_absolutism
-		has_idea_group = formation0
-		has_idea_group = republik0
-			
-	}
-	allow = {
-		current_age = age_of_absolutism
-		full_idea_group = formation0
-		full_idea_group = republik0
-	}
-	
-	land_forcelimit = 15
-	
-	ai_will_do = {
-		factor = 1
-		
-	}
-}
-
-idea_variation_act_412_3 = {
-
-	monarch_power = ADM
-
-	potential = {
-		current_age = age_of_revolutions
-		has_idea_group = formation0
-		has_idea_group = republik0
-			
-	}
-	allow = {
-		current_age = age_of_revolutions	
-		full_idea_group = formation0
-		full_idea_group = republik0
-	}
-	
-	land_forcelimit = 20
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
