@@ -26,3 +26,5 @@ NDefines.NNationDesigner.POINTS_AVAILABLE = 350
 NDefines.NNationDesigner.MEMBER_OF_HRE_COST = 0
 NDefines.NNationDesigner.MEMBER_OF_HRE_PROVINCE_COST = 0.0
 NDefines.NCountry.REVOLT_SIZE_BASE = 4
+NDefines.NCountry.MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 600
+NDefines.NCountry.MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 1500

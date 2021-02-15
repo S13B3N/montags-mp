@@ -20,7 +20,7 @@ alexandria={
    }
 
    outgoing={
-      name="Anatolien"
+      name="Georgien"
 
       path={
       }
@@ -30,7 +30,7 @@ alexandria={
    }
 
    outgoing={
-      name="Georgien"
+      name="Anatolien"
 
       path={
       }
@@ -164,6 +164,76 @@ brazil={
       control={
       }
    }
+
+   outgoing={
+      name="Iberien"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Italien"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Frankreich"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Bayern"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Rheinland"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="England"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Schweden"
+
+      path={
+      }
+
+      control={
+      }
+   }
 }
 
 burma={
@@ -220,7 +290,7 @@ california={
    }
 
    outgoing={
-      name="girin"
+      name="st_lawrence"
 
       path={
       }
@@ -230,7 +300,7 @@ california={
    }
 
    outgoing={
-      name="st_lawrence"
+      name="rio_grande"
 
       path={
       }
@@ -280,6 +350,46 @@ canton={
       control={
       }
    }
+
+   outgoing={
+      name="california"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="mexico"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="panama"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="lima"
+
+      path={
+      }
+
+      control={
+      }
+   }
 }
 
 cape_of_good_hope={
@@ -302,6 +412,16 @@ cape_of_good_hope={
       control={
       }
    }
+
+   outgoing={
+      name="brazil"
+
+      path={
+      }
+
+      control={
+      }
+   }
 }
 
 carribean_trade={
@@ -316,7 +436,7 @@ carribean_trade={
    }
 
    outgoing={
-      name="sevilla"
+      name="Iberien"
 
       path={
       }
@@ -326,7 +446,7 @@ carribean_trade={
    }
 
    outgoing={
-      name="north_sea"
+      name="Frankreich"
 
       path={
       }
@@ -336,7 +456,37 @@ carribean_trade={
    }
 
    outgoing={
-      name="english_channel"
+      name="Rheinland"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="England"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Schweden"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Bayern"
 
       path={
       }
@@ -400,7 +550,7 @@ comorin_cape={
    }
 
    outgoing={
-      name="gujarat"
+      name="cape_of_good_hope"
 
       path={
       }
@@ -410,7 +560,7 @@ comorin_cape={
    }
 
    outgoing={
-      name="cape_of_good_hope"
+      name="gujarat"
 
       path={
       }
@@ -710,7 +860,7 @@ genua={
    }
 
    members={
-       1298 1875 127 1247 2986 4735 102 4696 201 200 2753 197 212 213 4154 2988 2987 211 4550 214 2991 4727 4157 204 202 4391 198 4695 196 4694 4557 2990 220 1750 333 4559 4560 1295 4549 210 205 176 175 174 173 4111 4112 199 203 4777 4719 4720 1871 2981 103 2992 4728 101 104 4740 2979 1862 105 109 4739 2980 106 221 4547 2751 2755 2989 209 1746 4789 217 2754 1748 223 222 1745 1276 4552
+       1298 1875 127 1247 2986 4735 102 4696 201 200 2753 197 212 213 4154 2988 2987 211 4550 214 2991 4157 204 202 4391 198 4695 196 4694 4557 2990 220 1750 333 4559 4560 1295 4549 210 205 176 175 174 173 4111 4112 199 203 4777 4719 4720 1871 2981 103 2992 4728 101 104 4740 2979 1862 105 109 4739 2980 106 221 4547 2751 2755 2989 209 1746 4789 217 2754 1748 223 222 1745 1276 4552 4727
    }
 
    outgoing={
@@ -914,6 +1064,46 @@ hangzhou={
       control={
       }
    }
+
+   outgoing={
+      name="california"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="panama"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="mexico"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="lima"
+
+      path={
+      }
+
+      control={
+      }
+   }
 }
 
 Iberien={
@@ -966,7 +1156,7 @@ ivory_coast={
    }
 
    outgoing={
-      name="english_channel"
+      name="Iberien"
 
       path={
       }
@@ -976,7 +1166,7 @@ ivory_coast={
    }
 
    outgoing={
-      name="sevilla"
+      name="Frankreich"
 
       path={
       }
@@ -986,7 +1176,37 @@ ivory_coast={
    }
 
    outgoing={
-      name="north_sea"
+      name="England"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Rheinland"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Schweden"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Italien"
 
       path={
       }
@@ -1324,7 +1544,7 @@ mississippi_river={
    }
 
    outgoing={
-      name="sevilla"
+      name="Iberien"
 
       path={
       }
@@ -1334,7 +1554,7 @@ mississippi_river={
    }
 
    outgoing={
-      name="english_channel"
+      name="Frankreich"
 
       path={
       }
@@ -1344,7 +1564,47 @@ mississippi_river={
    }
 
    outgoing={
-      name="north_sea"
+      name="England"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Rheinland"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Schweden"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Bayern"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Polen"
 
       path={
       }
@@ -1381,6 +1641,46 @@ nippon={
 
    outgoing={
       name="hangzhou"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="california"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="panama"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="mexico"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="malacca"
 
       path={
       }
@@ -1812,11 +2112,11 @@ st_lawrence={
    }
 
    members={
-       996 2576 2577 2578 986 994 995 2582 2583 990 993 2584 2012 971 2013 2565 2566 2567 985 2570 2571 2572 980 981 2573 997 2574 2575 2579 2580 2581 969 2559 2563 982 983 984 2568 2569 1104 1105 1490 1804 1001 991 988 2585 992 989 2671 2586 2587 2521 2522 945 911 914 913 912 2518 2517 910 1007 2588 1805 999 998 1486 1807 2589 1002 1000 1003 2590 2591 1806 1004 1005 1006 1811 1812 2600 2599 2601 2603 2018 2602 2017 2595 2597 2596 1813 1011 2594 1009 1008 2016 2593 1010 2511 2005 2503 2502 2598 2510 2006 2501 2004 2592 2608 2015
+       996 2576 2577 2578 986 994 995 2582 2583 990 993 2584 2012 971 2013 2565 2566 2567 985 2570 2571 2572 980 981 2573 997 2574 2575 2579 2580 2581 969 2559 2563 982 983 2568 2569 1104 1105 1490 1804 1001 991 988 2585 992 989 2671 2586 2587 2521 2522 945 911 914 913 912 2518 2517 910 1007 2588 1805 999 998 1486 1807 2589 1002 1000 1003 2590 2591 1806 1004 1005 1006 1811 1812 2600 2599 2601 2603 2018 2602 2017 2595 2597 2596 1813 1011 2594 1009 1008 2016 2593 1010 2511 2005 2503 2502 2598 2510 2006 2501 2004 2592 2608 2015 984
    }
 
    outgoing={
-      name="north_sea"
+      name="Schweden"
 
       path={
       }
@@ -1826,7 +2126,57 @@ st_lawrence={
    }
 
    outgoing={
-      name="english_channel"
+      name="Rheinland"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="England"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Frankreich"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Iberien"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Bayern"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Polen"
 
       path={
       }
@@ -1859,6 +2209,16 @@ the_moluccas={
 
    outgoing={
       name="panama"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="cape_of_good_hope"
 
       path={
       }
@@ -1911,7 +2271,35 @@ venice={
        107 108 111 112 113 114 1308 1774 4729 1768 4758 110 73 4738 1769 130 2977 119 120 4733 2985 1933 122 2984 123 4751 129 4752 1826 4753 137 136 139 1828 131 4756 152 140 1767 3002 1831 4755 138 4754 1827 1766 4175 4780 4174 4750 143 1853 144 4699 142 4698 1773 145 4701 146 3003 147 4702 148 3001 3000 164 163 1934 2983 4734 121 4732 118 117 115 4757 4173 4239
    }
 
-   end=yes
+   outgoing={
+      name="Italien"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Bayern"
+
+      path={
+      }
+
+      control={
+      }
+   }
+
+   outgoing={
+      name="Wallachei"
+
+      path={
+      }
+
+      control={
+      }
+   }
 }
 
 Wallachei={

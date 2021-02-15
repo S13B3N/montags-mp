@@ -91,7 +91,7 @@ technology = {
 	#Pike Square
 	fortress_keep = yes
 
-	land_morale = 	0.5
+	land_morale = 	0.25
 	military_tactics 	= 	0.25
 }
 
@@ -172,6 +172,7 @@ technology = {
 	artillery_fire 		= 	1
 	artillery_shock 	=	0.05
 	military_tactics 	= 	0.25
+	land_morale = 	0.25
 	enable = large_cast_bronze_mortar 
 	enable = houfnice
 }
@@ -217,6 +218,7 @@ technology = {
 	#Reiter
 	maneuver_value 		= 	0.25
 	cavalry_fire		= 	0.25
+	land_morale = 	0.5
 	enable = hungarian_hussar
 	enable = ottoman_spahi		
 	enable = culverin		
@@ -291,6 +293,7 @@ technology = {
 	#Trunnions
 	artillery_shock 	= 	0.1
 	artillery_fire 		= 	0.4
+	land_morale = 	0.5
 	
 	enable = small_cast_iron_bombard
 	enable = large_cast_iron_bombard
@@ -334,7 +337,6 @@ technology = {
 	year = 1596
 	
 	#Maurician Infantry
-	land_morale 		=	1.0
 	military_tactics	=	0.25
 	
 
@@ -377,6 +379,7 @@ technology = {
 	
 	cavalry_shock		=	1.0
 	supply_limit		= 	0.5	
+	land_morale = 	0.25
 	
 	 #manpower_lvl_3 = yes
 	training_fields = yes
@@ -456,6 +459,7 @@ technology = {
 	#Line Infantry
 	sprite_level = 3
 	military_tactics 	= 	0.25
+	land_morale = 	0.25
 	
 	infantry_shock 		=	0.5
 }
@@ -491,6 +495,7 @@ technology = {
 	cavalry_shock		=	1.0
 	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
+	land_morale = 	0.25
 
 	enable = swedish_arme_blanche	
 	enable = french_dragoon		
@@ -549,7 +554,7 @@ technology = {
 	#Light Infantry Companies
 	sprite_level = 4
 
-	land_morale			=	1.0
+	land_morale = 	0.25
 	
 	fortress_supply = yes
 	
@@ -591,6 +596,7 @@ technology = {
 	#Bayonet
 	supply_limit		=	0.5
 	infantry_fire		= 	0.5	
+	land_morale = 	0.25
 }
 
 technology = {
@@ -601,6 +607,7 @@ technology = {
 	maneuver_value 		= 	0.25
 	infantry_shock		=	0.5	
 	cavalry_fire		= 	0.25
+	land_morale = 	0.25
 	
 	enable = african_cuirassier
 	enable = russian_cuirassier	
@@ -626,6 +633,7 @@ technology = {
 	year = 1790
 	
 	#Defense in Depth
+	land_morale = 	0.25
 		
 	enable = flying_battery  
 }
@@ -638,7 +646,7 @@ technology = {
 	#sprite_level = 5	
 	
 	military_tactics	=	0.25
-	land_morale			=	1.0
+	land_morale			=	0.25
 	maneuver_value = 0.25
 	
 	enable = russian_mass
