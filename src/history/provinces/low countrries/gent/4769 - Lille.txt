@@ -21,7 +21,7 @@ fort_15th = yes
 
 1477.1.5 = { owner = HAB controller = HAB add_core = HAB }
 1519.1.12 = { owner = SPA controller = SPA add_core = SPA remove_core = HAB } # Charles V gets total control over his Burgundian inheritance
-1548.6.26 = { hre = yes } # Flanders incorporated into the Holy Roman Empire
+1548.6.26 = { hre = no } # Flanders incorporated into the Holy Roman Empire
 1549.11.4 = { add_core = NED }
 1555.1.1 = { religion = reformed }
 1582.1.1 = { religion = catholic } # defeat of the Hurlus

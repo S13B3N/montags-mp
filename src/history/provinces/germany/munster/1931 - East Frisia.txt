@@ -27,7 +27,7 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-1464.1.1 = { hre = yes } # East Frisia raised to the status of Imperial Count in 1464 by Emperor Frederick III
+1464.1.1 = { hre = no } # East Frisia raised to the status of Imperial Count in 1464 by Emperor Frederick III
 1537.1.1 = { religion = reformed }
 1744.5.26 = {
 	owner = PRU
