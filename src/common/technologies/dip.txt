@@ -52,7 +52,6 @@ technology = {
 	
 	enable = early_carrack
 
-
 }
 
 technology = {
@@ -64,7 +63,6 @@ technology = {
 	#trade_lvl_1 = yes
 	may_steal_maps = yes
 
-	
 }
 
 technology = {
@@ -87,7 +85,6 @@ technology = {
 	shipyard = yes	
 	dock = yes
 	
-
 }
 
 technology = {
@@ -98,7 +95,6 @@ technology = {
 	naval_morale			=	0.3
 	range					= 	115
 	may_study_technology = yes
-	
 	
 }
 
@@ -125,7 +121,6 @@ technology = {
 	enable = carrack
 	enable = caravel
 
-	
 }
 
 technology = {
@@ -159,7 +154,6 @@ technology = {
 	naval_morale			=	0.4
 	naval_battery = yes
 
-	
 }
 
 technology = {
@@ -179,7 +173,6 @@ technology = {
 	tradecompany = yes
 	num_accepted_cultures = 1
 
-	
 	enable = galleass
 }
 
@@ -188,7 +181,7 @@ technology = {
 	year = 1596
 	
 	naval_maintenance		= 	0.1
-	range					=	50
+	range					=	200
 	global_colonial_growth  = 	15
 	
 	enable = galleon
@@ -212,13 +205,13 @@ technology = {
 	year = 1622
 	
 	trade_range				=	20
-	range					=	50
+	range					=	400
 	
 	#trade_lvl_3 = yes
 	trade_depot = yes 
 
-
 	enable = merchantman
+
 }
 
 technology = {
@@ -228,8 +221,6 @@ technology = {
 	enable = galiot
 	naval_morale			=	0.5
 	
-
-	
 }
 
 technology = {
@@ -237,7 +228,7 @@ technology = {
 	year = 1648
 	
 	naval_maintenance		= 	0.1	
-	range					=	50
+	range					=	400
 	
 	#navymanpower_lvl_3 = yes
 	#navyforcelimit_lvl_3 = yes
@@ -257,7 +248,6 @@ technology = {
 	trade_range				=	20
 	num_accepted_cultures = 1
 	
-	
 }
 
 technology = {
@@ -267,7 +257,6 @@ technology = {
 	
 	enable = chebeck
 	
-
 }
 
 technology = {
@@ -294,7 +283,6 @@ technology = {
 	range					=	150
 	allow_client_states = yes		
 	
-	
 	enable = heavy_frigate
 }
 
@@ -319,7 +307,6 @@ technology = {
 	
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
-	
 	enable = threedecker
 }
 
@@ -342,7 +329,6 @@ technology = {
 	naval_morale			=	0.5
 	naval_maintenance		= 	0.1
 	
-
 }
 
 technology = {
