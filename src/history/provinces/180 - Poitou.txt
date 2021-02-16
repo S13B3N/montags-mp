@@ -12,7 +12,7 @@ base_production = 4
 trade_goods = livestock
 base_manpower = 4
 add_core = BER
-fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

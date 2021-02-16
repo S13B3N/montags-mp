@@ -20,7 +20,7 @@ center_of_trade = 1
 
 
 1556.4.19 = { religion = protestant } # Ottheinrich converts the country to Calvinism
-1560.1.1 = { fort_15th = yes }
+1560.1.1 = {  }
 1631.12.22 = { controller = SWE }
 1635.1.1 = {
 	controller = MAI

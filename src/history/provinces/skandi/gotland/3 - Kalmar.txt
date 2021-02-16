@@ -12,7 +12,7 @@ trade_goods = naval_supplies
 base_manpower = 1
 capital = "Kalmar"
 is_city = yes
-fort_15th = yes # Kalmar Slott
+ # Kalmar Slott
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

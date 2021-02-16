@@ -17,7 +17,7 @@ base_manpower = 2
 is_city = yes
 add_core = OPL
 
-fort_15th = yes
+
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

@@ -13,7 +13,7 @@ base_manpower = 2
 is_city = yes
 add_core = TRA
 
-fort_15th = yes
+
 add_core = SLO
 discovered_by = KAZ
 discovered_by = CRI
@@ -45,7 +45,7 @@ discovered_by = ottoman
 	remove_core = HAB
 } # Kosice is united with Transylvania
 1670.1.1 = {
-	fort_15th = yes
+	
 }
 1682.1.1 = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # Occupied by Imrich Tokoli
 1685.10.15 = {

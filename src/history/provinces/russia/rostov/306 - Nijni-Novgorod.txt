@@ -11,7 +11,7 @@ trade_goods = copper
 base_manpower = 3
 capital = "Nizhny Novgorod"
 is_city = yes
-fort_15th = yes
+
 
 add_core = RSO
 discovered_by = GOL
@@ -30,7 +30,7 @@ center_of_trade = 2
 	remove_core = MOS
 	remove_core = NZH
 }
-1511.1.1 = { fort_15th = yes } #Huge Kremlin constructed
+1511.1.1 = {  } #Huge Kremlin constructed
 1560.1.1 = { base_tax = 7 base_production = 7 } # Treasury reform
 1598.1.7 = { unrest = 1 } # "Time of troubles", Nizhny Novgorod only city that supported Moscow
 1611.9.1 = { unrest = 0 } # Nizhegorod guard of Minin and Pozharsky to support Moscow
