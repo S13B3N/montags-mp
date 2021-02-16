@@ -10,6 +10,25 @@ ai_startup_bonus = {
 	max_absolutism = 50
 }
 
+ai_idea_bonus_no_alli = {
+	potential = {
+		ai = yes
+
+		not ={
+			is_year = 1460
+		}
+	}
+	trigger = {
+		ai = yes
+		not ={
+			is_year = 1460
+		}
+	}
+
+	diplomatic_upkeep = -10 
+}
+
+
 ai_idea_bonus_1 = {
 	potential = {
 		ai = yes
