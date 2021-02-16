@@ -670,6 +670,7 @@ exploration_ideas = {
 
 	bonus = {
 		cb_on_primitives = yes
+		range = 1.5
 	}
 
 	colonial_ventures = {

@@ -4799,7 +4799,7 @@ wehrpflicht0 = {
 	category = MIL
 
 	bonus = {
-		manpower_recovery_speed = 0.5
+		recover_army_morale_speed = 0.05
 	}
 		
 		trigger = {

@@ -819,7 +819,7 @@ l_english:
  dezentra0: "Decentralisation Ideas §G*§W"
  dezentra0_desc: "Our state is ruled decentrally."
  dezentra1: "General Expansion"
- dezentra1_desc: "The resources of the state are not concentrated in one area alone. Whole regions will profit. \nReduced Development malus for core provinces: §G-50%§W"
+ dezentra1_desc: "The resources of the state are not concentrated in one area alone. Whole regions will profit."
  dezentra2: "Decentralized Administration"
  dezentra2_desc: "Because of our big territory, we have to work in a decentralized way to govern."
  dezentra3: "Central Tax Administration"
