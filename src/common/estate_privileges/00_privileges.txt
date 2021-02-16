@@ -1037,34 +1037,10 @@ estate_nobles_french_strong_duchies = {
 	loyalty = 0.1
 	influence = 0.1
 	is_valid = {
-		AND = {
-			any_subject_country = {
-				is_march = yes
-			}
-			vassal = 100
-		}
+		vassal = 200
 	}
 	can_select = {
-		if = {
-			limit = {
-				has_dlc = "Art of War"
-			}
-			custom_trigger_tooltip = {
-				tooltip = estate_nobles_strong_duchies_trigger_tooltip
-				calc_true_if = {
-					amount = 200
-					all_subject_country = {
-						OR = {
-							is_march = yes
-							is_vassal = yes
-						}
-					}
-				}
-			}
-		}
-		else = {
-			vassal = 200
-		}
+		vassal = 200
 	}
 	penalties = {
 	}
