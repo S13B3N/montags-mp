@@ -12,6 +12,7 @@ trade_goods = grain
 base_manpower = 2
 capital = "Skara"
 is_city = yes
+center_of_trade = 1
  #"Domkyrkan i Skara"
 discovered_by = eastern
 discovered_by = western

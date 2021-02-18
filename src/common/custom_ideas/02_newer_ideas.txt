@@ -30,14 +30,6 @@ newer_idea_adm_modifiers = {
 			factor = 0
 		}
 	}
-	custom_monarch_admin_power = {
-		monarch_admin_power = 1
-		max_level = 1
-		level_cost_1 = 25
-		chance = {
-			factor = 0.1
-		}
-	}
 	custom_max_absolutism = {
 		max_absolutism = 5
 		max_level = 4
@@ -178,7 +170,7 @@ newer_idea_mil_modifiers = {
 		level_cost_1 = 5
 	}
 	custom_cav_to_inf_ratio = {
-		cav_to_inf_ratio = 0.125
+		cav_to_inf_ratio = 0.15
 		level_cost_2 = 3
 		level_cost_3 = 6
 		level_cost_4 = 10
@@ -189,14 +181,6 @@ newer_idea_mil_modifiers = {
 		max_level = 2
 		level_cost_1 = 10
 		level_cost_2 = 20
-	}
-	custom_monarch_military_power = {
-		monarch_military_power = 1
-		max_level = 1
-		level_cost_1 = 30
-		chance = {
-			factor = 0.1
-		}
 	}
 	custom_backrow_artillery_damage = {
 		backrow_artillery_damage = 0.025
@@ -216,31 +200,19 @@ newer_idea_mil_modifiers = {
 			factor = 0
 		}
 	}
-	custom_fire_damage_received = {
-		fire_damage_received = -0.025
-		level_cost_2 = 5
-		level_cost_3 = 15		
-		level_cost_4 = 30
-	}
-	custom_shock_damage_received = {
-		shock_damage_received = -0.025
-		level_cost_2 = 5
-		level_cost_3 = 15		
-		level_cost_4 = 30
-	}
 	custom_cavalry_flanking = {
 		cavalry_flanking = 0.25
 		max_level = 2
 		level_cost_2 = 10
 	}
 	custom_shock_damage = {
-		shock_damage = 0.025
+		shock_damage = 0.0375
 		level_cost_2 = 5
 		level_cost_3 = 15		
 		level_cost_4 = 30
 	}
 	custom_fire_damage = {
-		fire_damage = 0.025
+		fire_damage = 0.0375
 		level_cost_2 = 5
 		level_cost_3 = 15		
 		level_cost_4 = 30
@@ -340,14 +312,6 @@ newer_idea_dip_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18
 	}
-	custom_monarch_diplomatic_power = {
-		monarch_diplomatic_power = 1
-		max_level = 1
-		level_cost_1 = 30
-		chance = {
-			factor = 0.1
-		}
-	}
 	custom_liberty_desire_from_subject_development = {
 		liberty_desire_from_subject_development = -0.125
 		level_cost_2 = 3
@@ -370,20 +334,8 @@ newer_idea_dip_modifiers = {
 		max_level = 2
 		level_cost_2 = 5
 	}
-	custom_capture_ship_chance = {
-		capture_ship_chance = 0.1
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
-	}
 	custom_sunk_ship_morale_hit_recieved = {
 		sunk_ship_morale_hit_recieved = -0.1
-		level_cost_2 = 3
-		level_cost_3 = 9
-		level_cost_4 = 18
-	}
-	custom_global_naval_engagement_modifier = {
-		global_naval_engagement_modifier = 0.05
 		level_cost_2 = 3
 		level_cost_3 = 9
 		level_cost_4 = 18

@@ -10,6 +10,7 @@ base_production = 2
 trade_goods = livestock
 base_manpower = 2
 add_core = AMG
+center_of_trade = 1
 
 discovered_by = eastern
 discovered_by = western

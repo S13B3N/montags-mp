@@ -202,7 +202,7 @@ dip_idea_modifiers = {
 		}		
 	}	
 	custom_idea_naval_forcelimit_modifier = {
-		naval_forcelimit_modifier = 0.125
+		naval_forcelimit_modifier = 0.05
 		
 		# Used for random generation
 		chance = {
@@ -214,7 +214,7 @@ dip_idea_modifiers = {
 		}			
 	}	
 	custom_idea_ship_durability = {
-		ship_durability = 0.05
+		ship_durability = 0.0375
 		max_level = 4
 		level_cost_1 = 0
 		level_cost_2 = 3
@@ -552,14 +552,4 @@ dip_idea_modifiers = {
 			}
 		}			
 	}	
-	custom_idea_free_dip_policy = {
-		free_dip_policy = 1
-		max_level = 1
-		level_cost_1 = 15
-	}
-	custom_idea_possible_dip_policy = {
-		possible_dip_policy = 1
-		max_level = 1
-		level_cost_1 = 15
-	}
 }
