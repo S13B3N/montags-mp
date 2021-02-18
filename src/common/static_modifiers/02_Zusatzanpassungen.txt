@@ -13,7 +13,6 @@ arctic = {
 	supply_limit_modifier = -0.4
 	local_hostile_attrition = 1
 
-	allowed_num_of_buildings = -1
 	local_development_cost = 0.10
 
 	picture = "climate_arctic"
@@ -95,6 +94,15 @@ land_province = {
 	#province_trade_power_modifier = -0.66
 }
 
+########################################
+# Government/Reform modfiers
+########################################
+
+expand_administation_modifier = {
+	expand_administration_cost = 0
+	governing_capacity = 0
+}
+
 # At 100% over capacity, this modifier will be fully used
 over_governing_capacity_modifier = {
 	stability_cost_modifier = 1.0
@@ -104,4 +112,17 @@ over_governing_capacity_modifier = {
 	advisor_cost = 1.0
 	monthly_militarized_society = -1.0
 	all_power_cost	= 1.5
+}
+
+territory_core = {
+	local_tax_modifier = 0.75				#90% more in a core
+	local_manpower_modifier = 0.75			#75% more in a core
+	local_sailors_modifier = 0.75
+	local_missionary_strength = -0.02
+	min_local_autonomy = 90
+}
+
+territory_non_core = {
+	local_missionary_strength = -0.02
+	min_local_autonomy = 90
 }
