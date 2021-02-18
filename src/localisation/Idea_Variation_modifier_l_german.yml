@@ -333,6 +333,8 @@
  iv_building_16_6:0 "Unterirdische Versorgungslager Verteidigungsfähigkeit Malus"
  iv_idea_1:0 "Stadtentwicklung"
  iv_idea_1_desc:0 "Durch koordinierte Städteplanung können wir die Kosten deutlich verringern große Städte zu entwickeln."
+ iv_entiwcklung_fullgroup:0 "Stadtentwicklung"
+ iv_entiwcklung_fullgroup_desc:0 "Durch koordinierte Städteplanung können wir die Kosten deutlich verringern große Städte zu entwickeln."
  iv_govreform_expan_1:0 "Stetige Entwicklung"
  iv_govreform_expan_2:0 "Stetige Entwicklung"
  iv_govreform_expan_3:0 "Stetige Entwicklung"

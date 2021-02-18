@@ -288,6 +288,7 @@ dynasty0 = {
 	bonus = {
 		reduced_stab_impacts = yes
 		heir_chance = 0.5
+		reduced_liberty_desire = 0.1
 	}
 
 	
@@ -491,7 +492,7 @@ defensive_ideas = {
 	}
 	defensive_mentality = {
 		shock_damage_received = -0.05
-		defensiveness = 0.1
+		defensiveness = 0.2
 	}
 	supply_trains = {
 		reinforce_speed = 0.33
@@ -611,7 +612,7 @@ economic_ideas = {
 	category = ADM
 
 	bonus = {
-		development_cost = -0.2
+		development_cost = -0.15
 	}
 
 	bureaucracy = {
@@ -693,7 +694,7 @@ exploration_ideas = {
 		expel_minorities_cost = -0.25
 	}
 	global_empire = {
-		naval_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.15
 	}
 
 	ai_will_do = {
@@ -878,7 +879,7 @@ maritime_ideas = {
 
 	}
 	maritim3 = {
-		naval_forcelimit_modifier = 0.5
+		naval_forcelimit_modifier = 0.25
 		# <<WIKI>> add_building = navyforcelimit_lvl_2
 		# <<WIKI>> add_building = navyforcelimit_lvl_3
 		# <<WIKI>> add_building = navymanpower_lvl_2
@@ -891,7 +892,7 @@ maritime_ideas = {
 	}
 
 	maritim5 = {
-		admiral_cost = -0.9
+		admiral_cost = -0.5
 	}
 	maritim6 = {
 		global_ship_recruit_speed = -0.5

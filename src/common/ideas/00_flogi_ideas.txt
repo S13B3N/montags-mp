@@ -2926,7 +2926,7 @@ entwicklung0 = {
 	category = ADM
 
 	bonus = {
-		development_cost = -0.1
+		# <<WIKI>> iv_entiwcklung_fullgroup
 	}
 		
 	
@@ -3476,7 +3476,7 @@ gross0 = {
 		heavy_ship_cost = -0.2
 	}
 	gross2 = {
-		heavy_ship_power = 0.3
+		heavy_ship_power = 0.15
 	}
 	gross3 = {
 		global_ship_recruit_speed = -0.2
@@ -3490,7 +3490,7 @@ gross0 = {
 		ship_durability = 0.15
 	}
 	gross6 = {
-		naval_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.15
 		# <<WIKI>> add_building = navyforcelimit_lvl_2
 		# <<WIKI>> add_building = navyforcelimit_lvl_3
 	}
@@ -3570,9 +3570,8 @@ galle0 = {
 		
 	
 	galle1 = {
-		naval_forcelimit = 100
+		naval_forcelimit_modifier = 0.5
 		heavy_ship_cost = 0.5
-		# <<WIKI>> add_age_forcelimit_naval = 100
 		# <<WIKI>> add_building = navymanpower_lvl_2
 		# <<WIKI>> add_building = navymanpower_lvl_3
 	}
@@ -3667,7 +3666,7 @@ handel0 = {
 		transport_cost = -0.2
 	}
 	handel2 = {
-		light_ship_power = 0.2
+		global_trade_power = 0.15
 		transport_power = 0.2
 	}
 	handel3 = {
@@ -3680,7 +3679,7 @@ handel0 = {
 	}
 
 	handel5 = {
-		naval_forcelimit_modifier = 0.5
+		naval_forcelimit_modifier = 0.25
 		global_ship_trade_power = 0.25
 		# <<WIKI>> add_building = navymanpower_lvl_2
 		# <<WIKI>> add_building = navymanpower_lvl_3
@@ -3758,13 +3757,13 @@ kolonialimperium0 = {
 	kolonialimperium3 = {
 		global_manpower_modifier = 0.1
 		global_sailors_modifier = 0.1
-		# <<WIKI>> global_manpower_modifier = 0.05/Colonial Nation
+		# <<WIKI>> global_manpower_modifier = 0.025/Colonial Nation
 		# <<WIKI>> global_sailors_modifier = 0.05/Colonial Nation
 	}
 	
 	kolonialimperium6 = {
-		naval_forcelimit_modifier = 0.25
-		# <<WIKI>> naval_forcelimit_modifier = 0.05/Colonial Nation
+		naval_forcelimit_modifier = 0.15
+		# <<WIKI>> naval_forcelimit_modifier = 0.025/Colonial Nation
 	}
 
 	kolonialimperium5 = {
@@ -3943,7 +3942,7 @@ assimilation0 = {
 		
 	
 	assimilation1 = {
-		culture_conversion_cost = -0.5
+		culture_conversion_cost = -0.7
 	}
 	assimilation2 = {
 		diplomatic_annexation_cost = -0.25
@@ -3968,6 +3967,7 @@ assimilation0 = {
 	}
 	assimilation6 = {
 		shock_damage_received = -0.025
+		fire_damage_received = -0.025
 	}
 
 	
@@ -4144,7 +4144,7 @@ flottenbasis0 = {
 		
 	}
 	flottenbasis3 = {
-		naval_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.15
 	}
 	
 	flottenbasis1 = {
@@ -4164,6 +4164,7 @@ flottenbasis0 = {
 	}
 	flottenbasis6 = {
 		heavy_ship_power = 0.1
+		galley_power = 0.1
 	}
 	flottenbasis7 = {
 		global_ship_repair = 0.2
@@ -4246,12 +4247,12 @@ nationalismus0 = {
 
 	bonus = {
 		prestige = 1
+		land_morale = 0.05
 	}
 		
 	
 	nationalismus1 = {
-		war_exhaustion_cost = -0.25
-		# <<WIKI>> add_stand = estate_nationalist
+		war_exhaustion = -0.03
 	}
 
 	nationalismus3 = {
@@ -4339,8 +4340,7 @@ konigreich0 = {
 		# <<WIKI>> decision = konigreich_dec
 	}
 	konigreich2 = {
-		land_forcelimit = 3
-		# <<WIKI>> add_age_forcelimit_land = 3
+		land_forcelimit_modifier = 0.05
 	}
 	konigreich3 = {
 		development_cost = -0.1
@@ -4351,8 +4351,7 @@ konigreich0 = {
 	}
 
 	konigreich5 = {
-		naval_forcelimit = 20
-		# <<WIKI>> add_age_forcelimit_naval = 20
+		naval_forcelimit_modifier = 0.1
 	}
 	konigreich6 = {
 		reinforce_cost_modifier = -0.15
@@ -4443,9 +4442,10 @@ imperialismus0 = {
 		core_creation = -0.15
 	}
 	imperialismus2 = {
-		imperial_authority_value = 0.05
-		imperial_mandate = 0.05
-		# <<WIKI>> add_age_authority = 0.05
+		legitimacy = 1
+		horde_unity = 0.5
+		republican_tradition = 0.5
+		devotion = 0.5	
 	}
 	imperialismus3 = {
 		prestige_decay = -0.01
@@ -5411,11 +5411,12 @@ formation0 = {
 
 	bonus = {
 		leader_land_manuever = 1
+		siege_ability = 0.1
 	}
 		
 	
 	formation1 = {
-		movement_speed = 0.25
+		movement_speed = 0.3
 	}
 	formation2 = {
 		shock_damage = 0.1

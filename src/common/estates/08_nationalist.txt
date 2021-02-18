@@ -2,7 +2,8 @@ estate_nationalist = {
 	icon = 13
 	
 	trigger = {	
-		has_idea = nationalismus1
+		#has_idea = nationalismus1
+		always = no
 	}
 
 	country_modifier_happy = {

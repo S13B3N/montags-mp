@@ -31,6 +31,21 @@ iv_idea_1 = {
 	
 }
 
+iv_entiwcklung_fullgroup = {
+	potential = {
+		full_idea_group = entwicklung0
+	}
+
+	trigger = {
+		development = 30
+		owner = {
+			full_idea_group = entwicklung0
+		}
+	}
+
+	local_development_cost = -0.30
+}
+
 
 ###########################################
 # IV Galley Idea Province Building Modifier

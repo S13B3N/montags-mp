@@ -333,6 +333,8 @@
  iv_building_16_6:0 "Underground Supply Depot Defensiveness Malus"
  iv_idea_1:0 "Metropolis Planning"
  iv_idea_1_desc:0 "Planning really big cities requires experience and can be very costly. However we are experienced and won't make beginner mistakes."
+ iv_entiwcklung_fullgroup:0 "Metropolis Planning"
+ iv_entiwcklung_fullgroup_desc:0 "Planning really big cities requires experience and can be very costly. However we are experienced and won't make beginner mistakes."
  iv_govreform_expan_1:0 "Developing own Lands"
  iv_govreform_expan_2:0 "Developing own Lands"
  iv_govreform_expan_3:0 "Developing own Lands"
