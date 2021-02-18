@@ -1,6 +1,7 @@
 revolution = {
 	ended_by_country_breaking_to_rebels = no
 	potential = {
+		always = no
 		NOT = { has_country_flag = had_revolution }
 		NOT = { tag = PAP }
 		OR = {
@@ -32,6 +33,7 @@ revolution = {
 	
 	
 	can_start = {
+		always = no
 		current_age = age_of_revolutions
 		has_any_disaster = no
 		NOT = { stability = 2 }

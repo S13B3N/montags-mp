@@ -187,49 +187,49 @@ absolutism = {
 ############################################################
 
 large_colonial_nation_2 = {
-	land_forcelimit_modifier = 0.02
+	land_forcelimit_modifier = 0.01
 	naval_forcelimit_modifier = 0.02
 	global_tariffs = 0.03
 }
 
 large_colonial_nation_3 = {
-	land_forcelimit_modifier = 0.02
+	land_forcelimit_modifier = 0.01
 	naval_forcelimit_modifier = 0.02
 	global_tariffs = 0.03
 }
 
 large_colonial_nation_4 = {
-	land_forcelimit_modifier = 0.02
+	land_forcelimit_modifier = 0.01
 	naval_forcelimit_modifier = 0.02
 	global_tariffs = 0.03
 }
 
 large_colonial_nation_5 = {
-	land_forcelimit_modifier = 0.02
+	land_forcelimit_modifier = 0.01
 	naval_forcelimit_modifier = 0.02
 	global_tariffs = 0.03
 }
 
 large_colonial_nation_6 = {
-	land_forcelimit_modifier = 0.02
+	land_forcelimit_modifier = 0.01
 	naval_forcelimit_modifier = 0.02
 	global_tariffs = 0.03
 }
 
 large_colonial_nation_7 = {
-	land_forcelimit_modifier = 0.02
+	land_forcelimit_modifier = 0.01
 	naval_forcelimit_modifier = 0.02
 	global_tariffs = 0.03
 }
 
 large_colonial_nation_8 = {
-	land_forcelimit_modifier = 0.02
+	land_forcelimit_modifier = 0.01
 	naval_forcelimit_modifier = 0.02
 	global_tariffs = 0.03
 }
 
 large_colonial_nation_9 = {
-	land_forcelimit_modifier = 0.02
+	land_forcelimit_modifier = 0.01
 	naval_forcelimit_modifier = 0.02
 	global_tariffs = 0.03
 }

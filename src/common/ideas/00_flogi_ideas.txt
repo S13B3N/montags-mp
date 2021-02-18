@@ -4710,6 +4710,7 @@ soldnerheer0 = {
 	}
 		
 		trigger = {
+		always = no
 		NOT = {
 			has_idea_group = stehendesheer0
 			has_idea_group = wehrpflicht0 

@@ -819,7 +819,7 @@ barracks = {
 	make_obsolete = manpower_lvl_1
 	
 	modifier = {
-		local_manpower_modifier = 1.0
+		local_manpower_modifier = 0.75
 	}
 	
 	ai_will_do = {
@@ -835,7 +835,7 @@ training_fields = {
 	make_obsolete = barracks
 	
 	modifier = {
-		local_manpower_modifier = 1.5
+		local_manpower_modifier = 1.0
 		
 	}
 	
@@ -961,7 +961,7 @@ dock = {
 	
 	modifier = {
 	
-	naval_forcelimit = 2
+	naval_forcelimit = 1
 	ship_recruit_speed = -0.05
 	local_sailors_modifier = 0.5
 		
@@ -991,7 +991,7 @@ navymanpower_lvl_2 = {
 	
 	modifier = {
 	
-	naval_forcelimit = 4
+	naval_forcelimit = 2
 	ship_recruit_speed = -0.1
 	local_sailors_modifier = 0.75
 		
@@ -1020,7 +1020,7 @@ drydock = {
 	
 	modifier = {
 	
-	naval_forcelimit = 8
+	naval_forcelimit = 4
 	ship_recruit_speed = -0.15
 	local_sailors_modifier = 1.0
 		
@@ -1082,7 +1082,7 @@ navyforcelimit_lvl_2 = {
 	
 	modifier = {
 	
-	naval_forcelimit = 3
+	naval_forcelimit = 2
 	local_ship_repair = 0.1
 	local_sailors_modifier = 1.0
 		
@@ -1117,7 +1117,7 @@ grand_shipyard = {
 	
 	modifier = {
 	
-	naval_forcelimit = 6
+	naval_forcelimit = 3
 	local_ship_repair = 0.15
 	local_sailors_modifier = 1.5
 		
@@ -1155,7 +1155,7 @@ navalbase_lvl_1 = {
 		fort_level = 1
 		local_manpower = 0.5
 		local_sailors = 500
-		naval_forcelimit = 5
+		naval_forcelimit = 2
 		
 	}
 	
@@ -1184,7 +1184,7 @@ navalbase_lvl_2 = {
 		fort_level = 2
 		local_manpower = 0.75
 		local_sailors = 1000
-		naval_forcelimit = 10
+		naval_forcelimit = 5
 		
 	}
 	
