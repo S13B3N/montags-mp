@@ -136,8 +136,6 @@ courthouse = {
 	local_autonomy = -0.05
 	local_monthly_devastation = -0.05
 	#allowed_num_of_buildings = 1
-	statewide_governing_cost = -0.15
-		
 	}
 	
 	on_built = {
@@ -183,7 +181,6 @@ town_hall = {
 		local_autonomy = -0.1
 		local_monthly_devastation = -0.1
 		#allowed_num_of_buildings = 1
-		statewide_governing_cost = -0.30
 	}
 	
 	on_destroyed = {
@@ -219,8 +216,6 @@ government_lvl_3 = {
 		local_missionary_strength = 0.02
 		local_autonomy = -0.1
 		local_monthly_devastation = -0.15
-		statewide_governing_cost = -0.45
-		
 	}
 	
 	on_destroyed = {
@@ -255,7 +250,6 @@ government_lvl_4 = {
 		local_missionary_strength = 0.03
 		local_autonomy = -0.15
 		local_monthly_devastation = -0.2
-		statewide_governing_cost = -0.60	
 	}
 	
 	on_destroyed = {

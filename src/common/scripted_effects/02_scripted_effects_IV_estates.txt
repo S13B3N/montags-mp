@@ -4035,79 +4035,19 @@ rajput_scaled_to_fl = {
 
 
 iv_title_sale_1 = {
-		if = {
-            limit = { current_age = age_of_discovery }
-            add_years_of_estate_land_income = 1.25
-        }
-        else_if = {
-            limit = { current_age = age_of_reformation }
-            add_years_of_estate_land_income = 1.0
-        }
-        else_if = {
-            limit = { current_age = age_of_absolutism }
-            add_years_of_estate_land_income = 0.75
-        }
-        else_if = {
-            limit = { current_age = age_of_revolutions }
-            add_years_of_estate_land_income = 0.5
-        }
+	add_years_of_estate_land_income = 0.5
 }
 
 iv_title_sale_2 = {
-		if = {
-            limit = { current_age = age_of_discovery }
-            add_years_of_estate_land_income = 2.5
-        }
-        else_if = {
-            limit = { current_age = age_of_reformation }
-            add_years_of_estate_land_income = 2.0
-        }
-        else_if = {
-            limit = { current_age = age_of_absolutism }
-            add_years_of_estate_land_income = 1.5
-        }
-        else_if = {
-            limit = { current_age = age_of_revolutions }
-            add_years_of_estate_land_income = 1.0
-        }
+	add_years_of_estate_land_income = 1.0
 }
 
 iv_title_sale_3 = {
-		if = {
-            limit = { current_age = age_of_discovery }
-            add_years_of_estate_land_income = 3.75
-        }
-        else_if = {
-            limit = { current_age = age_of_reformation }
-            add_years_of_estate_land_income = 3.0
-        }
-        else_if = {
-            limit = { current_age = age_of_absolutism }
-            add_years_of_estate_land_income = 2.25
-        }
-        else_if = {
-            limit = { current_age = age_of_revolutions }
-            add_years_of_estate_land_income = 1.5
-        }
+    add_years_of_estate_land_income = 1.5
 }
 
 iv_title_sale_4 = {
-		if = {
-            limit = { current_age = age_of_discovery }
-            add_years_of_estate_land_income = 5.0
-        }
-        else_if = {
-            limit = { current_age = age_of_reformation }
-            add_years_of_estate_land_income = 4.0
-        }
-        else_if = {
-            limit = { current_age = age_of_absolutism }
-            add_years_of_estate_land_income = 3.0
-        }
-        else_if = {
-            limit = { current_age = age_of_revolutions }
-            add_years_of_estate_land_income = 2.0
-        }
+	add_years_of_estate_land_income = 2.0
 }
 
 

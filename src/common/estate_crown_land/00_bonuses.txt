@@ -130,7 +130,6 @@ bonus = {
         yearly_absolutism = 0.5
 		expand_administration_cost = -0.3
 		state_maintenance_modifier = -1.0
-		state_governing_cost = -0.05
 		autonomy_change_time = -0.3
     }
 }
@@ -145,7 +144,6 @@ bonus = {
         yearly_absolutism = 1
 		expand_administration_cost = -0.35
 		state_maintenance_modifier = -1.25
-		state_governing_cost = -0.1
 		autonomy_change_time = -0.35
     }
 }
@@ -159,7 +157,6 @@ bonus = {
         yearly_absolutism = 1
 		expand_administration_cost = -0.4
 		state_maintenance_modifier = -1.5
-		state_governing_cost = -0.15
 		autonomy_change_time = -0.4
     }
 }
@@ -173,7 +170,6 @@ bonus = {
         yearly_absolutism = 2
 		expand_administration_cost = -0.5
 		state_maintenance_modifier = -2.0
-		state_governing_cost = -0.25
 		autonomy_change_time = -0.5
     }
 }
@@ -187,7 +183,6 @@ bonus = {
         yearly_absolutism = 2
 		expand_administration_cost = -0.5
 		state_maintenance_modifier = -2.0
-		state_governing_cost = -0.25
 		autonomy_change_time = -0.5
     }
 }

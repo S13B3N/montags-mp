@@ -8231,28 +8231,6 @@ idea_variation_act_126 = {
 	}
 }
 
-idea_variation_act_127 = {
-
-	monarch_power = ADM
-
-	potential = {
-		has_idea_group = flottenbasis0
-		has_idea_group = administrative_ideas
-			
-	}
-	allow = {
-		full_idea_group = flottenbasis0
-		full_idea_group = administrative_ideas
-	}
-	
-	governing_capacity_modifier = 0.25
-	
-	ai_will_do = {
-		factor = 1
-		
-	}
-}
-
 idea_variation_act_128 = {
 
 	monarch_power = DIP
@@ -9474,39 +9452,6 @@ idea_variation_act_167 = {
 
 
 
-idea_variation_act_168 = {
-
-	monarch_power = ADM
-
-	potential = {
-		has_idea_group = nationalismus0
-		has_idea_group = justiz0
-			
-	}
-	allow = {
-		full_idea_group = nationalismus0
-		full_idea_group = justiz0
-	}
-	
-	governing_capacity_modifier = 0.25
-	
-	ai_will_do = {
-		factor = 1
-		modifier = {
-			factor = 0.75
-			NOT = { tax_income_percentage = 0.25 }
-		}			
-		modifier = {
-			factor = 1.5
-			tax_income_percentage = 0.45
-		}
-		modifier = {
-			factor = 1.5
-			tax_income_percentage = 0.7
-		}
-	}
-}
-
 idea_variation_act_169 = {
 
 	monarch_power = ADM
@@ -10537,35 +10482,6 @@ idea_variation_act_199 = {
 	}
 }
 
-idea_variation_act_200 = {
-
-	monarch_power = ADM
-
-	potential = {
-		has_idea_group = administrative_ideas
-		
-		OR = {
-		has_idea_group = konigreich0
-		has_idea_group = imperialismus0
-		}
-		
-		
-	}
-	allow = {
-		full_idea_group = administrative_ideas
-		OR = {
-		full_idea_group = imperialismus0
-		full_idea_group = konigreich0
-		}
-		
-	}
-	
-	governing_capacity_modifier = 0.25
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
 
 idea_variation_act_201 = {
 
