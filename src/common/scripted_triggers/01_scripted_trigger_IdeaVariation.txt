@@ -1022,3 +1022,26 @@ has_iv_gov_reform_vision_1 = {
 			}
 	}
 }
+
+has_too_many_landforcelimit = {
+	NOT={
+		calc_true_if = {
+			amount = 3
+		    has_active_policy = idea_variation_act_556
+		    has_active_policy = idea_variation_act_646
+		    has_active_policy = idea_variation_act_652
+		    has_active_policy = idea_variation_act_65
+		    has_active_policy = idea_variation_act_150
+		    has_active_policy = idea_variation_act_182
+		    has_active_policy = idea_variation_act_209
+		    has_active_policy = idea_variation_act_254
+		    has_active_policy = idea_variation_act_303
+		    has_active_policy = idea_variation_act_322
+		    has_active_policy = idea_variation_act_383
+		    has_active_policy = idea_variation_act_412
+		    has_active_policy = idea_variation_act_446
+		    has_active_policy = idea_variation_act_518
+		    has_active_policy = idea_variation_act_547
+		}
+	}
+}

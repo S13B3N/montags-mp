@@ -2686,7 +2686,7 @@ ibadi0 = {
 		same_culture_advisor_cost = -0.25
 	}
 	ibadi2 = {
-		development_cost = -0.1
+		cavalry_power = 0.075
 	}
 	ibadi3 = {
 		idea_cost = -0.075
@@ -2926,7 +2926,7 @@ entwicklung0 = {
 	category = ADM
 
 	bonus = {
-		# <<WIKI>> iv_entiwcklung_fullgroup
+		inflation_reduction = 0.05
 	}
 		
 	
@@ -2954,7 +2954,7 @@ entwicklung0 = {
 		# <<WIKI>> build_cost_in_subject_nation = -0.25
 	}
 	entwicklung7 = {
-		inflation_reduction = 0.05
+		# <<WIKI>> iv_entiwcklung_fullgroup
 	}
 	
 	ai_will_do = {

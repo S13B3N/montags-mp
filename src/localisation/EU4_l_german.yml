@@ -912,6 +912,7 @@
  PAPAL_GRANT:0 "Von $WHO$ beansprucht"
  PAPAL_GRANTED:0 "$COUNTRY$ wird ganz $COLONIAL_REGION$ zugeteilt."
  PAPAL_GRANT_ADVISE:0 "§YEs ist nicht ratsam, uns als katholisches Land hier niederzulassen, da hierdurch die Beziehungen sowohl zu $COUNTRY$ als auch zu $PAPALNATION$ strapaziert werden und es für uns schwieriger wird, Siedler anzulocken.§!"
+ small_colonial_nation:0 "Kleine Kolonialnation"
  large_colonial_nation:0 "Große Kolonialnation"
  START_PIRATEHUNT_MISSION:0 "Piraten jagen"
  START_PIRATEHUNT_MISSION_DESC:0 "Das Aussenden einer Flotte auf eine Piratenjagd verringert die Effizienz von Freibeutern an diesen Umschlagplätzen. Galeeren können nur in Binnenmeer jagen."

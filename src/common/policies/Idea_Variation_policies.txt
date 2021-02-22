@@ -18,6 +18,7 @@ idea_variation_act_556 = {
 	allow = {
 		full_idea_group = economic_ideas
 		full_idea_group = quantity_ideas
+		has_too_many_landforcelimit = yes
 	}		
 	
 	land_forcelimit_modifier = 0.15
@@ -3740,6 +3741,7 @@ idea_variation_act_646 = {
 	allow = {
 		full_idea_group = dynasty0
 		full_idea_group = quantity_ideas
+		has_too_many_landforcelimit = yes
 	}
 	
 	diplomatic_reputation = 1
@@ -3931,6 +3933,7 @@ idea_variation_act_652 = {
 	allow = {
 		full_idea_group = quantity_ideas
 		full_idea_group = expansion_ideas
+		has_too_many_landforcelimit = yes
 	}
 
 	land_forcelimit_modifier = 0.15		
@@ -5960,7 +5963,7 @@ idea_variation_act_55 = {
 		}	
 	}
 	
-	land_morale = 0.03
+	land_morale = 0.07
 	#diplomatic_annexation_cost = -0.15
 	
 	ai_will_do = {
@@ -6247,6 +6250,7 @@ idea_variation_act_65 = {
 	allow = {
 		full_idea_group = flottenbasis0
 		full_idea_group = festung0
+		has_too_many_landforcelimit = yes
 	}
 	
 	land_maintenance_modifier = -0.1
@@ -8942,6 +8946,7 @@ idea_variation_act_150 = {
 	allow = {
 		full_idea_group = propaganda0
 		full_idea_group = quantity_ideas
+		has_too_many_landforcelimit = yes
 	}
 	
 	naval_forcelimit_modifier = 0.15
@@ -9916,6 +9921,7 @@ idea_variation_act_182 = {
 	allow = {
 		full_idea_group = gesellschaft0
 		full_idea_group = quantity_ideas
+		has_too_many_landforcelimit = yes
 	}
 	
 	land_forcelimit_modifier = 0.10
@@ -10772,6 +10778,7 @@ idea_variation_act_209 = {
 		full_idea_group = konigreich0
 		}
 		
+		has_too_many_landforcelimit = yes
 	}
 	
 	land_maintenance_modifier = -0.1
@@ -11723,7 +11730,7 @@ idea_variation_act_241 = {
 
 idea_variation_act_242 = {
 
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = exploration_ideas
@@ -12007,6 +12014,7 @@ idea_variation_act_254 = {
 	allow = {
 		full_idea_group = influence_ideas 
 		full_idea_group = waffenqualitat0
+		has_too_many_landforcelimit = yes
 	}
 	
 	land_forcelimit_modifier = 0.10
@@ -12211,7 +12219,7 @@ idea_variation_act_261 = {
 
 idea_variation_act_263 = {
 
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = maritime_ideas
@@ -13497,6 +13505,7 @@ idea_variation_act_303 = {
 	allow = {
 		full_idea_group = stehendesheer0
 		full_idea_group = diktatur0
+		has_too_many_landforcelimit = yes
 	}
 	
 	land_forcelimit_modifier = 0.10
@@ -14100,6 +14109,7 @@ idea_variation_act_322 = {
 	allow = {
 		full_idea_group = wehrpflicht0
 		full_idea_group = entwicklung0
+		has_too_many_landforcelimit = yes
 	}
 	
 	land_forcelimit_modifier = 0.15
@@ -15179,7 +15189,7 @@ idea_variation_act_353 = {
 
 idea_variation_act_354 = {
 
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = republik0
@@ -16102,6 +16112,7 @@ idea_variation_act_383 = {
 	allow = {
 		full_idea_group = militarismus0
 		full_idea_group = republik0
+		has_too_many_landforcelimit = yes
 	}
 	
 	land_forcelimit_modifier = 0.15
@@ -16864,6 +16875,7 @@ idea_variation_act_412 = {
 	allow = {
 		full_idea_group = formation0
 		full_idea_group = republik0
+		has_too_many_landforcelimit = yes
 	}
 	
 	land_forcelimit_modifier = 0.10
@@ -17860,6 +17872,7 @@ idea_variation_act_446 = {
 	allow = {
 		full_idea_group = shock0
 		full_idea_group = exploration_ideas
+		has_too_many_landforcelimit = yes
 	}
 	
 	
@@ -17898,7 +17911,7 @@ idea_variation_act_447 = {
 
 idea_variation_act_448 = {
 
-	monarch_power = MIL				# Besonderer Fall
+	monarch_power = ADM				# Besonderer Fall
 
 	potential = {
 		has_idea_group = shock0
@@ -19773,6 +19786,7 @@ idea_variation_act_518 = {
 	allow = {
 		full_idea_group = zentra0
 		full_idea_group = stehendesheer0
+		has_too_many_landforcelimit = yes
 	}
 	
 	land_forcelimit_modifier = 0.15
@@ -20481,6 +20495,7 @@ idea_variation_act_547 = {
 	allow = {
 		full_idea_group = dezentra0
 		full_idea_group = stehendesheer0
+		has_too_many_landforcelimit = yes
 	}
 
 	land_forcelimit_modifier = 0.1

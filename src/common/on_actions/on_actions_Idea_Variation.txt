@@ -64,6 +64,7 @@ on_startup = {
 	every_province = {
 			
 			add_province_triggered_modifier = iv_idea_1
+			add_province_triggered_modifier = iv_entiwcklung_fullgroup
 			add_province_triggered_modifier = iv_gov_building_1
 			add_province_triggered_modifier = iv_gov_building_2
 			add_province_triggered_modifier = iv_gov_building_3
@@ -91,22 +92,10 @@ on_startup = {
 			add_province_triggered_modifier = iv_building_13_4
 			
 			add_province_triggered_modifier = iv_building_14_1_1
-			add_province_triggered_modifier = iv_building_14_1_2
-			add_province_triggered_modifier = iv_building_14_1_3
-			add_province_triggered_modifier = iv_building_14_1_4
-			add_province_triggered_modifier = iv_building_14_1_5
 			
 			add_province_triggered_modifier = iv_building_14_2_1
-			add_province_triggered_modifier = iv_building_14_2_2
-			add_province_triggered_modifier = iv_building_14_2_3
-			add_province_triggered_modifier = iv_building_14_2_4
-			add_province_triggered_modifier = iv_building_14_2_5
 			
 			add_province_triggered_modifier = iv_building_14_3_1
-			add_province_triggered_modifier = iv_building_14_3_2
-			add_province_triggered_modifier = iv_building_14_3_3
-			add_province_triggered_modifier = iv_building_14_3_4
-			add_province_triggered_modifier = iv_building_14_3_5
 			
 			add_province_triggered_modifier = iv_building_15_1
 			add_province_triggered_modifier = iv_building_15_2

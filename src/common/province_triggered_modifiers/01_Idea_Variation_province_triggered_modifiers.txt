@@ -33,13 +33,13 @@ iv_idea_1 = {
 
 iv_entiwcklung_fullgroup = {
 	potential = {
-		full_idea_group = entwicklung0
+		has_idea = entwicklung7
 	}
 
 	trigger = {
 		development = 30
 		owner = {
-			full_idea_group = entwicklung0
+			has_idea = entwicklung7
 		}
 	}
 
@@ -57,157 +57,17 @@ iv_building_14_1_1 = {
 
 	potential = {
 		has_idea = galle1
-		development = 10
 		has_building = dock
-		NOT = {
-			has_building = navymanpower_lvl_2
-			development = 20
-		}
-		
 	}
 
 	trigger = {
 		has_building = dock
-		development = 10
 		owner = {
 			has_idea = galle1
 		}
-		NOT = {
-			has_building = navymanpower_lvl_2
-			development = 20
-		}
-		
 	}
 
-	naval_forcelimit = 4
-	
-}
-
-iv_building_14_1_2 = {
-
-	picture = "galle_dock_1"
-
-	potential = {
-		has_idea = galle1
-		development = 20
-		has_building = dock
-		NOT = {
-			has_building = navymanpower_lvl_2
-			development = 30
-		}
-		
-	}
-
-	trigger = {
-		has_building = dock
-		development = 20
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-			has_building = navymanpower_lvl_2
-			development = 30
-		}
-		
-	}
-	
-	naval_forcelimit = 4
-	naval_forcelimit_modifier = 0.0025
-}
-
-iv_building_14_1_3 = {
-
-	picture = "galle_dock_1"
-
-	potential = {
-		has_idea = galle1
-		development = 30
-		has_building = dock
-		NOT = {
-			has_building = navymanpower_lvl_2
-			development = 40
-		}
-		
-	}
-
-	trigger = {
-		has_building = dock
-		development = 30
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-			has_building = navymanpower_lvl_2
-			development = 40
-		}
-		
-	}
-	
-	naval_forcelimit = 4
-	naval_forcelimit_modifier = 0.005
-}
-
-
-iv_building_14_1_4 = {
-
-	picture = "galle_dock_1"
-
-	potential = {
-		has_idea = galle1
-		development = 40
-		has_building = dock
-		NOT = {
-			has_building = navymanpower_lvl_2
-			development = 50
-		}
-		
-	}
-
-	trigger = {
-		has_building = dock
-		development = 40
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-			has_building = navymanpower_lvl_2
-			development = 50
-		}
-		
-	}
-	
-	naval_forcelimit = 4
-	naval_forcelimit_modifier = 0.0075
-}
-
-iv_building_14_1_5 = {
-
-	picture = "galle_dock_1"
-
-	potential = {
-		has_idea = galle1
-		development = 50
-		has_building = dock
-		NOT = {
-			has_building = navymanpower_lvl_2
-		}
-		
-	}
-
-	trigger = {
-		has_building = dock
-		development = 50
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-			has_building = navymanpower_lvl_2
-		}
-		
-	}
-	
-	naval_forcelimit = 4
-	naval_forcelimit_modifier = 0.01
+	naval_forcelimit = 2
 }
 
 iv_building_14_2_1 = {
@@ -216,161 +76,17 @@ iv_building_14_2_1 = {
 
 	potential = {
 		has_idea = galle1
-		development = 10
 		has_building = navymanpower_lvl_2
-		NOT = {
-			has_building = drydock
-			development = 20
-		}
-		
 	}
 
 	trigger = {
 		has_building = navymanpower_lvl_2
-		development = 10
 		owner = {
 			has_idea = galle1
 		}
-		NOT = {
-			has_building = drydock
-			development = 20
-		}
-		
 	}
 
-	naval_forcelimit = 8
-	naval_forcelimit_modifier = 0.005
-	
-}
-
-iv_building_14_2_2 = {
-
-	picture = "galle_dock_2"
-
-	potential = {
-		has_idea = galle1
-		development = 20
-		has_building = navymanpower_lvl_2
-		NOT = {
-			has_building = drydock
-			development = 30
-		}
-		
-	}
-
-	trigger = {
-		has_building = navymanpower_lvl_2
-		development = 20
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-			has_building = drydock
-			development = 30
-		}
-		
-	}
-
-	naval_forcelimit = 8
-	naval_forcelimit_modifier = 0.0075
-	
-}
-
-iv_building_14_2_3 = {
-
-	picture = "galle_dock_2"
-
-	potential = {
-		has_idea = galle1
-		development = 30
-		has_building = navymanpower_lvl_2
-		NOT = {
-			has_building = drydock
-			development = 40
-		}
-		
-	}
-
-	trigger = {
-		has_building = navymanpower_lvl_2
-		development = 30
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-			has_building = drydock
-			development = 40
-		}
-		
-	}
-
-	naval_forcelimit = 8
-	naval_forcelimit_modifier = 0.01
-	
-}
-
-iv_building_14_2_4 = {
-
-	picture = "galle_dock_2"
-
-	potential = {
-		has_idea = galle1
-		development = 40
-		has_building = navymanpower_lvl_2
-		NOT = {
-			has_building = drydock
-			development = 50
-		}
-		
-	}
-
-	trigger = {
-		has_building = navymanpower_lvl_2
-		development = 40
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-			has_building = drydock
-			development = 50
-		}
-		
-	}
-
-	naval_forcelimit = 8
-	naval_forcelimit_modifier = 0.0125
-	
-}
-
-iv_building_14_2_5 = {
-
-	picture = "galle_dock_2"
-
-	potential = {
-		has_idea = galle1
-		development = 50
-		has_building = navymanpower_lvl_2
-		NOT = {
-			has_building = drydock
-		}
-		
-	}
-
-	trigger = {
-		has_building = navymanpower_lvl_2
-		development = 50
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-			has_building = drydock
-		}
-		
-	}
-
-	naval_forcelimit = 8
-	naval_forcelimit_modifier = 0.015
-	
+	naval_forcelimit = 4
 }
 
 iv_building_14_3_1 = {
@@ -379,134 +95,18 @@ iv_building_14_3_1 = {
 
 	potential = {
 		has_idea = galle1
-		development = 10
-		has_building = drydock
-		NOT = {
-		development = 20
-		}
-	}
-
-	trigger = {
-		has_building = drydock
-		development = 10
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-		development = 20
-		}
-	}
-
-	naval_forcelimit = 16
-	naval_forcelimit_modifier = 0.0075
-}
-
-iv_building_14_3_2 = {
-
-	picture = "galle_dock_3"
-
-	potential = {
-		has_idea = galle1
-		development = 20
-		has_building = drydock
-		NOT = {
-		development = 30
-		}
-	}
-
-	trigger = {
-		has_building = drydock
-		development = 20
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-		development = 30
-		}
-	}
-
-	naval_forcelimit = 16
-	naval_forcelimit_modifier = 0.01
-}
-
-iv_building_14_3_3 = {
-
-	picture = "galle_dock_3"
-
-	potential = {
-		has_idea = galle1
-		development = 30
-		has_building = drydock
-		NOT = {
-		development = 40
-		}
-	}
-
-	trigger = {
-		has_building = drydock
-		development = 30
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-		development = 40
-		}
-	}
-
-	naval_forcelimit = 16
-	naval_forcelimit_modifier = 0.0125
-}
-
-iv_building_14_3_4 = {
-
-	picture = "galle_dock_3"
-
-	potential = {
-		has_idea = galle1
-		development = 40
-		has_building = drydock
-		NOT = {
-		development = 50
-		}
-	}
-
-	trigger = {
-		has_building = drydock
-		development = 40
-		owner = {
-			has_idea = galle1
-		}
-		NOT = {
-		development = 50
-		}
-	}
-
-	naval_forcelimit = 16
-	naval_forcelimit_modifier = 0.015
-}
-
-iv_building_14_3_5 = {
-
-	picture = "galle_dock_3"
-
-	potential = {
-		has_idea = galle1
-		development = 50
 		has_building = drydock
 	}
 
 	trigger = {
 		has_building = drydock
-		development = 50
 		owner = {
 			has_idea = galle1
 		}
 	}
 
-	naval_forcelimit = 16
-	naval_forcelimit_modifier = 0.0175
+	naval_forcelimit = 8
 }
-
 
 ###########################################
 # Government Buildings

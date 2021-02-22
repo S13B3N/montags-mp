@@ -912,6 +912,7 @@
  PAPAL_GRANT:0 "Claimed by $WHO$"
  PAPAL_GRANTED:0 "The entire $COLONIAL_REGION$ is granted to $COUNTRY$."
  PAPAL_GRANT_ADVISE:0 "§YIt is not advisable for us to settle here as a fellow Catholic country, since it will upset our relation with both $COUNTRY$ and $PAPALNATION$, as well as making it harder for us to attract settlers.§!"
+ small_colonial_nation:0 "Small Colonial Nation" 
  large_colonial_nation:0 "Large Colonial Nation"
  START_PIRATEHUNT_MISSION:0 "Hunt Pirates"
  START_PIRATEHUNT_MISSION_DESC:0 "Sending a fleet to hunt pirates will reduce the efficiency of Privateers in that Trade Node. Galleys can only hunt in inland seas."
