@@ -96,7 +96,6 @@ country_event = {
 		ai_chance = { factor = 90 }
 		if = {
 			limit = { tag = CAS }
-			create_union = ARA
 			add_opinion = {
 				who = ARA
 				modifier = spa_iberian_wedding
@@ -120,7 +119,6 @@ country_event = {
 		}
 		if = {
 			limit = { tag = ARA }
-			create_union = CAS
 			add_opinion = {
 				who = CAS
 				modifier = spa_iberian_wedding
@@ -1036,7 +1034,6 @@ country_event = {
 	option = {		# One King, Two Kingdoms
 		name = "flavor_spa.EVTOPTB3162"
 		ai_chance = { factor = 90 }
-		create_union = POR
 	}
 	option = {		# The extra burden is not worth it
 		name = "flavor_spa.EVTOPTC3162"
