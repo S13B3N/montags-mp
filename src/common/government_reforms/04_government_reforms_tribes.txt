@@ -29,7 +29,7 @@ steppe_horde = {
 	}
 	legacy_equivalent = steppe_horde_legacy
 	nomad = yes
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		technology_group = nomad_group
@@ -104,7 +104,7 @@ tribal_federation = {
 		has_reform = tribal_federation
 	}
 
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 20
 	legacy_equivalent = tribal_federation_legacy
 
@@ -131,7 +131,7 @@ tribal_federation = {
 tribal_despotism = {
 	icon = "tribal_council"
 	allow_normal_conversion = yes
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 0
 	modifiers = {
 		core_creation = -0.1
@@ -147,7 +147,7 @@ tribal_despotism = {
 
 tribal_kingdom = {
 	icon = "indian_crown"
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 0
 	legacy_equivalent = tribal_kingdom_legacy
 	modifiers = {
@@ -167,7 +167,7 @@ siberian_tribe = {
 	potential = {
 		has_reform = siberian_tribe
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = -10
 	legacy_equivalent = siberian_native_council
 	native_mechanic = no

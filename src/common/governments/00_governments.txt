@@ -4,10 +4,12 @@ monarchy = {
 	
 		monarchy_tier_1 = {
 			reforms = {
-				become_a_republic_reform
-				install_theocratic_government_reform
 				feudalism_reform
 				autocracy_reform
+
+				# switch reforms
+				become_a_republic_reform
+				install_theocratic_government_reform
 				
 				#Special 1
 				plutocratic_reform
@@ -1547,15 +1549,16 @@ republic = {
 		
 		republic_tier_1 = {
 			reforms = {
-				#Swith Reforms
-				proclaim_divine_guidance_reform
-				seize_executive_power_reform
-				
-				#republic_tier_1_1
 				oligarchy_reform
 				merchants_reform
 				pirate_republic_reform	
 				venice_merchants_reform
+
+				#Swith Reforms
+				proclaim_divine_guidance_reform
+				seize_executive_power_reform
+			
+				#republic_tier_1_1
 				noble_elite_reform
 				free_city
 				trading_city

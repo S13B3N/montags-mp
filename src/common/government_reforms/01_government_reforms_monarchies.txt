@@ -94,7 +94,7 @@ austrian_archduchy_reform = {
 	icon = "austrian_archduchy_reform"
 	allow_normal_conversion = yes
 	legacy_equivalent = austrian_archduchy
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	potential = {
 		OR = {
 			tag = HAB
@@ -129,7 +129,7 @@ grand_duchy_reform = {
 	}
 	legacy_equivalent = despotic_monarchy
 	fixed_rank = 1
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 10
 	modifiers = {
 		state_maintenance_modifier = -0.5
@@ -148,7 +148,7 @@ indian_sultanate_reform = {
 		}
 		religion_group = muslim
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		religion_group = muslim
@@ -189,7 +189,7 @@ shogunate = {
 			}
 		}
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 50
 	nation_designer_trigger = {
 		culture_group = japanese_g
@@ -225,7 +225,7 @@ daimyo = {
 	legacy_equivalent = daimyo_legacy
 	fixed_rank = 1
 	maintain_dynasty = yes
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 0
 	lock_level_when_selected = yes
 	nation_designer_trigger = {
@@ -262,7 +262,7 @@ indep_daimyo = {
 			}
 		}
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		culture_group = japanese_g
@@ -305,7 +305,7 @@ celestial_empire = {
 	legacy_equivalent = celestial_empire_legacy
 	maintain_dynasty = yes
 	allow_force_tributary = no
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 10
 	#lock_level_when_selected = yes
 	nation_designer_trigger = {
@@ -418,7 +418,7 @@ english_monarchy = {
 		have_had_reform = english_monarchy
 	}
 	#lock_level_when_selected = yes
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 15
 	nation_designer_trigger = {
 		has_dlc = "Common Sense"
@@ -462,7 +462,7 @@ ottoman_government = {
 			}
 		}
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 20
 	nation_designer_trigger = {
 		religion_group = muslim
@@ -515,7 +515,7 @@ prussian_monarchy = {
 			religion = reformed
 		}
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 100
 	legacy_equivalent = prussian_monarchy_legacy
 
@@ -545,7 +545,7 @@ austrian_dual_monarchy = {
 			have_had_reform = austrian_dual_monarchy
 		}
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 100
 	nation_designer_trigger = {
 		has_dlc = "Emperor"
@@ -576,7 +576,7 @@ principality = {
 	}
 	fixed_rank = 1
 	legacy_equivalent = principality_legacy
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 5
 	nation_designer_trigger = {
 		culture_group = east_slavic
@@ -617,7 +617,7 @@ tsardom = {
 	}
 	fixed_rank = 3
 	legacy_equivalent = tsardom_legacy
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 40
 
 	nation_designer_trigger = {
@@ -656,7 +656,7 @@ mamluk_government = {
 	legacy_equivalent = mamluk_government_legacy
 	queen = no
 
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 60
 
 	nation_designer_trigger = {
@@ -732,6 +732,7 @@ mughal_government = {
 	}
 	#lock_level_when_selected = yes
 	legacy_equivalent = feudal_monarchy
+	valid_for_nation_designer = no
 
 	modifiers = {
 		tolerance_own = 1
@@ -949,7 +950,7 @@ mandala_reform = {
 		}
 		technology_group = chinese
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		NOT = { religion = shinto }
@@ -986,7 +987,7 @@ nayankara_reform = {
 			primary_culture = sinhala
 		}
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 10
 	legacy_equivalent = feudal_monarchy
 	nation_designer_trigger = {
@@ -1017,7 +1018,7 @@ misl_confederacy_reform = {
 		has_dlc = "Dharma"
 		religion = sikhism
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		religion = sikhism
@@ -1041,7 +1042,7 @@ rajput_kingdom = {
 		NOT = { primary_culture = marathi }
 		technology_group = indian
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		OR = {
@@ -1065,7 +1066,7 @@ gond_kingdom = {
 		technology_group = indian
 		primary_culture = gondi
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 0
 	nation_designer_trigger = {
 		technology_group = indian

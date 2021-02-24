@@ -57,7 +57,7 @@ signoria_reform = {
 	allow_normal_conversion = yes
 	duration = 12
 	legacy_equivalent = signoria
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 0
 	royal_marriage = yes
 	potential = {
@@ -151,7 +151,7 @@ prussian_republic_reform = {
 			religion = reformed
 		}
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 100
 	legacy_equivalent = prussian_republic
 	
@@ -282,7 +282,7 @@ venice_merchants_reform = {
 		monarch_diplomatic_power = 2
 		monarch_military_power = 2
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 40
 	legacy_equivalent = venetian_merchant_republic
 	potential = {
@@ -357,7 +357,7 @@ pirate_republic_reform = {
 			crown_stronger_than_estate = { estate = all }
 		}
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 40
 	can_form_trade_league = no
 	
@@ -463,7 +463,7 @@ military_dictatorship_reform = {
 	potential = {
 		has_reform = military_dictatorship_reform
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	legacy_equivalent = military_dictatorship
 	has_term_election = no
 	modifiers = {
@@ -651,7 +651,7 @@ peasants_republic = {
 			have_had_reform = peasants_republic
 		}
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 20
 	legacy_equivalent = peasants_republic_legacy
 	modifiers = {
@@ -692,7 +692,7 @@ free_city = {
 		has_reform = free_city
 	}
 	legacy_equivalent = imperial_city
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	lock_level_when_selected = yes
 	nation_designer_cost = 40
 	nation_designer_trigger = {
@@ -788,7 +788,7 @@ ambrosian_republic = {
 		}
 	}
 	legacy_equivalent = ambrosian_republic_legacy
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 10
 	modifiers = {
 		global_tax_modifier = 0.1
@@ -827,7 +827,7 @@ veche_republic = {
 		merchants = 1
 		max_absolutism = -50
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 40
 
 	factions = {
@@ -940,7 +940,7 @@ american_republic = {
 			}
 		}
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 15
 	nation_designer_trigger = {
 		has_dlc = "American Dream"
@@ -986,7 +986,7 @@ federal_republic = {
 		}
 	}
 	legacy_equivalent = federal_republic_legacy
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 15
 	nation_designer_trigger = {
 		has_dlc = "American Dream"
@@ -1057,7 +1057,7 @@ dutch_republic = {
 		}
 	}
 	legacy_equivalent = dutch_republic_legacy
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 40
 	royal_marriage = yes
 	nation_designer_trigger = {
@@ -1140,7 +1140,7 @@ cossacks_reform = {
 		enables_theokratie_idea_group = no
 		enables_horde_idea_group = no
 	}
-	valid_for_nation_designer = yes
+	valid_for_nation_designer = no
 	nation_designer_cost = 60
 
 	modifiers = {
