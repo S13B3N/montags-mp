@@ -1,3 +1,15 @@
+ae_startup_bonus = {
+	potential = {
+		is_playing_custom_nation = yes
+	}
+	trigger = {
+		is_playing_custom_nation = yes
+	}
+	
+	ae_impact = -0.2
+}
+
+
 ai_startup_bonus = {
 	potential = {
 		ai = yes
@@ -15,17 +27,20 @@ ai_idea_bonus_no_alli = {
 		ai = yes
 
 		not ={
-			is_year = 1460
+			is_year = 1470
 		}
 	}
 	trigger = {
 		ai = yes
 		not ={
-			is_year = 1460
+			is_year = 1470
 		}
 	}
 
-	diplomatic_upkeep = -10 
+	#diplomatic_reputation = -25
+	#opinion = -5000
+	diplomatic_upkeep = -30
+	country_diplomatic_power = 26
 }
 
 

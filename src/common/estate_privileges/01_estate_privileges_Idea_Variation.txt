@@ -812,13 +812,13 @@ estate_priv_idea_variation_1_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_church
-		territory = 10
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_church
-		territory = 10
+		territory = 200
 		}
 	}
 	penalties = {
@@ -1628,13 +1628,13 @@ estate_priv_idea_variation_2_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_nobles
-		territory = 15
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_nobles
-		territory = 15
+		territory = 200
 		}
 	}
 	penalties = {
@@ -2537,14 +2537,14 @@ estate_priv_idea_variation_4_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_burghers
-		territory = 15
+		territory = 200
 		}
 	}
 
 	can_select = {
 		estate_territory = {
 		estate = estate_burghers
-		territory = 15
+		territory = 200
 		}
 	}
 
@@ -3469,13 +3469,13 @@ estate_priv_idea_variation_3_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_maratha
-		territory = 15
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_maratha
-		territory = 15
+		territory = 200
 		}
 	}
 	penalties = {
@@ -4378,13 +4378,13 @@ estate_priv_idea_variation_5_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_vaisyas
-		territory = 15
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_vaisyas
-		territory = 15
+		territory = 200
 		}
 	}
 	penalties = {
@@ -5312,13 +5312,13 @@ estate_priv_idea_variation_6_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_brahmins
-		territory = 15
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_brahmins
-		territory = 15
+		territory = 200
 		}
 	}
 	penalties = {
@@ -6245,13 +6245,13 @@ estate_priv_idea_variation_7_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_cossacks
-		territory = 15
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_cossacks
-		territory = 15
+		territory = 200
 		}
 	}
 	penalties = {
@@ -7156,13 +7156,13 @@ estate_priv_idea_variation_8_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_rajput
-		territory = 15
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_rajput
-		territory = 15
+		territory = 200
 		}
 	}
 	penalties = {
@@ -7896,13 +7896,13 @@ estate_priv_idea_variation_9_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_janissary
-		territory = 15
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_janissary
-		territory = 15
+		territory = 200
 		}
 	}
 	penalties = {
@@ -8535,13 +8535,13 @@ estate_priv_idea_variation_10_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_dhimmi
-		territory = 15
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_dhimmi
-		territory = 15
+		territory = 200
 		}
 	}
 	penalties = {
@@ -9176,13 +9176,13 @@ estate_priv_idea_variation_11_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_jains
-		territory = 15
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_jains
-		territory = 15
+		territory = 200
 		}
 	}
 	penalties = {
@@ -9905,13 +9905,13 @@ estate_priv_idea_variation_12_12 = {
 	is_valid = {
 		estate_territory = {
 		estate = estate_nationalist
-		territory = 15
+		territory = 200
 		}
 	}
 	can_select = {
 		estate_territory = {
 		estate = estate_nationalist
-		territory = 15
+		territory = 200
 		}
 		NOT = {	
 			estate_influence = {

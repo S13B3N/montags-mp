@@ -122,7 +122,7 @@ idea_variation_estate_13 = {
 }
 
 idea_variation_big_government_change = {
-	reform_progress_growth = -0.5
+	reform_progress_growth = 0
 }
 
 idea_variation_postpone_reform = {
