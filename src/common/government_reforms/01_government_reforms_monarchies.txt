@@ -71,7 +71,7 @@ plutocratic_reform = {
 		}
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 	modifiers = {
 		merchants = 1
 		nobles_influence_modifier = -0.05
@@ -391,7 +391,7 @@ iqta = {
 		religion_group = muslim
 	}
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 	nation_designer_trigger = {
 		religion_group = muslim
 	}

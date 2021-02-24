@@ -49,12 +49,11 @@ monastic_order_reform = {
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 	icon = "monks"
 	allow_normal_conversion = yes
 	legacy_equivalent = monastic_order_government
 	monastic = yes
-	fixed_rank = 1
 }
 
 papacy_reform = {
