@@ -466,9 +466,8 @@ theocracy_tier_2_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -488,9 +487,9 @@ theocracy_tier_2_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -508,10 +507,9 @@ theocracy_tier_2_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -551,7 +549,6 @@ theocracy_tier_2_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -1610,9 +1607,8 @@ theocracy_tier_3_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -1632,9 +1628,9 @@ theocracy_tier_3_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -1652,10 +1648,9 @@ theocracy_tier_3_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -1695,7 +1690,6 @@ theocracy_tier_3_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -3168,9 +3162,8 @@ theocracy_tier_4_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -3190,9 +3183,9 @@ theocracy_tier_4_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -3210,10 +3203,9 @@ theocracy_tier_4_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -3253,7 +3245,6 @@ theocracy_tier_4_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -4726,9 +4717,8 @@ theocracy_tier_5_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -4748,9 +4738,9 @@ theocracy_tier_5_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -4768,10 +4758,9 @@ theocracy_tier_5_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -4811,7 +4800,6 @@ theocracy_tier_5_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -6284,9 +6272,8 @@ theocracy_tier_6_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -6306,9 +6293,9 @@ theocracy_tier_6_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -6326,10 +6313,9 @@ theocracy_tier_6_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -6369,7 +6355,6 @@ theocracy_tier_6_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -7842,9 +7827,8 @@ theocracy_tier_7_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -7864,9 +7848,9 @@ theocracy_tier_7_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -7884,10 +7868,9 @@ theocracy_tier_7_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -7927,7 +7910,6 @@ theocracy_tier_7_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -9400,9 +9382,8 @@ theocracy_tier_8_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -9422,9 +9403,9 @@ theocracy_tier_8_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -9442,10 +9423,9 @@ theocracy_tier_8_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -9485,7 +9465,6 @@ theocracy_tier_8_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -10958,9 +10937,8 @@ theocracy_tier_9_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -10980,9 +10958,9 @@ theocracy_tier_9_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -11000,10 +10978,9 @@ theocracy_tier_9_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -11043,7 +11020,6 @@ theocracy_tier_9_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -12517,9 +12493,8 @@ theocracy_tier_10_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -12539,9 +12514,9 @@ theocracy_tier_10_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -12559,10 +12534,9 @@ theocracy_tier_10_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -12602,7 +12576,6 @@ theocracy_tier_10_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -14178,9 +14151,8 @@ theocracy_tier_11_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -14200,9 +14172,9 @@ theocracy_tier_11_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -14220,10 +14192,9 @@ theocracy_tier_11_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -14263,7 +14234,6 @@ theocracy_tier_11_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -15840,9 +15810,8 @@ theocracy_tier_12_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -15862,9 +15831,9 @@ theocracy_tier_12_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -15882,10 +15851,9 @@ theocracy_tier_12_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -15925,7 +15893,6 @@ theocracy_tier_12_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -17501,9 +17468,8 @@ theocracy_tier_13_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -17523,9 +17489,9 @@ theocracy_tier_13_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -17543,10 +17509,9 @@ theocracy_tier_13_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -17586,7 +17551,6 @@ theocracy_tier_13_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -19162,9 +19126,8 @@ theocracy_tier_14_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -19184,9 +19147,9 @@ theocracy_tier_14_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -19204,10 +19167,9 @@ theocracy_tier_14_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -19247,7 +19209,6 @@ theocracy_tier_14_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}
@@ -20823,9 +20784,8 @@ theocracy_tier_15_inner_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		
-		monarch_military_power = 3
-		land_maintenance_modifier = -0.075
+		missionaries = 1
+		prestige_per_development_from_conversion = 1
 		tolerance_heathen = -2
 		tolerance_heretic = -2
 	}
@@ -20845,9 +20805,9 @@ theocracy_tier_15_inner_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 3
-		num_accepted_cultures = 2
-		global_tax_modifier = 0.2
+		culture_conversion_cost = -0.4
+		expel_minorities_cost = -0.25
+		devotion = -0.5
 	}
 
 }
@@ -20865,10 +20825,9 @@ theocracy_tier_15_inner_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_admin_power = 1
-		monarch_diplomatic_power = 1
-		monarch_military_power = 1
-		devotion = 1
+		num_accepted_cultures = 2
+		tolerance_own = -2
+		global_unrest = -2
 	}
 
 }
@@ -20908,7 +20867,6 @@ theocracy_tier_15_inner_1_5 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		monarch_diplomatic_power = 3
 		diplomats = 1
 		merchants = 1
 	}

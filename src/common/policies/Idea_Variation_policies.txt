@@ -16074,6 +16074,7 @@ idea_variation_act_382 = {
 	monarch_power = MIL
 
 	potential = {
+		always = no
 		has_idea_group = militarismus0
 		OR = {
 		has_idea_group = aristo0
@@ -16083,6 +16084,7 @@ idea_variation_act_382 = {
 			
 	}
 	allow = {
+		always = no
 		full_idea_group = militarismus0
 		OR = {
 		full_idea_group = aristo0
@@ -16106,12 +16108,23 @@ idea_variation_act_383 = {
 
 	potential = {
 		has_idea_group = militarismus0
+		OR = {
+		has_idea_group = aristo0
+		has_idea_group = monarchie0
+		has_idea_group = horde0
 		has_idea_group = republik0
+		}
+
 		
 	}
 	allow = {
 		full_idea_group = militarismus0
-		full_idea_group = republik0
+		OR = {
+		has_idea_group = aristo0
+		has_idea_group = monarchie0
+		has_idea_group = horde0
+		has_idea_group = republik0
+		}
 		has_too_many_landforcelimit = yes
 	}
 	

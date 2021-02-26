@@ -58,23 +58,23 @@ idea_var_advisor_3 = {		# Architect
 	}
 }
 
-idea_var_advisor_4 = {		# Capitalist
-	monarch_power = ADM
-	
-	skill_scaled_modifier = {
-	meritocracy = 0.5
-	rat_1_3_burger_influence = 0.05
-	rat_2_3_burger_influence = 0.05
-	rat_3_3_burger_influence = 0.05
-	}
-	
-	# Bonus
-	development_cost = -0.1
-	
-	chance = {
-		factor = 1
-	}
-}
+#idea_var_advisor_4 = {		# Capitalist
+#	monarch_power = ADM
+#	
+#	skill_scaled_modifier = {
+#	meritocracy = 0.5
+#	rat_1_3_burger_influence = 0.05
+#	rat_2_3_burger_influence = 0.05
+#	rat_3_3_burger_influence = 0.05
+#	}
+#	
+#	# Bonus
+#	development_cost = -0.1
+#	
+#	chance = {
+#		factor = 1
+#	}
+#}
 
 idea_var_advisor_5 = {		# General staff officier
 	monarch_power = MIL

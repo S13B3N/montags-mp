@@ -944,44 +944,6 @@ zentra_manpower_3 = {
 	global_sailors = 3750
 }
 
-militarismus_manpower_1 = {
-	potential = {
-		has_idea_group = militarismus0
-		current_age = age_of_reformation
-	}
-	trigger = {
-		has_idea = militarismus4
-		current_age = age_of_reformation
-	}
-	global_manpower = 5.0
-}
-
-militarismus_manpower_2 = {
-	potential = {
-		has_idea_group = militarismus0
-		current_age = age_of_absolutism
-	}
-	trigger = {
-		has_idea = militarismus4
-		current_age = age_of_absolutism
-	}
-	global_manpower = 10.0
-}
-
-militarismus_manpower_3 = {
-	potential = {
-		has_idea_group = militarismus0
-		current_age = age_of_revolutions
-	}
-	trigger = {
-		has_idea = militarismus4
-		current_age = age_of_revolutions
-	}
-	global_manpower = 15.0
-}
-
-
-
 #kriegsprod_forcelimit_1 = {
 #	potential = {
 #		has_idea_group = kriegsproduktion0
@@ -1095,42 +1057,6 @@ militarismus_manpower_3 = {
 #	yearly_army_professionalism = -0.005
 #	
 #}
-
-shock_firedamage_1 = {
-	potential = {
-		has_idea_group = shock0
-		current_age = age_of_reformation
-	}
-	trigger = {
-		has_idea = shock1
-		current_age = age_of_reformation
-	}
-	fire_damage_received = -0.05
-}
-
-shock_firedamage_2 = {
-	potential = {
-		has_idea_group = shock0
-		current_age = age_of_absolutism
-	}
-	trigger = {
-		has_idea = shock1
-		current_age = age_of_absolutism
-	}
-	fire_damage_received = -0.1
-}
-
-shock_firedamage_3 = {
-	potential = {
-		has_idea_group = shock0
-		current_age = age_of_revolutions
-	}
-	trigger = {
-		has_idea = shock1
-		current_age = age_of_revolutions
-	}
-	fire_damage_received = -0.15
-}
 
 entwicklung_6_bonus = {
 	potential = {

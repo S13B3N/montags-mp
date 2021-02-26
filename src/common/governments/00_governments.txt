@@ -3136,13 +3136,13 @@ theocracy = {
 		
 		theocracy_tier_1 = {
 			reforms = {
-				crown_leader_reform
-				proclaim_republic_reform
 				papacy_reform
 				leading_clergy_reform
 				monastic_order_reform
 				holy_state_reform
 				united_cantons_reform
+				crown_leader_reform
+				proclaim_republic_reform
 			}
 		}
 		
@@ -3176,8 +3176,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_2_inner_1_1
-				theocracy_tier_2_inner_1_2
 				theocracy_tier_2_inner_1_3
+				theocracy_tier_2_inner_1_2
 				theocracy_tier_2_inner_1_4
 				theocracy_tier_2_inner_1_5
 
@@ -3251,8 +3251,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_3_inner_1_1
-				theocracy_tier_3_inner_1_2
 				theocracy_tier_3_inner_1_3
+				theocracy_tier_3_inner_1_2
 				theocracy_tier_3_inner_1_4
 				theocracy_tier_3_inner_1_5
 
@@ -3354,8 +3354,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_4_inner_1_1
-				theocracy_tier_4_inner_1_2
 				theocracy_tier_4_inner_1_3
+				theocracy_tier_4_inner_1_2
 				theocracy_tier_4_inner_1_4
 				theocracy_tier_4_inner_1_5
 
@@ -3455,8 +3455,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_5_inner_1_1
-				theocracy_tier_5_inner_1_2
 				theocracy_tier_5_inner_1_3
+				theocracy_tier_5_inner_1_2
 				theocracy_tier_5_inner_1_4
 				theocracy_tier_5_inner_1_5
 
@@ -3556,8 +3556,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_6_inner_1_1
-				theocracy_tier_6_inner_1_2
 				theocracy_tier_6_inner_1_3
+				theocracy_tier_6_inner_1_2
 				theocracy_tier_6_inner_1_4
 				theocracy_tier_6_inner_1_5
 
@@ -3657,8 +3657,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_7_inner_1_1
-				theocracy_tier_7_inner_1_2
 				theocracy_tier_7_inner_1_3
+				theocracy_tier_7_inner_1_2
 				theocracy_tier_7_inner_1_4
 				theocracy_tier_7_inner_1_5
 
@@ -3758,8 +3758,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_8_inner_1_1
-				theocracy_tier_8_inner_1_2
 				theocracy_tier_8_inner_1_3
+				theocracy_tier_8_inner_1_2
 				theocracy_tier_8_inner_1_4
 				theocracy_tier_8_inner_1_5
 
@@ -3859,8 +3859,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_9_inner_1_1
-				theocracy_tier_9_inner_1_2
 				theocracy_tier_9_inner_1_3
+				theocracy_tier_9_inner_1_2
 				theocracy_tier_9_inner_1_4
 				theocracy_tier_9_inner_1_5
 
@@ -3960,8 +3960,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_10_inner_1_1
-				theocracy_tier_10_inner_1_2
 				theocracy_tier_10_inner_1_3
+				theocracy_tier_10_inner_1_2
 				theocracy_tier_10_inner_1_4
 				theocracy_tier_10_inner_1_5
 
@@ -4067,8 +4067,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_11_inner_1_1
-				theocracy_tier_11_inner_1_2
 				theocracy_tier_11_inner_1_3
+				theocracy_tier_11_inner_1_2
 				theocracy_tier_11_inner_1_4
 				theocracy_tier_11_inner_1_5
 
@@ -4174,8 +4174,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_12_inner_1_1
-				theocracy_tier_12_inner_1_2
 				theocracy_tier_12_inner_1_3
+				theocracy_tier_12_inner_1_2
 				theocracy_tier_12_inner_1_4
 				theocracy_tier_12_inner_1_5
 
@@ -4281,8 +4281,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_13_inner_1_1
-				theocracy_tier_13_inner_1_2
 				theocracy_tier_13_inner_1_3
+				theocracy_tier_13_inner_1_2
 				theocracy_tier_13_inner_1_4
 				theocracy_tier_13_inner_1_5
 
@@ -4388,8 +4388,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_14_inner_1_1
-				theocracy_tier_14_inner_1_2
 				theocracy_tier_14_inner_1_3
+				theocracy_tier_14_inner_1_2
 				theocracy_tier_14_inner_1_4
 				theocracy_tier_14_inner_1_5
 
@@ -4495,8 +4495,8 @@ theocracy = {
 
 				# Domestic Policy
 				theocracy_tier_15_inner_1_1
-				theocracy_tier_15_inner_1_2
 				theocracy_tier_15_inner_1_3
+				theocracy_tier_15_inner_1_2
 				theocracy_tier_15_inner_1_4
 				theocracy_tier_15_inner_1_5
 
