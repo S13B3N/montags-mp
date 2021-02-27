@@ -31,7 +31,9 @@ color = { 44 130 117 }	# Grey-Green
 color = { 18 67 84 }	# Dark Grey-Blue
 color = { 46 110 176 }	# Pale Blue
 color = { 48 64 126 }   # Grey Blue
-color = { 246  223  15 } # Dark Blue
+color = { 246  223  15 } # Gold
+color = { 0 102 0 } # Irishgreen
+
 
 
 
