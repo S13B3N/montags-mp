@@ -74,22 +74,35 @@ on_startup = {
 			
 			#add_province_triggered_modifier = iv_test_building_6
 			
-			add_province_triggered_modifier = iv_building_11_1
-			add_province_triggered_modifier = iv_building_11_2
-			add_province_triggered_modifier = iv_building_11_3
-			add_province_triggered_modifier = iv_building_11_4
-			add_province_triggered_modifier = iv_building_11_5
+			add_province_triggered_modifier = iv_building_forcelimit_1
+			add_province_triggered_modifier = iv_building_forcelimit_2
+			add_province_triggered_modifier = iv_building_forcelimit_3
+			add_province_triggered_modifier = iv_building_forcelimit_4
+			add_province_triggered_modifier = iv_building_forcelimit_5
+			add_province_triggered_modifier = iv_building_forcelimit_6
+			add_province_triggered_modifier = iv_building_forcelimit_7
+			add_province_triggered_modifier = iv_building_forcelimit_8
+			add_province_triggered_modifier = iv_building_forcelimit_9
+			add_province_triggered_modifier = iv_building_forcelimit_10
+			add_province_triggered_modifier = iv_building_forcelimit_11
+			add_province_triggered_modifier = iv_building_forcelimit_12
+
+
+			#add_province_triggered_modifier = iv_building_11_1
+			#add_province_triggered_modifier = iv_building_11_2
+			#add_province_triggered_modifier = iv_building_11_3
+			#add_province_triggered_modifier = iv_building_11_4
+			#add_province_triggered_modifier = iv_building_11_5
 			
-			add_province_triggered_modifier = iv_building_12_1
-			add_province_triggered_modifier = iv_building_12_2
-			add_province_triggered_modifier = iv_building_12_3
-			add_province_triggered_modifier = iv_building_12_4
+			#add_province_triggered_modifier = iv_building_12_1
+			#add_province_triggered_modifier = iv_building_12_2
+			#add_province_triggered_modifier = iv_building_12_3
+			#add_province_triggered_modifier = iv_building_12_4
 			
-			
-			add_province_triggered_modifier = iv_building_13_1
-			add_province_triggered_modifier = iv_building_13_2
-			add_province_triggered_modifier = iv_building_13_3
-			add_province_triggered_modifier = iv_building_13_4
+			#add_province_triggered_modifier = iv_building_13_1
+			#add_province_triggered_modifier = iv_building_13_2
+			#add_province_triggered_modifier = iv_building_13_3
+			#add_province_triggered_modifier = iv_building_13_4
 			
 			add_province_triggered_modifier = iv_building_14_1_1
 			

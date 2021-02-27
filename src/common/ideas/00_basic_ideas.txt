@@ -288,7 +288,7 @@ dynasty0 = {
 	bonus = {
 		reduced_stab_impacts = yes
 		heir_chance = 0.5
-		reduced_liberty_desire = 1.0
+		reduced_liberty_desire = 10
 	}
 
 	
