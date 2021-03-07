@@ -1942,14 +1942,8 @@ iv_building_10_6 = {
 ###########################################
 # IV Land FL Buildings Tier 1
 ###########################################
-###########################################
-# IV Land FL Buildings Tier 2
-###########################################
-###########################################
-# IV Land FL Buildings Tier 3
-###########################################
 
-iv_building_forcelimit_1 = {
+forcelimit_lvl_1_1 = {
 
     picture = "land_fl_1"
 
@@ -1960,11 +1954,7 @@ iv_building_forcelimit_1 = {
             development = 10
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -1974,17 +1964,13 @@ iv_building_forcelimit_1 = {
             development = 10
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 0.15
 }
 
-iv_building_forcelimit_2 = {
+forcelimit_lvl_1_2 = {
 
     picture = "land_fl_1"
 
@@ -1995,11 +1981,7 @@ iv_building_forcelimit_2 = {
             development = 15
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -2009,17 +1991,13 @@ iv_building_forcelimit_2 = {
             development = 15
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 0.3
 }
 
-iv_building_forcelimit_3 = {
+forcelimit_lvl_1_3 = {
 
     picture = "land_fl_1"
 
@@ -2030,11 +2008,7 @@ iv_building_forcelimit_3 = {
             development = 20
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -2044,17 +2018,13 @@ iv_building_forcelimit_3 = {
             development = 20
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 0.45
 }
 
-iv_building_forcelimit_4 = {
+forcelimit_lvl_1_4 = {
 
     picture = "land_fl_1"
 
@@ -2065,11 +2035,7 @@ iv_building_forcelimit_4 = {
             development = 25
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -2079,17 +2045,13 @@ iv_building_forcelimit_4 = {
             development = 25
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 0.6
 }
 
-iv_building_forcelimit_5 = {
+forcelimit_lvl_1_5 = {
 
     picture = "land_fl_1"
 
@@ -2100,11 +2062,7 @@ iv_building_forcelimit_5 = {
             development = 30
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -2114,17 +2072,13 @@ iv_building_forcelimit_5 = {
             development = 30
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 0.75
 }
 
-iv_building_forcelimit_6 = {
+forcelimit_lvl_1_6 = {
 
     picture = "land_fl_1"
 
@@ -2135,11 +2089,7 @@ iv_building_forcelimit_6 = {
             development = 35
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -2149,17 +2099,13 @@ iv_building_forcelimit_6 = {
             development = 35
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 0.9
 }
 
-iv_building_forcelimit_7 = {
+forcelimit_lvl_1_7 = {
 
     picture = "land_fl_1"
 
@@ -2170,11 +2116,7 @@ iv_building_forcelimit_7 = {
             development = 40
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -2184,17 +2126,13 @@ iv_building_forcelimit_7 = {
             development = 40
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 1.05
 }
 
-iv_building_forcelimit_8 = {
+forcelimit_lvl_1_8 = {
 
     picture = "land_fl_1"
 
@@ -2205,11 +2143,7 @@ iv_building_forcelimit_8 = {
             development = 45
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -2219,17 +2153,13 @@ iv_building_forcelimit_8 = {
             development = 45
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 1.2
 }
 
-iv_building_forcelimit_9 = {
+forcelimit_lvl_1_9 = {
 
     picture = "land_fl_1"
 
@@ -2240,11 +2170,7 @@ iv_building_forcelimit_9 = {
             development = 50
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -2254,17 +2180,13 @@ iv_building_forcelimit_9 = {
             development = 50
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 1.35
 }
 
-iv_building_forcelimit_10 = {
+forcelimit_lvl_1_10 = {
 
     picture = "land_fl_1"
 
@@ -2275,11 +2197,7 @@ iv_building_forcelimit_10 = {
             development = 55
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -2289,17 +2207,13 @@ iv_building_forcelimit_10 = {
             development = 55
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 1.5
 }
 
-iv_building_forcelimit_11 = {
+forcelimit_lvl_1_11 = {
 
     picture = "land_fl_1"
 
@@ -2310,11 +2224,7 @@ iv_building_forcelimit_11 = {
             development = 60
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     trigger = {
@@ -2324,49 +2234,667 @@ iv_building_forcelimit_11 = {
             development = 60
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
-        }
+        has_building = forcelimit_lvl_1
     }
 
     land_forcelimit = 1.65
 }
 
-iv_building_forcelimit_12 = {
+forcelimit_lvl_1_12 = {
 
     picture = "land_fl_1"
 
     potential = {
         development = 60
+        has_building = forcelimit_lvl_1
+    }
+
+    trigger = {
+        development = 60
+        has_building = forcelimit_lvl_1
+    }
+
+    land_forcelimit = 1.8
+}
+
+###########################################
+# IV Land FL Buildings Tier 2
+###########################################
+
+regimental_camp_1 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 5
 
         NOT = {
-            development = 65
+            development = 10
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 5
+
+        NOT = {
+            development = 10
         }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 0.3
+}
+
+regimental_camp_2 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 10
+
+        NOT = {
+            development = 15
+        }
+
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 10
+
+        NOT = {
+            development = 15
+        }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 0.6
+}
+
+regimental_camp_3 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 15
+
+        NOT = {
+            development = 20
+        }
+
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 15
+
+        NOT = {
+            development = 20
+        }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 0.9
+}
+
+regimental_camp_4 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 20
+
+        NOT = {
+            development = 25
+        }
+
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 20
+
+        NOT = {
+            development = 25
+        }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 1.2
+}
+
+regimental_camp_5 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 25
+
+        NOT = {
+            development = 30
+        }
+
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 25
+
+        NOT = {
+            development = 30
+        }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 1.5
+}
+
+regimental_camp_6 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 30
+
+        NOT = {
+            development = 35
+        }
+
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 30
+
+        NOT = {
+            development = 35
+        }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 1.8
+}
+
+regimental_camp_7 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 35
+
+        NOT = {
+            development = 40
+        }
+
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 35
+
+        NOT = {
+            development = 40
+        }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 2.1
+}
+
+regimental_camp_8 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 40
+
+        NOT = {
+            development = 45
+        }
+
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 40
+
+        NOT = {
+            development = 45
+        }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 2.4
+}
+
+regimental_camp_9 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 45
+
+        NOT = {
+            development = 50
+        }
+
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 45
+
+        NOT = {
+            development = 50
+        }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 2.7
+}
+
+regimental_camp_10 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 50
+
+        NOT = {
+            development = 55
+        }
+
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 50
+
+        NOT = {
+            development = 55
+        }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 3.0
+}
+
+regimental_camp_11 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 55
+
+        NOT = {
+            development = 60
+        }
+
+        has_building = regimental_camp
+    }
+
+    trigger = {
+        development = 55
+
+        NOT = {
+            development = 60
+        }
+
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 3.3
+}
+
+regimental_camp_12 = {
+
+    picture = "land_fl_2"
+
+    potential = {
+        development = 60
+
+        has_building = regimental_camp
     }
 
     trigger = {
         development = 60
 
+        has_building = regimental_camp
+    }
+
+    land_forcelimit = 3.6
+}
+
+###########################################
+# IV Land FL Buildings Tier 3
+###########################################
+
+conscription_center_1 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 5
+
         NOT = {
-            development = 65
+            development = 10
         }
 
-        OR = {
-           has_building = forcelimit_lvl_1
-           has_building = regimental_camp
-           has_building = conscription_center
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 5
+
+        NOT = {
+            development = 10
         }
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 0.45
+}
+
+conscription_center_2 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 10
+
+        NOT = {
+            development = 15
+        }
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 10
+
+        NOT = {
+            development = 15
+        }
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 0.9
+}
+
+conscription_center_3 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 15
+
+        NOT = {
+            development = 20
+        }
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 15
+
+        NOT = {
+            development = 20
+        }
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 1.35
+}
+
+conscription_center_4 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 20
+
+        NOT = {
+            development = 25
+        }
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 20
+
+        NOT = {
+            development = 25
+        }
+
+        has_building = conscription_center
     }
 
     land_forcelimit = 1.8
+}
+
+conscription_center_5 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 25
+
+        NOT = {
+            development = 30
+        }
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 25
+
+        NOT = {
+            development = 30
+        }
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 2.25
+}
+
+conscription_center_6 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 30
+
+        NOT = {
+            development = 35
+        }
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 30
+
+        NOT = {
+            development = 35
+        }
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 2.7
+}
+
+conscription_center_7 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 35
+
+        NOT = {
+            development = 40
+        }
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 35
+
+        NOT = {
+            development = 40
+        }
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 3.15
+}
+
+conscription_center_8 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 40
+
+        NOT = {
+            development = 45
+        }
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 40
+
+        NOT = {
+            development = 45
+        }
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 3.6
+}
+
+conscription_center_9 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 45
+
+        NOT = {
+            development = 50
+        }
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 45
+
+        NOT = {
+            development = 50
+        }
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 4.05
+}
+
+conscription_center_10 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 50
+
+        NOT = {
+            development = 55
+        }
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 50
+
+        NOT = {
+            development = 55
+        }
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 4.45
+}
+
+conscription_center_11 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 55
+
+        NOT = {
+            development = 60
+        }
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 55
+
+        NOT = {
+            development = 60
+        }
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 4.9
+}
+
+conscription_center_12 = {
+
+    picture = "land_fl_3"
+
+    potential = {
+        development = 60
+
+        has_building = conscription_center
+    }
+
+    trigger = {
+        development = 60
+
+        has_building = conscription_center
+    }
+
+    land_forcelimit = 5.35
 }
 
 ###########################################

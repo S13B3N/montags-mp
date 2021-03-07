@@ -1124,7 +1124,6 @@ expansion_ideas = {
 	
 	expan6 = {
 		state_maintenance_modifier = -0.5
-		trade_company_governing_cost = -0.15
 	}
 	
 	expan7 = {

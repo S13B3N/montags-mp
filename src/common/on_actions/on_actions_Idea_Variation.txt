@@ -74,35 +74,44 @@ on_startup = {
 			
 			#add_province_triggered_modifier = iv_test_building_6
 			
-			add_province_triggered_modifier = iv_building_forcelimit_1
-			add_province_triggered_modifier = iv_building_forcelimit_2
-			add_province_triggered_modifier = iv_building_forcelimit_3
-			add_province_triggered_modifier = iv_building_forcelimit_4
-			add_province_triggered_modifier = iv_building_forcelimit_5
-			add_province_triggered_modifier = iv_building_forcelimit_6
-			add_province_triggered_modifier = iv_building_forcelimit_7
-			add_province_triggered_modifier = iv_building_forcelimit_8
-			add_province_triggered_modifier = iv_building_forcelimit_9
-			add_province_triggered_modifier = iv_building_forcelimit_10
-			add_province_triggered_modifier = iv_building_forcelimit_11
-			add_province_triggered_modifier = iv_building_forcelimit_12
+			add_province_triggered_modifier = forcelimit_lvl_1_1
+			add_province_triggered_modifier = forcelimit_lvl_1_2
+			add_province_triggered_modifier = forcelimit_lvl_1_3
+			add_province_triggered_modifier = forcelimit_lvl_1_4
+			add_province_triggered_modifier = forcelimit_lvl_1_5
+			add_province_triggered_modifier = forcelimit_lvl_1_6
+			add_province_triggered_modifier = forcelimit_lvl_1_7
+			add_province_triggered_modifier = forcelimit_lvl_1_8
+			add_province_triggered_modifier = forcelimit_lvl_1_9
+			add_province_triggered_modifier = forcelimit_lvl_1_10
+			add_province_triggered_modifier = forcelimit_lvl_1_11
+			add_province_triggered_modifier = forcelimit_lvl_1_12
 
+			add_province_triggered_modifier = regimental_camp_1
+			add_province_triggered_modifier = regimental_camp_2
+			add_province_triggered_modifier = regimental_camp_3
+			add_province_triggered_modifier = regimental_camp_4
+			add_province_triggered_modifier = regimental_camp_5
+			add_province_triggered_modifier = regimental_camp_6
+			add_province_triggered_modifier = regimental_camp_7
+			add_province_triggered_modifier = regimental_camp_8
+			add_province_triggered_modifier = regimental_camp_9
+			add_province_triggered_modifier = regimental_camp_10
+			add_province_triggered_modifier = regimental_camp_11
+			add_province_triggered_modifier = regimental_camp_12
 
-			#add_province_triggered_modifier = iv_building_11_1
-			#add_province_triggered_modifier = iv_building_11_2
-			#add_province_triggered_modifier = iv_building_11_3
-			#add_province_triggered_modifier = iv_building_11_4
-			#add_province_triggered_modifier = iv_building_11_5
-			
-			#add_province_triggered_modifier = iv_building_12_1
-			#add_province_triggered_modifier = iv_building_12_2
-			#add_province_triggered_modifier = iv_building_12_3
-			#add_province_triggered_modifier = iv_building_12_4
-			
-			#add_province_triggered_modifier = iv_building_13_1
-			#add_province_triggered_modifier = iv_building_13_2
-			#add_province_triggered_modifier = iv_building_13_3
-			#add_province_triggered_modifier = iv_building_13_4
+			add_province_triggered_modifier = conscription_center_1
+			add_province_triggered_modifier = conscription_center_2
+			add_province_triggered_modifier = conscription_center_3
+			add_province_triggered_modifier = conscription_center_4
+			add_province_triggered_modifier = conscription_center_5
+			add_province_triggered_modifier = conscription_center_6
+			add_province_triggered_modifier = conscription_center_7
+			add_province_triggered_modifier = conscription_center_8
+			add_province_triggered_modifier = conscription_center_9
+			add_province_triggered_modifier = conscription_center_10
+			add_province_triggered_modifier = conscription_center_11
+			add_province_triggered_modifier = conscription_center_12
 			
 			add_province_triggered_modifier = iv_building_14_1_1
 			

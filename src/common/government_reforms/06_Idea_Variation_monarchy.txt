@@ -13396,7 +13396,6 @@ monarchy_tier_10_vision_1_4 = {
 	trigger = {
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	fixed_rank = 3
 	
 	nation_designer_cost = 0
 	modifiers = {
@@ -15033,7 +15032,6 @@ monarchy_tier_11_vision_1_4 = {
 	trigger = {
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	fixed_rank = 3
 	
 	nation_designer_cost = 0
 	modifiers = {
@@ -16670,7 +16668,6 @@ monarchy_tier_12_vision_1_4 = {
 	trigger = {
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	fixed_rank = 3
 	
 	nation_designer_cost = 0
 	modifiers = {
@@ -18308,7 +18305,6 @@ monarchy_tier_13_vision_1_4 = {
 	trigger = {
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	fixed_rank = 3
 	
 	nation_designer_cost = 0
 	modifiers = {
@@ -19946,7 +19942,6 @@ monarchy_tier_14_vision_1_4 = {
 	trigger = {
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	fixed_rank = 3
 	
 	nation_designer_cost = 0
 	modifiers = {
@@ -21584,7 +21579,6 @@ monarchy_tier_15_vision_1_4 = {
 	trigger = {
 		NOT = { has_reform = revolutionary_empire_reform }
 	}
-	fixed_rank = 3
 	
 	nation_designer_cost = 0
 	modifiers = {

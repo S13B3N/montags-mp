@@ -36,6 +36,7 @@ color = { 0 102 0 } #33 Irishgreen
 color = { 218 218 218 } #34 phanto
 color = { 150  177  161 } #35 HRE
 color = { 064 224 208 } #36 oelfuss
+color = { 250  200  70 } #37 phanto 
 
 
 

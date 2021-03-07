@@ -856,7 +856,6 @@ forcelimit_lvl_1 = {
 	}
 	
 	modifier = {
-		land_forcelimit = 0.025	
 		regiment_recruit_speed = -0.1
 	}
 	
@@ -887,7 +886,6 @@ regimental_camp = {
 	make_obsolete = forcelimit_lvl_1
 	
 	modifier = {
-		land_forcelimit = 0.05
 		regiment_recruit_speed = -0.2
 	}
 	
@@ -918,7 +916,6 @@ conscription_center = {
 	make_obsolete = regimental_camp
 	
 	modifier = {
-	land_forcelimit = 0.075
 	regiment_recruit_speed = -0.3
 	
 	}

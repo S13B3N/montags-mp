@@ -3745,7 +3745,7 @@ kolonialimperium0 = {
 	}
 	
 	kolonialimperium1 = {
-		trade_company_governing_cost = -0.25
+		state_maintenance_modifier = -0.5
 	}
 	
 	kolonialimperium4 = {
@@ -3767,7 +3767,7 @@ kolonialimperium0 = {
 	}
 
 	kolonialimperium5 = {
-		build_cost = -0.01
+		build_cost = -0.1
 		# <<WIKI>> build_cost_in_colo_nation = -0.5
 	}
 	
