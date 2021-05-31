@@ -1,11 +1,17 @@
 ae_startup_bonus = {
 	potential = {
 		is_playing_custom_nation = yes
+		not ={
+			is_year = 1470
+		}
 	}
 	trigger = {
 		is_playing_custom_nation = yes
+		not ={
+			is_year = 1470
+		}
 	}
-	
+
 	ae_impact = -0.2
 }
 

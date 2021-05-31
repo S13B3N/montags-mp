@@ -1071,7 +1071,7 @@ dev_nerv_51 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.51
 }
 
 dev_nerv_52 = {
@@ -1092,7 +1092,7 @@ dev_nerv_52 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.52
 }
 
 dev_nerv_53 = {
@@ -1113,7 +1113,7 @@ dev_nerv_53 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.53
 }
 
 dev_nerv_54 = {
@@ -1134,7 +1134,7 @@ dev_nerv_54 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.54
 }
 
 dev_nerv_55 = {
@@ -1155,7 +1155,7 @@ dev_nerv_55 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.55
 }
 
 dev_nerv_56 = {
@@ -1176,7 +1176,7 @@ dev_nerv_56 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.56
 }
 
 dev_nerv_57 = {
@@ -1197,7 +1197,7 @@ dev_nerv_57 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.57
 }
 
 dev_nerv_58 = {
@@ -1218,7 +1218,7 @@ dev_nerv_58 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.58
 }
 
 dev_nerv_59 = {
@@ -1239,7 +1239,7 @@ dev_nerv_59 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.59
 }
 
 dev_nerv_60 = {
@@ -1260,7 +1260,7 @@ dev_nerv_60 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.6
 }
 
 dev_nerv_61 = {
@@ -1281,7 +1281,7 @@ dev_nerv_61 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.61
 }
 
 dev_nerv_62 = {
@@ -1302,7 +1302,7 @@ dev_nerv_62 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.62
 }
 
 dev_nerv_63 = {
@@ -1323,7 +1323,7 @@ dev_nerv_63 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.63
 }
 
 dev_nerv_64 = {
@@ -1344,7 +1344,7 @@ dev_nerv_64 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.64
 }
 
 dev_nerv_65 = {
@@ -1365,7 +1365,7 @@ dev_nerv_65 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.65
 }
 
 dev_nerv_66 = {
@@ -1386,7 +1386,7 @@ dev_nerv_66 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.66
 }
 
 dev_nerv_67 = {
@@ -1407,7 +1407,7 @@ dev_nerv_67 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.67
 }
 
 dev_nerv_68 = {
@@ -1428,7 +1428,7 @@ dev_nerv_68 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.68
 }
 
 dev_nerv_69 = {
@@ -1449,7 +1449,7 @@ dev_nerv_69 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.69
 }
 
 dev_nerv_70 = {
@@ -1470,7 +1470,7 @@ dev_nerv_70 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.7
 }
 
 dev_nerv_71 = {
@@ -1491,7 +1491,7 @@ dev_nerv_71 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.71
 }
 
 dev_nerv_72 = {
@@ -1512,7 +1512,7 @@ dev_nerv_72 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.72
 }
 
 dev_nerv_73 = {
@@ -1533,7 +1533,7 @@ dev_nerv_73 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.73
 }
 
 dev_nerv_74 = {
@@ -1554,7 +1554,7 @@ dev_nerv_74 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.74
 }
 
 dev_nerv_75 = {
@@ -1573,7 +1573,7 @@ dev_nerv_75 = {
       }
    }
 
-   development_cost = 0.5
+   development_cost = 0.75
 }
 
 ########################################
