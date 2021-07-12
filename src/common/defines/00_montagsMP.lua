@@ -45,3 +45,4 @@ NDefines.NNationDesigner.HEIR_BASE_AGE = 10
 NDefines.NNationDesigner.HEIR_MIN_AGE = 10
 NDefines.NNationDesigner.RULER_SKILL_COST_MODIFIER = 1
 NDefines.NMilitary.ARMY_ATTRITION_AT_SEA = 3
+NDefines.NMilitary.MERCENARY_COMPANY_MAX_REGIMENTS = 40

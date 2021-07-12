@@ -1,9 +1,7 @@
-version="0.01"
+version="1.31.x"
 tags={
-	"Balance"
 	"Gameplay"
-	"Trade"
 }
-name="Westlich von mir ist nur Nebel"
-supported_version="1.30.4"
-remote_file_id="2388842266"
+name="working_stage"
+supported_version="1.31.4"
+remote_file_id="2505211546"

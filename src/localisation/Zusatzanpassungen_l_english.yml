@@ -7,6 +7,8 @@
  condo_2:0 "Condottieri & Forcelimit MP Adjustment" 
  condo_3:0 "Condottieri & Forcelimit MP Adjustment" 
  condo_4:0 "Condottieri & Forcelimit MP Adjustment" 
+ government_rank_capacity_1:0 "Governing capacity from Kingdom-Rank" 
+ government_rank_capacity_2:0 "Governing capacity from Empire-Rank" 
  ausloeschung_bonus: "Elimination MP Team Bonus"
  festung_mechanik.1a:0 "Titel Modifier dazu"
  festung_mechanik.1b:0 "Beschreibung: Nicht sehen"

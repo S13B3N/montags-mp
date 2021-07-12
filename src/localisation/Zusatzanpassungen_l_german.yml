@@ -7,6 +7,8 @@
  condo_2:0 "Condottieri & Forcelimit MP Anpassung"
  condo_3:0 "Condottieri & Forcelimit MP Anpassung"
  condo_4:0 "Condottieri & Forcelimit MP Anpassung"
+ government_rank_capacity_1:0 "Regierungslimit von Königreich Rank" 
+ government_rank_capacity_2:0 "Regierungslimit von Kaiserreich Rank" 
  ausloeschung_bonus: "Auslöschungs MP Beziehungsbonus für Team"
  indian_elephant_american:0 "Amerikanische Doedis"
  festung_mechanik.1a:0 "Titel Modifier dazu"

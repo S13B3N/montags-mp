@@ -1948,20 +1948,20 @@ forcelimit_lvl_1_1 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 5
+        development = 3
 
         NOT = {
-            development = 10
+            development = 5
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 5
+        development = 3
 
         NOT = {
-            development = 10
+            development = 5
         }
 
         has_building = forcelimit_lvl_1
@@ -1975,20 +1975,20 @@ forcelimit_lvl_1_2 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 10
+        development = 5
 
         NOT = {
-            development = 15
+            development = 10
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 10
+        development = 5
 
         NOT = {
-            development = 15
+            development = 10
         }
 
         has_building = forcelimit_lvl_1
@@ -2002,20 +2002,20 @@ forcelimit_lvl_1_3 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 15
+        development = 10
 
         NOT = {
-            development = 20
+            development = 15
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 15
+        development = 10
 
         NOT = {
-            development = 20
+            development = 15
         }
 
         has_building = forcelimit_lvl_1
@@ -2029,20 +2029,20 @@ forcelimit_lvl_1_4 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 20
+        development = 15
 
         NOT = {
-            development = 25
+            development = 20
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 20
+        development = 15
 
         NOT = {
-            development = 25
+            development = 20
         }
 
         has_building = forcelimit_lvl_1
@@ -2056,20 +2056,20 @@ forcelimit_lvl_1_5 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 25
+        development = 20
 
         NOT = {
-            development = 30
+            development = 25
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 25
+        development = 20
 
         NOT = {
-            development = 30
+            development = 25
         }
 
         has_building = forcelimit_lvl_1
@@ -2083,20 +2083,20 @@ forcelimit_lvl_1_6 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 30
+        development = 25
 
         NOT = {
-            development = 35
+            development = 30
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 30
+        development = 25
 
         NOT = {
-            development = 35
+            development = 30
         }
 
         has_building = forcelimit_lvl_1
@@ -2110,20 +2110,20 @@ forcelimit_lvl_1_7 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 35
+        development = 30
 
         NOT = {
-            development = 40
+            development = 35
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 35
+        development = 30
 
         NOT = {
-            development = 40
+            development = 35
         }
 
         has_building = forcelimit_lvl_1
@@ -2137,20 +2137,20 @@ forcelimit_lvl_1_8 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 40
+        development = 35
 
         NOT = {
-            development = 45
+            development = 40
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 40
+        development = 35
 
         NOT = {
-            development = 45
+            development = 40
         }
 
         has_building = forcelimit_lvl_1
@@ -2164,20 +2164,20 @@ forcelimit_lvl_1_9 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 45
+        development = 40
 
         NOT = {
-            development = 50
+            development = 45
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 45
+        development = 40
 
         NOT = {
-            development = 50
+            development = 45
         }
 
         has_building = forcelimit_lvl_1
@@ -2191,20 +2191,20 @@ forcelimit_lvl_1_10 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 50
+        development = 45
 
         NOT = {
-            development = 55
+            development = 50
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 50
+        development = 45
 
         NOT = {
-            development = 55
+            development = 50
         }
 
         has_building = forcelimit_lvl_1
@@ -2218,20 +2218,20 @@ forcelimit_lvl_1_11 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 55
+        development = 50
 
         NOT = {
-            development = 60
+            development = 55
         }
 
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 55
+        development = 50
 
         NOT = {
-            development = 60
+            development = 55
         }
 
         has_building = forcelimit_lvl_1
@@ -2245,12 +2245,12 @@ forcelimit_lvl_1_12 = {
     picture = "land_fl_1"
 
     potential = {
-        development = 60
+        development = 55
         has_building = forcelimit_lvl_1
     }
 
     trigger = {
-        development = 60
+        development = 55
         has_building = forcelimit_lvl_1
     }
 
@@ -2266,20 +2266,20 @@ regimental_camp_1 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 5
+        development = 3
 
         NOT = {
-            development = 10
+            development = 5
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 5
+        development = 3
 
         NOT = {
-            development = 10
+            development = 5
         }
 
         has_building = regimental_camp
@@ -2293,20 +2293,20 @@ regimental_camp_2 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 10
+        development = 5
 
         NOT = {
-            development = 15
+            development = 10
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 10
+        development = 5
 
         NOT = {
-            development = 15
+            development = 10
         }
 
         has_building = regimental_camp
@@ -2320,20 +2320,20 @@ regimental_camp_3 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 15
+        development = 10
 
         NOT = {
-            development = 20
+            development = 15
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 15
+        development = 10
 
         NOT = {
-            development = 20
+            development = 15
         }
 
         has_building = regimental_camp
@@ -2347,20 +2347,20 @@ regimental_camp_4 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 20
+        development = 15
 
         NOT = {
-            development = 25
+            development = 20
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 20
+        development = 15
 
         NOT = {
-            development = 25
+            development = 20
         }
 
         has_building = regimental_camp
@@ -2374,20 +2374,20 @@ regimental_camp_5 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 25
+        development = 20
 
         NOT = {
-            development = 30
+            development = 25
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 25
+        development = 20
 
         NOT = {
-            development = 30
+            development = 25
         }
 
         has_building = regimental_camp
@@ -2401,20 +2401,20 @@ regimental_camp_6 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 30
+        development = 25
 
         NOT = {
-            development = 35
+            development = 30
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 30
+        development = 25
 
         NOT = {
-            development = 35
+            development = 30
         }
 
         has_building = regimental_camp
@@ -2428,20 +2428,20 @@ regimental_camp_7 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 35
+        development = 30
 
         NOT = {
-            development = 40
+            development = 35
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 35
+        development = 30
 
         NOT = {
-            development = 40
+            development = 35
         }
 
         has_building = regimental_camp
@@ -2455,20 +2455,20 @@ regimental_camp_8 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 40
+        development = 35
 
         NOT = {
-            development = 45
+            development = 40
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 40
+        development = 35
 
         NOT = {
-            development = 45
+            development = 40
         }
 
         has_building = regimental_camp
@@ -2482,20 +2482,20 @@ regimental_camp_9 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 45
+        development = 40
 
         NOT = {
-            development = 50
+            development = 45
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 45
+        development = 40
 
         NOT = {
-            development = 50
+            development = 45
         }
 
         has_building = regimental_camp
@@ -2509,20 +2509,20 @@ regimental_camp_10 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 50
+        development = 45
 
         NOT = {
-            development = 55
+            development = 50
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 50
+        development = 45
 
         NOT = {
-            development = 55
+            development = 50
         }
 
         has_building = regimental_camp
@@ -2536,20 +2536,20 @@ regimental_camp_11 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 55
+        development = 50
 
         NOT = {
-            development = 60
+            development = 55
         }
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 55
+        development = 50
 
         NOT = {
-            development = 60
+            development = 55
         }
 
         has_building = regimental_camp
@@ -2563,13 +2563,13 @@ regimental_camp_12 = {
     picture = "land_fl_2"
 
     potential = {
-        development = 60
+        development = 55
 
         has_building = regimental_camp
     }
 
     trigger = {
-        development = 60
+        development = 55
 
         has_building = regimental_camp
     }
@@ -2586,20 +2586,20 @@ conscription_center_1 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 5
+        development = 3
 
         NOT = {
-            development = 10
+            development = 5
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 5
+        development = 3
 
         NOT = {
-            development = 10
+            development = 5
         }
 
         has_building = conscription_center
@@ -2613,20 +2613,20 @@ conscription_center_2 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 10
+        development = 5
 
         NOT = {
-            development = 15
+            development = 10
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 10
+        development = 5
 
         NOT = {
-            development = 15
+            development = 10
         }
 
         has_building = conscription_center
@@ -2640,20 +2640,20 @@ conscription_center_3 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 15
+        development = 10
 
         NOT = {
-            development = 20
+            development = 15
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 15
+        development = 10
 
         NOT = {
-            development = 20
+            development = 15
         }
 
         has_building = conscription_center
@@ -2667,20 +2667,20 @@ conscription_center_4 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 20
+        development = 15
 
         NOT = {
-            development = 25
+            development = 20
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 20
+        development = 15
 
         NOT = {
-            development = 25
+            development = 20
         }
 
         has_building = conscription_center
@@ -2694,20 +2694,20 @@ conscription_center_5 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 25
+        development = 20
 
         NOT = {
-            development = 30
+            development = 25
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 25
+        development = 20
 
         NOT = {
-            development = 30
+            development = 25
         }
 
         has_building = conscription_center
@@ -2721,20 +2721,20 @@ conscription_center_6 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 30
+        development = 25
 
         NOT = {
-            development = 35
+            development = 30
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 30
+        development = 25
 
         NOT = {
-            development = 35
+            development = 30
         }
 
         has_building = conscription_center
@@ -2748,20 +2748,20 @@ conscription_center_7 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 35
+        development = 30
 
         NOT = {
-            development = 40
+            development = 35
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 35
+        development = 30
 
         NOT = {
-            development = 40
+            development = 35
         }
 
         has_building = conscription_center
@@ -2775,20 +2775,20 @@ conscription_center_8 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 40
+        development = 35
 
         NOT = {
-            development = 45
+            development = 40
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 40
+        development = 35
 
         NOT = {
-            development = 45
+            development = 40
         }
 
         has_building = conscription_center
@@ -2802,20 +2802,20 @@ conscription_center_9 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 45
+        development = 40
 
         NOT = {
-            development = 50
+            development = 45
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 45
+        development = 40
 
         NOT = {
-            development = 50
+            development = 45
         }
 
         has_building = conscription_center
@@ -2829,20 +2829,20 @@ conscription_center_10 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 50
+        development = 45
 
         NOT = {
-            development = 55
+            development = 50
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 50
+        development = 45
 
         NOT = {
-            development = 55
+            development = 50
         }
 
         has_building = conscription_center
@@ -2856,20 +2856,20 @@ conscription_center_11 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 55
+        development = 50
 
         NOT = {
-            development = 60
+            development = 55
         }
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 55
+        development = 50
 
         NOT = {
-            development = 60
+            development = 55
         }
 
         has_building = conscription_center
@@ -2883,13 +2883,13 @@ conscription_center_12 = {
     picture = "land_fl_3"
 
     potential = {
-        development = 60
+        development = 55
 
         has_building = conscription_center
     }
 
     trigger = {
-        development = 60
+        development = 55
 
         has_building = conscription_center
     }

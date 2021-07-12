@@ -1,3 +1,37 @@
+government_rank_capacity_1 = {
+	potential = {
+        government_rank = 2
+        adm_tech = 9
+        dip_tech = 9
+        mil_tech = 9
+	}
+	trigger = {
+        government_rank = 2
+        adm_tech = 9
+        dip_tech = 9
+        mil_tech = 9
+	}
+	
+	governing_capacity = 400
+}
+
+government_rank_capacity_2 = {
+	potential = {
+        government_rank = 3
+        adm_tech = 18
+        dip_tech = 18
+        mil_tech = 18
+	}
+	trigger = {
+        government_rank = 3
+        adm_tech = 18
+        dip_tech = 18
+        mil_tech = 18
+	}
+	
+	governing_capacity = 400
+}
+
 condo_1 = {
 	potential = {
 		current_age = age_of_discovery

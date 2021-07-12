@@ -21,7 +21,7 @@ idea_variation_act_556 = {
 		has_too_many_landforcelimit = yes
 	}		
 	
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.10
 
 	ai_will_do = {
 		factor = 1
@@ -3745,7 +3745,7 @@ idea_variation_act_646 = {
 	}
 	
 	diplomatic_reputation = 1
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.10
 
 	
 	ai_will_do = {
@@ -3936,7 +3936,7 @@ idea_variation_act_652 = {
 		has_too_many_landforcelimit = yes
 	}
 
-	land_forcelimit_modifier = 0.15		
+	land_forcelimit_modifier = 0.10
 	global_colonial_growth = 10
 
 	ai_will_do = {
@@ -6254,7 +6254,7 @@ idea_variation_act_65 = {
 	}
 	
 	land_maintenance_modifier = -0.1
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -7531,7 +7531,7 @@ idea_variation_act_105 = {
 
 idea_variation_act_106 = {
 
-	monarch_power = DIP 		# Besonderer Fall
+	monarch_power = MIL 		# Besonderer Fall
 
 	potential = {
 		has_idea_group = kriegsproduktion0
@@ -8134,7 +8134,7 @@ idea_variation_act_122 = {
 		full_idea_group = stehendesheer0
 	}
 	
-	#land_forcelimit_modifier = 0.15
+	#land_forcelimit_modifier = 0.10
 	discipline = 0.02
 	
 	ai_will_do = {
@@ -10782,7 +10782,7 @@ idea_variation_act_209 = {
 	}
 	
 	land_maintenance_modifier = -0.1
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -14112,7 +14112,7 @@ idea_variation_act_322 = {
 		has_too_many_landforcelimit = yes
 	}
 	
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -16128,7 +16128,7 @@ idea_variation_act_383 = {
 		has_too_many_landforcelimit = yes
 	}
 	
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -17889,7 +17889,7 @@ idea_variation_act_446 = {
 	}
 	
 	
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -19802,7 +19802,7 @@ idea_variation_act_518 = {
 		has_too_many_landforcelimit = yes
 	}
 	
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1

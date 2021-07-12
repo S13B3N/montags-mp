@@ -33,7 +33,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "close_button"
-			position = { x = 561 y = 11 }
+			position = { x = 514 y = -1 }
 			quadTextureSprite ="GFX_closebutton2"	
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"
@@ -167,7 +167,7 @@ guiTypes = {
 			name = "ideagroups_listbox_left"
 			backGround = ""
 			position = { x=25 y=243 }
-			size = { x=252 y=410 }
+			size = { x=270 y=420 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1.0
@@ -178,8 +178,8 @@ guiTypes = {
 		listboxType = {
 			name = "ideagroups_listbox_right"
 			backGround = ""
-			position = { x=305 y=243 }
-			size = { x=252 y=410 }
+			position = { x=276 y=243 }
+			size = { x=270 y=420 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1.0
@@ -258,8 +258,8 @@ guiTypes = {
 			listboxType = {
 				name = "adm_ideaunlockgroups_listbox"
 				backGround = ""
-				position = { x=18 y=80 }
-				size = { x=310 y=515 }
+				position = { x=26 y=63 }
+				size = { x=313 y=525 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1.5
@@ -269,8 +269,8 @@ guiTypes = {
 			listboxType = {
 				name = "dip_ideaunlockgroups_listbox"
 				backGround = ""
-				position = { x=341 y=80 }
-				size = { x=310 y=515 }
+				position = { x=344 y=63 }
+				size = { x=313 y=525 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1.5
@@ -280,8 +280,8 @@ guiTypes = {
 			listboxType = {
 				name = "mil_ideaunlockgroups_listbox"
 				backGround = ""
-				position = { x=665 y=80 }
-				size = { x=310 y=515 }
+				position = { x=663 y=63 }
+				size = { x=313 y=525 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1.5
@@ -619,7 +619,7 @@ guiTypes = {
 			maxWidth = 220
 			maxHeight = 32
 			format = centre
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}			
 	}	
 	

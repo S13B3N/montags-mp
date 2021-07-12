@@ -88,6 +88,7 @@ guiTypes = {
 			clicksound = click
 			text = ""
 		}
+
 		instantTextBoxType = {
 			name = "reform_upgrades_next"
 			position = { x=194 y=270 }
@@ -127,7 +128,7 @@ guiTypes = {
 			maxHeight = 32
 			format = center
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		smoothListboxType = {
@@ -145,7 +146,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				size = { x=507 y=638 }		#size = { x=507 y=638 }
+				size = { x=507 y=638 }
 			}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -176,1288 +177,6 @@ guiTypes = {
 			buttonText = "BACK"
 			buttonFont = "vic_18"
 			clicksound = back_click
-		}
-		
-		
-		###########################################################################
-		#####	Idea Variation Government Overview
-		###########################################################################
-		
-		
-		instantTextBoxType = {
-				name = "iv_gov_name_1_1"
-			if_resolution = {
-				max_height = 867
-				position = { x=2000 y=635 }
-			}
-			if_resolution = {
-				min_height = 868
-				max_height = 1047
-				position = { x=2000 y=788 }
-			}
-			if_resolution = {
-				min_height = 1048
-				position = { x=575 y=195 }
-			}
-				format = right
-				font = "vic_22"
-				maxWidth = 320 #220
-				maxHeight = 64	#32
-				Orientation = "UPPER_LEFT"
-				text = "IV_GOV_MON_1"			# Monarchy
-			}	
-			
-		
-		instantTextBoxType = {
-				name = "iv_gov_name_1_2"
-			if_resolution = {
-				max_height = 867
-				position = { x=2000 y=635 }
-			}
-			if_resolution = {
-				min_height = 868
-				max_height = 1047
-				position = { x=2000 y=788 }
-			}
-			if_resolution = {
-				min_height = 1048
-				position = { x=575 y=465 }
-			}
-				format = right
-				font = "vic_22"
-				maxWidth = 320 #220
-				maxHeight = 64	#32
-				Orientation = "UPPER_LEFT"
-				text = "IV_GOV_REP_1"            # Republic
-			}	
-		
-		instantTextBoxType = {
-				name = "iv_gov_name_1_3"
-				if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-				if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-				if_resolution = {
-					min_height = 1048
-				position = { x=575 y=730 }
-				}
-				format = right
-				font = "vic_22"
-				maxWidth = 320 #220
-				maxHeight = 64	#32
-				Orientation = "UPPER_LEFT"
-				text = "IV_GOV_THEO_1"            # Theocracy
-			}
-
-		instantTextBoxType = {
-				name = "iv_gov_name_1_4"
-				if_resolution = {
-					max_height = 867
-					position = { x=480 y=195 }
-				}
-				if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=550 y=195 }
-				}
-				if_resolution = {
-					min_height = 1048
-				position = { x=2000 y=788 }
-				}
-				format = right
-				font = "vic_22"
-				maxWidth = 320 #220
-				maxHeight = 64	#32
-				Orientation = "UPPER_LEFT"
-				text = "IV_GOV_GEN_1"            # General Tax
-			}		
-		
-		###########################################################################
-		#####	Monarchy
-		###########################################################################
-		
-		guiButtonType = {
-			name ="iv_gov_button_1"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 550 y = 275 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 550 y = 275 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 225 }
-				}
-			buttonText = "IV_BUT_1"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_1"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_2"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 550 y = 325 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 550 y = 325 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 250 }
-				}
-			buttonText = "IV_BUT_2"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_2"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_3"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 550 y = 225 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 550 y = 225 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 275 }
-				}
-			buttonText = "IV_BUT_3"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_3"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_4"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 550 y = 250 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 550 y = 250 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 300 }
-				}
-			buttonText = "IV_BUT_4"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_4"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_5"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 550 y = 300 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 550 y = 300 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 325 }
-				}
-			buttonText = "IV_BUT_5"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_5"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_9"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 550 y = 375 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 550 y = 375 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 350 }
-				}
-			buttonText = "IV_BUT_9"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_9"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_7"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 550 y = 350 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 550 y = 350 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 375 }
-				}
-			buttonText = "IV_BUT_7"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_7"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_8"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 550 y = 400 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 550 y = 400 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 400 }
-				}
-			buttonText = "IV_BUT_8"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_8"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_6"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 550 y = 425 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 550 y = 425 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 425 }
-				}
-			buttonText = "IV_BUT_6"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_6"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_10"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 745 y = 225 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 745 y = 225 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 275 }
-				}
-			buttonText = "IV_BUT_10"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_10"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_11"
-			quadTextureSprite ="button_type_7_1"
-			if_resolution = {
-					max_height = 867
-					position = { x= 745 y = 350 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 745 y = 350 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 350 }
-				}
-			buttonText = "IV_BUT_11"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_11"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_12"
-			quadTextureSprite ="button_type_7_1"
-			if_resolution = {
-					max_height = 867
-					position = { x= 745 y = 275 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 745 y = 275 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 325 }
-				}
-			buttonText = "IV_BUT_12"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_12"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_13"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x= 745 y = 250 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 745 y = 250 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 300 }
-				}
-			buttonText = "IV_BUT_13"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_13"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_14"
-			quadTextureSprite ="button_type_7_1"
-			if_resolution = {
-					max_height = 867
-					position = { x=717 y=448 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=717 y=448 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 945 y = 312 }
-				}
-			buttonText = "IV_BUT_14"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_14"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_1"
-			spriteType = "GFX_arrow_right_1"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x=695 y=345 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_2"
-			spriteType = "GFX_arrow_right_1"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x=695 y=320 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_3"
-			spriteType = "GFX_arrow_right_1"
-			if_resolution = {
-					max_height = 867
-					position = { x=695 y=220 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=695 y=220 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x=695 y=295 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_4"
-			spriteType = "GFX_arrow_right_1"
-			if_resolution = {
-					max_height = 867
-					position = { x=695 y=245 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=695 y=245 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x=695 y=270 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_13"
-			spriteType = "GFX_arrow_right_2"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x=885 y=262 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		###########################################################################
-		#####	Republic
-		###########################################################################
-		
-		guiButtonType = {
-			name ="iv_gov_button_15"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 490 }
-				}
-			buttonText = "IV_BUT_15"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_15"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_16"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 515 }
-				}
-			buttonText = "IV_BUT_16"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_16"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_17"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 540 }
-				}
-			buttonText = "IV_BUT_17"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_17"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_18"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 565 }
-				}
-			buttonText = "IV_BUT_18"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_18"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_19"
-			quadTextureSprite ="button_type_7"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 590 }
-				}
-			buttonText = "IV_BUT_19"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_19"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_23"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 615 }
-				}
-			buttonText = "IV_BUT_23"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_23"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_21"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 640 }
-				}
-			buttonText = "IV_BUT_21"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_21"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_22"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 665 }
-				}
-			buttonText = "IV_BUT_22"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_22"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_20"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 690 }
-				}
-			buttonText = "IV_BUT_20"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_20"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_24"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 540 }
-				}
-			buttonText = "IV_BUT_24"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_24"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_25"
-			quadTextureSprite ="button_type_7_3" 
-			if_resolution = {
-					max_height = 867
-					position = { x= 745 y = 375 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 745 y = 375 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 615 }
-				}
-			buttonText = "IV_BUT_25"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_25"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_26"
-			quadTextureSprite ="button_type_7_3" 
-			if_resolution = {
-					max_height = 867
-					position = { x= 745 y = 300 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 745 y = 300 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 590 }
-				}
-			buttonText = "IV_BUT_26"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_26"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_27"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 565 }
-				}
-			buttonText = "IV_BUT_27"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_27"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_28"
-			quadTextureSprite ="button_type_7_3"
-			if_resolution = {
-					max_height = 867
-					position = { x=717 y=473 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=717 y=473 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 945 y = 577 }
-				}
-			buttonText = "IV_BUT_28"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_28"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_5"
-			spriteType = "GFX_arrow_right_1"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x=695 y=610 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_6"
-			spriteType = "GFX_arrow_right_1"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x=695 y=585 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_7"
-			spriteType = "GFX_arrow_right_1"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x=695 y=560 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_8"
-			spriteType = "GFX_arrow_right_1"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x=695 y=535 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_14"
-			spriteType = "GFX_arrow_right_2"
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x=885 y=527 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		###########################################################################
-		#####	Theocracy
-		###########################################################################
-		
-		guiButtonType = {
-			name ="iv_gov_button_29"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 755 }
-				}
-			
-			buttonText = "IV_BUT_29"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_29"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_30"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 780 }
-				}
-			
-			buttonText = "IV_BUT_30"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_30"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_31"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 805 }
-				}
-			
-			buttonText = "IV_BUT_31"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_31"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_32"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 830 }
-				}
-			
-			buttonText = "IV_BUT_32"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_32"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_33"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 855 }
-				}
-			
-			buttonText = "IV_BUT_33"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_33"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_37"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 880 }
-				}
-			buttonText = "IV_BUT_37"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_37"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_35"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 905 }
-				}
-			
-			buttonText = "IV_BUT_35"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_35"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_36"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 930 }
-				}
-			
-			buttonText = "IV_BUT_36"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_36"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_34"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 550 y = 955 }
-				}
-			buttonText = "IV_BUT_34"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_34"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_38"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 805 }
-				}
-			buttonText = "IV_BUT_38"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_38"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_41"
-			quadTextureSprite ="button_type_7" 
-			if_resolution = {
-					max_height = 867
-					position = { x=2000 y=635 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=2000 y=788 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 830 }
-				}
-			buttonText = "IV_BUT_41"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_41"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_40"
-			quadTextureSprite ="button_type_7_2" 
-			if_resolution = {
-					max_height = 867
-					position = { x= 745 y = 325 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 745 y = 325 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 855 }
-				}
-			buttonText = "IV_BUT_40"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_40"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_39"
-			quadTextureSprite ="button_type_7_2" 
-			if_resolution = {
-					max_height = 867
-					position = { x= 745 y = 400 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x= 745 y = 400 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 745 y = 880 }
-				}
-			buttonText = "IV_BUT_39"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_39"
-		}
-		
-		guiButtonType = {
-			name ="iv_gov_button_42"
-			quadTextureSprite ="button_type_7_2"
-			if_resolution = {
-					max_height = 867
-					position = { x=717 y=498 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=717 y=498 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 945 y = 842 }
-				}
-			buttonText = "IV_BUT_42"
-			buttonFont = "vic_18"
-			pdx_tooltip = "IV_TT_GOV_42"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_9"
-			spriteType = "GFX_arrow_right_1"
-			position = { x=695 y=850 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_10"
-			spriteType = "GFX_arrow_right_1"
-			position = { x=695 y=825 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_11"
-			spriteType = "GFX_arrow_right_1"
-			position = { x=695 y=800 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_12"
-			spriteType = "GFX_arrow_right_1"
-			position = { x=695 y=875 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_15"
-			spriteType = "GFX_arrow_right_2"
-			position = { x=885 y=792 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_16"
-			spriteType = "GFX_arrow_right_3"
-			if_resolution = {
-					max_height = 867
-					position = { x=695 y=270 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=695 y=270 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 3000 y = 842 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_17"
-			spriteType = "GFX_arrow_right_3"
-			if_resolution = {
-					max_height = 867
-					position = { x=695 y=345 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=695 y=345 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 3000 y = 842 }
-				}
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name = "iv_gov_icon_18"
-			spriteType = "GFX_arrow_right_4"
-			if_resolution = {
-					max_height = 867
-					position = { x=862 y=215 }
-				}
-			if_resolution = {
-					min_height = 868
-					max_height = 1047
-					position = { x=862 y=215 }
-				}
-			if_resolution = {
-					min_height = 1048
-					position = { x= 3000 y = 842 }
-				}
-			Orientation = "UPPER_LEFT"
 		}
 
 	}
@@ -1586,6 +305,66 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "modifier_desc_3"
 			position = { x=453 y=53 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x=4 y=4}
+			text = ""
+			maxWidth = 64
+			maxHeight = 32
+			format = left
+		}
+
+		iconType = {
+			name = "modifier_icon_4"
+			position = { x=265 y=79 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+			quadTextureSprite ="GFX_event_bg_transparency"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_desc_4"
+			position = { x=293 y=83 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x=4 y=4}
+			text = ""
+			maxWidth = 64
+			maxHeight = 32
+			format = left
+		}
+
+		iconType = {
+			name = "modifier_icon_5"
+			position = { x=345 y=79 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+			quadTextureSprite ="GFX_event_bg_transparency"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_desc_5"
+			position = { x=373 y=83 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x=4 y=4}
+			text = ""
+			maxWidth = 64
+			maxHeight = 32
+			format = left
+		}
+
+		iconType = {
+			name = "modifier_icon_6"
+			position = { x=425 y=79 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+			quadTextureSprite ="GFX_event_bg_transparency"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_desc_6"
+			position = { x=453 y=83 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x=4 y=4}
@@ -1740,6 +519,66 @@ guiTypes = {
 			maxHeight = 32
 			format = left
 		}
+
+		iconType = {
+			name = "modifier_icon_4"
+			position = { x=270 y=79 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+			quadTextureSprite ="GFX_event_bg_transparency"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_desc_4"
+			position = { x=298 y=83 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x=4 y=4}
+			text = ""
+			maxWidth = 64
+			maxHeight = 32
+			format = left
+		}
+
+		iconType = {
+			name = "modifier_icon_5"
+			position = { x=350 y=79 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+			quadTextureSprite ="GFX_event_bg_transparency"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_desc_5"
+			position = { x=378 y=83 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x=4 y=4}
+			text = ""
+			maxWidth = 64
+			maxHeight = 32
+			format = left
+		}
+
+		iconType = {
+			name = "modifier_icon_6"
+			position = { x=430 y=79 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.5
+			quadTextureSprite ="GFX_event_bg_transparency"
+		}
+
+		instantTextBoxType = {
+			name = "modifier_desc_6"
+			position = { x=458 y=83 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x=4 y=4}
+			text = ""
+			maxWidth = 64
+			maxHeight = 32
+			format = left
+		}
 	}
 
 	################################################################################################
@@ -1780,7 +619,7 @@ guiTypes = {
 			spriteType = "GFX_reform_selected_frame"
 			position = { x=0 y=10 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 

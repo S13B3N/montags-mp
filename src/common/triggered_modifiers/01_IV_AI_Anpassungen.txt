@@ -1,53 +1,53 @@
-ae_startup_bonus = {
-	potential = {
-		is_playing_custom_nation = yes
-		not ={
-			is_year = 1470
-		}
-	}
-	trigger = {
-		is_playing_custom_nation = yes
-		not ={
-			is_year = 1470
-		}
-	}
+#ae_startup_bonus = {
+#	potential = {
+#		is_playing_custom_nation = yes
+#		not ={
+#			is_year = 1470
+#		}
+#	}
+#	trigger = {
+#		is_playing_custom_nation = yes
+#		not ={
+#			is_year = 1470
+#		}
+#	}
+#
+#	ae_impact = -0.2
+#}
 
-	ae_impact = -0.2
-}
 
+#ai_startup_bonus = {
+#	potential = {
+#		ai = yes
+#	}
+#	trigger = {
+#		ai = yes
+#	}
+#	idea_cost = -0.25
+#	global_autonomy = -0.1
+#	max_absolutism = 50
+#}
 
-ai_startup_bonus = {
-	potential = {
-		ai = yes
-	}
-	trigger = {
-		ai = yes
-	}
-	idea_cost = -0.25
-	global_autonomy = -0.1
-	max_absolutism = 50
-}
-
-ai_idea_bonus_no_alli = {
-	potential = {
-		ai = yes
-
-		not ={
-			is_year = 1470
-		}
-	}
-	trigger = {
-		ai = yes
-		not ={
-			is_year = 1470
-		}
-	}
-
-	#diplomatic_reputation = -25
-	#opinion = -5000
-	diplomatic_upkeep = -30
-	country_diplomatic_power = 26
-}
+#ai_idea_bonus_no_alli = {
+#	potential = {
+#		ai = yes
+#
+#		not ={
+#			is_year = 1470
+#		}
+#	}
+#	trigger = {
+#		ai = yes
+#		not ={
+#			is_year = 1470
+#		}
+#	}
+#
+#	#diplomatic_reputation = -25
+#	#opinion = -5000
+#	diplomatic_upkeep = -30
+#	country_diplomatic_power = 26
+#}
 
 
 ai_idea_bonus_1 = {

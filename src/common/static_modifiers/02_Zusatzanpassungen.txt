@@ -73,7 +73,7 @@ revolution_target = {
 }
 
 provincial_production_size = {
-	trade_goods_size = 0.2
+	trade_goods_size = 0.15
 	ship_recruit_speed = -0.01
 }
 
