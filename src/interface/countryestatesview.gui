@@ -172,7 +172,7 @@ guiTypes = {
 			track= "landslider_TrackButton"
 			leftbutton = "landslider_upButton"
 			rightbutton = "landslider_downButton"
-			size = {x =230 y =12 }
+			size = {x =500 y =12 } #x230
 			position = {x= 10 y =145}
 			priority = 100
 			borderSize = {x =16 y = 16}
@@ -213,6 +213,7 @@ guiTypes = {
 		}
 	}
 
+
 	windowType = {
 		name = "estate_dev_share_item"
 
@@ -245,9 +246,9 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "estate_items_gridbox"
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 50 }
 			size = { width = 500 height = 150 }
-			slotsize = { width = 250 height = 150 }
+			slotsize = { width = 250 height = 185 }
 			max_slots_horizontal = 3
 			format = "UPPER_LEFT"
 		}
@@ -257,7 +258,7 @@ guiTypes = {
 		name = "estate_privilege_item"
 		position = { x = 0 y = 0 }
 		show_position = { x = 0 y = 0 }
-		size = { x = 58 y = 64 }
+		size = { x = 64 y = 64 }
 		moveable = 0
 
 		guiButtonType = {

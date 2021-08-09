@@ -1,0 +1,9 @@
+
+# France-Brittany
+union = {
+	first = LIT
+	second = KIE
+	start_date = 1400.1.1
+	end_date = 1532.8.3
+}
+

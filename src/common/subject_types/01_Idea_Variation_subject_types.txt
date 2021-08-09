@@ -219,12 +219,12 @@ colony = {
 	decrease_tariffs = yes
 
 	# Modifiers:
-	modifier_overlord = {
-		modifier = small_colonial_nation
-		trigger = {
-			num_of_cities = 5
-		}
-	}
+#	modifier_overlord = {
+#		modifier = small_colonial_nation
+#		trigger = {
+#			num_of_cities = 5
+#		}
+#	}
 
 	modifier_overlord = {
 		modifier = large_colonial_nation

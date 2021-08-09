@@ -55,9 +55,9 @@ devotion = {
 	production_efficiency = 0.50
 }
 
-small_colonial_nation = {
-	reduced_liberty_desire = 10
-}
+#small_colonial_nation = {
+#	reduced_liberty_desire = 10
+#}
 
 large_colonial_nation = {
 	merchants = 1

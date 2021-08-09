@@ -14,34 +14,17 @@ country_event = {
 	id = idea_settings.1
 	title = "idea_settings.10"
 	desc = "idea_settings.11"
-	picture = BIG_BOOK_eventPicture   #### überprüfen
-
+	picture = BIG_BOOK_eventPicture   
+	
 	trigger = {
-		ai = no
-		NOT = { has_country_flag = idea_variation_tutorial_started }
-		NOT = { has_global_flag = idea_variation_voting_started }
+	NOT = { has_country_flag = idea_variation_tutorial_started }
 	}
+	
+	is_triggered_only = yes
 
-	mean_time_to_happen = { days = 0 }
-	
-	immediate = {
-		hidden_effect = {
-			set_country_flag = idea_variation_tutorial_started
-			every_country = {
-				limit = { 
-					NOT = { has_country_flag = idea_variation_tutorial_started }
-					ai = no
-				}
-				country_event = { id = idea_settings.1 }
-			}
-			country_event = { id = idea_settings.2 }
-		}
-	}
-	
 	option = { 
 		name = "idea_settings.12"
-		
-		
+		set_country_flag = idea_variation_tutorial_started
 	}
 }
 
@@ -54,39 +37,27 @@ country_event = {
 	title = "idea_settings.20"
 	desc = "idea_settings.21"
 	
-	
 	picture = BIG_BOOK_eventPicture
 
 	is_triggered_only = yes
 	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = { NOT = { has_global_flag = idea_variation_voting_started } }
-				set_global_flag = idea_variation_voting_started
-			}
-		}
-	}
 	
 	option = { 
-		name = "idea_settings.23"
-		hidden_effect = {
-		FRA = { change_variable = { which = diff_vote_no value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = diff_vote_yes value = -1 } } }
-		}
+		name = "idea_settings.23" # Hard Mode Off
+		
+		if = {
+				limit = { has_global_flag = hard_mode }
+				clr_global_flag = hard_mode
+			}
 		
 		country_event = { id = idea_settings.6 }
 	}
 	
 	option = { 
-		name = "idea_settings.22"
-		hidden_effect = {
-		FRA = { change_variable = { which = diff_vote_yes value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = diff_vote_no value = -1 } } }
-		}
+		name = "idea_settings.22" # Hard Mode On
+			
+		set_global_flag = hard_mode
 		custom_tooltip = hard_mode_ai_buff
-		
-		
 		
 		country_event = { id = idea_settings.6 }
 	}
@@ -108,37 +79,24 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = { NOT = { has_global_flag = idea_variation_voting_started } }
-				set_global_flag = idea_variation_voting_started
-			}
-		}
-	}
 	
 	option = { 
 		name = "idea_settings.63"
-		hidden_effect = {
-		FRA = { change_variable = { which = diff2_vote_no value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = diff2_vote_yes value = -1 } } }
-		}
 		
+		
+		if = {
+				limit = { has_global_flag = hard2_mode }
+				clr_global_flag = hard2_mode
+			}
 		
 		country_event = { id = idea_settings.3 }
 	}
 	
 	option = { 
 		name = "idea_settings.62"
-		hidden_effect = {
-		FRA = { change_variable = { which = diff2_vote_yes value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = diff2_vote_no value = -1 } } }
-		}
-		
-		
+
+		set_global_flag = hard2_mode
 		custom_tooltip = hard_mode_player_buff
-		
-		
 		
 		country_event = { id = idea_settings.3 }
 	}
@@ -158,32 +116,24 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = { NOT = { has_global_flag = idea_variation_voting_started } }
-				set_global_flag = idea_variation_voting_started
-			}
-		}
-	}
-	
 	option = { 
 		name = "idea_settings.32"
-		hidden_effect = {	
-		FRA = { change_variable = { which = development_yes value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = development_no value = -1 } } }
-		}
-		country_event = { id = idea_settings.7 }
 		
+		if = {
+				limit = { has_global_flag = setting_1 }
+				clr_global_flag = setting_1
+			}
+		
+		
+		country_event = { id = idea_settings.7 }
 	}
 
 	
 	option = { 
 		name = "idea_settings.33"
-		hidden_effect = {
-		FRA = { change_variable = { which = development_no value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = development_yes value = -1 } } }
-		}
+		
+		set_global_flag = setting_1
+		
 		country_event = { id = idea_settings.7 }
 	}
 	
@@ -203,179 +153,11 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = { NOT = { has_global_flag = idea_variation_voting_started } }
-				set_global_flag = idea_variation_voting_started
-			}
-		}
-	}
 	
 	option = { 
 		name = "idea_settings.72"
-		hidden_effect = {
-		FRA = { change_variable = { which = state_main_no value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = state_main_yes value = -1 } } }
-		}
-		country_event = { id = idea_settings.9 } #was country_event = { id = idea_settings.8 }
-	}
-
-	
-	option = {
-		name = "idea_settings.73"
-		hidden_effect = {	
-		FRA = { change_variable = { which = state_main_yes value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = state_main_no value = -1 } } }
-		}
-		country_event = { id = idea_settings.9 } #was country_event = { id = idea_settings.8 }
-	}
-	
-}
-
-
-##########################################
-#### No new Estate Interactions
-##########################################
-
-country_event = {
-	id = idea_settings.8
-	title = "idea_settings.80"
-	desc = "idea_settings.81"
-	
-	picture = BIG_BOOK_eventPicture
-
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = { NOT = { has_global_flag = idea_variation_voting_started } }
-				set_global_flag = idea_variation_voting_started
-			}
-		}
-	}
-	
-	option = { 
-		name = "idea_settings.82"
-		hidden_effect = {	
-		FRA = { change_variable = { which = estate_interaction_yes value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = estate_interaction_no value = -1 } } }
-		}
-		country_event = { id = idea_settings.9 }
-	}
-
-	
-	option = {
-		name = "idea_settings.83"
-		hidden_effect = {
-		FRA = { change_variable = { which = estate_interaction_no value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = estate_interaction_yes value = -1 } } }
-		}
-		country_event = { id = idea_settings.9 }
-	}
-	
-}
-
-##########################################
-#### MP Fortress Debuff
-##########################################
-
-country_event = {
-	id = idea_settings.9
-	title = "idea_settings.90"
-	desc = "idea_settings.91"
-	
-	picture = BIG_BOOK_eventPicture
-
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = { NOT = { has_global_flag = idea_variation_voting_started } }
-				set_global_flag = idea_variation_voting_started
-			}
-		}
-	}
-	
-	option = { 
-		name = "idea_settings.92"
-		hidden_effect = {	
-		FRA = { change_variable = { which = mp_fortress_debuff_yes value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = mp_fortress_debuff_no value = -1 } } }
-		}
-	}
-
-	
-	option = {
-		name = "idea_settings.93"
-		hidden_effect = {
-		FRA = { change_variable = { which = mp_fortress_debuff_no value = 1 } }
-		hidden_effect = { FRA = { change_variable = { which = mp_fortress_debuff_yes value = -1 } } }
-		}
-
-	}
-	
-}
-
-##########################################
-#### Zwischenevent
-##########################################
-
-
-country_event = {
-	id = idea_settings.4
-	title = "idea_settings.40"
-	desc = "idea_settings.41"
-	picture = BIG_BOOK_eventPicture
-	
-	fire_only_once = yes
-	hidden = yes
-	
-	trigger = {
-		tag = FRA
-		had_global_flag = { flag = idea_variation_voting_started days = 30 }
-	}
-	
-	immediate = {
 		
-		##
-		## Schwierigkeit
-		##
-		
-		
-		if = {
-			limit = { check_variable  = { which = diff_vote_yes value = 0 } }
-			set_global_flag = hard_mode
-		}
-		
-		
-		
-		if = {
-			limit = { check_variable  = { which = diff2_vote_yes value = 0 } }
-			set_global_flag = hard2_mode
-		}
-		
-		
-		
-		##
-		## Development
-		##
-		
-		if = {
-			limit = { check_variable  = { which = development_no value = 0 } }
-			set_global_flag = setting_1
-		}
-		
-		
-		##
-		## No State Maintenance for Buildings
-		##
-		
-		if = {
-			limit = { check_variable  = { which = state_main_no value = 0 } }
-			set_global_flag = no_building_state_maintenance
+		set_global_flag = no_building_state_maintenance
 			every_province = {
 			add_province_triggered_modifier = iv_building_1_1
 			add_province_triggered_modifier = iv_building_1_2
@@ -425,39 +207,63 @@ country_event = {
 			add_province_triggered_modifier = iv_building_10_6
 			
 			}
-		}
 		
-		##
-		## No new Estate Interactions
-		##
-		
-		#if = {
-		#	limit = { check_variable  = { which = estate_interaction_no value = 0 } }
-		#	set_global_flag = no_estate_interaction
-		#}
-		
-		##
-		## MP Fortress Debuff
-		##
-		
-		if = {
-			limit = { check_variable  = { which = mp_fortress_debuff_yes value = 1 } }
-			set_global_flag = iv_fortress_mp_debuff
-		}
-		
+		country_event = { id = idea_settings.9 } 
 	}
+
 	
-	mean_time_to_happen = { days = 1 }
-	
-	option = { # Ok
-		name = "idea_settings.42"
-		every_country = {
-			limit = { ai = no }
-			country_event = { id = idea_settings.5 }
-		}
+	option = {
+		name = "idea_settings.73"
+
+
+		if = {
+				limit = { has_global_flag = no_building_state_maintenance }
+				clr_global_flag = no_building_state_maintenance
+			}
+
+		country_event = { id = idea_settings.9 } 
+
 	}
 	
 }
+
+##########################################
+#### MP Fortress Debuff
+##########################################
+
+country_event = {
+	id = idea_settings.9
+	title = "idea_settings.90"
+	desc = "idea_settings.91"
+	
+	picture = BIG_BOOK_eventPicture
+
+	is_triggered_only = yes
+	
+	
+	option = { 
+		name = "idea_settings.92"
+
+		set_global_flag = iv_fortress_mp_debuff
+		
+		country_event = { id = idea_settings.5 } #Results 
+	}
+
+	
+	option = {
+		name = "idea_settings.93"
+		
+		if = {
+				limit = { has_global_flag = iv_fortress_mp_debuff }
+				clr_global_flag = iv_fortress_mp_debuff
+			}
+
+		country_event = { id = idea_settings.5 } #Results
+
+	}
+	
+}
+
 
 
 ##########################################
@@ -474,7 +280,6 @@ country_event = {
 	
 	
 	immediate = {
-	set_country_flag = idea_variation_tutorial_finish
 	
 		if = {
 			limit = { has_global_flag = hard_mode }
@@ -513,16 +318,6 @@ country_event = {
 			limit = { NOT = { has_global_flag = no_building_state_maintenance } }
 			custom_tooltip = no_setting_2
 		}
-		
-		#if = {
-		#	limit = { has_global_flag = no_estate_interaction }
-		#	custom_tooltip = no_setting_3
-		#}
-	
-		#if = {
-		#	limit = { NOT = { has_global_flag = no_estate_interaction } }
-		#	custom_tooltip = yes_setting_3
-		#}
 		
 		if = {
 			limit = { has_global_flag = iv_fortress_mp_debuff }
