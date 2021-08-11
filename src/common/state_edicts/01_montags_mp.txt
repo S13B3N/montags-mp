@@ -1,0 +1,212 @@
+montagsmp_state_edict_ship = {
+    potential = {
+        always = yes
+    }
+
+    allow = {
+        always = yes
+    }
+
+    modifier = {
+        ship_recruit_speed = -0.5
+        local_sailors_modifier = -0.3
+    }
+
+    color = {  49 15 240  }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+montagsmp_state_institution = {
+    potential = {
+        always = yes
+    }
+
+    allow = {
+        always = yes
+    }
+
+    modifier = {
+        local_institution_spread = 3.0
+        local_build_cost = 1.0
+    }
+
+    color = {  49 15 240  }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+montagsmp_state_statemaintenance = {
+    potential = {
+        always = yes
+    }
+
+    allow = {
+        always = yes
+    }
+
+    modifier = {
+        local_state_maintenance_modifier = -1.0
+        local_unrest = 5
+    }
+
+    color = {  49 15 240  }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+montagsmp_state_defensiveness = {
+    potential = {
+        always = yes
+    }
+
+    allow = {
+        always = yes
+    }
+
+    modifier = {
+        local_defensiveness = 0.35
+    }
+
+    color = {  49 15 240  }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+montagsmp_state_development = {
+    potential = {
+        always = yes
+    }
+
+    allow = {
+        always = yes
+    }
+
+    modifier = {
+        local_development_cost = -0.2
+        local_tax_modifier = -0.2
+        local_production_efficiency = -0.2
+    }
+
+    color = {  49 15 240  }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+montagsmp_state_unrest = {
+    potential = {
+        always = yes
+    }
+
+    allow = {
+        always = yes
+    }
+
+    modifier = {
+        local_unrest = -15
+        local_autonomy = 0.03
+    }
+
+    color = {  49 15 240  }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+montagsmp_state_manpower = {
+    potential = {
+        always = yes
+    }
+
+    allow = {
+        always = yes
+    }
+
+    modifier = {
+        local_manpower_modifier = 0.35
+        local_defensiveness = -0.5
+    }
+
+    color = {  49 15 240  }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+montagsmp_state_tradepower = {
+    potential = {
+        always = yes
+    }
+
+    allow = {
+        always = yes
+    }
+
+    modifier = {
+        province_trade_power_modifier = 0.8
+        local_manpower_modifier = -0.3
+        local_sailors_modifier  = -0.3
+    }
+
+    color = {  49 15 240  }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+montagsmp_state_religion = {
+    potential = {
+        always = yes
+    }
+
+    allow = {
+        always = yes
+    }
+
+    modifier = {
+        local_missionary_strength = 0.05
+        local_development_cost = 0.2
+    }
+
+    color = {  49 15 240  }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+
+montagsmp_state_structure = {
+    potential = {
+        always = yes
+    }
+
+    allow = {
+        always = yes
+    }
+
+    modifier = {
+        local_build_cost = -0.3
+        local_state_maintenance_modifier = 2.0
+    }
+
+    color = {  49 15 240  }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+

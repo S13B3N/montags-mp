@@ -7504,7 +7504,7 @@ guiTypes = {
 		name = "state_edict_entry"
 		backGround=""
 		position = { x=0 y=0 }
-		size = { x=300 y= 50 }
+		size = { x=300 y= 100 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -7533,7 +7533,7 @@ guiTypes = {
 			borderSize = {x = 2 y = 2}
 			text = "txtstuff"
 			maxWidth = 380
-			maxHeight = 20
+			maxHeight = 60
 			format = left
 		}
 
