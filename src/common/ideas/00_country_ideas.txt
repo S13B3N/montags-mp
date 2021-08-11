@@ -2032,12 +2032,12 @@ KOR_ideas = {
 
 BOH_ideas = {
 	start = {
-		imperial_authority = 0.10
-		advisor_cost = -0.1
+		land_morale = 0.10
+		improve_relation_modifier = 0.3
 	}
 	
 	bonus = {
-		leader_land_fire = 1
+		heir_chance = 0.50
 	}
 	
 	trigger = {
@@ -2046,26 +2046,29 @@ BOH_ideas = {
 	free = yes
 	
 	compacta_of_prague = {
-		tolerance_heretic = 3
+		imperial_authority = 0.1
+		diplomatic_annexation_cost = -0.15
 	}
 	boh_elective_monarchy = {
-		legitimacy = 1
+		global_garrison_growth = 0.15
+		fort_maintenance_modifier = -0.10
 	}
 	wagenburg = {
-		infantry_power = 0.10
-		shock_damage_received = -0.05
+		inflation_reduction = 0.05
+		interest = -1.0
 	}
 	letter_of_majesty = {
-		global_unrest = -1
+		diplomatic_reputation = 2
 	}
 	hussite_legacy = {
-		technology_cost = -0.1
+		global_missionary_strength = 0.02
 	}
 	kutnohorian_deal = {
-		stability_cost_modifier = -0.10
+		diplomatic_upkeep = 1
 	}
 	czech_nationalism = {
-		same_culture_advisor_cost = -0.25
+		reinforce_speed = 0.3
+		discipline = 0.03
 	}
 }
 
