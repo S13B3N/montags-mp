@@ -22,9 +22,9 @@ center_of_trade = 1
 
 
 1409.7.25 = {
-	owner = ARA
-	controller = ARA
-	add_core = ARA
+	owner = NAP
+	controller = NAP
+	add_core = NAP
 } # Martin I inherits Sicily from his son
 1516.1.23 = {	owner = SPA
 	controller = SPA
