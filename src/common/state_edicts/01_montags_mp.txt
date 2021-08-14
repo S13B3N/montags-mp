@@ -51,6 +51,7 @@ montagsmp_state_statemaintenance = {
 
     modifier = {
         local_state_maintenance_modifier = -1.0
+        local_autonomy = -0.05
         local_unrest = 5
     }
 
@@ -72,6 +73,7 @@ montagsmp_state_defensiveness = {
 
     modifier = {
         local_defensiveness = 0.35
+        fort_maintenance_modifier = 0.3
     }
 
     color = {  49 15 240  }
