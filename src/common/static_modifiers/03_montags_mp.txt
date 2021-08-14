@@ -3,3 +3,11 @@ expanded_infrastructure = {
     allowed_num_of_manufactories = 1
     local_build_cost = 1.0
 }
+
+centralize_state = {
+    #state_governing_cost_increase = -20
+    #local_build_cost = -0.05
+    #local_state_maintenance_modifier = 3
+    #local_tax_modifier = 200
+    picture = "centralize_state"
+}
