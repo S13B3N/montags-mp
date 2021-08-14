@@ -3027,7 +3027,7 @@ gesundheit0 = {
 		
 	
 	gesundheit1 = {
-		production_efficiency = 0.1
+		production_efficiency = 0.05
 	}
 	gesundheit2 = {
 		defensiveness = 0.1
@@ -3048,7 +3048,7 @@ gesundheit0 = {
 		idea_cost = -0.075
 	}
 	gesundheit7 = {
-		global_tax_modifier = 0.10
+		global_tax_modifier = 0.05
 		
 	}
 	
@@ -3666,8 +3666,7 @@ handel0 = {
 		transport_cost = -0.2
 	}
 	handel2 = {
-		global_trade_power = 0.15
-		transport_power = 0.2
+        ship_durability = 0.25
 	}
 	handel3 = {
 		trade_efficiency = 0.1
@@ -4531,7 +4530,8 @@ generalstab0 = {
 	category = MIL
 
 	bonus = {
-		free_leader_pool = 1
+		army_tradition = 1
+        navy_tradition = 1
 	}
 		
 	
@@ -4558,7 +4558,7 @@ generalstab0 = {
 		yearly_army_professionalism = 0.025
 	}
 	generalstab7 = {
-		free_leader_pool = 1
+		free_leader_pool = 2
 	}
 	
 	ai_will_do = {
@@ -4817,8 +4817,7 @@ wehrpflicht0 = {
 		land_morale = 0.15
 	}
 	wehrpflicht1 = {
-		global_manpower = 5.0
-		# <<WIKI>> add_age_manpower = 5.0
+        defensiveness = 0.15
 	}
 
 	wehrpflicht4 = {
@@ -4888,7 +4887,10 @@ waffenqualitat0 = {
 	category = MIL
 
 	bonus = {
-		discipline = 0.035
+        heavy_ship_power = 0.1
+        light_ship_power = 0.1
+		galley_power = 0.1
+        transport_power = 0.1
 	}
 		
 	
@@ -4998,7 +5000,8 @@ festung0 = {
 	}
 	
 	festung6 = {
-		shock_damage_received = -0.05
+		shock_damage_received = -0.075
+        fire_damage_received = -0.075
 	}
 	
 	festung2 = {
@@ -5171,6 +5174,7 @@ staatsverwaltung0 = {
 
 	bonus = {
 		core_creation = -0.1
+        governing_capacity = 50
 	}
 		
 	
@@ -5437,6 +5441,7 @@ formation0 = {
 	formation6 = {
 		global_supply_limit_modifier = 1.0
 		land_attrition = -0.15
+        manpower_recovery_speed = 0.15
 	}
 	formation7 = {
 		fire_damage_received = -0.05

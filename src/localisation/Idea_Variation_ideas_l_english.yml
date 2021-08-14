@@ -339,7 +339,7 @@ l_english:
  wehrpflicht0: "Conscription Ideas §y*§W"
  wehrpflicht0_desc: "The general conscription calls every man to arms to fight for his country. Conscripts are not that well trained like professional soldiers but they fight for their homes."
  wehrpflicht1: "General Conscription"
- wehrpflicht1_desc: "All men who can fight are called into service. \nManpower Increase for future Ages §G+5000§W"
+ wehrpflicht1_desc: "All men who can fight are called into service."
  wehrpflicht2: "We know what we fight for"
  wehrpflicht2_desc: "The men know what they fight for: For their land. That will raise their spirit."
  wehrpflicht3: "Quick Mobilisation"
