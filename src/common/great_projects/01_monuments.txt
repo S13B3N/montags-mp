@@ -4883,7 +4883,6 @@ alhambra = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			administrative_efficiency = 0.05
 			vassal_income = 0.1
 			reduced_liberty_desire = 10
 			diplomatic_reputation = 1
@@ -9396,7 +9395,7 @@ el_escorial = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			global_autonomy = -0.025
-			governing_capacity_modifier = 0.05
+			#governing_capacity_modifier = 0.05
 			global_tariffs = 0.1
 			treasure_fleet_income = 0.1
 		}
@@ -9428,7 +9427,7 @@ el_escorial = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			global_autonomy = -0.05
-			governing_capacity_modifier = 0.1
+			#governing_capacity_modifier = 0.1
 			global_tariffs = 0.2
 			treasure_fleet_income = 0.2
 		}
