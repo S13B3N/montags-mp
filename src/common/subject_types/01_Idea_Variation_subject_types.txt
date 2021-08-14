@@ -6,6 +6,8 @@ vassal = {
 	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
 	diplomacy_subject_sprite = GFX_diplomacy_amvassal
 
+	can_concentrate_development = no
+
 	# Properties:
 	transfer_trade_if_merchant_republic = yes
 	can_be_annexed = yes
@@ -92,6 +94,8 @@ march = {
 	diplomacy_overlord_sprite = GFX_diplomacy_leadmarch
 	diplomacy_subject_sprite = GFX_diplomacy_weakmarch
 
+    can_concentrate_development = no
+
 	# Properties:
 	pays_overlord = 0.0
 	military_focus = 1.5
@@ -169,6 +173,8 @@ march = {
 colony = {
 	copy_from = default
 	
+    can_concentrate_development = no
+
 	# Graphics:
 	sprite = GFX_subject_colony_icon
 	diplomacy_overlord_sprite = GFX_diplomacy_leadcolony
@@ -291,4 +297,10 @@ colony = {
 
 	overlord_opinion_modifier = colonial_relation
 	subject_opinion_modifier = colonial_relation
+}
+
+personal_union = {
+	copy_from = default
+
+    can_concentrate_development = no
 }

@@ -1,0 +1,5 @@
+expanded_infrastructure = {
+    allowed_num_of_buildings = 1
+    allowed_num_of_manufactories = 1
+    local_build_cost = 1.0
+}
