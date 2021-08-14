@@ -132,7 +132,7 @@ courthouse = {
 	
 	modifier = {
 	
-	local_state_maintenance_modifier = -0.25
+	local_state_maintenance_modifier = -0.75
 	local_autonomy = -0.05
 	local_monthly_devastation = -0.05
 	#allowed_num_of_buildings = 1
@@ -176,7 +176,7 @@ town_hall = {
 	make_obsolete = courthouse
 	
 	modifier = {
-		local_state_maintenance_modifier = -0.5
+		local_state_maintenance_modifier = -1.5
 		local_missionary_strength = 0.01
 		local_autonomy = -0.1
 		local_monthly_devastation = -0.1
@@ -212,7 +212,7 @@ government_lvl_3 = {
 	make_obsolete = town_hall
 	
 	modifier = {
-		local_state_maintenance_modifier = -0.75
+		local_state_maintenance_modifier = -2.25
 		local_missionary_strength = 0.02
 		local_autonomy = -0.1
 		local_monthly_devastation = -0.15
@@ -246,7 +246,7 @@ government_lvl_4 = {
 	make_obsolete = government_lvl_3
 	
 	modifier = {
-		local_state_maintenance_modifier = -1.0
+		local_state_maintenance_modifier = -3.0
 		local_missionary_strength = 0.03
 		local_autonomy = -0.15
 		local_monthly_devastation = -0.2
@@ -550,7 +550,7 @@ workshop = {
 	
 	modifier = {
 		
-		local_production_efficiency = 0.25
+		local_production_efficiency = 0.2
 	}
 	
 	ai_will_do = {
@@ -568,7 +568,7 @@ production_lvl_2 = {
 	
 	modifier = {
 	
-		local_production_efficiency = 0.5
+		local_production_efficiency = 0.4
 		
 	}
 	
@@ -587,7 +587,7 @@ production_lvl_3 = {
 	
 	modifier = {
 	
-		local_production_efficiency = 0.75
+		local_production_efficiency = 0.6
 		
 	}
 	
@@ -607,7 +607,7 @@ counting_house = {
 	
 	modifier = {
 	
-		local_production_efficiency = 1.0
+		local_production_efficiency = 0.8
 		
 	}
 	
@@ -633,7 +633,7 @@ temple = {
 	
 	modifier = {
 	
-	local_tax_modifier = 0.25
+	local_tax_modifier = 0.20
 		
 	}
 	
@@ -652,7 +652,7 @@ taxation_lvl_2 = {
 	
 	modifier = {
 		
-		local_tax_modifier = 0.5
+		local_tax_modifier = 0.4
 		
 	}
 	
@@ -670,7 +670,7 @@ cathedral = {
 	
 	modifier = {
 	
-	local_tax_modifier = 0.75
+	local_tax_modifier = 0.6
 		
 	}
 	
@@ -688,7 +688,7 @@ taxation_lvl_4 = {
 	
 	modifier = {
 	
-	local_tax_modifier = 1.0
+	local_tax_modifier = 0.8
 		
 	}
 	
