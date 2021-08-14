@@ -3401,7 +3401,7 @@ idea_variation_act_640 = {
 }
 
 idea_variation_act_641 = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = spy_ideas
@@ -3414,7 +3414,7 @@ idea_variation_act_641 = {
 		full_idea_group = offensive_ideas
 	}
 	
-	cav_to_inf_ratio = 0.15	
+	cavalry_power = 0.15
 
 	ai_will_do = {
 		factor = 1
@@ -10295,7 +10295,7 @@ idea_variation_act_192 = {
 
 idea_variation_act_193 = {
 
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = assimilation0
@@ -10307,7 +10307,7 @@ idea_variation_act_193 = {
 		full_idea_group = quantity_ideas
 	}
 	
-	cav_to_inf_ratio = 0.15
+	cavalry_power = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -10372,8 +10372,6 @@ idea_variation_act_196 = {
 		full_idea_group = stehendesheer0
 	}
 	
-	#cavalry_power = 0.1
-	#cav_to_inf_ratio = 0.1
 	discipline = 0.03
 	
 	ai_will_do = {
@@ -17750,7 +17748,7 @@ idea_variation_act_440 = {
 
 idea_variation_act_441 = {
 
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = shock0
@@ -17762,7 +17760,7 @@ idea_variation_act_441 = {
 		full_idea_group = spy_ideas
 	}
 	
-	cav_to_inf_ratio = 0.15	
+	cavalry_power = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -17924,7 +17922,7 @@ idea_variation_act_447 = {
 
 idea_variation_act_448 = {
 
-	monarch_power = ADM				# Besonderer Fall
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = shock0
@@ -17936,8 +17934,7 @@ idea_variation_act_448 = {
 		full_idea_group = expansion_ideas
 	}
 	
-	#diplomatic_annexation_cost = -0.15
-	cav_to_inf_ratio = 0.15
+	cavalry_power = 0.15
 	
 	ai_will_do = {
 		factor = 1
