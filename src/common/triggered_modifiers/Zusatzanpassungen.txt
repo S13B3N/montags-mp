@@ -12,7 +12,7 @@ government_rank_capacity_1 = {
         mil_tech = 9
 	}
 	
-	governing_capacity = 400
+	governing_capacity = 200
 }
 
 government_rank_capacity_2 = {
