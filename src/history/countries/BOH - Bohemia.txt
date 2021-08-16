@@ -46,6 +46,45 @@ change_estate_land_share = {
 
 1444.1.1 = {
 	monarch = {
+		name = "Karl"
+		dynasty = "Zikmund Lucembursky"
+		birth_date = 1420.4.23
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1444.1.1 = {
+	queen = {
+		country_of_origin = BOH
+		name = "Elizabeth"
+		dynasty = "Rozmitál"
+		birth_date = 1430.1.1
+        death_date = 1500.11.12
+		female = yes
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1444.1.1 = {
+	heir = {
+		name = "Wenzel"
+		monarch_name = "Wenzel III"
+		dynasty = "Zikmund Lucembursky"
+		birth_date = 1430.2.22
+        death_date = 1500.11.12
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+
+1457.11.24 = {
+	monarch = {
 		name = "Jirí"
 		dynasty = "z Podebrad"
 		birth_date = 1420.4.23
