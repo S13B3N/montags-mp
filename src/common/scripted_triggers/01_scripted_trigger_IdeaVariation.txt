@@ -997,32 +997,6 @@ has_iv_gov_reform_expan_1 = {
 				}
 }
 
-has_iv_gov_reform_vision_1 = {
-	custom_trigger_tooltip = {
-		tooltip = IV_reform_has_rev_ideas
-		OR = {
-				has_reform = monarchy_tier_10_vision_1_1
-				has_reform = monarchy_tier_11_vision_1_1
-				has_reform = monarchy_tier_12_vision_1_1
-				has_reform = monarchy_tier_13_vision_1_1
-				has_reform = monarchy_tier_14_vision_1_1
-				has_reform = monarchy_tier_15_vision_1_1
-				has_reform = republic_tier_10_vision_1_1
-				has_reform = republic_tier_11_vision_1_1
-				has_reform = republic_tier_12_vision_1_1
-				has_reform = republic_tier_13_vision_1_1
-				has_reform = republic_tier_14_vision_1_1
-				has_reform = republic_tier_15_vision_1_1
-				has_reform = theocracy_tier_10_vision_1_1
-				has_reform = theocracy_tier_11_vision_1_1
-				has_reform = theocracy_tier_12_vision_1_1
-				has_reform = theocracy_tier_13_vision_1_1
-				has_reform = theocracy_tier_14_vision_1_1
-				has_reform = theocracy_tier_15_vision_1_1
-			}
-	}
-}
-
 has_too_many_landforcelimit = {
 	NOT={
 		calc_true_if = {

@@ -21494,7 +21494,6 @@ monarchy_tier_15_vision_1_1 = {
 	modifiers = {
 		global_unrest = 2
 		idea_cost = -0.05
-		# <<WIKI>> revolutionary_ideas = yes
 	}
 }
 
@@ -21519,7 +21518,6 @@ monarchy_tier_15_vision_1_2 = {
 	modifiers = {
 		prestige = 1
 		global_manpower_modifier = 0.1
-		# <<WIKI>> counterrevolution = yes
 	}
 }
 
@@ -21555,10 +21553,6 @@ monarchy_tier_15_vision_1_3 = {
 		state_governing_cost = 2.0
 		trade_company_governing_cost = 2.0
 		# <<WIKI>> government_abilities = militarised_society
-	}
-	conditional = {
-		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
 	}
 }
 
