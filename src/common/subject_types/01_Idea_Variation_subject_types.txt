@@ -299,8 +299,8 @@ colony = {
 	subject_opinion_modifier = colonial_relation
 }
 
-personal_union = {
-	copy_from = default
-
-    can_concentrate_development = no
-}
+#personal_union = {
+#copy_from = default
+#
+    #can_concentrate_development = no
+#}

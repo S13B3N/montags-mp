@@ -13857,8 +13857,8 @@ republic_tier_10_vision_1_1 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		global_unrest = 2
-		idea_cost = -0.05
+		idea_cost = -0.1
+        technology_cost = -0.1
 		# <<WIKI>> revolutionary_ideas = yes
 	}
 }
@@ -13882,8 +13882,8 @@ republic_tier_10_vision_1_2 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		prestige = 1
-		global_manpower_modifier = 0.2
+        army_tradition = 0.5
+		global_manpower_modifier = 0.1
 		# <<WIKI>> counterrevolution = yes
 	}
 }
@@ -13914,8 +13914,7 @@ republic_tier_10_vision_1_3 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		yearly_absolutism = 1
-		culture_conversion_cost = -0.25
+		governing_capacity = 100
 		# <<WIKI>> government_abilities = mamluk_mechanic
 	}
 	conditional = {
@@ -13942,8 +13941,8 @@ republic_tier_10_vision_1_4 = {
 	
 	nation_designer_cost = 0
 	modifiers = {
-		num_accepted_cultures = 3
-		same_culture_advisor_cost = -0.5
+		num_accepted_cultures = 2
+		same_culture_advisor_cost = -0.1
 		promote_culture_cost = -1
 	}
 }
