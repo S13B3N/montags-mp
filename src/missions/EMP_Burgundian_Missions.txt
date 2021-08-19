@@ -1792,19 +1792,19 @@ emp_burgundy_5 = {
 					id = incidents_bur_join_empire.1
 				}
 			}
-			else_if = {
-				limit = {
-					is_part_of_hre = no
-					hre_size = 1
-				}
-				set_in_empire = yes	
-				every_owned_province = {
-					limit = {
-						continent = europe
-					}
-					set_in_empire = yes	
-				}
-			}
+			#else_if = {
+			#	limit = {
+			#		is_part_of_hre = no
+			#		hre_size = 1
+			#	}
+			#	set_in_empire = yes	
+			#	every_owned_province = {
+			#		limit = {
+			#			continent = europe
+			#		}
+			#		set_in_empire = yes	
+			#	}
+			#}
 			add_country_modifier = {
 				name = bur_seed_is_strong
 				duration = -1
