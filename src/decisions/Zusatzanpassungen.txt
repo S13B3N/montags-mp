@@ -86,6 +86,37 @@ habs_bohemia_integration = {
 		}
 	}	
 
+silesia_integration = {
+
+    major = yes
+
+    potential = {
+        tag = BOH
+        GLG = {	vassal_of = BOH	}
+        OPL = {	vassal_of = BOH	}
+        is_vassal = no
+    }
+
+    allow = {
+        tag = BOH
+        GLG = {	vassal_of = BOH	}
+        OPL = {	vassal_of = BOH	}
+
+        stability = 1 
+    }
+
+    effect = {
+        inherit = GLG
+        inherit = OPL
+        add_adm_power = -200
+        add_dip_power = -200
+    }
+
+    ai_will_do = {
+        factor = 100		
+    }
+}
+
 ##############################################
 ###### Professionalism Decision
 ##############################################	
