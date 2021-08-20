@@ -2068,7 +2068,7 @@ BOH_ideas = {
 	}
 	czech_nationalism = {
 		reinforce_speed = 0.3
-		discipline = 0.03
+		discipline = 0.05
 	}
 }
 

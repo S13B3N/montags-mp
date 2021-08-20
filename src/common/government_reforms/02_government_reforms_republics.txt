@@ -278,9 +278,6 @@ venice_merchants_reform = {
 		max_absolutism = -50
 		merchants = 1
 		yearly_corruption = -0.1
-		monarch_admin_power = 2
-		monarch_diplomatic_power = 2
-		monarch_military_power = 2
 	}
 	valid_for_nation_designer = no
 	nation_designer_cost = 40
