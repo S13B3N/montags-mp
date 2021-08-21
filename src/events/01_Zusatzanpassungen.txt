@@ -9,7 +9,7 @@ country_event = {
 
 	trigger = {
 		tag = BUR
-		is_year = 1500
+		is_year = 1510
 		is_part_of_hre = yes
 	}
 	
@@ -94,7 +94,7 @@ country_event = {
 
 	trigger = {
 		tag = VEN
-		is_year = 1500
+		is_year = 1510
 		is_part_of_hre = yes
 	}
 	
