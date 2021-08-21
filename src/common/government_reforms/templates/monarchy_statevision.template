@@ -14,9 +14,8 @@ monarchy_tier_{{tierCount}}_vision_1_1 = {
     nation_designer_cost = 0
 
     modifiers = {
-        global_unrest = 2
-        idea_cost = -0.05
-        # <<WIKI>> revolutionary_ideas = yes
+        idea_cost = -0.1
+        technology_cost = -0.1
     }
 }
 
@@ -40,9 +39,8 @@ monarchy_tier_{{tierCount}}_vision_1_2 = {
     nation_designer_cost = 0
 
     modifiers = {
-        prestige = 1
-        global_manpower_modifier = 0.1
-        # <<WIKI>> counterrevolution = yes
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
     }
 }
 
@@ -74,9 +72,7 @@ monarchy_tier_{{tierCount}}_vision_1_3 = {
     nation_designer_cost = 0
 
     modifiers = {
-        state_governing_cost = 2.0
-        trade_company_governing_cost = 2.0
-        # <<WIKI>> government_abilities = militarised_society
+        governing_capacity = 100
     }
 
     conditional = {
@@ -101,8 +97,8 @@ monarchy_tier_{{tierCount}}_vision_1_4 = {
     nation_designer_cost = 0
 
     modifiers = {
-        num_accepted_cultures = 3
-        same_culture_advisor_cost = -0.5
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
         promote_culture_cost = -1
     }
 }
