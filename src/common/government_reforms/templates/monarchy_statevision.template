@@ -1,0 +1,108 @@
+monarchy_tier_{{tierCount}}_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_unrest = 2
+        idea_cost = -0.05
+        # <<WIKI>> revolutionary_ideas = yes
+    }
+}
+
+monarchy_tier_{{tierCount}}_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        prestige = 1
+        global_manpower_modifier = 0.1
+        # <<WIKI>> counterrevolution = yes
+    }
+}
+
+monarchy_tier_{{tierCount}}_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        state_governing_cost = 2.0
+        trade_company_governing_cost = 2.0
+        # <<WIKI>> government_abilities = militarised_society
+    }
+
+    conditional = {
+        allow = { has_dlc = "Rights of Man" }
+        militarised_society = yes
+    }
+}
+
+monarchy_tier_{{tierCount}}_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 3
+        same_culture_advisor_cost = -0.5
+        promote_culture_cost = -1
+    }
+}

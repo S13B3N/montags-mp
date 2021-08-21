@@ -1,0 +1,97 @@
+monarchy_tier_{{tierCount}}_wirt_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+monarchy_tier_{{tierCount}}_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+monarchy_tier_{{tierCount}}_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+monarchy_tier_{{tierCount}}_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_wirt
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+monarchy_tier_{{tierCount}}_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_wirt
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+

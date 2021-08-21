@@ -1,0 +1,87 @@
+monarchy_tier_{{tierCount}}_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_{{tierCount}}_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_{{tierCount}}_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_{{tierCount}}_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_{{tierCount}}_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}

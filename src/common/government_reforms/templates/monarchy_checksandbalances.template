@@ -1,0 +1,128 @@
+monarchy_tier_{{tierCount}}_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        legitimacy = 2
+        max_absolutism = -20
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+monarchy_tier_{{tierCount}}_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_checks
+    }
+
+    trigger = {
+        NOT = { has_reform = english_monarchy }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+monarchy_tier_{{tierCount}}_checks_1_3 = {
+
+    icon = "elective_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_checks
+    }
+
+    trigger = {
+        NOT = {
+            OR = {
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom    
+                has_reform = elective_monarchy        
+            }
+        }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -10
+        legitimacy = 1
+        monthly_support_heir_gain = 0.1
+    }
+
+    conditional = {
+        allow = { has_dlc = "Res Publica" }
+        is_elective = yes
+    }
+}
+
+monarchy_tier_{{tierCount}}_checks_1_4 = {
+
+    icon = "idea_variation_25"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_{{tierCount}}_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = 15
+        legitimacy = -1
+    }
+}
