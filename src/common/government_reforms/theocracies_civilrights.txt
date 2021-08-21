@@ -1,27 +1,27 @@
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_2_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_2_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_2_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_2_grundrechte
     }
     
     nation_designer_cost = 0
@@ -29,17 +29,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_2_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_2_grundrechte
     }
     
     nation_designer_cost = 0
@@ -48,34 +48,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_2_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_2_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_2_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_2_grundrechte
     }
     
     nation_designer_cost = 0
@@ -83,33 +83,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_3_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_3_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_3_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_3_grundrechte
     }
     
     nation_designer_cost = 0
@@ -117,17 +117,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_3_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_3_grundrechte
     }
     
     nation_designer_cost = 0
@@ -136,34 +136,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_3_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_3_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_3_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_3_grundrechte
     }
     
     nation_designer_cost = 0
@@ -171,33 +171,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_4_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_4_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_4_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_4_grundrechte
     }
     
     nation_designer_cost = 0
@@ -205,17 +205,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_4_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_4_grundrechte
     }
     
     nation_designer_cost = 0
@@ -224,34 +224,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_4_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_4_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_4_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_4_grundrechte
     }
     
     nation_designer_cost = 0
@@ -259,33 +259,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_5_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_5_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_5_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_5_grundrechte
     }
     
     nation_designer_cost = 0
@@ -293,17 +293,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_5_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_5_grundrechte
     }
     
     nation_designer_cost = 0
@@ -312,34 +312,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_5_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_5_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_5_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_5_grundrechte
     }
     
     nation_designer_cost = 0
@@ -347,33 +347,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_6_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_6_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_6_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_6_grundrechte
     }
     
     nation_designer_cost = 0
@@ -381,17 +381,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_6_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_6_grundrechte
     }
     
     nation_designer_cost = 0
@@ -400,34 +400,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_6_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_6_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_6_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_6_grundrechte
     }
     
     nation_designer_cost = 0
@@ -435,33 +435,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_7_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_7_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_7_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_7_grundrechte
     }
     
     nation_designer_cost = 0
@@ -469,17 +469,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_7_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_7_grundrechte
     }
     
     nation_designer_cost = 0
@@ -488,34 +488,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_7_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_7_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_7_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_7_grundrechte
     }
     
     nation_designer_cost = 0
@@ -523,33 +523,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_8_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_8_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_8_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_8_grundrechte
     }
     
     nation_designer_cost = 0
@@ -557,17 +557,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_8_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_8_grundrechte
     }
     
     nation_designer_cost = 0
@@ -576,34 +576,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_8_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_8_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_8_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_8_grundrechte
     }
     
     nation_designer_cost = 0
@@ -611,33 +611,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_9_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_9_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_9_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_9_grundrechte
     }
     
     nation_designer_cost = 0
@@ -645,17 +645,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_9_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_9_grundrechte
     }
     
     nation_designer_cost = 0
@@ -664,34 +664,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_9_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_9_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_9_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_9_grundrechte
     }
     
     nation_designer_cost = 0
@@ -699,33 +699,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_10_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_10_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_10_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_10_grundrechte
     }
     
     nation_designer_cost = 0
@@ -733,17 +733,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_10_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_10_grundrechte
     }
     
     nation_designer_cost = 0
@@ -752,34 +752,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_10_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_10_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_10_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_10_grundrechte
     }
     
     nation_designer_cost = 0
@@ -787,33 +787,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_11_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_11_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_11_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_11_grundrechte
     }
     
     nation_designer_cost = 0
@@ -821,17 +821,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_11_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_11_grundrechte
     }
     
     nation_designer_cost = 0
@@ -840,34 +840,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_11_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_11_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_11_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_11_grundrechte
     }
     
     nation_designer_cost = 0
@@ -875,33 +875,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_12_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_12_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_12_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_12_grundrechte
     }
     
     nation_designer_cost = 0
@@ -909,17 +909,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_12_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_12_grundrechte
     }
     
     nation_designer_cost = 0
@@ -928,34 +928,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_12_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_12_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_12_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_12_grundrechte
     }
     
     nation_designer_cost = 0
@@ -963,33 +963,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_13_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_13_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_13_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_13_grundrechte
     }
     
     nation_designer_cost = 0
@@ -997,17 +997,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_13_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_13_grundrechte
     }
     
     nation_designer_cost = 0
@@ -1016,34 +1016,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_13_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_13_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_13_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_13_grundrechte
     }
     
     nation_designer_cost = 0
@@ -1051,33 +1051,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_14_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_14_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_14_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_14_grundrechte
     }
     
     nation_designer_cost = 0
@@ -1085,17 +1085,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_14_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_14_grundrechte
     }
     
     nation_designer_cost = 0
@@ -1104,34 +1104,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_14_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_14_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_14_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_14_grundrechte
     }
     
     nation_designer_cost = 0
@@ -1139,33 +1139,33 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }
-republic_tier_3_grundrechte_1_1 = {
+theocracy_tier_15_grundrechte_1_1 = {
 
     icon = "idea_variation_26"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_15_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         tolerance_heretic = 2
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_2 = {
+theocracy_tier_15_grundrechte_1_2 = {
 
     icon = "idea_variation_38"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_15_grundrechte
     }
     
     nation_designer_cost = 0
@@ -1173,17 +1173,17 @@ republic_tier_3_grundrechte_1_2 = {
     modifiers = {
         tolerance_heathen = 2
         num_accepted_cultures = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_3 = {
+theocracy_tier_15_grundrechte_1_3 = {
 
     icon = "idea_variation_17"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_15_grundrechte
     }
     
     nation_designer_cost = 0
@@ -1192,34 +1192,34 @@ republic_tier_3_grundrechte_1_3 = {
         global_missionary_strength = 0.01
         missionary_maintenance_cost = -0.25
         tolerance_own = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_4 = {
+theocracy_tier_15_grundrechte_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_15_grundrechte
     }
     
     nation_designer_cost = 0
 
     modifiers = {
         free_leader_pool = 1
-        republican_tradition = -0.5
+        devotion = -0.5
     }
 }
 
-republic_tier_3_grundrechte_1_5 = {
+theocracy_tier_15_grundrechte_1_5 = {
 
     icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_3_grundrechte
+        has_country_flag = iv_gov_reform_theo_tier_15_grundrechte
     }
     
     nation_designer_cost = 0
@@ -1227,6 +1227,6 @@ republic_tier_3_grundrechte_1_5 = {
     modifiers = {
         global_unrest = -1
         state_maintenance_modifier = -0.5
-        republican_tradition = -1
+        devotion = -1
     }
 }

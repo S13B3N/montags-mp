@@ -1,0 +1,113 @@
+theocracy_tier_{{tierCount}}_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        devotion = 2
+        max_absolutism = -10
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+theocracy_tier_{{tierCount}}_checks_1_2 = {
+
+    icon = "articles_of_agreement"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+        devotion = -1
+    }
+}
+
+theocracy_tier_{{tierCount}}_checks_1_3 = {
+
+    icon = "clergyman"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+        devotion = -1
+    }
+}
+
+theocracy_tier_{{tierCount}}_checks_1_4 = {
+
+    icon = "feudal_theocracy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2    
+        devotion = -1
+    }
+}
+
+theocracy_tier_{{tierCount}}_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}

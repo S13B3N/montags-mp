@@ -1,10 +1,10 @@
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_2_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_2_politik1
     }
     
     nation_designer_cost = 0
@@ -20,13 +20,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_2_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_2_politik1
     }
     
     nation_designer_cost = 0
@@ -40,13 +40,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_2_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_2_politik1
     }
     
     nation_designer_cost = 0
@@ -60,13 +60,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_2_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_2_politik1
     }
     
     nation_designer_cost = 0
@@ -79,13 +79,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_3_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_3_politik1
     }
     
     nation_designer_cost = 0
@@ -101,13 +101,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_3_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_3_politik1
     }
     
     nation_designer_cost = 0
@@ -121,13 +121,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_3_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_3_politik1
     }
     
     nation_designer_cost = 0
@@ -141,13 +141,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_3_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_3_politik1
     }
     
     nation_designer_cost = 0
@@ -160,13 +160,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_4_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_4_politik1
     }
     
     nation_designer_cost = 0
@@ -182,13 +182,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_4_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_4_politik1
     }
     
     nation_designer_cost = 0
@@ -202,13 +202,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_4_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_4_politik1
     }
     
     nation_designer_cost = 0
@@ -222,13 +222,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_4_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_4_politik1
     }
     
     nation_designer_cost = 0
@@ -241,13 +241,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_5_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_5_politik1
     }
     
     nation_designer_cost = 0
@@ -263,13 +263,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_5_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_5_politik1
     }
     
     nation_designer_cost = 0
@@ -283,13 +283,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_5_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_5_politik1
     }
     
     nation_designer_cost = 0
@@ -303,13 +303,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_5_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_5_politik1
     }
     
     nation_designer_cost = 0
@@ -322,13 +322,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_6_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_6_politik1
     }
     
     nation_designer_cost = 0
@@ -344,13 +344,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_6_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_6_politik1
     }
     
     nation_designer_cost = 0
@@ -364,13 +364,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_6_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_6_politik1
     }
     
     nation_designer_cost = 0
@@ -384,13 +384,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_6_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_6_politik1
     }
     
     nation_designer_cost = 0
@@ -403,13 +403,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_7_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_7_politik1
     }
     
     nation_designer_cost = 0
@@ -425,13 +425,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_7_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_7_politik1
     }
     
     nation_designer_cost = 0
@@ -445,13 +445,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_7_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_7_politik1
     }
     
     nation_designer_cost = 0
@@ -465,13 +465,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_7_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_7_politik1
     }
     
     nation_designer_cost = 0
@@ -484,13 +484,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_8_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_8_politik1
     }
     
     nation_designer_cost = 0
@@ -506,13 +506,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_8_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_8_politik1
     }
     
     nation_designer_cost = 0
@@ -526,13 +526,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_8_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_8_politik1
     }
     
     nation_designer_cost = 0
@@ -546,13 +546,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_8_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_8_politik1
     }
     
     nation_designer_cost = 0
@@ -565,13 +565,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_9_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_9_politik1
     }
     
     nation_designer_cost = 0
@@ -587,13 +587,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_9_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_9_politik1
     }
     
     nation_designer_cost = 0
@@ -607,13 +607,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_9_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_9_politik1
     }
     
     nation_designer_cost = 0
@@ -627,13 +627,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_9_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_9_politik1
     }
     
     nation_designer_cost = 0
@@ -646,13 +646,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_10_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_10_politik1
     }
     
     nation_designer_cost = 0
@@ -668,13 +668,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_10_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_10_politik1
     }
     
     nation_designer_cost = 0
@@ -688,13 +688,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_10_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_10_politik1
     }
     
     nation_designer_cost = 0
@@ -708,13 +708,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_10_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_10_politik1
     }
     
     nation_designer_cost = 0
@@ -727,13 +727,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_11_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_11_politik1
     }
     
     nation_designer_cost = 0
@@ -749,13 +749,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_11_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_11_politik1
     }
     
     nation_designer_cost = 0
@@ -769,13 +769,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_11_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_11_politik1
     }
     
     nation_designer_cost = 0
@@ -789,13 +789,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_11_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_11_politik1
     }
     
     nation_designer_cost = 0
@@ -808,13 +808,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_12_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_12_politik1
     }
     
     nation_designer_cost = 0
@@ -830,13 +830,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_12_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_12_politik1
     }
     
     nation_designer_cost = 0
@@ -850,13 +850,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_12_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_12_politik1
     }
     
     nation_designer_cost = 0
@@ -870,13 +870,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_12_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_12_politik1
     }
     
     nation_designer_cost = 0
@@ -889,13 +889,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_13_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_13_politik1
     }
     
     nation_designer_cost = 0
@@ -911,13 +911,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_13_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_13_politik1
     }
     
     nation_designer_cost = 0
@@ -931,13 +931,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_13_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_13_politik1
     }
     
     nation_designer_cost = 0
@@ -951,13 +951,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_13_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_13_politik1
     }
     
     nation_designer_cost = 0
@@ -970,13 +970,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_14_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_14_politik1
     }
     
     nation_designer_cost = 0
@@ -992,13 +992,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_14_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_14_politik1
     }
     
     nation_designer_cost = 0
@@ -1012,13 +1012,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_14_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_14_politik1
     }
     
     nation_designer_cost = 0
@@ -1032,13 +1032,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_14_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_14_politik1
     }
     
     nation_designer_cost = 0
@@ -1051,13 +1051,13 @@ republic_tier_{{tierCount}_politik1_1_4 = {
         mil_advisor_cost = 0.5
     }
 }
-republic_tier_{{tierCount}_politik1_1_1 = {
+theocracy_tier_15_politik1_1_1 = {
 
     icon = "idea_variation_18"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_15_politik1
     }
     
     nation_designer_cost = 0
@@ -1073,13 +1073,13 @@ republic_tier_{{tierCount}_politik1_1_1 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_2 = {
+theocracy_tier_15_politik1_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_15_politik1
     }
     
     nation_designer_cost = 0
@@ -1093,13 +1093,13 @@ republic_tier_{{tierCount}_politik1_1_2 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_3 = {
+theocracy_tier_15_politik1_1_3 = {
 
     icon = "idea_variation_39"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_15_politik1
     }
     
     nation_designer_cost = 0
@@ -1113,13 +1113,13 @@ republic_tier_{{tierCount}_politik1_1_3 = {
     }
 }
 
-republic_tier_{{tierCount}_politik1_1_4 = {
+theocracy_tier_15_politik1_1_4 = {
 
     icon = "idea_variation_1"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}_politik1
+        has_country_flag = iv_gov_reform_theo_tier_15_politik1
     }
     
     nation_designer_cost = 0

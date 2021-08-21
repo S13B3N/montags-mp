@@ -1,0 +1,85 @@
+theocracy_tier_{{tierCount}}_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_vision
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+theocracy_tier_{{tierCount}}_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1
+    }
+}
+
+theocracy_tier_{{tierCount}}_vision_1_3 = {
+
+    icon = "idea_variation_49"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+            } 
+        }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+theocracy_tier_{{tierCount}}_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_vision
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}

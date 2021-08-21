@@ -1,0 +1,97 @@
+theocracy_tier_{{tierCount}}_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_{{tierCount}}_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_{{tierCount}}_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_{{tierCount}}_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_{{tierCount}}_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        devotion = 1.5
+        global_unrest = -1
+    }
+}

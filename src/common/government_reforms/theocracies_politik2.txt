@@ -1,10 +1,10 @@
-monarchy_tier_2_politik2_1_1 = {
+theocracy_tier_2_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_politik2
+        has_country_flag = iv_gov_reform_theo_tier_2_politik2
     }
     
     nation_designer_cost = 0
@@ -17,13 +17,13 @@ monarchy_tier_2_politik2_1_1 = {
     }
 }
 
-monarchy_tier_2_politik2_1_2 = {
+theocracy_tier_2_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_politik2
+        has_country_flag = iv_gov_reform_theo_tier_2_politik2
     }
     
     nation_designer_cost = 0
@@ -36,13 +36,13 @@ monarchy_tier_2_politik2_1_2 = {
     }
 }
 
-monarchy_tier_2_politik2_1_3 = {
+theocracy_tier_2_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_politik2
+        has_country_flag = iv_gov_reform_theo_tier_2_politik2
     }
     
     nation_designer_cost = 0
@@ -55,13 +55,13 @@ monarchy_tier_2_politik2_1_3 = {
     }
 }
 
-monarchy_tier_2_politik2_1_4 = {
+theocracy_tier_2_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_politik2
+        has_country_flag = iv_gov_reform_theo_tier_2_politik2
     }
     
     nation_designer_cost = 0
@@ -73,14 +73,13 @@ monarchy_tier_2_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_3_politik2_1_1 = {
+theocracy_tier_3_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_politik2
+        has_country_flag = iv_gov_reform_theo_tier_3_politik2
     }
     
     nation_designer_cost = 0
@@ -93,13 +92,13 @@ monarchy_tier_3_politik2_1_1 = {
     }
 }
 
-monarchy_tier_3_politik2_1_2 = {
+theocracy_tier_3_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_politik2
+        has_country_flag = iv_gov_reform_theo_tier_3_politik2
     }
     
     nation_designer_cost = 0
@@ -112,13 +111,13 @@ monarchy_tier_3_politik2_1_2 = {
     }
 }
 
-monarchy_tier_3_politik2_1_3 = {
+theocracy_tier_3_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_politik2
+        has_country_flag = iv_gov_reform_theo_tier_3_politik2
     }
     
     nation_designer_cost = 0
@@ -131,13 +130,13 @@ monarchy_tier_3_politik2_1_3 = {
     }
 }
 
-monarchy_tier_3_politik2_1_4 = {
+theocracy_tier_3_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_politik2
+        has_country_flag = iv_gov_reform_theo_tier_3_politik2
     }
     
     nation_designer_cost = 0
@@ -149,14 +148,13 @@ monarchy_tier_3_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_4_politik2_1_1 = {
+theocracy_tier_4_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_politik2
+        has_country_flag = iv_gov_reform_theo_tier_4_politik2
     }
     
     nation_designer_cost = 0
@@ -169,13 +167,13 @@ monarchy_tier_4_politik2_1_1 = {
     }
 }
 
-monarchy_tier_4_politik2_1_2 = {
+theocracy_tier_4_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_politik2
+        has_country_flag = iv_gov_reform_theo_tier_4_politik2
     }
     
     nation_designer_cost = 0
@@ -188,13 +186,13 @@ monarchy_tier_4_politik2_1_2 = {
     }
 }
 
-monarchy_tier_4_politik2_1_3 = {
+theocracy_tier_4_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_politik2
+        has_country_flag = iv_gov_reform_theo_tier_4_politik2
     }
     
     nation_designer_cost = 0
@@ -207,13 +205,13 @@ monarchy_tier_4_politik2_1_3 = {
     }
 }
 
-monarchy_tier_4_politik2_1_4 = {
+theocracy_tier_4_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_politik2
+        has_country_flag = iv_gov_reform_theo_tier_4_politik2
     }
     
     nation_designer_cost = 0
@@ -225,14 +223,13 @@ monarchy_tier_4_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_5_politik2_1_1 = {
+theocracy_tier_5_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_politik2
+        has_country_flag = iv_gov_reform_theo_tier_5_politik2
     }
     
     nation_designer_cost = 0
@@ -245,13 +242,13 @@ monarchy_tier_5_politik2_1_1 = {
     }
 }
 
-monarchy_tier_5_politik2_1_2 = {
+theocracy_tier_5_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_politik2
+        has_country_flag = iv_gov_reform_theo_tier_5_politik2
     }
     
     nation_designer_cost = 0
@@ -264,13 +261,13 @@ monarchy_tier_5_politik2_1_2 = {
     }
 }
 
-monarchy_tier_5_politik2_1_3 = {
+theocracy_tier_5_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_politik2
+        has_country_flag = iv_gov_reform_theo_tier_5_politik2
     }
     
     nation_designer_cost = 0
@@ -283,13 +280,13 @@ monarchy_tier_5_politik2_1_3 = {
     }
 }
 
-monarchy_tier_5_politik2_1_4 = {
+theocracy_tier_5_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_politik2
+        has_country_flag = iv_gov_reform_theo_tier_5_politik2
     }
     
     nation_designer_cost = 0
@@ -301,14 +298,13 @@ monarchy_tier_5_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_6_politik2_1_1 = {
+theocracy_tier_6_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_politik2
+        has_country_flag = iv_gov_reform_theo_tier_6_politik2
     }
     
     nation_designer_cost = 0
@@ -321,13 +317,13 @@ monarchy_tier_6_politik2_1_1 = {
     }
 }
 
-monarchy_tier_6_politik2_1_2 = {
+theocracy_tier_6_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_politik2
+        has_country_flag = iv_gov_reform_theo_tier_6_politik2
     }
     
     nation_designer_cost = 0
@@ -340,13 +336,13 @@ monarchy_tier_6_politik2_1_2 = {
     }
 }
 
-monarchy_tier_6_politik2_1_3 = {
+theocracy_tier_6_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_politik2
+        has_country_flag = iv_gov_reform_theo_tier_6_politik2
     }
     
     nation_designer_cost = 0
@@ -359,13 +355,13 @@ monarchy_tier_6_politik2_1_3 = {
     }
 }
 
-monarchy_tier_6_politik2_1_4 = {
+theocracy_tier_6_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_politik2
+        has_country_flag = iv_gov_reform_theo_tier_6_politik2
     }
     
     nation_designer_cost = 0
@@ -377,14 +373,13 @@ monarchy_tier_6_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_7_politik2_1_1 = {
+theocracy_tier_7_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_politik2
+        has_country_flag = iv_gov_reform_theo_tier_7_politik2
     }
     
     nation_designer_cost = 0
@@ -397,13 +392,13 @@ monarchy_tier_7_politik2_1_1 = {
     }
 }
 
-monarchy_tier_7_politik2_1_2 = {
+theocracy_tier_7_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_politik2
+        has_country_flag = iv_gov_reform_theo_tier_7_politik2
     }
     
     nation_designer_cost = 0
@@ -416,13 +411,13 @@ monarchy_tier_7_politik2_1_2 = {
     }
 }
 
-monarchy_tier_7_politik2_1_3 = {
+theocracy_tier_7_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_politik2
+        has_country_flag = iv_gov_reform_theo_tier_7_politik2
     }
     
     nation_designer_cost = 0
@@ -435,13 +430,13 @@ monarchy_tier_7_politik2_1_3 = {
     }
 }
 
-monarchy_tier_7_politik2_1_4 = {
+theocracy_tier_7_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_politik2
+        has_country_flag = iv_gov_reform_theo_tier_7_politik2
     }
     
     nation_designer_cost = 0
@@ -453,14 +448,13 @@ monarchy_tier_7_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_8_politik2_1_1 = {
+theocracy_tier_8_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_politik2
+        has_country_flag = iv_gov_reform_theo_tier_8_politik2
     }
     
     nation_designer_cost = 0
@@ -473,13 +467,13 @@ monarchy_tier_8_politik2_1_1 = {
     }
 }
 
-monarchy_tier_8_politik2_1_2 = {
+theocracy_tier_8_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_politik2
+        has_country_flag = iv_gov_reform_theo_tier_8_politik2
     }
     
     nation_designer_cost = 0
@@ -492,13 +486,13 @@ monarchy_tier_8_politik2_1_2 = {
     }
 }
 
-monarchy_tier_8_politik2_1_3 = {
+theocracy_tier_8_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_politik2
+        has_country_flag = iv_gov_reform_theo_tier_8_politik2
     }
     
     nation_designer_cost = 0
@@ -511,13 +505,13 @@ monarchy_tier_8_politik2_1_3 = {
     }
 }
 
-monarchy_tier_8_politik2_1_4 = {
+theocracy_tier_8_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_politik2
+        has_country_flag = iv_gov_reform_theo_tier_8_politik2
     }
     
     nation_designer_cost = 0
@@ -529,14 +523,13 @@ monarchy_tier_8_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_9_politik2_1_1 = {
+theocracy_tier_9_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_politik2
+        has_country_flag = iv_gov_reform_theo_tier_9_politik2
     }
     
     nation_designer_cost = 0
@@ -549,13 +542,13 @@ monarchy_tier_9_politik2_1_1 = {
     }
 }
 
-monarchy_tier_9_politik2_1_2 = {
+theocracy_tier_9_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_politik2
+        has_country_flag = iv_gov_reform_theo_tier_9_politik2
     }
     
     nation_designer_cost = 0
@@ -568,13 +561,13 @@ monarchy_tier_9_politik2_1_2 = {
     }
 }
 
-monarchy_tier_9_politik2_1_3 = {
+theocracy_tier_9_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_politik2
+        has_country_flag = iv_gov_reform_theo_tier_9_politik2
     }
     
     nation_designer_cost = 0
@@ -587,13 +580,13 @@ monarchy_tier_9_politik2_1_3 = {
     }
 }
 
-monarchy_tier_9_politik2_1_4 = {
+theocracy_tier_9_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_politik2
+        has_country_flag = iv_gov_reform_theo_tier_9_politik2
     }
     
     nation_designer_cost = 0
@@ -605,14 +598,13 @@ monarchy_tier_9_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_10_politik2_1_1 = {
+theocracy_tier_10_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_politik2
+        has_country_flag = iv_gov_reform_theo_tier_10_politik2
     }
     
     nation_designer_cost = 0
@@ -625,13 +617,13 @@ monarchy_tier_10_politik2_1_1 = {
     }
 }
 
-monarchy_tier_10_politik2_1_2 = {
+theocracy_tier_10_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_politik2
+        has_country_flag = iv_gov_reform_theo_tier_10_politik2
     }
     
     nation_designer_cost = 0
@@ -644,13 +636,13 @@ monarchy_tier_10_politik2_1_2 = {
     }
 }
 
-monarchy_tier_10_politik2_1_3 = {
+theocracy_tier_10_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_politik2
+        has_country_flag = iv_gov_reform_theo_tier_10_politik2
     }
     
     nation_designer_cost = 0
@@ -663,13 +655,13 @@ monarchy_tier_10_politik2_1_3 = {
     }
 }
 
-monarchy_tier_10_politik2_1_4 = {
+theocracy_tier_10_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_politik2
+        has_country_flag = iv_gov_reform_theo_tier_10_politik2
     }
     
     nation_designer_cost = 0
@@ -681,14 +673,13 @@ monarchy_tier_10_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_11_politik2_1_1 = {
+theocracy_tier_11_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_politik2
+        has_country_flag = iv_gov_reform_theo_tier_11_politik2
     }
     
     nation_designer_cost = 0
@@ -701,13 +692,13 @@ monarchy_tier_11_politik2_1_1 = {
     }
 }
 
-monarchy_tier_11_politik2_1_2 = {
+theocracy_tier_11_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_politik2
+        has_country_flag = iv_gov_reform_theo_tier_11_politik2
     }
     
     nation_designer_cost = 0
@@ -720,13 +711,13 @@ monarchy_tier_11_politik2_1_2 = {
     }
 }
 
-monarchy_tier_11_politik2_1_3 = {
+theocracy_tier_11_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_politik2
+        has_country_flag = iv_gov_reform_theo_tier_11_politik2
     }
     
     nation_designer_cost = 0
@@ -739,13 +730,13 @@ monarchy_tier_11_politik2_1_3 = {
     }
 }
 
-monarchy_tier_11_politik2_1_4 = {
+theocracy_tier_11_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_politik2
+        has_country_flag = iv_gov_reform_theo_tier_11_politik2
     }
     
     nation_designer_cost = 0
@@ -757,14 +748,13 @@ monarchy_tier_11_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_12_politik2_1_1 = {
+theocracy_tier_12_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_politik2
+        has_country_flag = iv_gov_reform_theo_tier_12_politik2
     }
     
     nation_designer_cost = 0
@@ -777,13 +767,13 @@ monarchy_tier_12_politik2_1_1 = {
     }
 }
 
-monarchy_tier_12_politik2_1_2 = {
+theocracy_tier_12_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_politik2
+        has_country_flag = iv_gov_reform_theo_tier_12_politik2
     }
     
     nation_designer_cost = 0
@@ -796,13 +786,13 @@ monarchy_tier_12_politik2_1_2 = {
     }
 }
 
-monarchy_tier_12_politik2_1_3 = {
+theocracy_tier_12_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_politik2
+        has_country_flag = iv_gov_reform_theo_tier_12_politik2
     }
     
     nation_designer_cost = 0
@@ -815,13 +805,13 @@ monarchy_tier_12_politik2_1_3 = {
     }
 }
 
-monarchy_tier_12_politik2_1_4 = {
+theocracy_tier_12_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_politik2
+        has_country_flag = iv_gov_reform_theo_tier_12_politik2
     }
     
     nation_designer_cost = 0
@@ -833,14 +823,13 @@ monarchy_tier_12_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_13_politik2_1_1 = {
+theocracy_tier_13_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_politik2
+        has_country_flag = iv_gov_reform_theo_tier_13_politik2
     }
     
     nation_designer_cost = 0
@@ -853,13 +842,13 @@ monarchy_tier_13_politik2_1_1 = {
     }
 }
 
-monarchy_tier_13_politik2_1_2 = {
+theocracy_tier_13_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_politik2
+        has_country_flag = iv_gov_reform_theo_tier_13_politik2
     }
     
     nation_designer_cost = 0
@@ -872,13 +861,13 @@ monarchy_tier_13_politik2_1_2 = {
     }
 }
 
-monarchy_tier_13_politik2_1_3 = {
+theocracy_tier_13_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_politik2
+        has_country_flag = iv_gov_reform_theo_tier_13_politik2
     }
     
     nation_designer_cost = 0
@@ -891,13 +880,13 @@ monarchy_tier_13_politik2_1_3 = {
     }
 }
 
-monarchy_tier_13_politik2_1_4 = {
+theocracy_tier_13_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_politik2
+        has_country_flag = iv_gov_reform_theo_tier_13_politik2
     }
     
     nation_designer_cost = 0
@@ -909,14 +898,13 @@ monarchy_tier_13_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_14_politik2_1_1 = {
+theocracy_tier_14_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_politik2
+        has_country_flag = iv_gov_reform_theo_tier_14_politik2
     }
     
     nation_designer_cost = 0
@@ -929,13 +917,13 @@ monarchy_tier_14_politik2_1_1 = {
     }
 }
 
-monarchy_tier_14_politik2_1_2 = {
+theocracy_tier_14_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_politik2
+        has_country_flag = iv_gov_reform_theo_tier_14_politik2
     }
     
     nation_designer_cost = 0
@@ -948,13 +936,13 @@ monarchy_tier_14_politik2_1_2 = {
     }
 }
 
-monarchy_tier_14_politik2_1_3 = {
+theocracy_tier_14_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_politik2
+        has_country_flag = iv_gov_reform_theo_tier_14_politik2
     }
     
     nation_designer_cost = 0
@@ -967,13 +955,13 @@ monarchy_tier_14_politik2_1_3 = {
     }
 }
 
-monarchy_tier_14_politik2_1_4 = {
+theocracy_tier_14_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_politik2
+        has_country_flag = iv_gov_reform_theo_tier_14_politik2
     }
     
     nation_designer_cost = 0
@@ -985,14 +973,13 @@ monarchy_tier_14_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-
-monarchy_tier_15_politik2_1_1 = {
+theocracy_tier_15_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_politik2
+        has_country_flag = iv_gov_reform_theo_tier_15_politik2
     }
     
     nation_designer_cost = 0
@@ -1005,13 +992,13 @@ monarchy_tier_15_politik2_1_1 = {
     }
 }
 
-monarchy_tier_15_politik2_1_2 = {
+theocracy_tier_15_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_politik2
+        has_country_flag = iv_gov_reform_theo_tier_15_politik2
     }
     
     nation_designer_cost = 0
@@ -1024,13 +1011,13 @@ monarchy_tier_15_politik2_1_2 = {
     }
 }
 
-monarchy_tier_15_politik2_1_3 = {
+theocracy_tier_15_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_politik2
+        has_country_flag = iv_gov_reform_theo_tier_15_politik2
     }
     
     nation_designer_cost = 0
@@ -1043,13 +1030,13 @@ monarchy_tier_15_politik2_1_3 = {
     }
 }
 
-monarchy_tier_15_politik2_1_4 = {
+theocracy_tier_15_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_politik2
+        has_country_flag = iv_gov_reform_theo_tier_15_politik2
     }
     
     nation_designer_cost = 0
@@ -1061,4 +1048,3 @@ monarchy_tier_15_politik2_1_4 = {
         mil_advisor_cost = 0.50
     }
 }
-

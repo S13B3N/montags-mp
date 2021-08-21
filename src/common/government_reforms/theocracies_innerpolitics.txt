@@ -1,12 +1,12 @@
-monarchy_tier_2_inner_1_1 = {
+theocracy_tier_2_inner_1_1 = {
 
-    icon = "idea_variation_30"
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_inner
+        has_country_flag = iv_gov_reform_theo_tier_2_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -17,15 +17,33 @@ monarchy_tier_2_inner_1_1 = {
     }
 }
 
-monarchy_tier_2_inner_1_2 = {
+theocracy_tier_2_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_inner
+        has_country_flag = iv_gov_reform_theo_tier_2_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_2_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_2_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -35,31 +53,13 @@ monarchy_tier_2_inner_1_2 = {
     }
 }
 
-monarchy_tier_2_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_2_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_2_inner_1_4 = {
+theocracy_tier_2_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_inner
+        has_country_flag = iv_gov_reform_theo_tier_2_inner
     }
 
     effect = {
@@ -74,15 +74,15 @@ monarchy_tier_2_inner_1_4 = {
     }
 }
 
-monarchy_tier_2_inner_1_5 = {
+theocracy_tier_2_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_inner
+        has_country_flag = iv_gov_reform_theo_tier_2_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -90,15 +90,16 @@ monarchy_tier_2_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_3_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_3_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_inner
+        has_country_flag = iv_gov_reform_theo_tier_3_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -109,15 +110,33 @@ monarchy_tier_3_inner_1_1 = {
     }
 }
 
-monarchy_tier_3_inner_1_2 = {
+theocracy_tier_3_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_inner
+        has_country_flag = iv_gov_reform_theo_tier_3_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_3_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_3_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -127,31 +146,13 @@ monarchy_tier_3_inner_1_2 = {
     }
 }
 
-monarchy_tier_3_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_3_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_3_inner_1_4 = {
+theocracy_tier_3_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_inner
+        has_country_flag = iv_gov_reform_theo_tier_3_inner
     }
 
     effect = {
@@ -166,15 +167,15 @@ monarchy_tier_3_inner_1_4 = {
     }
 }
 
-monarchy_tier_3_inner_1_5 = {
+theocracy_tier_3_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_inner
+        has_country_flag = iv_gov_reform_theo_tier_3_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -182,15 +183,16 @@ monarchy_tier_3_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_4_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_4_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_inner
+        has_country_flag = iv_gov_reform_theo_tier_4_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -201,15 +203,33 @@ monarchy_tier_4_inner_1_1 = {
     }
 }
 
-monarchy_tier_4_inner_1_2 = {
+theocracy_tier_4_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_inner
+        has_country_flag = iv_gov_reform_theo_tier_4_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_4_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_4_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -219,31 +239,13 @@ monarchy_tier_4_inner_1_2 = {
     }
 }
 
-monarchy_tier_4_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_4_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_4_inner_1_4 = {
+theocracy_tier_4_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_inner
+        has_country_flag = iv_gov_reform_theo_tier_4_inner
     }
 
     effect = {
@@ -258,15 +260,15 @@ monarchy_tier_4_inner_1_4 = {
     }
 }
 
-monarchy_tier_4_inner_1_5 = {
+theocracy_tier_4_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_inner
+        has_country_flag = iv_gov_reform_theo_tier_4_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -274,15 +276,16 @@ monarchy_tier_4_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_5_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_5_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_inner
+        has_country_flag = iv_gov_reform_theo_tier_5_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -293,15 +296,33 @@ monarchy_tier_5_inner_1_1 = {
     }
 }
 
-monarchy_tier_5_inner_1_2 = {
+theocracy_tier_5_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_inner
+        has_country_flag = iv_gov_reform_theo_tier_5_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_5_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_5_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -311,31 +332,13 @@ monarchy_tier_5_inner_1_2 = {
     }
 }
 
-monarchy_tier_5_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_5_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_5_inner_1_4 = {
+theocracy_tier_5_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_inner
+        has_country_flag = iv_gov_reform_theo_tier_5_inner
     }
 
     effect = {
@@ -350,15 +353,15 @@ monarchy_tier_5_inner_1_4 = {
     }
 }
 
-monarchy_tier_5_inner_1_5 = {
+theocracy_tier_5_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_inner
+        has_country_flag = iv_gov_reform_theo_tier_5_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -366,15 +369,16 @@ monarchy_tier_5_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_6_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_6_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_inner
+        has_country_flag = iv_gov_reform_theo_tier_6_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -385,15 +389,33 @@ monarchy_tier_6_inner_1_1 = {
     }
 }
 
-monarchy_tier_6_inner_1_2 = {
+theocracy_tier_6_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_inner
+        has_country_flag = iv_gov_reform_theo_tier_6_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_6_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_6_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -403,31 +425,13 @@ monarchy_tier_6_inner_1_2 = {
     }
 }
 
-monarchy_tier_6_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_6_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_6_inner_1_4 = {
+theocracy_tier_6_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_inner
+        has_country_flag = iv_gov_reform_theo_tier_6_inner
     }
 
     effect = {
@@ -442,15 +446,15 @@ monarchy_tier_6_inner_1_4 = {
     }
 }
 
-monarchy_tier_6_inner_1_5 = {
+theocracy_tier_6_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_inner
+        has_country_flag = iv_gov_reform_theo_tier_6_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -458,15 +462,16 @@ monarchy_tier_6_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_7_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_7_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_inner
+        has_country_flag = iv_gov_reform_theo_tier_7_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -477,15 +482,33 @@ monarchy_tier_7_inner_1_1 = {
     }
 }
 
-monarchy_tier_7_inner_1_2 = {
+theocracy_tier_7_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_inner
+        has_country_flag = iv_gov_reform_theo_tier_7_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_7_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_7_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -495,31 +518,13 @@ monarchy_tier_7_inner_1_2 = {
     }
 }
 
-monarchy_tier_7_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_7_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_7_inner_1_4 = {
+theocracy_tier_7_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_inner
+        has_country_flag = iv_gov_reform_theo_tier_7_inner
     }
 
     effect = {
@@ -534,15 +539,15 @@ monarchy_tier_7_inner_1_4 = {
     }
 }
 
-monarchy_tier_7_inner_1_5 = {
+theocracy_tier_7_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_inner
+        has_country_flag = iv_gov_reform_theo_tier_7_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -550,15 +555,16 @@ monarchy_tier_7_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_8_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_8_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_inner
+        has_country_flag = iv_gov_reform_theo_tier_8_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -569,15 +575,33 @@ monarchy_tier_8_inner_1_1 = {
     }
 }
 
-monarchy_tier_8_inner_1_2 = {
+theocracy_tier_8_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_inner
+        has_country_flag = iv_gov_reform_theo_tier_8_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_8_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_8_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -587,31 +611,13 @@ monarchy_tier_8_inner_1_2 = {
     }
 }
 
-monarchy_tier_8_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_8_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_8_inner_1_4 = {
+theocracy_tier_8_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_inner
+        has_country_flag = iv_gov_reform_theo_tier_8_inner
     }
 
     effect = {
@@ -626,15 +632,15 @@ monarchy_tier_8_inner_1_4 = {
     }
 }
 
-monarchy_tier_8_inner_1_5 = {
+theocracy_tier_8_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_inner
+        has_country_flag = iv_gov_reform_theo_tier_8_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -642,15 +648,16 @@ monarchy_tier_8_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_9_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_9_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_inner
+        has_country_flag = iv_gov_reform_theo_tier_9_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -661,15 +668,33 @@ monarchy_tier_9_inner_1_1 = {
     }
 }
 
-monarchy_tier_9_inner_1_2 = {
+theocracy_tier_9_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_inner
+        has_country_flag = iv_gov_reform_theo_tier_9_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_9_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_9_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -679,31 +704,13 @@ monarchy_tier_9_inner_1_2 = {
     }
 }
 
-monarchy_tier_9_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_9_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_9_inner_1_4 = {
+theocracy_tier_9_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_inner
+        has_country_flag = iv_gov_reform_theo_tier_9_inner
     }
 
     effect = {
@@ -718,15 +725,15 @@ monarchy_tier_9_inner_1_4 = {
     }
 }
 
-monarchy_tier_9_inner_1_5 = {
+theocracy_tier_9_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_inner
+        has_country_flag = iv_gov_reform_theo_tier_9_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -734,15 +741,16 @@ monarchy_tier_9_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_10_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_10_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_inner
+        has_country_flag = iv_gov_reform_theo_tier_10_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -753,15 +761,33 @@ monarchy_tier_10_inner_1_1 = {
     }
 }
 
-monarchy_tier_10_inner_1_2 = {
+theocracy_tier_10_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_inner
+        has_country_flag = iv_gov_reform_theo_tier_10_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_10_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_10_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -771,31 +797,13 @@ monarchy_tier_10_inner_1_2 = {
     }
 }
 
-monarchy_tier_10_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_10_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_10_inner_1_4 = {
+theocracy_tier_10_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_inner
+        has_country_flag = iv_gov_reform_theo_tier_10_inner
     }
 
     effect = {
@@ -810,15 +818,15 @@ monarchy_tier_10_inner_1_4 = {
     }
 }
 
-monarchy_tier_10_inner_1_5 = {
+theocracy_tier_10_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_inner
+        has_country_flag = iv_gov_reform_theo_tier_10_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -826,15 +834,16 @@ monarchy_tier_10_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_11_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_11_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_inner
+        has_country_flag = iv_gov_reform_theo_tier_11_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -845,15 +854,33 @@ monarchy_tier_11_inner_1_1 = {
     }
 }
 
-monarchy_tier_11_inner_1_2 = {
+theocracy_tier_11_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_inner
+        has_country_flag = iv_gov_reform_theo_tier_11_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_11_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_11_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -863,31 +890,13 @@ monarchy_tier_11_inner_1_2 = {
     }
 }
 
-monarchy_tier_11_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_11_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_11_inner_1_4 = {
+theocracy_tier_11_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_inner
+        has_country_flag = iv_gov_reform_theo_tier_11_inner
     }
 
     effect = {
@@ -902,15 +911,15 @@ monarchy_tier_11_inner_1_4 = {
     }
 }
 
-monarchy_tier_11_inner_1_5 = {
+theocracy_tier_11_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_inner
+        has_country_flag = iv_gov_reform_theo_tier_11_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -918,15 +927,16 @@ monarchy_tier_11_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_12_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_12_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_inner
+        has_country_flag = iv_gov_reform_theo_tier_12_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -937,15 +947,33 @@ monarchy_tier_12_inner_1_1 = {
     }
 }
 
-monarchy_tier_12_inner_1_2 = {
+theocracy_tier_12_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_inner
+        has_country_flag = iv_gov_reform_theo_tier_12_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_12_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_12_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -955,31 +983,13 @@ monarchy_tier_12_inner_1_2 = {
     }
 }
 
-monarchy_tier_12_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_12_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_12_inner_1_4 = {
+theocracy_tier_12_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_inner
+        has_country_flag = iv_gov_reform_theo_tier_12_inner
     }
 
     effect = {
@@ -994,15 +1004,15 @@ monarchy_tier_12_inner_1_4 = {
     }
 }
 
-monarchy_tier_12_inner_1_5 = {
+theocracy_tier_12_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_inner
+        has_country_flag = iv_gov_reform_theo_tier_12_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1010,15 +1020,16 @@ monarchy_tier_12_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_13_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_13_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_inner
+        has_country_flag = iv_gov_reform_theo_tier_13_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1029,15 +1040,33 @@ monarchy_tier_13_inner_1_1 = {
     }
 }
 
-monarchy_tier_13_inner_1_2 = {
+theocracy_tier_13_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_inner
+        has_country_flag = iv_gov_reform_theo_tier_13_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_13_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_13_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1047,31 +1076,13 @@ monarchy_tier_13_inner_1_2 = {
     }
 }
 
-monarchy_tier_13_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_13_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_13_inner_1_4 = {
+theocracy_tier_13_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_inner
+        has_country_flag = iv_gov_reform_theo_tier_13_inner
     }
 
     effect = {
@@ -1086,15 +1097,15 @@ monarchy_tier_13_inner_1_4 = {
     }
 }
 
-monarchy_tier_13_inner_1_5 = {
+theocracy_tier_13_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_inner
+        has_country_flag = iv_gov_reform_theo_tier_13_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1102,15 +1113,16 @@ monarchy_tier_13_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_14_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_14_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_inner
+        has_country_flag = iv_gov_reform_theo_tier_14_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1121,15 +1133,33 @@ monarchy_tier_14_inner_1_1 = {
     }
 }
 
-monarchy_tier_14_inner_1_2 = {
+theocracy_tier_14_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_inner
+        has_country_flag = iv_gov_reform_theo_tier_14_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_14_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_14_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1139,31 +1169,13 @@ monarchy_tier_14_inner_1_2 = {
     }
 }
 
-monarchy_tier_14_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_14_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_14_inner_1_4 = {
+theocracy_tier_14_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_inner
+        has_country_flag = iv_gov_reform_theo_tier_14_inner
     }
 
     effect = {
@@ -1178,15 +1190,15 @@ monarchy_tier_14_inner_1_4 = {
     }
 }
 
-monarchy_tier_14_inner_1_5 = {
+theocracy_tier_14_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_inner
+        has_country_flag = iv_gov_reform_theo_tier_14_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1194,15 +1206,16 @@ monarchy_tier_14_inner_1_5 = {
         merchants = 1
     }
 }
-monarchy_tier_15_inner_1_1 = {
 
-    icon = "idea_variation_30"
+theocracy_tier_15_inner_1_1 = {
+
+    icon = "soldiers_5"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_inner
+        has_country_flag = iv_gov_reform_theo_tier_15_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1213,15 +1226,33 @@ monarchy_tier_15_inner_1_1 = {
     }
 }
 
-monarchy_tier_15_inner_1_2 = {
+theocracy_tier_15_inner_1_2 = {
 
-    icon = "assembly_hall"
+    icon = "idea_variation_29"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_inner
+        has_country_flag = iv_gov_reform_theo_tier_15_inner
     }
+    
+    nation_designer_cost = 0
 
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_15_inner_1_3 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_15_inner
+    }
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1231,31 +1262,13 @@ monarchy_tier_15_inner_1_2 = {
     }
 }
 
-monarchy_tier_15_inner_1_3 = {
-
-    icon = "idea_variation_17"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_15_inner
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        culture_conversion_cost = -0.4
-        expel_minorities_cost = -0.25
-        legitimacy = -0.5
-    }
-}
-
-monarchy_tier_15_inner_1_4 = {
+theocracy_tier_15_inner_1_4 = {
 
     icon = "idea_variation_16"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_inner
+        has_country_flag = iv_gov_reform_theo_tier_15_inner
     }
 
     effect = {
@@ -1270,15 +1283,15 @@ monarchy_tier_15_inner_1_4 = {
     }
 }
 
-monarchy_tier_15_inner_1_5 = {
+theocracy_tier_15_inner_1_5 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_inner
+        has_country_flag = iv_gov_reform_theo_tier_15_inner
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1286,3 +1299,4 @@ monarchy_tier_15_inner_1_5 = {
         merchants = 1
     }
 }
+

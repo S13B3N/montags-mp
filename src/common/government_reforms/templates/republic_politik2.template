@@ -1,10 +1,10 @@
-republic_{{tierCount}}_politik2_1_1 = {
+republic_tier_{{tierCount}}_politik2_1_1 = {
 
     icon = "dutch_republic"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_politik2
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_politik2
     }
     
     nation_designer_cost = 0
@@ -17,13 +17,13 @@ republic_{{tierCount}}_politik2_1_1 = {
     }
 }
 
-republic_{{tierCount}}_politik2_1_2 = {
+republic_tier_{{tierCount}}_politik2_1_2 = {
 
     icon = "idea_variation_24"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_politik2
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_politik2
     }
     
     nation_designer_cost = 0
@@ -36,13 +36,13 @@ republic_{{tierCount}}_politik2_1_2 = {
     }
 }
 
-republic_{{tierCount}}_politik2_1_3 = {
+republic_tier_{{tierCount}}_politik2_1_3 = {
 
     icon = "idea_variation_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_politik2
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_politik2
     }
     
     nation_designer_cost = 0
@@ -55,13 +55,13 @@ republic_{{tierCount}}_politik2_1_3 = {
     }
 }
 
-republic_{{tierCount}}_politik2_1_4 = {
+republic_tier_{{tierCount}}_politik2_1_4 = {
 
     icon = "idea_variation_12"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_politik2
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_politik2
     }
     
     nation_designer_cost = 0

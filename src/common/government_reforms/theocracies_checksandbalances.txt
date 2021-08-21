@@ -1,17 +1,17 @@
-monarchy_tier_2_checks_1_1 = {
+theocracy_tier_2_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_checks
+        has_country_flag = iv_gov_reform_theo_tier_2_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -43,103 +43,88 @@ monarchy_tier_2_checks_1_1 = {
     }
 }
 
-monarchy_tier_2_checks_1_2 = {
+theocracy_tier_2_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_2_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_2_checks_1_3 = {
+theocracy_tier_2_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_2_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_2_checks_1_4 = {
+theocracy_tier_2_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_checks
+        has_country_flag = iv_gov_reform_theo_tier_2_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_3_checks_1_1 = {
+
+theocracy_tier_2_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_2_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_3_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_checks
+        has_country_flag = iv_gov_reform_theo_tier_3_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -171,103 +156,88 @@ monarchy_tier_3_checks_1_1 = {
     }
 }
 
-monarchy_tier_3_checks_1_2 = {
+theocracy_tier_3_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_3_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_3_checks_1_3 = {
+theocracy_tier_3_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_3_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_3_checks_1_4 = {
+theocracy_tier_3_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_checks
+        has_country_flag = iv_gov_reform_theo_tier_3_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_4_checks_1_1 = {
+
+theocracy_tier_3_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_3_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_4_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_checks
+        has_country_flag = iv_gov_reform_theo_tier_4_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -299,103 +269,88 @@ monarchy_tier_4_checks_1_1 = {
     }
 }
 
-monarchy_tier_4_checks_1_2 = {
+theocracy_tier_4_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_4_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_4_checks_1_3 = {
+theocracy_tier_4_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_4_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_4_checks_1_4 = {
+theocracy_tier_4_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_checks
+        has_country_flag = iv_gov_reform_theo_tier_4_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_5_checks_1_1 = {
+
+theocracy_tier_4_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_4_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_5_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_checks
+        has_country_flag = iv_gov_reform_theo_tier_5_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -427,103 +382,88 @@ monarchy_tier_5_checks_1_1 = {
     }
 }
 
-monarchy_tier_5_checks_1_2 = {
+theocracy_tier_5_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_5_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_5_checks_1_3 = {
+theocracy_tier_5_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_5_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_5_checks_1_4 = {
+theocracy_tier_5_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_checks
+        has_country_flag = iv_gov_reform_theo_tier_5_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_6_checks_1_1 = {
+
+theocracy_tier_5_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_5_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_6_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_checks
+        has_country_flag = iv_gov_reform_theo_tier_6_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -555,103 +495,88 @@ monarchy_tier_6_checks_1_1 = {
     }
 }
 
-monarchy_tier_6_checks_1_2 = {
+theocracy_tier_6_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_6_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_6_checks_1_3 = {
+theocracy_tier_6_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_6_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_6_checks_1_4 = {
+theocracy_tier_6_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_checks
+        has_country_flag = iv_gov_reform_theo_tier_6_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_7_checks_1_1 = {
+
+theocracy_tier_6_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_6_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_7_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_checks
+        has_country_flag = iv_gov_reform_theo_tier_7_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -683,103 +608,88 @@ monarchy_tier_7_checks_1_1 = {
     }
 }
 
-monarchy_tier_7_checks_1_2 = {
+theocracy_tier_7_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_7_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_7_checks_1_3 = {
+theocracy_tier_7_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_7_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_7_checks_1_4 = {
+theocracy_tier_7_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_checks
+        has_country_flag = iv_gov_reform_theo_tier_7_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_8_checks_1_1 = {
+
+theocracy_tier_7_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_7_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_8_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_checks
+        has_country_flag = iv_gov_reform_theo_tier_8_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -811,103 +721,88 @@ monarchy_tier_8_checks_1_1 = {
     }
 }
 
-monarchy_tier_8_checks_1_2 = {
+theocracy_tier_8_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_8_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_8_checks_1_3 = {
+theocracy_tier_8_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_8_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_8_checks_1_4 = {
+theocracy_tier_8_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_checks
+        has_country_flag = iv_gov_reform_theo_tier_8_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_9_checks_1_1 = {
+
+theocracy_tier_8_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_8_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_9_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_checks
+        has_country_flag = iv_gov_reform_theo_tier_9_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -939,103 +834,88 @@ monarchy_tier_9_checks_1_1 = {
     }
 }
 
-monarchy_tier_9_checks_1_2 = {
+theocracy_tier_9_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_9_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_9_checks_1_3 = {
+theocracy_tier_9_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_9_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_9_checks_1_4 = {
+theocracy_tier_9_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_checks
+        has_country_flag = iv_gov_reform_theo_tier_9_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_10_checks_1_1 = {
+
+theocracy_tier_9_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_9_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_10_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_checks
+        has_country_flag = iv_gov_reform_theo_tier_10_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -1067,103 +947,88 @@ monarchy_tier_10_checks_1_1 = {
     }
 }
 
-monarchy_tier_10_checks_1_2 = {
+theocracy_tier_10_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_10_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_10_checks_1_3 = {
+theocracy_tier_10_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_10_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_10_checks_1_4 = {
+theocracy_tier_10_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_checks
+        has_country_flag = iv_gov_reform_theo_tier_10_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_11_checks_1_1 = {
+
+theocracy_tier_10_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_10_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_11_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_checks
+        has_country_flag = iv_gov_reform_theo_tier_11_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -1195,103 +1060,88 @@ monarchy_tier_11_checks_1_1 = {
     }
 }
 
-monarchy_tier_11_checks_1_2 = {
+theocracy_tier_11_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_11_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_11_checks_1_3 = {
+theocracy_tier_11_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_11_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_11_checks_1_4 = {
+theocracy_tier_11_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_checks
+        has_country_flag = iv_gov_reform_theo_tier_11_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_12_checks_1_1 = {
+
+theocracy_tier_11_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_11_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_12_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_checks
+        has_country_flag = iv_gov_reform_theo_tier_12_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -1323,103 +1173,88 @@ monarchy_tier_12_checks_1_1 = {
     }
 }
 
-monarchy_tier_12_checks_1_2 = {
+theocracy_tier_12_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_12_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_12_checks_1_3 = {
+theocracy_tier_12_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_12_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_12_checks_1_4 = {
+theocracy_tier_12_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_checks
+        has_country_flag = iv_gov_reform_theo_tier_12_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_13_checks_1_1 = {
+
+theocracy_tier_12_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_12_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_13_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_checks
+        has_country_flag = iv_gov_reform_theo_tier_13_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -1451,103 +1286,88 @@ monarchy_tier_13_checks_1_1 = {
     }
 }
 
-monarchy_tier_13_checks_1_2 = {
+theocracy_tier_13_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_13_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_13_checks_1_3 = {
+theocracy_tier_13_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_13_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_13_checks_1_4 = {
+theocracy_tier_13_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_checks
+        has_country_flag = iv_gov_reform_theo_tier_13_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_14_checks_1_1 = {
+
+theocracy_tier_13_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_13_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_14_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_checks
+        has_country_flag = iv_gov_reform_theo_tier_14_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -1579,103 +1399,88 @@ monarchy_tier_14_checks_1_1 = {
     }
 }
 
-monarchy_tier_14_checks_1_2 = {
+theocracy_tier_14_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_14_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_14_checks_1_3 = {
+theocracy_tier_14_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_14_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_14_checks_1_4 = {
+theocracy_tier_14_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_checks
+        has_country_flag = iv_gov_reform_theo_tier_14_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
     }
 }
-monarchy_tier_15_checks_1_1 = {
+
+theocracy_tier_14_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_14_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
+    }
+}
+theocracy_tier_15_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_checks
+        has_country_flag = iv_gov_reform_theo_tier_15_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        legitimacy = 2
-        max_absolutism = -20
+        devotion = 2
+        max_absolutism = -10
         nobles_loyalty_modifier = 0.10
         nobles_influence_modifier = 0.05
         church_loyalty_modifier = 0.10
@@ -1707,86 +1512,71 @@ monarchy_tier_15_checks_1_1 = {
     }
 }
 
-monarchy_tier_15_checks_1_2 = {
+theocracy_tier_15_checks_1_2 = {
 
-    icon = "parliament"
+    icon = "articles_of_agreement"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_checks
-    }
-
-    trigger = {
-        NOT = { has_reform = english_monarchy }
+        has_country_flag = iv_gov_reform_theo_tier_15_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -20
-    }
-
-    conditional = {
-        allow = {
-            has_dlc = "Common Sense"
-        }
-        has_parliament = yes
+        monarch_admin_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_15_checks_1_3 = {
+theocracy_tier_15_checks_1_3 = {
 
-    icon = "elective_monarchy"
+    icon = "clergyman"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_checks
-    }
-
-    trigger = {
-        NOT = {
-            OR = {
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom    
-                has_reform = elective_monarchy        
-            }
-        }
+        has_country_flag = iv_gov_reform_theo_tier_15_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = -10
-        legitimacy = 1
-        monthly_support_heir_gain = 0.1
-    }
-
-    conditional = {
-        allow = { has_dlc = "Res Publica" }
-        is_elective = yes
+        monarch_diplomatic_power = 2
+        devotion = -1
     }
 }
 
-monarchy_tier_15_checks_1_4 = {
+theocracy_tier_15_checks_1_4 = {
 
-    icon = "idea_variation_25"
+    icon = "feudal_theocracy"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_checks
+        has_country_flag = iv_gov_reform_theo_tier_15_checks
     }
     
     nation_designer_cost = 0
 
     modifiers = {
-        max_absolutism = 15
-        legitimacy = -1
+        monarch_military_power = 2    
+        devotion = -1
+    }
+}
+
+theocracy_tier_15_checks_1_5 = {
+
+    icon = "church"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_15_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        yearly_absolutism = 1.0
+        max_absolutism = 25
+        devotion = -1
     }
 }

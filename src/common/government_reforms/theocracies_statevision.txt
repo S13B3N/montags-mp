@@ -1,14 +1,10 @@
-monarchy_tier_2_vision_1_1 = {
+theocracy_tier_2_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_2_vision
     }
     
     nation_designer_cost = 0
@@ -19,17 +15,13 @@ monarchy_tier_2_vision_1_1 = {
     }
 }
 
-monarchy_tier_2_vision_1_2 = {
+theocracy_tier_2_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_2_vision
     }
 
     effect = {
@@ -40,17 +32,17 @@ monarchy_tier_2_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_2_vision_1_3 = {
+theocracy_tier_2_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_vision
+        has_country_flag = iv_gov_reform_theo_tier_2_vision
     }
 
     trigger = {
@@ -63,37 +55,26 @@ monarchy_tier_2_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_2_vision_1_4 = {
+theocracy_tier_2_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_vision
+        has_country_flag = iv_gov_reform_theo_tier_2_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -102,17 +83,13 @@ monarchy_tier_2_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_3_vision_1_1 = {
+theocracy_tier_3_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_3_vision
     }
     
     nation_designer_cost = 0
@@ -123,17 +100,13 @@ monarchy_tier_3_vision_1_1 = {
     }
 }
 
-monarchy_tier_3_vision_1_2 = {
+theocracy_tier_3_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_3_vision
     }
 
     effect = {
@@ -144,17 +117,17 @@ monarchy_tier_3_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_3_vision_1_3 = {
+theocracy_tier_3_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_vision
+        has_country_flag = iv_gov_reform_theo_tier_3_vision
     }
 
     trigger = {
@@ -167,37 +140,26 @@ monarchy_tier_3_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_3_vision_1_4 = {
+theocracy_tier_3_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_vision
+        has_country_flag = iv_gov_reform_theo_tier_3_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -206,17 +168,13 @@ monarchy_tier_3_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_4_vision_1_1 = {
+theocracy_tier_4_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_4_vision
     }
     
     nation_designer_cost = 0
@@ -227,17 +185,13 @@ monarchy_tier_4_vision_1_1 = {
     }
 }
 
-monarchy_tier_4_vision_1_2 = {
+theocracy_tier_4_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_4_vision
     }
 
     effect = {
@@ -248,17 +202,17 @@ monarchy_tier_4_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_4_vision_1_3 = {
+theocracy_tier_4_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_vision
+        has_country_flag = iv_gov_reform_theo_tier_4_vision
     }
 
     trigger = {
@@ -271,37 +225,26 @@ monarchy_tier_4_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_4_vision_1_4 = {
+theocracy_tier_4_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_vision
+        has_country_flag = iv_gov_reform_theo_tier_4_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -310,17 +253,13 @@ monarchy_tier_4_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_5_vision_1_1 = {
+theocracy_tier_5_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_5_vision
     }
     
     nation_designer_cost = 0
@@ -331,17 +270,13 @@ monarchy_tier_5_vision_1_1 = {
     }
 }
 
-monarchy_tier_5_vision_1_2 = {
+theocracy_tier_5_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_5_vision
     }
 
     effect = {
@@ -352,17 +287,17 @@ monarchy_tier_5_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_5_vision_1_3 = {
+theocracy_tier_5_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_vision
+        has_country_flag = iv_gov_reform_theo_tier_5_vision
     }
 
     trigger = {
@@ -375,37 +310,26 @@ monarchy_tier_5_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_5_vision_1_4 = {
+theocracy_tier_5_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_vision
+        has_country_flag = iv_gov_reform_theo_tier_5_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -414,17 +338,13 @@ monarchy_tier_5_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_6_vision_1_1 = {
+theocracy_tier_6_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_6_vision
     }
     
     nation_designer_cost = 0
@@ -435,17 +355,13 @@ monarchy_tier_6_vision_1_1 = {
     }
 }
 
-monarchy_tier_6_vision_1_2 = {
+theocracy_tier_6_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_6_vision
     }
 
     effect = {
@@ -456,17 +372,17 @@ monarchy_tier_6_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_6_vision_1_3 = {
+theocracy_tier_6_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_vision
+        has_country_flag = iv_gov_reform_theo_tier_6_vision
     }
 
     trigger = {
@@ -479,37 +395,26 @@ monarchy_tier_6_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_6_vision_1_4 = {
+theocracy_tier_6_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_vision
+        has_country_flag = iv_gov_reform_theo_tier_6_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -518,17 +423,13 @@ monarchy_tier_6_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_7_vision_1_1 = {
+theocracy_tier_7_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_7_vision
     }
     
     nation_designer_cost = 0
@@ -539,17 +440,13 @@ monarchy_tier_7_vision_1_1 = {
     }
 }
 
-monarchy_tier_7_vision_1_2 = {
+theocracy_tier_7_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_7_vision
     }
 
     effect = {
@@ -560,17 +457,17 @@ monarchy_tier_7_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_7_vision_1_3 = {
+theocracy_tier_7_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_vision
+        has_country_flag = iv_gov_reform_theo_tier_7_vision
     }
 
     trigger = {
@@ -583,37 +480,26 @@ monarchy_tier_7_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_7_vision_1_4 = {
+theocracy_tier_7_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_vision
+        has_country_flag = iv_gov_reform_theo_tier_7_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -622,17 +508,13 @@ monarchy_tier_7_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_8_vision_1_1 = {
+theocracy_tier_8_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_8_vision
     }
     
     nation_designer_cost = 0
@@ -643,17 +525,13 @@ monarchy_tier_8_vision_1_1 = {
     }
 }
 
-monarchy_tier_8_vision_1_2 = {
+theocracy_tier_8_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_8_vision
     }
 
     effect = {
@@ -664,17 +542,17 @@ monarchy_tier_8_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_8_vision_1_3 = {
+theocracy_tier_8_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_vision
+        has_country_flag = iv_gov_reform_theo_tier_8_vision
     }
 
     trigger = {
@@ -687,37 +565,26 @@ monarchy_tier_8_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_8_vision_1_4 = {
+theocracy_tier_8_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_vision
+        has_country_flag = iv_gov_reform_theo_tier_8_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -726,17 +593,13 @@ monarchy_tier_8_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_9_vision_1_1 = {
+theocracy_tier_9_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_9_vision
     }
     
     nation_designer_cost = 0
@@ -747,17 +610,13 @@ monarchy_tier_9_vision_1_1 = {
     }
 }
 
-monarchy_tier_9_vision_1_2 = {
+theocracy_tier_9_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_9_vision
     }
 
     effect = {
@@ -768,17 +627,17 @@ monarchy_tier_9_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_9_vision_1_3 = {
+theocracy_tier_9_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_vision
+        has_country_flag = iv_gov_reform_theo_tier_9_vision
     }
 
     trigger = {
@@ -791,37 +650,26 @@ monarchy_tier_9_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_9_vision_1_4 = {
+theocracy_tier_9_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_vision
+        has_country_flag = iv_gov_reform_theo_tier_9_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -830,17 +678,13 @@ monarchy_tier_9_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_10_vision_1_1 = {
+theocracy_tier_10_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_10_vision
     }
     
     nation_designer_cost = 0
@@ -851,17 +695,13 @@ monarchy_tier_10_vision_1_1 = {
     }
 }
 
-monarchy_tier_10_vision_1_2 = {
+theocracy_tier_10_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_10_vision
     }
 
     effect = {
@@ -872,17 +712,17 @@ monarchy_tier_10_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_10_vision_1_3 = {
+theocracy_tier_10_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_vision
+        has_country_flag = iv_gov_reform_theo_tier_10_vision
     }
 
     trigger = {
@@ -895,37 +735,26 @@ monarchy_tier_10_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_10_vision_1_4 = {
+theocracy_tier_10_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_vision
+        has_country_flag = iv_gov_reform_theo_tier_10_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -934,17 +763,13 @@ monarchy_tier_10_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_11_vision_1_1 = {
+theocracy_tier_11_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_11_vision
     }
     
     nation_designer_cost = 0
@@ -955,17 +780,13 @@ monarchy_tier_11_vision_1_1 = {
     }
 }
 
-monarchy_tier_11_vision_1_2 = {
+theocracy_tier_11_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_11_vision
     }
 
     effect = {
@@ -976,17 +797,17 @@ monarchy_tier_11_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_11_vision_1_3 = {
+theocracy_tier_11_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_vision
+        has_country_flag = iv_gov_reform_theo_tier_11_vision
     }
 
     trigger = {
@@ -999,37 +820,26 @@ monarchy_tier_11_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_11_vision_1_4 = {
+theocracy_tier_11_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_vision
+        has_country_flag = iv_gov_reform_theo_tier_11_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1038,17 +848,13 @@ monarchy_tier_11_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_12_vision_1_1 = {
+theocracy_tier_12_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_12_vision
     }
     
     nation_designer_cost = 0
@@ -1059,17 +865,13 @@ monarchy_tier_12_vision_1_1 = {
     }
 }
 
-monarchy_tier_12_vision_1_2 = {
+theocracy_tier_12_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_12_vision
     }
 
     effect = {
@@ -1080,17 +882,17 @@ monarchy_tier_12_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_12_vision_1_3 = {
+theocracy_tier_12_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_vision
+        has_country_flag = iv_gov_reform_theo_tier_12_vision
     }
 
     trigger = {
@@ -1103,37 +905,26 @@ monarchy_tier_12_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_12_vision_1_4 = {
+theocracy_tier_12_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_vision
+        has_country_flag = iv_gov_reform_theo_tier_12_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1142,17 +933,13 @@ monarchy_tier_12_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_13_vision_1_1 = {
+theocracy_tier_13_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_13_vision
     }
     
     nation_designer_cost = 0
@@ -1163,17 +950,13 @@ monarchy_tier_13_vision_1_1 = {
     }
 }
 
-monarchy_tier_13_vision_1_2 = {
+theocracy_tier_13_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_13_vision
     }
 
     effect = {
@@ -1184,17 +967,17 @@ monarchy_tier_13_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_13_vision_1_3 = {
+theocracy_tier_13_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_vision
+        has_country_flag = iv_gov_reform_theo_tier_13_vision
     }
 
     trigger = {
@@ -1207,37 +990,26 @@ monarchy_tier_13_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_13_vision_1_4 = {
+theocracy_tier_13_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_vision
+        has_country_flag = iv_gov_reform_theo_tier_13_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1246,17 +1018,13 @@ monarchy_tier_13_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_14_vision_1_1 = {
+theocracy_tier_14_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_14_vision
     }
     
     nation_designer_cost = 0
@@ -1267,17 +1035,13 @@ monarchy_tier_14_vision_1_1 = {
     }
 }
 
-monarchy_tier_14_vision_1_2 = {
+theocracy_tier_14_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_14_vision
     }
 
     effect = {
@@ -1288,17 +1052,17 @@ monarchy_tier_14_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_14_vision_1_3 = {
+theocracy_tier_14_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_vision
+        has_country_flag = iv_gov_reform_theo_tier_14_vision
     }
 
     trigger = {
@@ -1311,37 +1075,26 @@ monarchy_tier_14_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_14_vision_1_4 = {
+theocracy_tier_14_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_vision
+        has_country_flag = iv_gov_reform_theo_tier_14_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1350,17 +1103,13 @@ monarchy_tier_14_vision_1_4 = {
         promote_culture_cost = -1
     }
 }
-monarchy_tier_15_vision_1_1 = {
+theocracy_tier_15_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_vision
-    }
-
-    effect = {
-        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+        has_country_flag = iv_gov_reform_theo_tier_15_vision
     }
     
     nation_designer_cost = 0
@@ -1371,17 +1120,13 @@ monarchy_tier_15_vision_1_1 = {
     }
 }
 
-monarchy_tier_15_vision_1_2 = {
+theocracy_tier_15_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_vision
-    }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        has_country_flag = iv_gov_reform_theo_tier_15_vision
     }
 
     effect = {
@@ -1392,17 +1137,17 @@ monarchy_tier_15_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_15_vision_1_3 = {
+theocracy_tier_15_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_vision
+        has_country_flag = iv_gov_reform_theo_tier_15_vision
     }
 
     trigger = {
@@ -1415,37 +1160,26 @@ monarchy_tier_15_vision_1_3 = {
                 has_reform = iqta
                 has_reform = principality
                 has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
         governing_capacity = 100
     }
-
-    conditional = {
-        allow = { has_dlc = "Rights of Man" }
-        militarised_society = yes
-    }
 }
 
-monarchy_tier_15_vision_1_4 = {
+theocracy_tier_15_vision_1_4 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_vision
+        has_country_flag = iv_gov_reform_theo_tier_15_vision
     }
-
-    trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
-    }
-
+    
     nation_designer_cost = 0
 
     modifiers = {

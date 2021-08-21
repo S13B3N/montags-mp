@@ -1,0 +1,107 @@
+theocracy_tier_{{tierCount}}_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+theocracy_tier_{{tierCount}}_expan_1_2 = {
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+theocracy_tier_{{tierCount}}_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+theocracy_tier_{{tierCount}}_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+theocracy_tier_{{tierCount}}_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+
+theocracy_tier_{{tierCount}}_expan_1_6 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+    }
+}
+

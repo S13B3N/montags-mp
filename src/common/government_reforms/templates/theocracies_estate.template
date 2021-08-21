@@ -1,0 +1,239 @@
+theocracy_tier_{{tierCount}}_estate_1_1 = {
+
+    icon = "nobleman"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_nobles
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_2 = {
+
+    icon = "religious_leader"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_church
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        church_loyalty_modifier = 0.20
+        church_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_3 = {
+
+    icon = "merchant"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_burghers
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        burghers_loyalty_modifier = 0.20
+        burghers_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_4 = {
+
+    icon = "fist_in_air"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_nationalist
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        nationalist_loyalty_modifier = 0.20
+        nationalist_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_5 = {
+
+    icon = "feudal_theocracy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_janissary
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        janissary_loyalty_modifier = 0.20
+        janissary_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_6 = {
+
+    icon = "horde_riding"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_cossacks
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        cossacks_loyalty_modifier = 0.20
+        cossacks_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_7 = {
+
+    icon = "peasants"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_dhimmi
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dhimmi_loyalty_modifier = 0.20
+        dhimmi_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_8 = {
+
+    icon = "siddhi_recruitment"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_brahmins
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        brahmins_hindu_loyalty_modifier = 0.20
+        brahmins_muslim_loyalty_modifier = 0.20 
+        brahmins_other_loyalty_modifier = 0.20
+        brahmins_hindu_influence_modifier = 0.10
+        brahmins_muslim_influence_modifier = 0.10
+        brahmins_other_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_9 = {
+
+    icon = "noble_indian"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_maratha
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        maratha_loyalty_modifier = 0.20
+        maratha_influence_modifier = 0.10
+    }
+
+    custom_attributes = {
+        maratha_general_interaction = yes
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_10 = {
+
+    icon = "landscape"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_vaisyas
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        vaisyas_loyalty_modifier = 0.20
+        vaisyas_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_11 = {
+
+    icon = "nayankara_system"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_jains
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        jains_loyalty_modifier = 0.20
+        jains_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_12 = {
+
+    icon = "rajput_kingdom"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_estate = estate_rajput
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        rajput_loyalty_modifier = 0.20
+        rajput_influence_modifier = 0.10
+    }
+}
+
+theocracy_tier_{{tierCount}}_estate_1_13 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_estate
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        devotion = 1
+    }
+}

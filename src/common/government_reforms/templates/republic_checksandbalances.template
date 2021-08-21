@@ -1,10 +1,10 @@
-republic_{{tierCount}}_checks_1_1 = {
+republic_tier_{{tierCount}}_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -43,13 +43,13 @@ republic_{{tierCount}}_checks_1_1 = {
     }
 }
 
-republic_{{tierCount}}_checks_1_2 = {
+republic_tier_{{tierCount}}_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -72,13 +72,13 @@ republic_{{tierCount}}_checks_1_2 = {
     }
 }
 
-republic_{{tierCount}}_checks_1_3 = {
+republic_tier_{{tierCount}}_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -94,13 +94,13 @@ republic_{{tierCount}}_checks_1_3 = {
     }
 }
 
-republic_{{tierCount}}_checks_1_4 = {
+republic_tier_{{tierCount}}_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -113,13 +113,13 @@ republic_{{tierCount}}_checks_1_4 = {
     }
 }
 
-republic_{{tierCount}}_checks_1_5 = {
+republic_tier_{{tierCount}}_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -133,13 +133,13 @@ republic_{{tierCount}}_checks_1_5 = {
     }
 }
 
-republic_{{tierCount}}_checks_1_6 = {
+republic_tier_{{tierCount}}_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -157,13 +157,13 @@ republic_{{tierCount}}_checks_1_6 = {
     }
 }
 
-republic_{{tierCount}}_checks_1_7 = {
+republic_tier_{{tierCount}}_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_checks
     }
     
     nation_designer_cost = 0

@@ -1,0 +1,91 @@
+theocracy_tier_{{tierCount}}_ausbildung_1_1 = {
+
+    icon = "arabic_scripture"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        devotion = 1
+        diplomatic_upkeep = 2
+        diplomatic_annexation_cost = -0.15
+    }
+}
+
+theocracy_tier_{{tierCount}}_ausbildung_1_2 = {
+
+    icon = "religious_leader_highlighted"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionary_maintenance_cost = -1.0
+        global_missionary_strength = 0.02
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_{{tierCount}}_ausbildung_1_3 = {
+
+    icon = "monks"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        advisor_cost = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_{{tierCount}}_ausbildung_1_4 = {
+
+    icon = "soldiers"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        general_cost = -0.33
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_{{tierCount}}_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        devotion = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}

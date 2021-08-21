@@ -1,10 +1,10 @@
-republic_{{tierCount}}_ausbildung_1_1 = {
+republic_tier_{{tierCount}}_ausbildung_1_1 = {
 
     icon = "idea_variation_47"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_ausbildung
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_ausbildung
     }
     
     nation_designer_cost = 0
@@ -15,13 +15,13 @@ republic_{{tierCount}}_ausbildung_1_1 = {
     }
 }
 
-republic_{{tierCount}}_ausbildung_1_2 = {
+republic_tier_{{tierCount}}_ausbildung_1_2 = {
 
     icon = "idea_variation_48"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_ausbildung
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_ausbildung
     }
     
     nation_designer_cost = 0
@@ -31,13 +31,13 @@ republic_{{tierCount}}_ausbildung_1_2 = {
     }
 }
 
-republic_{{tierCount}}_ausbildung_1_3 = {
+republic_tier_{{tierCount}}_ausbildung_1_3 = {
 
     icon = "idea_variation_46"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_ausbildung
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_ausbildung
     }
     
     nation_designer_cost = 0
@@ -47,13 +47,13 @@ republic_{{tierCount}}_ausbildung_1_3 = {
     }
 }
 
-republic_{{tierCount}}_ausbildung_1_4 = {
+republic_tier_{{tierCount}}_ausbildung_1_4 = {
 
     icon = "idea_variation_45"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_ausbildung
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_ausbildung
     }
     
     nation_designer_cost = 0
@@ -63,13 +63,13 @@ republic_{{tierCount}}_ausbildung_1_4 = {
     }
 }
 
-republic_{{tierCount}}_ausbildung_1_5 = {
+republic_tier_{{tierCount}}_ausbildung_1_5 = {
 
     icon = "idea_variation_13"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_{{tierCount}}_ausbildung
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_ausbildung
     }
 
     effect = {

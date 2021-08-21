@@ -1,10 +1,10 @@
-republic_2_checks_1_1 = {
+republic_tier_2_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_2_checks
+        has_country_flag = iv_gov_reform_rep_tier_2_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -43,13 +43,13 @@ republic_2_checks_1_1 = {
     }
 }
 
-republic_2_checks_1_2 = {
+republic_tier_2_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_2_checks
+        has_country_flag = iv_gov_reform_rep_tier_2_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -72,13 +72,13 @@ republic_2_checks_1_2 = {
     }
 }
 
-republic_2_checks_1_3 = {
+republic_tier_2_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_2_checks
+        has_country_flag = iv_gov_reform_rep_tier_2_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -94,13 +94,13 @@ republic_2_checks_1_3 = {
     }
 }
 
-republic_2_checks_1_4 = {
+republic_tier_2_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_2_checks
+        has_country_flag = iv_gov_reform_rep_tier_2_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -113,13 +113,13 @@ republic_2_checks_1_4 = {
     }
 }
 
-republic_2_checks_1_5 = {
+republic_tier_2_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_2_checks
+        has_country_flag = iv_gov_reform_rep_tier_2_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -133,13 +133,13 @@ republic_2_checks_1_5 = {
     }
 }
 
-republic_2_checks_1_6 = {
+republic_tier_2_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_2_checks
+        has_country_flag = iv_gov_reform_rep_tier_2_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -157,13 +157,13 @@ republic_2_checks_1_6 = {
     }
 }
 
-republic_2_checks_1_7 = {
+republic_tier_2_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_2_checks
+        has_country_flag = iv_gov_reform_rep_tier_2_checks
     }
     
     nation_designer_cost = 0
@@ -173,13 +173,13 @@ republic_2_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_3_checks_1_1 = {
+republic_tier_3_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_3_checks
+        has_country_flag = iv_gov_reform_rep_tier_3_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -218,13 +218,13 @@ republic_3_checks_1_1 = {
     }
 }
 
-republic_3_checks_1_2 = {
+republic_tier_3_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_3_checks
+        has_country_flag = iv_gov_reform_rep_tier_3_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -247,13 +247,13 @@ republic_3_checks_1_2 = {
     }
 }
 
-republic_3_checks_1_3 = {
+republic_tier_3_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_3_checks
+        has_country_flag = iv_gov_reform_rep_tier_3_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -269,13 +269,13 @@ republic_3_checks_1_3 = {
     }
 }
 
-republic_3_checks_1_4 = {
+republic_tier_3_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_3_checks
+        has_country_flag = iv_gov_reform_rep_tier_3_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -288,13 +288,13 @@ republic_3_checks_1_4 = {
     }
 }
 
-republic_3_checks_1_5 = {
+republic_tier_3_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_3_checks
+        has_country_flag = iv_gov_reform_rep_tier_3_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -308,13 +308,13 @@ republic_3_checks_1_5 = {
     }
 }
 
-republic_3_checks_1_6 = {
+republic_tier_3_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_3_checks
+        has_country_flag = iv_gov_reform_rep_tier_3_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -332,13 +332,13 @@ republic_3_checks_1_6 = {
     }
 }
 
-republic_3_checks_1_7 = {
+republic_tier_3_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_3_checks
+        has_country_flag = iv_gov_reform_rep_tier_3_checks
     }
     
     nation_designer_cost = 0
@@ -348,13 +348,13 @@ republic_3_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_4_checks_1_1 = {
+republic_tier_4_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_4_checks
+        has_country_flag = iv_gov_reform_rep_tier_4_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -393,13 +393,13 @@ republic_4_checks_1_1 = {
     }
 }
 
-republic_4_checks_1_2 = {
+republic_tier_4_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_4_checks
+        has_country_flag = iv_gov_reform_rep_tier_4_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -422,13 +422,13 @@ republic_4_checks_1_2 = {
     }
 }
 
-republic_4_checks_1_3 = {
+republic_tier_4_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_4_checks
+        has_country_flag = iv_gov_reform_rep_tier_4_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -444,13 +444,13 @@ republic_4_checks_1_3 = {
     }
 }
 
-republic_4_checks_1_4 = {
+republic_tier_4_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_4_checks
+        has_country_flag = iv_gov_reform_rep_tier_4_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -463,13 +463,13 @@ republic_4_checks_1_4 = {
     }
 }
 
-republic_4_checks_1_5 = {
+republic_tier_4_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_4_checks
+        has_country_flag = iv_gov_reform_rep_tier_4_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -483,13 +483,13 @@ republic_4_checks_1_5 = {
     }
 }
 
-republic_4_checks_1_6 = {
+republic_tier_4_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_4_checks
+        has_country_flag = iv_gov_reform_rep_tier_4_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -507,13 +507,13 @@ republic_4_checks_1_6 = {
     }
 }
 
-republic_4_checks_1_7 = {
+republic_tier_4_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_4_checks
+        has_country_flag = iv_gov_reform_rep_tier_4_checks
     }
     
     nation_designer_cost = 0
@@ -523,13 +523,13 @@ republic_4_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_5_checks_1_1 = {
+republic_tier_5_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_5_checks
+        has_country_flag = iv_gov_reform_rep_tier_5_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -568,13 +568,13 @@ republic_5_checks_1_1 = {
     }
 }
 
-republic_5_checks_1_2 = {
+republic_tier_5_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_5_checks
+        has_country_flag = iv_gov_reform_rep_tier_5_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -597,13 +597,13 @@ republic_5_checks_1_2 = {
     }
 }
 
-republic_5_checks_1_3 = {
+republic_tier_5_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_5_checks
+        has_country_flag = iv_gov_reform_rep_tier_5_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -619,13 +619,13 @@ republic_5_checks_1_3 = {
     }
 }
 
-republic_5_checks_1_4 = {
+republic_tier_5_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_5_checks
+        has_country_flag = iv_gov_reform_rep_tier_5_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -638,13 +638,13 @@ republic_5_checks_1_4 = {
     }
 }
 
-republic_5_checks_1_5 = {
+republic_tier_5_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_5_checks
+        has_country_flag = iv_gov_reform_rep_tier_5_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -658,13 +658,13 @@ republic_5_checks_1_5 = {
     }
 }
 
-republic_5_checks_1_6 = {
+republic_tier_5_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_5_checks
+        has_country_flag = iv_gov_reform_rep_tier_5_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -682,13 +682,13 @@ republic_5_checks_1_6 = {
     }
 }
 
-republic_5_checks_1_7 = {
+republic_tier_5_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_5_checks
+        has_country_flag = iv_gov_reform_rep_tier_5_checks
     }
     
     nation_designer_cost = 0
@@ -698,13 +698,13 @@ republic_5_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_6_checks_1_1 = {
+republic_tier_6_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_6_checks
+        has_country_flag = iv_gov_reform_rep_tier_6_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -743,13 +743,13 @@ republic_6_checks_1_1 = {
     }
 }
 
-republic_6_checks_1_2 = {
+republic_tier_6_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_6_checks
+        has_country_flag = iv_gov_reform_rep_tier_6_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -772,13 +772,13 @@ republic_6_checks_1_2 = {
     }
 }
 
-republic_6_checks_1_3 = {
+republic_tier_6_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_6_checks
+        has_country_flag = iv_gov_reform_rep_tier_6_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -794,13 +794,13 @@ republic_6_checks_1_3 = {
     }
 }
 
-republic_6_checks_1_4 = {
+republic_tier_6_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_6_checks
+        has_country_flag = iv_gov_reform_rep_tier_6_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -813,13 +813,13 @@ republic_6_checks_1_4 = {
     }
 }
 
-republic_6_checks_1_5 = {
+republic_tier_6_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_6_checks
+        has_country_flag = iv_gov_reform_rep_tier_6_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -833,13 +833,13 @@ republic_6_checks_1_5 = {
     }
 }
 
-republic_6_checks_1_6 = {
+republic_tier_6_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_6_checks
+        has_country_flag = iv_gov_reform_rep_tier_6_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -857,13 +857,13 @@ republic_6_checks_1_6 = {
     }
 }
 
-republic_6_checks_1_7 = {
+republic_tier_6_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_6_checks
+        has_country_flag = iv_gov_reform_rep_tier_6_checks
     }
     
     nation_designer_cost = 0
@@ -873,13 +873,13 @@ republic_6_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_7_checks_1_1 = {
+republic_tier_7_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_7_checks
+        has_country_flag = iv_gov_reform_rep_tier_7_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -918,13 +918,13 @@ republic_7_checks_1_1 = {
     }
 }
 
-republic_7_checks_1_2 = {
+republic_tier_7_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_7_checks
+        has_country_flag = iv_gov_reform_rep_tier_7_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -947,13 +947,13 @@ republic_7_checks_1_2 = {
     }
 }
 
-republic_7_checks_1_3 = {
+republic_tier_7_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_7_checks
+        has_country_flag = iv_gov_reform_rep_tier_7_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -969,13 +969,13 @@ republic_7_checks_1_3 = {
     }
 }
 
-republic_7_checks_1_4 = {
+republic_tier_7_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_7_checks
+        has_country_flag = iv_gov_reform_rep_tier_7_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -988,13 +988,13 @@ republic_7_checks_1_4 = {
     }
 }
 
-republic_7_checks_1_5 = {
+republic_tier_7_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_7_checks
+        has_country_flag = iv_gov_reform_rep_tier_7_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1008,13 +1008,13 @@ republic_7_checks_1_5 = {
     }
 }
 
-republic_7_checks_1_6 = {
+republic_tier_7_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_7_checks
+        has_country_flag = iv_gov_reform_rep_tier_7_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -1032,13 +1032,13 @@ republic_7_checks_1_6 = {
     }
 }
 
-republic_7_checks_1_7 = {
+republic_tier_7_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_7_checks
+        has_country_flag = iv_gov_reform_rep_tier_7_checks
     }
     
     nation_designer_cost = 0
@@ -1048,13 +1048,13 @@ republic_7_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_8_checks_1_1 = {
+republic_tier_8_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_8_checks
+        has_country_flag = iv_gov_reform_rep_tier_8_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1093,13 +1093,13 @@ republic_8_checks_1_1 = {
     }
 }
 
-republic_8_checks_1_2 = {
+republic_tier_8_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_8_checks
+        has_country_flag = iv_gov_reform_rep_tier_8_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -1122,13 +1122,13 @@ republic_8_checks_1_2 = {
     }
 }
 
-republic_8_checks_1_3 = {
+republic_tier_8_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_8_checks
+        has_country_flag = iv_gov_reform_rep_tier_8_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1144,13 +1144,13 @@ republic_8_checks_1_3 = {
     }
 }
 
-republic_8_checks_1_4 = {
+republic_tier_8_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_8_checks
+        has_country_flag = iv_gov_reform_rep_tier_8_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1163,13 +1163,13 @@ republic_8_checks_1_4 = {
     }
 }
 
-republic_8_checks_1_5 = {
+republic_tier_8_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_8_checks
+        has_country_flag = iv_gov_reform_rep_tier_8_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1183,13 +1183,13 @@ republic_8_checks_1_5 = {
     }
 }
 
-republic_8_checks_1_6 = {
+republic_tier_8_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_8_checks
+        has_country_flag = iv_gov_reform_rep_tier_8_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -1207,13 +1207,13 @@ republic_8_checks_1_6 = {
     }
 }
 
-republic_8_checks_1_7 = {
+republic_tier_8_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_8_checks
+        has_country_flag = iv_gov_reform_rep_tier_8_checks
     }
     
     nation_designer_cost = 0
@@ -1223,13 +1223,13 @@ republic_8_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_9_checks_1_1 = {
+republic_tier_9_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_9_checks
+        has_country_flag = iv_gov_reform_rep_tier_9_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1268,13 +1268,13 @@ republic_9_checks_1_1 = {
     }
 }
 
-republic_9_checks_1_2 = {
+republic_tier_9_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_9_checks
+        has_country_flag = iv_gov_reform_rep_tier_9_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -1297,13 +1297,13 @@ republic_9_checks_1_2 = {
     }
 }
 
-republic_9_checks_1_3 = {
+republic_tier_9_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_9_checks
+        has_country_flag = iv_gov_reform_rep_tier_9_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1319,13 +1319,13 @@ republic_9_checks_1_3 = {
     }
 }
 
-republic_9_checks_1_4 = {
+republic_tier_9_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_9_checks
+        has_country_flag = iv_gov_reform_rep_tier_9_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1338,13 +1338,13 @@ republic_9_checks_1_4 = {
     }
 }
 
-republic_9_checks_1_5 = {
+republic_tier_9_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_9_checks
+        has_country_flag = iv_gov_reform_rep_tier_9_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1358,13 +1358,13 @@ republic_9_checks_1_5 = {
     }
 }
 
-republic_9_checks_1_6 = {
+republic_tier_9_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_9_checks
+        has_country_flag = iv_gov_reform_rep_tier_9_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -1382,13 +1382,13 @@ republic_9_checks_1_6 = {
     }
 }
 
-republic_9_checks_1_7 = {
+republic_tier_9_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_9_checks
+        has_country_flag = iv_gov_reform_rep_tier_9_checks
     }
     
     nation_designer_cost = 0
@@ -1398,13 +1398,13 @@ republic_9_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_10_checks_1_1 = {
+republic_tier_10_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_10_checks
+        has_country_flag = iv_gov_reform_rep_tier_10_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1443,13 +1443,13 @@ republic_10_checks_1_1 = {
     }
 }
 
-republic_10_checks_1_2 = {
+republic_tier_10_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_10_checks
+        has_country_flag = iv_gov_reform_rep_tier_10_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -1472,13 +1472,13 @@ republic_10_checks_1_2 = {
     }
 }
 
-republic_10_checks_1_3 = {
+republic_tier_10_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_10_checks
+        has_country_flag = iv_gov_reform_rep_tier_10_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1494,13 +1494,13 @@ republic_10_checks_1_3 = {
     }
 }
 
-republic_10_checks_1_4 = {
+republic_tier_10_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_10_checks
+        has_country_flag = iv_gov_reform_rep_tier_10_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1513,13 +1513,13 @@ republic_10_checks_1_4 = {
     }
 }
 
-republic_10_checks_1_5 = {
+republic_tier_10_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_10_checks
+        has_country_flag = iv_gov_reform_rep_tier_10_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1533,13 +1533,13 @@ republic_10_checks_1_5 = {
     }
 }
 
-republic_10_checks_1_6 = {
+republic_tier_10_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_10_checks
+        has_country_flag = iv_gov_reform_rep_tier_10_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -1557,13 +1557,13 @@ republic_10_checks_1_6 = {
     }
 }
 
-republic_10_checks_1_7 = {
+republic_tier_10_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_10_checks
+        has_country_flag = iv_gov_reform_rep_tier_10_checks
     }
     
     nation_designer_cost = 0
@@ -1573,13 +1573,13 @@ republic_10_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_11_checks_1_1 = {
+republic_tier_11_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_11_checks
+        has_country_flag = iv_gov_reform_rep_tier_11_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1618,13 +1618,13 @@ republic_11_checks_1_1 = {
     }
 }
 
-republic_11_checks_1_2 = {
+republic_tier_11_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_11_checks
+        has_country_flag = iv_gov_reform_rep_tier_11_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -1647,13 +1647,13 @@ republic_11_checks_1_2 = {
     }
 }
 
-republic_11_checks_1_3 = {
+republic_tier_11_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_11_checks
+        has_country_flag = iv_gov_reform_rep_tier_11_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1669,13 +1669,13 @@ republic_11_checks_1_3 = {
     }
 }
 
-republic_11_checks_1_4 = {
+republic_tier_11_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_11_checks
+        has_country_flag = iv_gov_reform_rep_tier_11_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1688,13 +1688,13 @@ republic_11_checks_1_4 = {
     }
 }
 
-republic_11_checks_1_5 = {
+republic_tier_11_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_11_checks
+        has_country_flag = iv_gov_reform_rep_tier_11_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1708,13 +1708,13 @@ republic_11_checks_1_5 = {
     }
 }
 
-republic_11_checks_1_6 = {
+republic_tier_11_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_11_checks
+        has_country_flag = iv_gov_reform_rep_tier_11_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -1732,13 +1732,13 @@ republic_11_checks_1_6 = {
     }
 }
 
-republic_11_checks_1_7 = {
+republic_tier_11_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_11_checks
+        has_country_flag = iv_gov_reform_rep_tier_11_checks
     }
     
     nation_designer_cost = 0
@@ -1748,13 +1748,13 @@ republic_11_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_12_checks_1_1 = {
+republic_tier_12_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_12_checks
+        has_country_flag = iv_gov_reform_rep_tier_12_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1793,13 +1793,13 @@ republic_12_checks_1_1 = {
     }
 }
 
-republic_12_checks_1_2 = {
+republic_tier_12_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_12_checks
+        has_country_flag = iv_gov_reform_rep_tier_12_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -1822,13 +1822,13 @@ republic_12_checks_1_2 = {
     }
 }
 
-republic_12_checks_1_3 = {
+republic_tier_12_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_12_checks
+        has_country_flag = iv_gov_reform_rep_tier_12_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1844,13 +1844,13 @@ republic_12_checks_1_3 = {
     }
 }
 
-republic_12_checks_1_4 = {
+republic_tier_12_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_12_checks
+        has_country_flag = iv_gov_reform_rep_tier_12_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1863,13 +1863,13 @@ republic_12_checks_1_4 = {
     }
 }
 
-republic_12_checks_1_5 = {
+republic_tier_12_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_12_checks
+        has_country_flag = iv_gov_reform_rep_tier_12_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -1883,13 +1883,13 @@ republic_12_checks_1_5 = {
     }
 }
 
-republic_12_checks_1_6 = {
+republic_tier_12_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_12_checks
+        has_country_flag = iv_gov_reform_rep_tier_12_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -1907,13 +1907,13 @@ republic_12_checks_1_6 = {
     }
 }
 
-republic_12_checks_1_7 = {
+republic_tier_12_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_12_checks
+        has_country_flag = iv_gov_reform_rep_tier_12_checks
     }
     
     nation_designer_cost = 0
@@ -1923,13 +1923,13 @@ republic_12_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_13_checks_1_1 = {
+republic_tier_13_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_13_checks
+        has_country_flag = iv_gov_reform_rep_tier_13_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -1968,13 +1968,13 @@ republic_13_checks_1_1 = {
     }
 }
 
-republic_13_checks_1_2 = {
+republic_tier_13_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_13_checks
+        has_country_flag = iv_gov_reform_rep_tier_13_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -1997,13 +1997,13 @@ republic_13_checks_1_2 = {
     }
 }
 
-republic_13_checks_1_3 = {
+republic_tier_13_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_13_checks
+        has_country_flag = iv_gov_reform_rep_tier_13_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -2019,13 +2019,13 @@ republic_13_checks_1_3 = {
     }
 }
 
-republic_13_checks_1_4 = {
+republic_tier_13_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_13_checks
+        has_country_flag = iv_gov_reform_rep_tier_13_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -2038,13 +2038,13 @@ republic_13_checks_1_4 = {
     }
 }
 
-republic_13_checks_1_5 = {
+republic_tier_13_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_13_checks
+        has_country_flag = iv_gov_reform_rep_tier_13_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -2058,13 +2058,13 @@ republic_13_checks_1_5 = {
     }
 }
 
-republic_13_checks_1_6 = {
+republic_tier_13_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_13_checks
+        has_country_flag = iv_gov_reform_rep_tier_13_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -2082,13 +2082,13 @@ republic_13_checks_1_6 = {
     }
 }
 
-republic_13_checks_1_7 = {
+republic_tier_13_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_13_checks
+        has_country_flag = iv_gov_reform_rep_tier_13_checks
     }
     
     nation_designer_cost = 0
@@ -2098,13 +2098,13 @@ republic_13_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_14_checks_1_1 = {
+republic_tier_14_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_14_checks
+        has_country_flag = iv_gov_reform_rep_tier_14_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -2143,13 +2143,13 @@ republic_14_checks_1_1 = {
     }
 }
 
-republic_14_checks_1_2 = {
+republic_tier_14_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_14_checks
+        has_country_flag = iv_gov_reform_rep_tier_14_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -2172,13 +2172,13 @@ republic_14_checks_1_2 = {
     }
 }
 
-republic_14_checks_1_3 = {
+republic_tier_14_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_14_checks
+        has_country_flag = iv_gov_reform_rep_tier_14_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -2194,13 +2194,13 @@ republic_14_checks_1_3 = {
     }
 }
 
-republic_14_checks_1_4 = {
+republic_tier_14_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_14_checks
+        has_country_flag = iv_gov_reform_rep_tier_14_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -2213,13 +2213,13 @@ republic_14_checks_1_4 = {
     }
 }
 
-republic_14_checks_1_5 = {
+republic_tier_14_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_14_checks
+        has_country_flag = iv_gov_reform_rep_tier_14_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -2233,13 +2233,13 @@ republic_14_checks_1_5 = {
     }
 }
 
-republic_14_checks_1_6 = {
+republic_tier_14_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_14_checks
+        has_country_flag = iv_gov_reform_rep_tier_14_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -2257,13 +2257,13 @@ republic_14_checks_1_6 = {
     }
 }
 
-republic_14_checks_1_7 = {
+republic_tier_14_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_14_checks
+        has_country_flag = iv_gov_reform_rep_tier_14_checks
     }
     
     nation_designer_cost = 0
@@ -2273,13 +2273,13 @@ republic_14_checks_1_7 = {
         max_absolutism = 15
     }
 }
-republic_15_checks_1_1 = {
+republic_tier_15_checks_1_1 = {
 
     icon = "assembly_hall"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_15_checks
+        has_country_flag = iv_gov_reform_rep_tier_15_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -2318,13 +2318,13 @@ republic_15_checks_1_1 = {
     }
 }
 
-republic_15_checks_1_2 = {
+republic_tier_15_checks_1_2 = {
 
     icon = "parliament"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_15_checks
+        has_country_flag = iv_gov_reform_rep_tier_15_checks
         NOT = { has_reform = pirate_republic_reform }
     }
 
@@ -2347,13 +2347,13 @@ republic_15_checks_1_2 = {
     }
 }
 
-republic_15_checks_1_3 = {
+republic_tier_15_checks_1_3 = {
 
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_15_checks
+        has_country_flag = iv_gov_reform_rep_tier_15_checks
         NOT = { has_reform = pirate_republic_reform }
     }
     
@@ -2369,13 +2369,13 @@ republic_15_checks_1_3 = {
     }
 }
 
-republic_15_checks_1_4 = {
+republic_tier_15_checks_1_4 = {
 
     icon = "constitution"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_15_checks
+        has_country_flag = iv_gov_reform_rep_tier_15_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -2388,13 +2388,13 @@ republic_15_checks_1_4 = {
     }
 }
 
-republic_15_checks_1_5 = {
+republic_tier_15_checks_1_5 = {
 
     icon = "ballot_box"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_15_checks
+        has_country_flag = iv_gov_reform_rep_tier_15_checks
         NOT = { has_reform = pirate_republic_reform }
         NOT = { has_reform = venice_merchants_reform }
     }
@@ -2408,13 +2408,13 @@ republic_15_checks_1_5 = {
     }
 }
 
-republic_15_checks_1_6 = {
+republic_tier_15_checks_1_6 = {
 
     icon = "paper_with_seal_3"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_15_checks
+        has_country_flag = iv_gov_reform_rep_tier_15_checks
         NOT = { has_reform = venice_merchants_reform }
         NOT = { has_reform = pirate_republic_reform }
     }
@@ -2432,13 +2432,13 @@ republic_15_checks_1_6 = {
     }
 }
 
-republic_15_checks_1_7 = {
+republic_tier_15_checks_1_7 = {
 
     icon = "politician"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_rep_15_checks
+        has_country_flag = iv_gov_reform_rep_tier_15_checks
     }
     
     nation_designer_cost = 0

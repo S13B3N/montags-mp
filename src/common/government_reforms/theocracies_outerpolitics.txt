@@ -1,45 +1,45 @@
-monarchy_tier_2_aussen_1_1 = {
+theocracy_tier_2_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+    icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_aussen
+        has_country_flag = iv_gov_reform_theo_tier_2_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_2_aussen_1_2 = {
+theocracy_tier_2_aussen_1_2 = {
 
-    icon = "idea_variation_37"
+    icon = "idea_variation_32"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_aussen
+        has_country_flag = iv_gov_reform_theo_tier_2_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
-        improve_relation_modifier = 0.1
-        diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
     }
 }
 
-monarchy_tier_2_aussen_1_3 = {
+theocracy_tier_2_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_aussen
+        has_country_flag = iv_gov_reform_theo_tier_2_aussen
     }
     
     nation_designer_cost = 0
@@ -49,15 +49,15 @@ monarchy_tier_2_aussen_1_3 = {
     }
 }
 
-monarchy_tier_2_aussen_1_4 = {
+theocracy_tier_2_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_aussen
+        has_country_flag = iv_gov_reform_theo_tier_2_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -66,15 +66,15 @@ monarchy_tier_2_aussen_1_4 = {
     }
 }
 
-monarchy_tier_2_aussen_1_5 = {
+theocracy_tier_2_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_2_aussen
+        has_country_flag = iv_gov_reform_theo_tier_2_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -98,48 +98,66 @@ monarchy_tier_2_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_3_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_2_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_aussen
+        has_country_flag = iv_gov_reform_theo_tier_2_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_3_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_3_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_3_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_3_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_3_aussen_1_3 = {
+theocracy_tier_3_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_3_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_3_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_aussen
+        has_country_flag = iv_gov_reform_theo_tier_3_aussen
     }
     
     nation_designer_cost = 0
@@ -149,15 +167,15 @@ monarchy_tier_3_aussen_1_3 = {
     }
 }
 
-monarchy_tier_3_aussen_1_4 = {
+theocracy_tier_3_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_aussen
+        has_country_flag = iv_gov_reform_theo_tier_3_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -166,15 +184,15 @@ monarchy_tier_3_aussen_1_4 = {
     }
 }
 
-monarchy_tier_3_aussen_1_5 = {
+theocracy_tier_3_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_3_aussen
+        has_country_flag = iv_gov_reform_theo_tier_3_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -198,48 +216,66 @@ monarchy_tier_3_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_4_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_3_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_aussen
+        has_country_flag = iv_gov_reform_theo_tier_3_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_4_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_4_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_4_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_4_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_4_aussen_1_3 = {
+theocracy_tier_4_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_4_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_4_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_aussen
+        has_country_flag = iv_gov_reform_theo_tier_4_aussen
     }
     
     nation_designer_cost = 0
@@ -249,15 +285,15 @@ monarchy_tier_4_aussen_1_3 = {
     }
 }
 
-monarchy_tier_4_aussen_1_4 = {
+theocracy_tier_4_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_aussen
+        has_country_flag = iv_gov_reform_theo_tier_4_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -266,15 +302,15 @@ monarchy_tier_4_aussen_1_4 = {
     }
 }
 
-monarchy_tier_4_aussen_1_5 = {
+theocracy_tier_4_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_4_aussen
+        has_country_flag = iv_gov_reform_theo_tier_4_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -298,48 +334,66 @@ monarchy_tier_4_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_5_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_4_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_aussen
+        has_country_flag = iv_gov_reform_theo_tier_4_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_5_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_5_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_5_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_5_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_5_aussen_1_3 = {
+theocracy_tier_5_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_5_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_5_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_aussen
+        has_country_flag = iv_gov_reform_theo_tier_5_aussen
     }
     
     nation_designer_cost = 0
@@ -349,15 +403,15 @@ monarchy_tier_5_aussen_1_3 = {
     }
 }
 
-monarchy_tier_5_aussen_1_4 = {
+theocracy_tier_5_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_aussen
+        has_country_flag = iv_gov_reform_theo_tier_5_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -366,15 +420,15 @@ monarchy_tier_5_aussen_1_4 = {
     }
 }
 
-monarchy_tier_5_aussen_1_5 = {
+theocracy_tier_5_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_5_aussen
+        has_country_flag = iv_gov_reform_theo_tier_5_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -398,48 +452,66 @@ monarchy_tier_5_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_6_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_5_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_aussen
+        has_country_flag = iv_gov_reform_theo_tier_5_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_6_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_6_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_6_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_6_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_6_aussen_1_3 = {
+theocracy_tier_6_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_6_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_6_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_aussen
+        has_country_flag = iv_gov_reform_theo_tier_6_aussen
     }
     
     nation_designer_cost = 0
@@ -449,15 +521,15 @@ monarchy_tier_6_aussen_1_3 = {
     }
 }
 
-monarchy_tier_6_aussen_1_4 = {
+theocracy_tier_6_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_aussen
+        has_country_flag = iv_gov_reform_theo_tier_6_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -466,15 +538,15 @@ monarchy_tier_6_aussen_1_4 = {
     }
 }
 
-monarchy_tier_6_aussen_1_5 = {
+theocracy_tier_6_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_6_aussen
+        has_country_flag = iv_gov_reform_theo_tier_6_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -498,48 +570,66 @@ monarchy_tier_6_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_7_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_6_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_aussen
+        has_country_flag = iv_gov_reform_theo_tier_6_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_7_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_7_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_7_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_7_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_7_aussen_1_3 = {
+theocracy_tier_7_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_7_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_7_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_aussen
+        has_country_flag = iv_gov_reform_theo_tier_7_aussen
     }
     
     nation_designer_cost = 0
@@ -549,15 +639,15 @@ monarchy_tier_7_aussen_1_3 = {
     }
 }
 
-monarchy_tier_7_aussen_1_4 = {
+theocracy_tier_7_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_aussen
+        has_country_flag = iv_gov_reform_theo_tier_7_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -566,15 +656,15 @@ monarchy_tier_7_aussen_1_4 = {
     }
 }
 
-monarchy_tier_7_aussen_1_5 = {
+theocracy_tier_7_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_7_aussen
+        has_country_flag = iv_gov_reform_theo_tier_7_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -598,48 +688,66 @@ monarchy_tier_7_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_8_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_7_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_aussen
+        has_country_flag = iv_gov_reform_theo_tier_7_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_8_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_8_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_8_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_8_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_8_aussen_1_3 = {
+theocracy_tier_8_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_8_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_8_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_aussen
+        has_country_flag = iv_gov_reform_theo_tier_8_aussen
     }
     
     nation_designer_cost = 0
@@ -649,15 +757,15 @@ monarchy_tier_8_aussen_1_3 = {
     }
 }
 
-monarchy_tier_8_aussen_1_4 = {
+theocracy_tier_8_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_aussen
+        has_country_flag = iv_gov_reform_theo_tier_8_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -666,15 +774,15 @@ monarchy_tier_8_aussen_1_4 = {
     }
 }
 
-monarchy_tier_8_aussen_1_5 = {
+theocracy_tier_8_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_8_aussen
+        has_country_flag = iv_gov_reform_theo_tier_8_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -698,48 +806,66 @@ monarchy_tier_8_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_9_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_8_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_aussen
+        has_country_flag = iv_gov_reform_theo_tier_8_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_9_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_9_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_9_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_9_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_9_aussen_1_3 = {
+theocracy_tier_9_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_9_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_9_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_aussen
+        has_country_flag = iv_gov_reform_theo_tier_9_aussen
     }
     
     nation_designer_cost = 0
@@ -749,15 +875,15 @@ monarchy_tier_9_aussen_1_3 = {
     }
 }
 
-monarchy_tier_9_aussen_1_4 = {
+theocracy_tier_9_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_aussen
+        has_country_flag = iv_gov_reform_theo_tier_9_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -766,15 +892,15 @@ monarchy_tier_9_aussen_1_4 = {
     }
 }
 
-monarchy_tier_9_aussen_1_5 = {
+theocracy_tier_9_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_9_aussen
+        has_country_flag = iv_gov_reform_theo_tier_9_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -798,48 +924,66 @@ monarchy_tier_9_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_10_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_9_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_aussen
+        has_country_flag = iv_gov_reform_theo_tier_9_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_10_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_10_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_10_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_10_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_10_aussen_1_3 = {
+theocracy_tier_10_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_10_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_10_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_aussen
+        has_country_flag = iv_gov_reform_theo_tier_10_aussen
     }
     
     nation_designer_cost = 0
@@ -849,15 +993,15 @@ monarchy_tier_10_aussen_1_3 = {
     }
 }
 
-monarchy_tier_10_aussen_1_4 = {
+theocracy_tier_10_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_aussen
+        has_country_flag = iv_gov_reform_theo_tier_10_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -866,15 +1010,15 @@ monarchy_tier_10_aussen_1_4 = {
     }
 }
 
-monarchy_tier_10_aussen_1_5 = {
+theocracy_tier_10_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_10_aussen
+        has_country_flag = iv_gov_reform_theo_tier_10_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -898,48 +1042,66 @@ monarchy_tier_10_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_11_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_10_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_aussen
+        has_country_flag = iv_gov_reform_theo_tier_10_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_11_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_11_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_11_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_11_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_11_aussen_1_3 = {
+theocracy_tier_11_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_11_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_11_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_aussen
+        has_country_flag = iv_gov_reform_theo_tier_11_aussen
     }
     
     nation_designer_cost = 0
@@ -949,15 +1111,15 @@ monarchy_tier_11_aussen_1_3 = {
     }
 }
 
-monarchy_tier_11_aussen_1_4 = {
+theocracy_tier_11_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_aussen
+        has_country_flag = iv_gov_reform_theo_tier_11_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -966,15 +1128,15 @@ monarchy_tier_11_aussen_1_4 = {
     }
 }
 
-monarchy_tier_11_aussen_1_5 = {
+theocracy_tier_11_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_11_aussen
+        has_country_flag = iv_gov_reform_theo_tier_11_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -998,48 +1160,66 @@ monarchy_tier_11_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_12_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_11_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_aussen
+        has_country_flag = iv_gov_reform_theo_tier_11_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_12_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_12_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_12_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_12_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_12_aussen_1_3 = {
+theocracy_tier_12_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_12_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_12_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_aussen
+        has_country_flag = iv_gov_reform_theo_tier_12_aussen
     }
     
     nation_designer_cost = 0
@@ -1049,15 +1229,15 @@ monarchy_tier_12_aussen_1_3 = {
     }
 }
 
-monarchy_tier_12_aussen_1_4 = {
+theocracy_tier_12_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_aussen
+        has_country_flag = iv_gov_reform_theo_tier_12_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1066,15 +1246,15 @@ monarchy_tier_12_aussen_1_4 = {
     }
 }
 
-monarchy_tier_12_aussen_1_5 = {
+theocracy_tier_12_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_12_aussen
+        has_country_flag = iv_gov_reform_theo_tier_12_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1098,48 +1278,66 @@ monarchy_tier_12_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_13_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_12_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_aussen
+        has_country_flag = iv_gov_reform_theo_tier_12_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_13_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_13_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_13_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_13_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_13_aussen_1_3 = {
+theocracy_tier_13_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_13_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_13_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_aussen
+        has_country_flag = iv_gov_reform_theo_tier_13_aussen
     }
     
     nation_designer_cost = 0
@@ -1149,15 +1347,15 @@ monarchy_tier_13_aussen_1_3 = {
     }
 }
 
-monarchy_tier_13_aussen_1_4 = {
+theocracy_tier_13_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_aussen
+        has_country_flag = iv_gov_reform_theo_tier_13_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1166,15 +1364,15 @@ monarchy_tier_13_aussen_1_4 = {
     }
 }
 
-monarchy_tier_13_aussen_1_5 = {
+theocracy_tier_13_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_13_aussen
+        has_country_flag = iv_gov_reform_theo_tier_13_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1198,48 +1396,66 @@ monarchy_tier_13_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_14_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_13_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_aussen
+        has_country_flag = iv_gov_reform_theo_tier_13_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_14_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_14_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_14_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_14_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_14_aussen_1_3 = {
+theocracy_tier_14_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_14_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_14_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_aussen
+        has_country_flag = iv_gov_reform_theo_tier_14_aussen
     }
     
     nation_designer_cost = 0
@@ -1249,15 +1465,15 @@ monarchy_tier_14_aussen_1_3 = {
     }
 }
 
-monarchy_tier_14_aussen_1_4 = {
+theocracy_tier_14_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_aussen
+        has_country_flag = iv_gov_reform_theo_tier_14_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1266,15 +1482,15 @@ monarchy_tier_14_aussen_1_4 = {
     }
 }
 
-monarchy_tier_14_aussen_1_5 = {
+theocracy_tier_14_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_14_aussen
+        has_country_flag = iv_gov_reform_theo_tier_14_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1298,48 +1514,66 @@ monarchy_tier_14_aussen_1_5 = {
         can_use_trade_post = yes
     }
 }
-monarchy_tier_15_aussen_1_1 = {
 
-    icon = "idea_variation_38"
+theocracy_tier_14_aussen_1_6 = {
+
+    icon = "idea_variation_35"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_aussen
+        has_country_flag = iv_gov_reform_theo_tier_14_aussen
     }
-
+    
     nation_designer_cost = 0
-
+    
     modifiers = {
-        diplomats = 1
-        spy_offence = 0.40
-    }
-}
-
-monarchy_tier_15_aussen_1_2 = {
-
-    icon = "idea_variation_37"
-    allow_normal_conversion = yes
-
-    potential = {
-        has_country_flag = iv_gov_reform_tier_15_aussen
-    }
-
-    nation_designer_cost = 0
-
-    modifiers = {
-        improve_relation_modifier = 0.1
+        global_tax_modifier = 0.075
         diplomatic_reputation = 2
-        diplomatic_upkeep = 2
+        devotion = -0.5
+    }
+}
+theocracy_tier_15_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_15_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
     }
 }
 
-monarchy_tier_15_aussen_1_3 = {
+theocracy_tier_15_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_15_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_15_aussen_1_3 = {
 
     icon = "idea_variation_27"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_aussen
+        has_country_flag = iv_gov_reform_theo_tier_15_aussen
     }
     
     nation_designer_cost = 0
@@ -1349,15 +1583,15 @@ monarchy_tier_15_aussen_1_3 = {
     }
 }
 
-monarchy_tier_15_aussen_1_4 = {
+theocracy_tier_15_aussen_1_4 = {
 
     icon = "idea_variation_34"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_aussen
+        has_country_flag = iv_gov_reform_theo_tier_15_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1366,15 +1600,15 @@ monarchy_tier_15_aussen_1_4 = {
     }
 }
 
-monarchy_tier_15_aussen_1_5 = {
+theocracy_tier_15_aussen_1_5 = {
 
     icon = "idea_variation_28"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_15_aussen
+        has_country_flag = iv_gov_reform_theo_tier_15_aussen
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -1396,5 +1630,23 @@ monarchy_tier_15_aussen_1_5 = {
             has_dlc = "Res Publica"
         }
         can_use_trade_post = yes
+    }
+}
+
+theocracy_tier_15_aussen_1_6 = {
+
+    icon = "idea_variation_35"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_15_aussen
+    }
+    
+    nation_designer_cost = 0
+    
+    modifiers = {
+        global_tax_modifier = 0.075
+        diplomatic_reputation = 2
+        devotion = -0.5
     }
 }

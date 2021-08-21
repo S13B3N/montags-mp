@@ -1,0 +1,118 @@
+theocracy_tier_{{tierCount}}_aussen_1_1 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        global_missionary_strength = 0.02
+        missionary_maintenance_cost = -0.5
+    }
+}
+
+theocracy_tier_{{tierCount}}_aussen_1_2 = {
+
+    icon = "idea_variation_32"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        warscore_cost_vs_other_religion = -0.25
+        devotion = -0.5
+    }
+}
+
+theocracy_tier_{{tierCount}}_aussen_1_3 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reduced_liberty_desire = 15
+    }
+}
+
+theocracy_tier_{{tierCount}}_aussen_1_4 = {
+
+    icon = "idea_variation_34"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        vassal_income = 0.5
+        reduced_liberty_desire = -10
+    }
+}
+
+theocracy_tier_{{tierCount}}_aussen_1_5 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_aussen
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monthly_splendor = 2
+        trade_range_modifier = 1.0
+    }
+
+    conditional = {
+        allow = {
+            NOT = { has_dlc = "Res Publica" }
+        }
+        modifiers = {
+            global_trade_power = 0.1
+        }
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Res Publica"
+        }
+        can_use_trade_post = yes
+    }
+}
+
+theocracy_tier_{{tierCount}}_aussen_1_6 = {
+
+    icon = "idea_variation_35"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_theo_tier_{{tierCount}}_aussen
+    }
+    
+    nation_designer_cost = 0
+    
+    modifiers = {
+        global_tax_modifier = 0.075
+        diplomatic_reputation = 2
+        devotion = -0.5
+    }
+}
