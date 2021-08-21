@@ -1,0 +1,75 @@
+republic_{{tierCount}}_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_{{tierCount}}_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_{{tierCount}}_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_{{tierCount}}_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}

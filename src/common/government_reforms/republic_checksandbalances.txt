@@ -1,0 +1,2450 @@
+republic_2_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_2_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_2_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_2_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_2_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_2_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_2_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_3_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_3_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_3_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_3_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_3_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_3_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_3_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_4_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_4_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_4_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_4_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_4_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_4_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_4_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_5_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_5_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_5_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_5_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_5_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_5_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_5_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_6_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_6_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_6_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_6_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_6_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_6_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_6_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_7_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_7_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_7_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_7_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_7_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_7_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_7_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_8_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_8_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_8_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_8_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_8_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_8_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_8_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_9_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_9_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_9_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_9_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_9_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_9_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_9_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_10_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_10_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_10_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_10_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_10_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_10_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_10_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_11_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_11_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_11_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_11_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_11_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_11_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_11_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_12_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_12_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_12_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_12_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_12_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_12_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_12_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_13_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_13_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_13_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_13_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_13_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_13_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_13_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_14_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_14_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_14_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_14_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_14_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_14_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_14_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}
+republic_15_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_15_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_15_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_15_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_15_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_15_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_15_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}

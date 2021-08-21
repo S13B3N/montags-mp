@@ -1,0 +1,1386 @@
+monarchy_tier_2_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_2_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_2_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_2_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_3_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_3_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_3_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_3_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_4_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_4_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_4_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_4_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_5_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_5_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_5_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_5_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_6_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_6_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_6_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_6_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_7_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_7_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_7_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_7_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_8_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_8_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_8_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_8_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_9_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_9_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_9_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_9_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_10_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_10_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_10_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_10_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_11_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_11_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_11_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_11_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_12_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_12_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_12_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_12_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_13_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_13_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_13_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_13_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_14_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_14_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_14_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_14_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}
+monarchy_tier_15_vision_1_1 = {
+
+    icon = "rioting_burning_2"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_vision
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_REVOLUTIONIDEAS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+        technology_cost = -0.1
+    }
+}
+
+monarchy_tier_15_vision_1_2 = {
+
+    icon = "idea_variation_44"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_COUNTERREVOLUTION
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        army_tradition = 0.5
+        global_manpower_modifier = 0.1    
+    }
+}
+
+monarchy_tier_15_vision_1_3 = {
+
+    icon = "prussian_monarchy"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_vision
+    }
+
+    trigger = {
+        NOT = { 
+            OR = {
+                has_reform = prussian_monarchy
+                has_reform = mamluk_government
+                has_reform = feudal_theocracy
+                has_reform = indian_sultanate_reform
+                has_reform = iqta
+                has_reform = principality
+                has_reform = tsardom
+                has_reform = ottoman_government
+                has_reform = revolutionary_empire_reform
+            } 
+        }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        governing_capacity = 100
+    }
+}
+
+monarchy_tier_15_vision_1_4 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_vision
+    }
+
+    trigger = {
+        NOT = { has_reform = revolutionary_empire_reform }
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        same_culture_advisor_cost = -0.1
+        promote_culture_cost = -1
+    }
+}

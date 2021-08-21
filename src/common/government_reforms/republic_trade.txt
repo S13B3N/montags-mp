@@ -1,0 +1,938 @@
+republic_tier_2_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_2_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_2_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_2_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_3_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_3_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_3_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_3_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_4_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_4_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_4_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_4_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_5_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_5_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_5_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_5_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_6_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_6_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_6_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_6_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_7_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_7_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_7_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_7_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_8_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_8_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_8_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_8_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_9_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_9_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_9_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_9_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_10_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_10_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_10_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_10_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_11_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_11_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_11_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_11_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_12_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_12_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_12_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_12_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_13_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_13_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_13_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_13_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_14_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_14_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_14_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_14_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}
+republic_tier_15_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_15_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_15_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_15_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}

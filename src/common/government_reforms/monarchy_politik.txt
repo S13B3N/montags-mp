@@ -1,0 +1,1134 @@
+monarchy_tier_2_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_2_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_2_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_2_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_3_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_3_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_3_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_3_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_4_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_4_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_4_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_4_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_5_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_5_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_5_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_5_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_6_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_6_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_6_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_6_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_7_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_7_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_7_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_7_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_8_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_8_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_8_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_8_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_9_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_9_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_9_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_9_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_10_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_10_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_10_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_10_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_11_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_11_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_11_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_11_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_12_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_12_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_12_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_12_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_13_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_13_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_13_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_13_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_14_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_14_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_14_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_14_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}
+monarchy_tier_15_politik1_1_1 = {
+
+    icon = "idea_variation_18"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_politik1
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_adm_policy = 1
+        free_dip_policy = 1
+        free_mil_policy = 1
+        state_maintenance_modifier = 0.5
+    }
+}
+
+monarchy_tier_15_politik1_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_dip_policy = 1
+        possible_mil_policy = 2
+        free_adm_policy = 2
+        adm_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_15_politik1_1_3 = {
+
+    icon = "idea_variation_39"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 3
+        possible_mil_policy = 2
+        free_dip_policy = 2
+        dip_advisor_cost = 0.5
+    }
+}
+
+monarchy_tier_15_politik1_1_4 = {
+
+    icon = "idea_variation_1"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_politik1
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        free_mil_policy = 3
+        mil_advisor_cost = 0.5
+    }
+}

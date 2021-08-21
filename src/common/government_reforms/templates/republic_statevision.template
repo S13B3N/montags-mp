@@ -1,10 +1,10 @@
-monarchy_tier_{{tierCount}}_vision_1_1 = {
+republic_{{tierCount}}_vision_1_1 = {
 
     icon = "rioting_burning_2"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_{{tierCount}}_vision
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_vision
     }
 
     effect = {
@@ -19,17 +19,17 @@ monarchy_tier_{{tierCount}}_vision_1_1 = {
     }
 }
 
-monarchy_tier_{{tierCount}}_vision_1_2 = {
+republic_{{tierCount}}_vision_1_2 = {
 
     icon = "idea_variation_44"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_{{tierCount}}_vision
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_vision
     }
 
     trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        NOT = { has_reform = revolutionary_republic_reform }
     }
 
     effect = {
@@ -40,35 +40,33 @@ monarchy_tier_{{tierCount}}_vision_1_2 = {
 
     modifiers = {
         army_tradition = 0.5
-        global_manpower_modifier = 0.1    
+        global_manpower_modifier = 0.1
     }
 }
 
-monarchy_tier_{{tierCount}}_vision_1_3 = {
+republic_{{tierCount}}_vision_1_3 = {
 
-    icon = "prussian_monarchy"
+    icon = "idea_variation_49"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_{{tierCount}}_vision
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_vision
     }
 
     trigger = {
         NOT = { 
             OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
+                has_reform = revolutionary_republic_reform
+                has_reform = trading_city
+                has_reform = veche_republic
+                has_reform = federal_republic
+                has_reform = colonial_government
+                has_reform = merchants_reform
+                has_reform = venice_merchants_reform
             } 
         }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {
@@ -76,19 +74,18 @@ monarchy_tier_{{tierCount}}_vision_1_3 = {
     }
 }
 
-monarchy_tier_{{tierCount}}_vision_1_4 = {
-
+republic_{{tierCount}}_vision_1_4 = {
     icon = "man_on_podium"
     allow_normal_conversion = yes
 
     potential = {
-        has_country_flag = iv_gov_reform_tier_{{tierCount}}_vision
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_vision
     }
 
     trigger = {
-        NOT = { has_reform = revolutionary_empire_reform }
+        NOT = { has_reform = revolutionary_republic_reform }
     }
-
+    
     nation_designer_cost = 0
 
     modifiers = {

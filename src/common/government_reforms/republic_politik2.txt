@@ -1,0 +1,1050 @@
+republic_2_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_2_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_2_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_2_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_3_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_3_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_3_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_3_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_4_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_4_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_4_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_4_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_5_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_5_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_5_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_5_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_6_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_6_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_6_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_6_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_7_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_7_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_7_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_7_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_8_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_8_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_8_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_8_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_9_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_9_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_9_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_9_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_10_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_10_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_10_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_10_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_11_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_11_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_11_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_11_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_12_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_12_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_12_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_12_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_13_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_13_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_13_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_13_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_14_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_14_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_14_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_14_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}
+republic_15_politik2_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 2
+        possible_dip_policy = 2
+        possible_mil_policy = 2
+        state_maintenance_modifier = 0.5
+    }
+}
+
+republic_15_politik2_1_2 = {
+
+    icon = "idea_variation_24"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 3
+        possible_mil_policy = 1
+        free_adm_policy = 2
+        adm_advisor_cost = 0.50
+    }
+}
+
+republic_15_politik2_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_dip_policy = 3
+        possible_mil_policy = 1
+        free_dip_policy = 2
+        dip_advisor_cost = 0.50
+    }
+}
+
+republic_15_politik2_1_4 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_politik2
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        possible_adm_policy = 1
+        possible_mil_policy = 2
+        free_mil_policy = 1
+        mil_advisor_cost = 0.50
+    }
+}

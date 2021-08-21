@@ -1,0 +1,1190 @@
+republic_2_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_2_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_2_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_2_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_2_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_2_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_3_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_3_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_3_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_3_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_3_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_3_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_4_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_4_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_4_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_4_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_4_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_4_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_5_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_5_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_5_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_5_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_5_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_5_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_6_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_6_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_6_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_6_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_6_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_6_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_7_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_7_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_7_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_7_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_7_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_7_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_8_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_8_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_8_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_8_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_8_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_8_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_9_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_9_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_9_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_9_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_9_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_9_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_10_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_10_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_10_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_10_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_10_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_10_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_11_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_11_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_11_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_11_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_11_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_11_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_12_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_12_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_12_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_12_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_12_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_12_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_13_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_13_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_13_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_13_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_13_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_13_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_14_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_14_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_14_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_14_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_14_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_14_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+republic_15_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_15_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_15_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_15_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_15_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_15_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}

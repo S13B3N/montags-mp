@@ -1,0 +1,93 @@
+republic_tier_{{tierCount}}_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_inner
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+republic_tier_{{tierCount}}_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_inner
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+republic_tier_{{tierCount}}_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_inner
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_{{tierCount}}_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+republic_tier_{{tierCount}}_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_inner
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+

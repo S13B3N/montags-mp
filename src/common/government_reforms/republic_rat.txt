@@ -1,0 +1,1372 @@
+republic_tier_2_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_2_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_2_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_2_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_2_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_3_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_3_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_3_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_3_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_3_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_4_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_4_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_4_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_4_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_4_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_5_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_5_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_5_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_5_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_5_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_6_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_6_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_6_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_6_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_6_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_7_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_7_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_7_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_7_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_7_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_8_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_8_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_8_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_8_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_8_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_9_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_9_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_9_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_9_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_9_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_10_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_10_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_10_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_10_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_10_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_11_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_11_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_11_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_11_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_11_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_12_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_12_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_12_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_12_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_12_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_13_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_13_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_13_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_13_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_13_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_14_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_14_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_14_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_14_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_14_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+
+republic_tier_15_rat_1_1 = {
+
+    icon = "dutch_republic"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_rat
+    }
+    
+    nation_designer_cost = 0
+
+    trigger = {
+        NOT = { has_reform = celestial_empire }
+    }
+    
+    factions = {
+            rat_1_1_aristo
+            rat_1_2_klerus
+            rat_1_3_burger
+            rat_1_4_gilde
+            rat_1_5_trader
+            rat_1_6_minder
+            
+    }
+
+    modifiers = {
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_15_rat_1_2 = {
+
+    icon = "idea_variation_29"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        adm_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_15_rat_1_3 = {
+
+    icon = "idea_variation_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        dip_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_15_rat_1_4 = {
+
+    icon = "idea_variation_4"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        mil_advisor_cost = -0.66
+        republican_tradition = -0.5
+    }
+}
+
+republic_tier_15_rat_1_5 = {
+
+    icon = "idea_variation_5"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_rat
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 1.5
+        global_unrest = -1
+    }
+}
+

@@ -1,0 +1,85 @@
+republic_{{tierCount}}_ausbildung_1_1 = {
+
+    icon = "idea_variation_47"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        embracement_cost = -1
+        global_institution_spread = 0.1
+    }
+}
+
+republic_{{tierCount}}_ausbildung_1_2 = {
+
+    icon = "idea_variation_48"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 2
+    }
+}
+
+republic_{{tierCount}}_ausbildung_1_3 = {
+
+    icon = "idea_variation_46"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        idea_cost = -0.1
+    }
+}
+
+republic_{{tierCount}}_ausbildung_1_4 = {
+
+    icon = "idea_variation_45"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        leader_cost = -0.25
+    }
+}
+
+republic_{{tierCount}}_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.15
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}

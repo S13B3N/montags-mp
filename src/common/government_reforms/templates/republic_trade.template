@@ -1,0 +1,67 @@
+republic_tier_{{tierCount}}_handel_1_1 = {
+
+    icon = "idea_variation_28"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_own_trade_power = 0.33
+    }
+}
+
+republic_tier_{{tierCount}}_handel_1_2 = {
+
+    icon = "idea_variation_41"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        merchants = 1
+        placed_merchant_power = 20
+    }
+}
+
+republic_tier_{{tierCount}}_handel_1_3 = {
+
+    icon = "idea_variation_43"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        light_ship_cost = -0.25
+        global_ship_trade_power = 0.25
+        global_ship_recruit_speed = -0.25
+    }
+}
+
+republic_tier_{{tierCount}}_handel_1_4 = {
+
+    icon = "idea_variation_42"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_{{tierCount}}_handel
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_trade_power = 0.1
+        trade_range_modifier = 0.5
+    }
+}

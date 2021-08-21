@@ -1,0 +1,1218 @@
+monarchy_tier_2_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_2_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_2_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_2_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_2_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_3_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_3_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_3_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_3_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_3_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_4_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_4_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_4_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_4_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_4_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_5_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_5_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_5_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_5_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_5_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_6_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_6_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_6_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_6_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_6_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_7_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_7_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_7_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_7_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_7_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_8_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_8_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_8_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_8_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_8_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_9_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_9_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_9_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_9_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_9_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_10_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_10_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_10_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_10_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_10_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_11_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_11_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_11_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_11_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_11_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_12_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_12_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_12_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_12_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_12_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_13_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_13_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_13_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_13_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_13_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_14_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_14_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_14_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_14_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_14_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}
+monarchy_tier_15_ausbildung_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_admin_power = 2
+    }
+}
+
+monarchy_tier_15_ausbildung_1_2 = {
+
+    icon = "idea_variation_11"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_diplomatic_power = 2
+    }
+}
+
+monarchy_tier_15_ausbildung_1_3 = {
+
+    icon = "idea_variation_12"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        monarch_military_power = 2
+    }
+}
+
+monarchy_tier_15_ausbildung_1_4 = {
+
+    icon = "man_and_children"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_ausbildung
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        free_leader_pool = 1
+        general_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_15_ausbildung_1_5 = {
+
+    icon = "idea_variation_13"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_ausbildung
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_AUSBILDUNG
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        reform_progress_growth = 0.25
+        legitimacy = -1
+        # <<WIKI>> decision = iv_innovative_dec
+    }
+}

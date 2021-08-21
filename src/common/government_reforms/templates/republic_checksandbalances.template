@@ -1,0 +1,175 @@
+republic_{{tierCount}}_checks_1_1 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -0.5
+        nobles_loyalty_modifier = 0.10
+        nobles_influence_modifier = 0.05
+        church_loyalty_modifier = 0.10
+        church_influence_modifier = 0.05
+        burghers_loyalty_modifier = 0.10
+        burghers_influence_modifier = 0.05
+        nationalist_loyalty_modifier = 0.10
+        nationalist_influence_modifier = 0.05
+        janissary_loyalty_modifier = 0.10
+        janissary_influence_modifier = 0.05
+        cossacks_loyalty_modifier = 0.10
+        cossacks_influence_modifier = 0.05
+        dhimmi_loyalty_modifier = 0.10
+        dhimmi_influence_modifier = 0.05
+        brahmins_hindu_loyalty_modifier = 0.10
+        brahmins_muslim_loyalty_modifier = 0.10 
+        brahmins_other_loyalty_modifier = 0.10
+        brahmins_hindu_influence_modifier = 0.05
+        brahmins_muslim_influence_modifier = 0.05
+        brahmins_other_influence_modifier = 0.05
+        maratha_loyalty_modifier = 0.10
+        maratha_influence_modifier = 0.05
+        vaisyas_loyalty_modifier = 0.10
+        vaisyas_influence_modifier = 0.05
+        jains_loyalty_modifier = 0.10
+        jains_influence_modifier = 0.05
+        rajput_loyalty_modifier = 0.10
+        rajput_influence_modifier = 0.05
+    }
+}
+
+republic_{{tierCount}}_checks_1_2 = {
+
+    icon = "parliament"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+
+    trigger = {
+        NOT = { has_reform = american_republic }
+        NOT = { has_reform = federal_republic }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        max_absolutism = -20
+    }
+
+    conditional = {
+        allow = {
+            has_dlc = "Common Sense"
+        }
+        has_parliament = yes
+    }
+}
+
+republic_{{tierCount}}_checks_1_3 = {
+
+    icon = "man_on_podium"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        candidate_random_bonus = 1
+        republican_tradition = -0.5
+    }
+
+    custom_attributes = {
+        enables_nepotism = yes
+    }
+}
+
+republic_{{tierCount}}_checks_1_4 = {
+
+    icon = "constitution"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = 1
+        republican_tradition = 0.5
+    }
+}
+
+republic_{{tierCount}}_checks_1_5 = {
+
+    icon = "ballot_box"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        NOT = { has_reform = pirate_republic_reform }
+        NOT = { has_reform = venice_merchants_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        election_cycle = -1
+        republican_tradition = -1.0
+        reelection_cost = -0.2
+    }
+}
+
+republic_{{tierCount}}_checks_1_6 = {
+
+    icon = "paper_with_seal_3"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+        NOT = { has_reform = venice_merchants_reform }
+        NOT = { has_reform = pirate_republic_reform }
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = 0.5
+        stability_cost_modifier = -0.15
+    }
+
+    custom_attributes = {
+        lottery_election = yes
+        election_on_death = yes
+    }
+}
+
+republic_{{tierCount}}_checks_1_7 = {
+
+    icon = "politician"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_{{tierCount}}_checks
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        republican_tradition = -1
+        max_absolutism = 15
+    }
+}

@@ -1,0 +1,1330 @@
+republic_tier_2_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_2_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_2_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_2_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_2_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_3_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_3_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_3_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_3_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_3_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_4_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_4_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_4_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_4_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_4_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_5_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_5_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_5_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_5_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_5_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_6_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_6_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_6_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_6_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_6_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_7_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_7_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_7_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_7_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_7_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_8_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_8_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_8_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_8_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_8_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_9_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_9_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_9_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_9_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_9_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_10_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_10_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_10_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_10_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_10_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_11_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_11_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_11_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_11_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_11_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_12_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_12_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_12_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_12_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_12_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_13_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_13_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_13_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_13_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_13_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_14_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_14_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_14_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_14_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_14_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}
+republic_tier_15_wirt_1_1 = {
+
+    icon = "idea_variation_28"    
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_MERCANTILISM
+    }
+    
+    nation_designer_cost = 0
+    modifiers = {
+        trade_efficiency = -0.1
+        embargo_efficiency = 0.5
+        # <<WIKI>> decision = iv_mercanti_dec
+    }
+}
+
+republic_tier_15_wirt_1_2 = {
+
+    icon = "idea_variation_7"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_wirt
+    }
+
+    effect = {
+    custom_tooltip = IV_REFORM_MANUFACTORY
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        development_cost = 0.1
+        # <<WIKI>> decision = iv_manufactory_dec
+    }
+}
+
+republic_tier_15_wirt_1_3 = {
+
+    icon = "idea_variation_8"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_wirt
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_TRADECENTER
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        center_of_trade_upgrade_cost = -0.75
+        # <<WIKI>> decision = iv_trade_center_dec
+    }
+}
+
+republic_tier_15_wirt_1_4 = {
+
+    icon = "idea_variation_9"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        global_tariffs = 0.5
+        treasure_fleet_income = 1.0
+    }
+}
+
+republic_tier_15_wirt_1_5 = {
+
+    icon = "idea_variation_22"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_wirt
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        production_efficiency = 0.15
+    }
+}

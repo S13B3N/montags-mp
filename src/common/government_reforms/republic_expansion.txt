@@ -1,0 +1,1260 @@
+republic_tier_2_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_2_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_2_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_2_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_2_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_2_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_3_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_3_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_3_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_3_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_3_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_3_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_4_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_4_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_4_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_4_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_4_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_4_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_5_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_5_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_5_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_5_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_5_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_5_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_6_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_6_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_6_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_6_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_6_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_6_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_7_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_7_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_7_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_7_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_7_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_7_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_8_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_8_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_8_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_8_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_8_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_8_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_9_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_9_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_9_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_9_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_9_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_9_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_10_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_10_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_10_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_10_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_10_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_10_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_11_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_11_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_11_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_11_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_11_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_11_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_12_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_12_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_12_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_12_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_12_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_12_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_13_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_13_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_13_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_13_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_13_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_13_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_14_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_14_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_14_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_14_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_14_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_14_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}
+republic_tier_15_expan_1_1 = {
+
+    icon = "idea_variation_10"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_expan
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_DEVLANDS
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        # <<WIKI>> scaled_dev_cost_under_30_dev = yes
+    }
+}
+
+republic_tier_15_expan_1_2 = {
+
+    icon = "idea_variation_40"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        range = 0.5
+        state_maintenance_modifier = -0.5
+        # Politik für Kolonisten?
+    }
+}
+
+republic_tier_15_expan_1_3 = {
+
+    icon = "idea_variation_23"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        administrative_efficiency = 0.05
+    }
+}
+
+republic_tier_15_expan_1_4 = {
+
+    icon = "idea_variation_21"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        colonists = 1
+    }
+}
+
+republic_tier_15_expan_1_5 = {
+
+    icon = "idea_variation_19"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_rep_tier_15_expan
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        spy_offence = 0.25
+    }
+
+    conditional = {
+        allow = { has_dlc = "Third Rome" }
+        claim_states = yes
+    }
+}

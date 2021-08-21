@@ -1,0 +1,1288 @@
+monarchy_tier_2_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_2_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_2_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_2_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_2_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_2_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_3_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_3_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_3_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_3_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_3_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_3_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_4_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_4_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_4_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_4_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_4_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_4_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_5_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_5_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_5_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_5_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_5_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_5_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_6_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_6_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_6_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_6_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_6_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_6_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_7_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_7_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_7_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_7_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_7_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_7_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_8_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_8_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_8_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_8_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_8_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_8_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_9_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_9_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_9_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_9_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_9_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_9_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_10_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_10_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_10_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_10_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_10_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_10_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_11_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_11_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_11_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_11_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_11_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_11_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_12_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_12_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_12_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_12_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_12_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_12_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_13_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_13_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_13_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_13_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_13_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_13_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_14_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_14_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_14_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_14_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_14_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_14_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
+monarchy_tier_15_inner_1_1 = {
+
+    icon = "idea_variation_30"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        missionaries = 1
+        prestige_per_development_from_conversion = 1
+        tolerance_heathen = -2
+        tolerance_heretic = -2
+    }
+}
+
+monarchy_tier_15_inner_1_2 = {
+
+    icon = "assembly_hall"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        num_accepted_cultures = 2
+        tolerance_own = -2
+        global_unrest = -2
+    }
+}
+
+monarchy_tier_15_inner_1_3 = {
+
+    icon = "idea_variation_17"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        culture_conversion_cost = -0.4
+        expel_minorities_cost = -0.25
+        legitimacy = -0.5
+    }
+}
+
+monarchy_tier_15_inner_1_4 = {
+
+    icon = "idea_variation_16"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_inner
+    }
+
+    effect = {
+        custom_tooltip = IV_REFORM_INTERNALCHECK
+    }
+    
+    nation_designer_cost = 0
+
+    modifiers = {
+        religious_unity = 0.25
+        # <<WIKI>> decision = iv_inner_cohesion_dec
+    }
+}
+
+monarchy_tier_15_inner_1_5 = {
+
+    icon = "idea_variation_27"
+    allow_normal_conversion = yes
+
+    potential = {
+        has_country_flag = iv_gov_reform_tier_15_inner
+    }
+
+    nation_designer_cost = 0
+
+    modifiers = {
+        diplomats = 1
+        merchants = 1
+    }
+}
