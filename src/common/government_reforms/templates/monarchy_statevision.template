@@ -54,19 +54,6 @@ monarchy_tier_{{tierCount}}_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0

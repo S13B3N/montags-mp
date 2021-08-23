@@ -102,7 +102,7 @@ Bayern={
    location=266
 
    color={
-      57 160 101
+      11  84  179
    }
 
    members={
@@ -722,7 +722,7 @@ England={
    location=245
 
    color={
-      147 157 76
+      186 0 13
    }
 
    members={
@@ -736,7 +736,7 @@ english_channel={
    location=235
 
    color={
-      220 138 57
+      114 30 229
    }
 
    members={
@@ -810,7 +810,7 @@ Frankreich={
    location=184
 
    color={
-      121 162 109
+      20  50  210
    }
 
    members={
@@ -1438,7 +1438,7 @@ lubeck={
    location=45
 
    color={
-      190 70 70
+      250 250 250
    }
 
    members={
@@ -1742,7 +1742,7 @@ north_sea={
    location=23
 
    color={
-      117 165 188
+       8  82  165
    }
 
    members={
@@ -1892,7 +1892,7 @@ pest={
    location=153
 
    color={
-      172 95 81
+      181  0  20
    }
 
    members={
@@ -1966,7 +1966,7 @@ Polen={
    location=257
 
    color={
-      193 26 14
+      250 250 250
    }
 
    members={
@@ -2078,7 +2078,7 @@ Schweden={
    location=4166
 
    color={
-      182 134 100
+      235  178  18
    }
 
    members={
@@ -2362,7 +2362,7 @@ tunis={
    location=2456
 
    color={
-      0 51 0
+      0 0 0
    }
 
    members={

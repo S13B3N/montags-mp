@@ -54,19 +54,6 @@ monarchy_tier_2_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -153,19 +140,6 @@ monarchy_tier_3_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -252,19 +226,6 @@ monarchy_tier_4_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -351,19 +312,6 @@ monarchy_tier_5_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -450,19 +398,6 @@ monarchy_tier_6_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -549,19 +484,6 @@ monarchy_tier_7_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -648,19 +570,6 @@ monarchy_tier_8_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -747,19 +656,6 @@ monarchy_tier_9_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -846,19 +742,6 @@ monarchy_tier_10_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -945,19 +828,6 @@ monarchy_tier_11_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -1044,19 +914,6 @@ monarchy_tier_12_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -1143,19 +1000,6 @@ monarchy_tier_13_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -1242,19 +1086,6 @@ monarchy_tier_14_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
@@ -1341,19 +1172,6 @@ monarchy_tier_15_vision_1_3 = {
     }
 
     trigger = {
-        NOT = { 
-            OR = {
-                has_reform = prussian_monarchy
-                has_reform = mamluk_government
-                has_reform = feudal_theocracy
-                has_reform = indian_sultanate_reform
-                has_reform = iqta
-                has_reform = principality
-                has_reform = tsardom
-                has_reform = ottoman_government
-                has_reform = revolutionary_empire_reform
-            } 
-        }
     }
 
     nation_designer_cost = 0
