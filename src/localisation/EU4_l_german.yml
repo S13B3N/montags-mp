@@ -4719,6 +4719,17 @@
  SOH_NOTELECTIVE:0 "Wir sind keine Wahlmonarchie"
  SOH_LACKPRESTIGE:0 "Ihr braucht mindestens §Y$VAL$§! Prestige, um einen lokalen Adligen als Euren Thronfolger zu unterstützen."
  SOH_COST:0 "Erhöht die Unterstützung für $NAME|Y$ durch $SUPPORT|Y$ als Thronfolger durch Ausgabe von $COST|R$ Prestige."
+ IS_CURRYING_FAVORS:0 "Wir hofieren bereits um Gefallen bei $WHO$."
+ IS_NOT_CURRYING_FAVORS:0 "Wir hofieren noch nicht um Gefallen bei $WHO$."
+ CURRYFAVORSDESC:0 "Bei ihnen um Gefallen zu hofieren, wird mit der Zeit unsere Gefallen erhöhen."
+ CANCEL_CURRYFAVORSDESC:0 "Wenn wir nicht länger bei ihnen um Gefallen hofieren, verlieren wir mit der Zeit unsere Gewinne."
+ CURRY_FAVORS_DESC:0 "Möchtet Ihr einen Diplomaten nach §Y$COUNTRY$§W entsenden, um um Gefallen zu hofieren?\nJeden Monat wird der Diplomat je nach unserer diplomatischen Reputation die Anzahl an Gefallen erhöhen, die sie uns schulden!"
+ CANCEL_CURRY_FAVORS_DESC:0 "Möchtet Ihr den Diplomaten, der in §Y$COUNTRY$§W hofiert, zurückrufen?\nWenn er seine Arbeit einstellt, werden die Gefallen, die er bewirkt hat, allmählich ihre Wirkung verlieren."
+ CURRYFAVORS:0 "Hofieren"
+ CURRYFAVORSTITLE:0 "Hofieren"
+ CANCEL_CURRYFAVORS:0 "Hofieren beenden"
+ CANCEL_CURRYFAVORSTITLE:0 "Hofieren beenden"
+
  danelaw:0 "Danelag"
  SHA_IS_WRONG_RELIGION_GROUP:0 "$WHO$ ist nicht $RELIGION$."
  dynasty_elected:0 "Dieselbe Dynastie nach der Wahl"
@@ -5026,3 +5037,5 @@
  KICK_PLAYER_CONFIRM_DESC:0 "Seid Ihr sicher, dass Ihr $PLAYER_NAME|Y$ (spielt momentan als $PLAYER_COUNTRY|Y$) aus dem Spiel werfen möchtet?"
  NO_UNPAUSE_PLAYERS_BEHIND_TOO_MUCH:0 "Ihr müsst darauf warten, dass folgende Spieler aufholen, bevor Ihr die Pause beenden könnt:\n$PLAYERS|Y$"
  NO_SPEEDUP_PLAYERS_BEHIND_TOO_MUCH:0 "Ihr müsst darauf warten, dass folgende Spieler aufholen, bevor Ihr die Spielgeschwindigkeit erhöhen könnt:\n$PLAYERS|Y$"
+
+ MIL_UPKEEP_MOD_DESC:0 "Wir können $NUM|Y$ Anführer unterstützen (Herrscher und ihre Erben sind frei), aufgrund von:"

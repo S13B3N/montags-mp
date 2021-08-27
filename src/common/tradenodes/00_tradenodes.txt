@@ -66,7 +66,7 @@ Anatolien={
    location=322
 
    color={
-      54 167 156
+      114  70  103
    }
 
    members={
@@ -919,7 +919,7 @@ Georgien={
    location=288
 
    color={
-      116 92 39
+      21 21 227
    }
 
    members={
@@ -1677,7 +1677,7 @@ Nil={
    location=361
 
    color={
-      140 207 116
+      162 93 31
    }
 
    members={
@@ -1785,7 +1785,7 @@ novgorod={
    location=4248
 
    color={
-      97 126 37
+      96  131  80
    }
 
    members={
@@ -1991,7 +1991,7 @@ rheinland={
    location=4765
 
    color={
-      114 171 184
+      3 3 3
    }
 
    members={
@@ -2043,7 +2043,7 @@ Rheinland={
    location=95
 
    color={
-      136 157 23
+      249 120 3
    }
 
    members={
@@ -2450,7 +2450,7 @@ Wallachei={
    location=1082
 
    color={
-      102 102 153
+      95  139  214
    }
 
    members={
