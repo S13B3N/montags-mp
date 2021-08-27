@@ -1021,6 +1021,12 @@ quality_ideas = {
 quantity_ideas = {
 	category = MIL
 
+	trigger = {
+    	NOT = {
+        		has_idea_group = militarismus0
+    		}
+	}
+
 	bonus = {
 		land_forcelimit_modifier  = 0.15
 		special_unit_forcelimit = 0.15

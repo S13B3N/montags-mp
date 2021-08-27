@@ -4803,12 +4803,12 @@ wehrpflicht0 = {
 		recover_army_morale_speed = 0.05
 	}
 		
-		trigger = {
-		NOT = {
-			has_idea_group = stehendesheer0
-			has_idea_group = soldnerheer0
-			}
+	trigger = {
+	NOT = {
+		has_idea_group = stehendesheer0
+		has_idea_group = soldnerheer0
 		}
+	}
 	
 	wehrpflicht3 = {
 		reinforce_speed = 0.2
@@ -4817,7 +4817,7 @@ wehrpflicht0 = {
 		land_morale = 0.15
 	}
 	wehrpflicht1 = {
-        defensiveness = 0.15
+        land_forcelimit_modifier = 0.075
 	}
 
 	wehrpflicht4 = {
@@ -5499,10 +5499,15 @@ formation0 = {
 militarismus0 = {
 	category = MIL
 
+	trigger = {
+    	NOT = {
+        		has_idea_group = quantity_ideas
+    		}
+	}
+
 	bonus = {
 		war_exhaustion = -0.03
 	}
-		
 	
 	militarismus1 = {
 		land_forcelimit_modifier = 0.1
