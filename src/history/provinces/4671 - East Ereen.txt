@@ -1,0 +1,19 @@
+culture = tuareg
+religion = sunni
+capital = "Ash Swayiif"
+trade_goods = unknown
+hre = no
+base_tax = 2 
+base_production = 1
+base_manpower = 2
+
+native_size = 35
+native_ferocity = 7
+native_hostileness = 6
+
+
+
+discovered_by = muslim
+discovered_by = ottoman
+
+

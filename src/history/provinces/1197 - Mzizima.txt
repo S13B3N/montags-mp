@@ -1,0 +1,17 @@
+culture = swahili
+religion = shamanism #Fetishism
+capital = "Mzizima"
+base_manpower = 1
+trade_goods = "unknwon"
+hre = no
+base_tax = 1
+base_production = 1
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = central_african
+discovered_by = east_african
+
+native_size = 80
+native_ferocity = 7
+native_hostileness = 9
