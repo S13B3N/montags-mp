@@ -1,0 +1,752 @@
+estate_priv_idea_variation_6_1 = {
+	icon = privilege_seek_support_of_clergy
+	influence = 0.20
+	loyalty = -0.1
+	
+	is_valid = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 200
+		}
+	}
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 200
+		}
+	}
+	benefits = {
+		country_admin_power = 1
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+				estate_influence = {
+					estate = estate_brahmins
+					influence = 80
+			}
+		}
+	}
+}
+
+estate_priv_idea_variation_6_2 = {
+	icon = privilege_recruit_minister
+	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+
+	on_granted = {
+		if = {
+				limit = {
+					monthly_income = 25
+				}
+				define_advisor = {
+					type = theologian
+					skill = 3
+					cost_multiplier = 0.5
+				}
+			}
+			if = {
+				limit = { NOT = { monthly_income = 25 } }
+				define_advisor = {
+					type = theologian
+					skill = 2
+					cost_multiplier = 0.5
+				}
+			}				
+	}
+	
+	penalties = {
+		nobles_loyalty_modifier = -0.025
+		church_loyalty_modifier = -0.025
+		burghers_loyalty_modifier = -0.025
+		nationalist_loyalty_modifier = -0.025
+		janissary_loyalty_modifier = -0.025
+		cossacks_loyalty_modifier = -0.025
+		dhimmi_loyalty_modifier = -0.025
+		maratha_loyalty_modifier = -0.025
+		vaisyas_loyalty_modifier = -0.025
+		jains_loyalty_modifier = -0.025
+		rajput_loyalty_modifier = -0.025
+	}
+	
+	cooldown_years = 10
+	on_cooldown_expires = {
+		remove_estate_privilege = estate_priv_idea_variation_6_2
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+				estate_influence = {
+					estate = estate_brahmins
+					influence = 80
+				}
+		}
+	}
+}
+
+estate_priv_idea_variation_6_3 = {
+	icon = privilege_recruit_inouisitor
+	influence = 0.15
+
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+
+	on_granted = {
+		if = {
+				limit = {
+					monthly_income = 25
+				}
+				define_advisor = {
+					type = treasurer
+					skill = 3
+					cost_multiplier = 0.5
+				}
+			}
+			if = {
+				limit = { NOT = { monthly_income = 25 } }
+				define_advisor = {
+					type = treasurer
+					skill = 2
+					cost_multiplier = 0.5
+				}
+			}			
+	}
+	
+	penalties = {
+		nobles_loyalty_modifier = -0.025
+		church_loyalty_modifier = -0.025
+		burghers_loyalty_modifier = -0.025
+		nationalist_loyalty_modifier = -0.025
+		janissary_loyalty_modifier = -0.025
+		cossacks_loyalty_modifier = -0.025
+		dhimmi_loyalty_modifier = -0.025
+		maratha_loyalty_modifier = -0.025
+		vaisyas_loyalty_modifier = -0.025
+		jains_loyalty_modifier = -0.025
+		rajput_loyalty_modifier = -0.025
+	}
+	
+	cooldown_years = 10
+	on_cooldown_expires = {
+		remove_estate_privilege = estate_priv_idea_variation_6_3
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+				estate_influence = {
+					estate = estate_brahmins
+					influence = 80
+				}
+		}
+	}
+}
+
+estate_priv_idea_variation_6_4 = {
+	icon = privilege_grant_autonomy
+	influence = 0.1
+	loyalty = 0.1
+
+	is_valid = {
+		has_iv_gov_estate_8 = yes
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+				estate_influence = {
+					estate = estate_brahmins
+					influence = 80
+				}
+		}
+	}
+}
+
+estate_priv_idea_variation_6_5 = {
+	icon = privilege_empty_throne
+	influence = 0.2
+
+	is_valid = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+
+	penalties = {
+		nobles_influence_modifier = -0.05
+		church_influence_modifier = -0.05
+		burghers_influence_modifier = -0.05
+		nationalist_influence_modifier = -0.05
+		janissary_influence_modifier = -0.05
+		cossacks_influence_modifier = -0.05
+		dhimmi_influence_modifier = -0.05
+		maratha_influence_modifier = -0.05
+		vaisyas_influence_modifier = -0.05
+		jains_influence_modifier = -0.05
+		rajput_influence_modifier = -0.05	
+	}
+
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+				estate_influence = {
+					estate = estate_brahmins
+					influence = 75
+				}
+		}
+	}
+}
+
+estate_priv_idea_variation_6_6 = {
+	icon = privilege_give_money
+	influence = -0.1
+	loyalty = -0.1
+
+	is_valid = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+	
+	modifier_by_land_ownership = {
+		global_tax_modifier = 0.5
+	}
+	
+
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 0
+			}
+		}
+		modifier = {
+			factor = 1
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 5
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 10
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 15
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 4
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 20
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 25
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 25
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 30
+			}
+		}
+	}
+}
+
+estate_priv_idea_variation_6_7 = {
+	icon = privilege_demand_more_troops
+	influence = -0.1
+	loyalty = -0.1
+
+	is_valid = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 200
+		}
+	}
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 200
+		}
+	}
+	
+	modifier_by_land_ownership = {
+		manpower_in_true_faith_provinces = 0.5
+		global_sailors_modifier = 0.5
+	}
+
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 0
+			}
+		}
+		modifier = {
+			factor = 1
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 5
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 10
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 15
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 4
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 20
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 25
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 25
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 30
+			}
+		}
+	}
+}
+
+estate_priv_idea_variation_6_8 = {
+	icon = IV_privileges_icon_1
+	influence = 0.1
+	loyalty = -0.1
+
+	is_valid = {
+		estate_influence = {
+		estate = estate_brahmins
+		influence = 20
+		}
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+	can_select = {
+		estate_influence = {
+		estate = estate_brahmins
+		influence = 50
+		}
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+
+	
+	modifier_by_land_ownership = {
+		reform_progress_growth = 0.5
+		institution_spread_from_true_faith = 0.5
+	}
+
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 0
+			}
+		}
+		modifier = {
+			factor = 1
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 5
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 10
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 10
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 15
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 20
+				}
+			}
+		}
+		modifier = {
+			factor = 4
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 20
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 25
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 25
+			}
+			NOT = { 
+				estate_territory = {
+				estate = estate_brahmins
+				territory = 30
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			estate_territory = {
+			estate = estate_brahmins
+			territory = 30
+			}
+		}
+	}
+}
+
+estate_priv_idea_variation_6_9 = {
+	icon = privilege_grant_new_world_charter
+	influence = 0.05
+
+	is_valid = {
+		has_colonist = yes
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+
+	can_select = {
+		has_colonist = yes
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+	}
+
+
+		
+	penalties = {
+		native_uprising_chance = 0.33
+	}
+	benefits = {
+		native_assimilation = 1.0
+	}
+	
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+				estate_influence = {
+					estate = estate_brahmins
+					influence = 75
+				}
+		}
+	}
+}
+
+estate_priv_idea_variation_6_11 = {
+	icon = IV_privileges_icon_2
+
+    influence = 0.15
+
+	can_select = {
+		has_idea_group = exploration_ideas
+		estate_influence = {
+		estate = estate_brahmins
+		influence = 20
+		}
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 10
+		}
+		
+	}
+		
+
+
+	on_granted = {
+		
+			if = {
+				limit = { 
+					army_tradition = 100
+				}
+				create_conquistador = { tradition = 100 }
+			}
+			if = {
+				limit = { 
+					army_tradition = 90
+					NOT = { army_tradition = 100 }
+				}
+				create_conquistador = { tradition = 90 }
+			}
+			if = {
+				limit = { 
+					army_tradition = 80
+					NOT = { army_tradition = 90 }
+				}
+				create_conquistador = { tradition = 80 }
+			}
+			if = {
+				limit = { 
+					army_tradition = 70
+					NOT = { army_tradition = 80 }
+				}
+				create_conquistador = { tradition = 70 }
+			}
+			if = {
+				limit = { 
+					army_tradition = 60
+					NOT = { army_tradition = 70 }
+				}
+				create_conquistador = { tradition = 60 }
+			}
+			if = {
+				limit = { 
+					army_tradition = 50
+					NOT = { army_tradition = 60 }
+				}
+				create_conquistador = { tradition = 50 }
+			}
+			if = {
+				limit = { 
+					army_tradition = 0
+					NOT = { army_tradition = 50 }
+				}
+				create_conquistador = { tradition = 40 }
+			}
+	}
+	
+	penalties = {
+		nobles_loyalty_modifier = -0.01
+		church_loyalty_modifier = -0.01
+		burghers_loyalty_modifier = -0.01
+		nationalist_loyalty_modifier = -0.01
+		janissary_loyalty_modifier = -0.01
+		cossacks_loyalty_modifier = -0.01
+		dhimmi_loyalty_modifier = -0.01
+		maratha_loyalty_modifier = -0.01
+		vaisyas_loyalty_modifier = -0.01
+		jains_loyalty_modifier = -0.01
+		rajput_loyalty_modifier = -0.01
+	}
+	
+	cooldown_years = 10
+	on_cooldown_expires = {
+		remove_estate_privilege = estate_priv_idea_variation_6_11
+	}
+	
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_priv_idea_variation_6_12 = {
+	icon = privilege_grant_autonomy
+	influence = 0.1
+
+	is_valid = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 200
+		}
+	}
+	can_select = {
+		estate_territory = {
+		estate = estate_brahmins
+		territory = 200
+		}
+	}
+	penalties = {
+		state_maintenance_modifier = 0.1
+	}
+	benefits = {
+		state_maintenance_modifier = -0.5
+	}
+	
+	ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+				estate_influence = {
+					estate = estate_brahmins
+					influence = 90
+				}
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_territories = 1 }
+		}
+		modifier = {
+			factor = 1.4
+			num_of_territories = 5
+		}
+		modifier = {
+			factor = 1.5
+			num_of_territories = 10
+		}
+		modifier = {
+			factor = 1.5
+			num_of_territories = 15
+		}
+	}
+}
