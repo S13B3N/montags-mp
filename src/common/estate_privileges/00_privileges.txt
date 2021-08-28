@@ -3169,8 +3169,10 @@ estate_brahmins_supremacy_over_crown = {
 
 estate_burghers_monopoly_of_textiles = {
 	icon = privilege_monopoly_of_goods_cloth
-	#max_absolutism = -10
+
 	loyalty = 0.1
+    influence = 0.15
+
 	is_valid = {
 		has_dlc = "Emperor"
 		any_owned_province = {
@@ -3263,7 +3265,7 @@ estate_burghers_monopoly_of_textiles = {
 
 estate_burghers_monopoly_of_dyes = {
 	icon = privilege_monopoly_of_goods_dyes
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -3349,7 +3351,7 @@ estate_burghers_monopoly_of_dyes = {
 
 estate_burghers_monopoly_of_glass = {
 	icon = privilege_monopoly_of_goods_glass
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -3435,7 +3437,7 @@ estate_burghers_monopoly_of_glass = {
 
 estate_burghers_monopoly_of_paper = {
 	icon = privilege_monopoly_of_goods_paper
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -3521,7 +3523,7 @@ estate_burghers_monopoly_of_paper = {
 
 estate_vaisyas_monopoly_of_textiles = {
 	icon = privilege_monopoly_of_goods_cloth
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -3616,7 +3618,7 @@ estate_vaisyas_monopoly_of_textiles = {
 
 estate_vaisyas_monopoly_of_dyes = {
 	icon = privilege_monopoly_of_goods_dyes
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -3702,7 +3704,7 @@ estate_vaisyas_monopoly_of_dyes = {
 
 estate_vaisyas_monopoly_of_glass = {
 	icon = privilege_monopoly_of_goods_glass
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -3788,7 +3790,7 @@ estate_vaisyas_monopoly_of_glass = {
 
 estate_vaisyas_monopoly_of_paper = {
 	icon = privilege_monopoly_of_goods_paper
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -3874,7 +3876,7 @@ estate_vaisyas_monopoly_of_paper = {
 
 estate_jains_monopoly_of_textiles = {
 	icon = privilege_monopoly_of_goods_cloth
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -3971,7 +3973,7 @@ estate_jains_monopoly_of_textiles = {
 
 estate_jains_monopoly_of_dyes = {
 	icon = privilege_monopoly_of_goods_dyes
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4059,7 +4061,7 @@ estate_jains_monopoly_of_dyes = {
 
 estate_jains_monopoly_of_glass = {
 	icon = privilege_monopoly_of_goods_glass
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4147,7 +4149,7 @@ estate_jains_monopoly_of_glass = {
 
 estate_jains_monopoly_of_paper = {
 	icon = privilege_monopoly_of_goods_paper
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4235,7 +4237,7 @@ estate_jains_monopoly_of_paper = {
 
 estate_nobles_monopoly_of_metals = {
 	icon = privilege_monopoly_of_goods_iron
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4330,7 +4332,7 @@ estate_nobles_monopoly_of_metals = {
 
 estate_nobles_monopoly_of_livestock = {
 	icon = privilege_monopoly_of_goods_livestock
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4415,7 +4417,7 @@ estate_nobles_monopoly_of_livestock = {
 
 estate_nobles_monopoly_of_gems = {
 	icon = privilege_monopoly_of_goods_gems
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4501,7 +4503,7 @@ estate_nobles_monopoly_of_gems = {
 
 estate_rajput_monopoly_of_metals = {
 	icon = privilege_monopoly_of_goods_iron
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4597,7 +4599,7 @@ estate_rajput_monopoly_of_metals = {
 
 estate_rajput_monopoly_of_livestock = {
 	icon = privilege_monopoly_of_goods_livestock
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4684,7 +4686,7 @@ estate_rajput_monopoly_of_livestock = {
 
 estate_rajput_monopoly_of_gems = {
 	icon = privilege_monopoly_of_goods_gems
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4771,7 +4773,7 @@ estate_rajput_monopoly_of_gems = {
 
 estate_maratha_monopoly_of_metals = {
 	icon = privilege_monopoly_of_goods_iron
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4866,7 +4868,7 @@ estate_maratha_monopoly_of_metals = {
 
 estate_maratha_monopoly_of_livestock = {
 	icon = privilege_monopoly_of_goods_livestock
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -4952,7 +4954,7 @@ estate_maratha_monopoly_of_livestock = {
 
 estate_maratha_monopoly_of_gems = {
 	icon = privilege_monopoly_of_goods_gems
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -5038,7 +5040,7 @@ estate_maratha_monopoly_of_gems = {
 
 estate_church_monopoly_of_incense = {
 	icon = privilege_monopoly_of_goods_incence
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -5123,8 +5125,8 @@ estate_church_monopoly_of_incense = {
 
 estate_church_monopoly_of_wool = {
 	icon = privilege_monopoly_of_goods_wool
-	#max_absolutism = -10
 	loyalty = 0.1
+    influence = 0.15
 	is_valid = {
 		has_dlc = "Emperor"
 		any_owned_province = {
@@ -5208,8 +5210,8 @@ estate_church_monopoly_of_wool = {
 
 estate_church_monopoly_of_wine = {
 	icon = privilege_monopoly_of_goods_wine
-	#max_absolutism = -10
 	loyalty = 0.1
+    influence = 0.15
 	is_valid = {
 		has_dlc = "Emperor"
 		NOT = { religion_group = muslim }
@@ -5294,7 +5296,7 @@ estate_church_monopoly_of_wine = {
 
 estate_church_monopoly_of_slaves = {
 	icon = privilege_monopoly_of_goods_slaves
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -5380,7 +5382,7 @@ estate_church_monopoly_of_slaves = {
 
 estate_brahmins_monopoly_of_incense = {
 	icon = privilege_monopoly_of_goods_incence
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"
@@ -5466,7 +5468,7 @@ estate_brahmins_monopoly_of_incense = {
 
 estate_brahmins_monopoly_of_wool = {
 	icon = privilege_monopoly_of_goods_wool
-	#max_absolutism = -10
+    influence = 0.15
 	loyalty = 0.1
 	is_valid = {
 		has_dlc = "Emperor"

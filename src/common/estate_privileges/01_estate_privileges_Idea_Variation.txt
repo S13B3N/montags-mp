@@ -709,11 +709,12 @@ estate_priv_idea_variation_1_10 = {
 estate_priv_idea_variation_1_11 = {
 	icon = IV_privileges_icon_2
 	
+	influence = 0.15
+
 	can_select = {
 		has_idea_group = exploration_ideas
 		estate_influence = {
 		estate = estate_church
-		influence = 20
 		}
 
 		estate_territory = {
@@ -799,7 +800,6 @@ estate_priv_idea_variation_1_11 = {
 		factor = 10
 	}
 }
-
 
 ###################################################################
 ####### Church Province Administration
@@ -2338,6 +2338,8 @@ estate_priv_idea_variation_4_9 = {
 estate_priv_idea_variation_4_10 = {
 	icon = privilege_admiral
 	
+    influence = 0.15
+
 	can_select = {
 		estate_influence = {
 		estate = estate_burghers
@@ -2435,6 +2437,8 @@ estate_priv_idea_variation_4_10 = {
 estate_priv_idea_variation_4_11 = {
 	icon = IV_privileges_icon_2
 	
+    influence = 0.15
+
 	can_select = {
 		has_idea_group = exploration_ideas
 		estate_influence = {
@@ -3367,7 +3371,9 @@ estate_priv_idea_variation_3_9 = {
 
 estate_priv_idea_variation_3_11 = {
 	icon = IV_privileges_icon_2
-	
+
+    influence = 0.15
+
 	can_select = {
 		estate_influence = {
 		estate = estate_maratha
@@ -4177,7 +4183,9 @@ estate_priv_idea_variation_5_9 = {
 
 estate_priv_idea_variation_5_10 = {
 	icon = privilege_admiral
-	
+
+    influence = 0.15
+
 	can_select = {
 		estate_influence = {
 		estate = estate_vaisyas
@@ -4275,6 +4283,8 @@ estate_priv_idea_variation_5_10 = {
 estate_priv_idea_variation_5_11 = {
 	icon = IV_privileges_icon_2
 	
+    influence = 0.15
+
 	can_select = {
 		has_idea_group = exploration_ideas
 		estate_influence = {
@@ -5208,7 +5218,9 @@ estate_priv_idea_variation_6_9 = {
 
 estate_priv_idea_variation_6_11 = {
 	icon = IV_privileges_icon_2
-	
+
+    influence = 0.15
+
 	can_select = {
 		has_idea_group = exploration_ideas
 		estate_influence = {
@@ -5375,6 +5387,8 @@ estate_priv_idea_variation_6_12 = {
 estate_priv_idea_variation_7_1 = {
 	icon = IV_privileges_icon_6
 	
+    influence = 0.15
+
 	can_select = {
 		estate_influence = {
 		estate = estate_cossacks
@@ -6308,7 +6322,9 @@ estate_priv_idea_variation_7_12 = {
 
 estate_priv_idea_variation_8_1 = {
 	icon = privilege_military_power
-	
+
+    influence = 0.15
+
 	can_select = {
 		estate_influence = {
 		estate = estate_rajput
@@ -7220,7 +7236,9 @@ estate_priv_idea_variation_8_12 = {
 
 estate_priv_idea_variation_9_1 = {
 	icon = IV_privileges_icon_6
-	
+
+    influence = 0.15
+
 	can_select = {
 		estate_influence = {
 		estate = estate_janissary
