@@ -18200,7 +18200,7 @@ idea_variation_act_459 = {
 		full_idea_group = assimilation0 
 	}
 	
-	cavalry_power = 0.1		
+	cavalry_power = 0.15
 	cav_to_inf_ratio = 0.1
 	
 	ai_will_do = {
