@@ -1,3 +1,108 @@
+estate_priv_clergy_theologian_skill1 = {
+
+    icon = privilege_recruit_minister
+
+    influence = 0.05
+
+    can_select = {
+        estate_territory = {
+            estate = estate_church
+            territory = 10
+        }
+    }
+
+    on_granted = {
+        define_advisor = {
+            type = theologian
+            skill = 1
+            cost_multiplier = 0.5
+        }
+    }
+    
+    penalties = {
+    }
+    
+    cooldown_years = 10
+
+    on_cooldown_expires = {
+        remove_estate_privilege = estate_priv_idea_variation_1_2
+    }
+
+    ai_will_do = {
+        factor = 10
+    }
+}
+
+estate_priv_clergy_theologian_skill2 = {
+
+    icon = privilege_recruit_minister
+
+    influence = 0.1
+
+    can_select = {
+        estate_territory = {
+            estate = estate_church
+            territory = 10
+        }
+    }
+
+    on_granted = {
+        define_advisor = {
+            type = theologian
+            skill = 2
+            cost_multiplier = 0.5
+        }
+    }
+    
+    penalties = {
+    }
+    
+    cooldown_years = 10
+
+    on_cooldown_expires = {
+        remove_estate_privilege = estate_priv_idea_variation_1_2
+    }
+
+    ai_will_do = {
+        factor = 10
+    }
+}
+
+estate_priv_clergy_theologian_skill3 = {
+
+    icon = privilege_recruit_minister
+
+    influence = 0.15
+
+    can_select = {
+        estate_territory = {
+            estate = estate_church
+            territory = 10
+        }
+    }
+
+    on_granted = {
+        define_advisor = {
+            type = theologian
+            skill = 3
+            cost_multiplier = 0.5
+        }
+    }
+    
+    penalties = {
+    }
+    
+    cooldown_years = 10
+
+    on_cooldown_expires = {
+        remove_estate_privilege = estate_priv_idea_variation_1_2
+    }
+
+    ai_will_do = {
+        factor = 10
+    }
+}
+
 estate_priv_idea_variation_1_2 = {
 
     icon = privilege_recruit_minister

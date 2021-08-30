@@ -86,6 +86,50 @@ vassal = {
 	subject_opinion_modifier = is_vassal
 }
 
+personal_union = {
+	copy_from = default
+
+    can_concentrate_development = no
+
+	# Graphics:
+	sprite = GFX_court_union
+	diplomacy_overlord_sprite = GFX_diplomacy_leadunions
+	diplomacy_subject_sprite = GFX_diplomacy_inunion
+
+	# Properties:
+	has_overlords_ruler = yes
+	can_be_integrated = yes
+	overlord_can_attack = no
+	has_power_projection = no
+	gets_help_with_rebels = yes
+	can_have_subjects_of_other_types = yes
+	can_union_break = yes
+	transfer_subjects_when_made = yes
+	can_concentrate_development = no
+
+	liberty_desire_negative_prestige = 1.0
+	military_focus = 0.66
+
+	relative_power_class = 1
+	should_quit_wars_on_activation = yes
+
+	restoration_cb = cb_restore_personal_union
+	
+	# Subject Interactions:
+	placate_rulers = no
+	enforce_culture = yes
+	siphon_income = yes
+	support_loyalists = yes
+
+	# Modifiers:
+	modifier_overlord = {
+		modifier = union_subject
+	}
+
+	overlord_opinion_modifier = in_union
+	subject_opinion_modifier = in_union
+}
+
 march = {
 	copy_from = vassal
 	
@@ -299,8 +343,40 @@ colony = {
 	subject_opinion_modifier = colonial_relation
 }
 
-#personal_union = {
-#copy_from = default
-#
-    #can_concentrate_development = no
-#}
+crown_colony = {
+	copy_from = colony
+
+	change_colonial_type = yes
+	upgrade_subject_type = yes
+	is_colony_subtype = yes
+	can_send_missionary_to_subject = yes	
+	count = colony
+
+	forcelimit_bonus = 1.0
+	forcelimit_to_overlord = 0.01
+	manpower_bonus = 1.0
+	manpower_to_overlord = 0.01
+	naval_forcelimit_bonus = 0.5
+	naval_forcelimit_to_overlord = 0.01
+	sailors_bonus = 0.5
+	sailors_to_overlord = 0.01
+
+	# Subject Interactions:
+	embargo_rivals = yes
+	support_loyalists = yes
+	subsidize_armies = yes
+	send_officers = yes
+	enforce_religion = yes
+	takeondebt = yes
+	block_settlement_growth = yes
+	allow_settlement_growth = yes
+	
+	# Modifiers:
+	modifier_overlord = {
+		modifier = crown_colony_overlord
+	}
+
+	modifier_subject = {
+		modifier = crown_colony_subject
+	}
+}

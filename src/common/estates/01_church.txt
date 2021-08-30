@@ -209,6 +209,10 @@ estate_church =
 		estate_church_monopoly_of_slaves
 		estate_church_statutory_rights
 		
+        #estate_priv_clergy_theologian_skill1
+        #estate_priv_clergy_theologian_skill2
+        #estate_priv_clergy_theologian_skill3
+
 		estate_priv_idea_variation_1_2
 		estate_priv_idea_variation_1_3
 		estate_priv_idea_variation_1_4

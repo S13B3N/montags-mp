@@ -172,7 +172,7 @@ guiTypes = {
 			track= "landslider_TrackButton"
 			leftbutton = "landslider_upButton"
 			rightbutton = "landslider_downButton"
-			size = {x =500 y =12 } #x230
+			size = {x =230 y =12 }
 			position = {x= 10 y =145}
 			priority = 100
 			borderSize = {x =16 y = 16}
